@@ -1,0 +1,151 @@
+WEBVTT
+
+00:08.550 --> 00:09.260
+Bien.
+
+00:09.340 --> 00:16.690
+En nuestro video anterior nos quedábamos patchwork que no era más que nada sino que la función en la
+
+00:16.690 --> 00:22.210
+cual nosotros pasamos en el heydi que viene del agua de nuestro componente o de nuestro navegador que
+
+00:22.210 --> 00:30.610
+fue enviada por índex y además yo voy a hacer un rico y piai Aún en Paint tracks de Spotify en el cual
+
+00:30.610 --> 00:37.980
+yo le pongo el Sol heydi y además demando como autorización mi token que tengo definido previamente.
+
+00:38.380 --> 00:39.810
+Cómo lo notarás.
+
+00:39.820 --> 00:42.710
+A mí me sale un error en el video anterior.
+
+00:42.710 --> 00:47.910
+Esto es muy sencillo es porque el token se me venció y no tenemos ninguna función de refresh.
+
+00:47.950 --> 00:52.830
+Es por eso que yo tuve que eliminar borrar mi memoria.
+
+00:52.840 --> 01:04.300
+En este caso yo preferí opté por ingresar como este invitado en mi navegador así que bien entonces vamos
+
+01:04.300 --> 01:05.600
+a actualizar.
+
+01:08.290 --> 01:15.370
+Listo entonces me manda un rico en el cual viene toda la información o toda la data que le voy a enviar
+
+01:15.700 --> 01:17.950
+a mi componente así que vamos a realizar.
+
+01:18.840 --> 01:21.560
+En lugar de hacer log voy a mandar un Dispatch.
+
+01:22.860 --> 01:24.320
+Bob Dispatch.
+
+01:25.700 --> 01:31.910
+Y además voy a llamar el método complete fets.
+
+01:34.250 --> 01:34.890
+Listo.
+
+01:34.940 --> 01:44.230
+Aunque no porque con compliques fets es lo que me va a hacer es mandarme la canción pero yo no quiero
+
+01:44.230 --> 01:48.930
+la canción toda la lista así que voy a ser otra.
+
+01:50.350 --> 01:51.970
+Bueno voy a ponerme aquí bajo.
+
+01:54.330 --> 01:55.250
+Conste.
+
+01:56.600 --> 01:58.880
+Complete Song.
+
+01:59.320 --> 02:00.580
+Esta va a ser igual.
+
+02:01.810 --> 02:02.630
+Adapta.
+
+02:03.480 --> 02:04.240
+Igual.
+
+02:07.000 --> 02:09.160
+Y esto me va a hacer un ratón.
+
+02:10.730 --> 02:11.870
+Del tipo.
+
+02:17.370 --> 02:24.260
+El sushis como tú y además el payload que va a ser ladakh.
+
+02:26.470 --> 02:27.080
+Listo.
+
+02:27.240 --> 02:29.950
+Y esto lo guardamos.
+
+02:29.950 --> 02:32.040
+Y así que voy a poner aquí complete.
+
+02:33.280 --> 02:35.140
+Complete.
+
+02:36.470 --> 02:37.550
+Y esto a su vez.
+
+02:37.560 --> 02:45.860
+No no no está en ningún lado así que en mi reducir yo he creado mi Producers Player voy a crear otro
+
+02:46.220 --> 02:48.270
+que se va a llamar Keys.
+
+02:49.890 --> 02:55.400
+Completes Songo y este me va a regresar igual aktion.
+
+02:57.580 --> 03:06.880
+Así que me va a regresar todo todo mi componente que acabo de crear en aquéllos osea TODO TIPO EL.
+
+03:07.090 --> 03:09.450
+Y la información que vienen dentro de mi pelo.
+
+03:09.910 --> 03:17.410
+Así que esto ya debe de estar en mi componente así que voy a poner aquí Lok un disputo props.
+
+03:19.740 --> 03:20.730
+Actualizar.
+
+03:21.770 --> 03:23.160
+Dicen las propiedades.
+
+03:27.740 --> 03:37.210
+Bueno aún nos falta una cosa una cosa muy pequeña que es poner nuestro Player poner al final.
+
+03:38.320 --> 03:45.700
+Aquí puede ir que es como se llama nuestro reducir este punto Player para que pueda ser leído y pueda
+
+03:45.700 --> 03:47.130
+traernos la información.
+
+03:48.350 --> 03:49.260
+Realizamos.
+
+03:50.820 --> 03:56.790
+Listo vamos a checar en el último Lock Player via viene del tipo conflit viene el pelo y viene toda
+
+03:56.790 --> 03:59.850
+la información ASI QUE BIEN.
+
+03:59.850 --> 04:08.740
+Ahora si vamos a seguir con esto vamos a poner las imágenes vamos a poner el reproductor así que te
+
+04:08.750 --> 04:09.930
+espero en el siguiente vídeo.
+
+04:09.950 --> 04:15.160
+Para finalizar nuestro proyecto de reproductor despotrico.

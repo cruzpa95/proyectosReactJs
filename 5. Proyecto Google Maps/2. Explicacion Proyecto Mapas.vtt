@@ -1,0 +1,55 @@
+WEBVTT
+
+00:08.840 --> 00:15.110
+En este video te voy a explicar qué es lo que vamos a hacer en este proyecto empezando por el diseño
+
+00:15.380 --> 00:18.090
+en la parte izquierda de tu pantalla.
+
+00:18.560 --> 00:20.960
+Tenemos un componente de una sola página.
+
+00:21.050 --> 00:26.350
+Esto quiere decir que no vamos a utilizar algún tipo de ruteo etc..
+
+00:27.240 --> 00:32.730
+Vamos a tener un componente mapa el cual vamos a utilizar con la librería de Maps hóckey Mediante la
+
+00:32.730 --> 00:37.140
+de JavaScript y la de Riau así que esto es muy importante.
+
+00:37.230 --> 00:39.670
+Vamos a ver básicamente los marcadores.
+
+00:39.720 --> 00:47.450
+Así se van a ir reproduciendo solos o sea se van a ir cambiando enfocando diferentes marcadores.
+
+00:48.220 --> 00:52.590
+Y yo le doy play empieza a cambiar de marcadores.
+
+00:52.690 --> 01:01.540
+De lo contrario si yo le doy el stop se detiene y si está detenido y si le doy Annex o atrás me va a
+
+01:01.540 --> 01:07.450
+mandar al marcador anterior o al siguiente Esto es como un reproductor de marcadores que esté cambiando
+
+01:08.140 --> 01:10.540
+el foco del mapa.
+
+01:10.540 --> 01:14.020
+Así que básicamente eso sería todo nuestro diseño.
+
+01:14.830 --> 01:17.980
+De este lado tenemos a piqui.
+
+01:17.980 --> 01:23.680
+Tenemos que ir a la consola de Google el cual también lo vamos a realizar para que nos dé acceso a los
+
+01:23.680 --> 01:26.940
+servicios de Google o a Google Services.
+
+01:27.160 --> 01:33.730
+Básicamente nosotros hoy ocupamos la librería de Javascript Maps así que te espero en el siguiente video
+
+01:33.760 --> 01:35.620
+porque tenemos que crear nuestro proyecto.

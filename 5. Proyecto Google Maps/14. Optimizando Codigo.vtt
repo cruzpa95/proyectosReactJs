@@ -1,0 +1,217 @@
+WEBVTT
+
+00:08.910 --> 00:09.600
+Bien.
+
+00:09.960 --> 00:17.190
+Ahora lo que tenemos que hacer es optimizar un poco el código ya que básicamente estamos usando mucho
+
+00:17.190 --> 00:19.670
+el disputase 10 puntos.
+
+00:19.950 --> 00:22.820
+Bueno vámonos a mi componente MAP.
+
+00:26.210 --> 00:33.620
+Como lo hicimos aquí que guardamos la actual posición y marketers dentro de una constante vamos a hacerlo
+
+00:33.620 --> 00:35.420
+en todos.
+
+00:35.750 --> 00:38.440
+Y aquí vamos a quitar el cétait el disputo.
+
+00:38.470 --> 00:42.150
+Perdón vamos a promover ambos.
+
+00:44.360 --> 00:49.860
+A QUITAR también aquí de por acá y solamente me va a quedar.
+
+00:52.010 --> 00:53.680
+El valor actual posición.
+
+00:54.900 --> 00:58.650
+Esto es muy común es una práctica realizarlo guardarlas.
+
+00:58.650 --> 01:04.650
+Las variables de estado dentro de una constante arreglo así que quiere decir que actuel posición va
+
+01:04.650 --> 01:06.700
+a ser igual a lo que disponga usted.
+
+01:06.750 --> 01:12.500
+Así que esto te hace del código un poco más pequeño ya que a veces estamos utilizando mucho mucho el
+
+01:12.510 --> 01:13.040
+dice usted.
+
+01:13.040 --> 01:14.370
+Como lo estamos haciendo aquí.
+
+01:15.290 --> 01:23.000
+Y que a su vez genera mucho código en el eje de las x y pues es un poco a veces molesto porque tengo
+
+01:23.000 --> 01:27.710
+una pantalla un poquito grande pero no es lo ideal.
+
+01:27.710 --> 01:34.910
+Así que vamos a quitar de todos lados el disputo Usted ve como mi código se va reduciendo algo que parecía
+
+01:35.140 --> 01:39.980
+como muy muy largo en el eje de las X y que es algo muy simple.
+
+01:44.860 --> 01:46.010
+Bien.
+
+01:46.600 --> 01:50.720
+Hay un código que hemos estado repitiendo mucho.
+
+01:52.250 --> 01:54.410
+Que es básicamente el sétait.
+
+01:54.440 --> 01:57.490
+Como puedes notar aquí hago un Seat.
+
+01:58.040 --> 01:59.500
+Aquí hago otro.
+
+02:00.140 --> 02:03.180
+Y aquí hago otro set.
+
+02:03.710 --> 02:08.080
+13 texte que son básicamente 20 líneas de código.
+
+02:08.920 --> 02:13.450
+Que puedo simplificar voy a crear un nuevo método que le voy a llamar.
+
+02:18.060 --> 02:26.660
+El cual va a recibir tres parámetros en la actual posición la posición en la nueva posición la nueva
+
+02:26.690 --> 02:33.450
+latitud y la nueva longitud Key que es básicamente esto que actualizamos y este disputase testean me
+
+02:33.470 --> 02:39.670
+lo voy a copiar y lo voy a pegar disjuntos detesté va a ser su actual posición una nueva posición el
+
+02:39.990 --> 02:46.350
+coreen Laut va a ser igual al New Black y la longitud va a ser igual.
+
+02:48.520 --> 02:50.460
+New Black.
+
+02:53.050 --> 02:55.580
+Actualizado vamos a ver si no tenemos ningún error.
+
+02:55.840 --> 02:56.900
+Hasta el momento.
+
+02:57.160 --> 03:05.070
+Así que bien llamando este hub de stets primero lo voy a llamar a quien le voy a llamar disputo un detesté
+
+03:05.880 --> 03:09.790
+y le voy a pasar la nueva posición que es neo División.
+
+03:11.430 --> 03:12.430
+Posición.
+
+03:12.940 --> 03:15.100
+Y ya lo voy a ir eliminando.
+
+03:15.170 --> 03:17.870
+El segundo es la latitud que es esta.
+
+03:19.800 --> 03:22.140
+Y el tercero es la longitud que esta.
+
+03:28.700 --> 03:29.980
+Actualizamos.
+
+03:31.060 --> 03:34.330
+No tenemos ningún error hasta el momento.
+
+03:35.200 --> 03:38.530
+Sigue funcionando bien.
+
+03:38.560 --> 03:40.320
+Vámonos ahora con el que sigue.
+
+03:41.110 --> 03:50.280
+Vamos a poner aquí en un NEX punto de stets la posición actual va a ser ésta una validación.
+
+03:51.810 --> 03:55.280
+La latitud y longitud va a ser exactamente lo mismo que hicimos abajo.
+
+03:56.270 --> 04:01.020
+Si que te queda un poco largo lo puedes poner en una sola línea.
+
+04:01.170 --> 04:02.450
+No en varias líneas.
+
+04:02.570 --> 04:08.100
+No pasa nada aquí lo voy a dejar así por el tamaño de mi pantalla actualizamos.
+
+04:08.810 --> 04:10.360
+No tenemos ningún error.
+
+04:10.730 --> 04:15.000
+No hasta el momento perfecto son NEX también debe de funcionar.
+
+04:19.860 --> 04:21.190
+Perfecto.
+
+04:21.310 --> 04:30.820
+Ahora me falta uno que es el timbre el timer también hace 1 punto de stets.
+
+04:32.700 --> 04:35.030
+Y la actual posición en la nueva posición.
+
+04:35.030 --> 04:36.230
+Perdón va a ser esta.
+
+04:38.080 --> 04:40.330
+Esto es muy parecido al del Honest.
+
+04:41.900 --> 04:45.400
+La latitud y la longitud.
+
+04:46.680 --> 04:48.750
+Básicamente estamos copiando.
+
+04:51.310 --> 04:52.060
+Cómo.
+
+04:52.340 --> 04:57.650
+Cómo reducimos las líneas engran en gran cantidad y además.
+
+04:58.810 --> 05:04.900
+Tardamos mucho en constante el valor de los estados que es una muy buena práctica te la recomiendo y
+
+05:04.900 --> 05:11.190
+listo ya Además tenemos un disputase testeo de todos los que teníamos y que voy a dejar el intervalo.
+
+05:11.490 --> 05:13.600
+A ese proyecto se le pueden hacer muchas mejoras.
+
+05:13.600 --> 05:19.040
+Puede que haya un pequeño buque al momento de cambiar pero es menor la funcionalidad aquí.
+
+05:19.360 --> 05:22.660
+Así que bien vamos a actualizar.
+
+05:23.050 --> 05:23.820
+Perfecto.
+
+05:30.570 --> 05:32.700
+Está funcionando todo correcto.
+
+05:34.540 --> 05:37.250
+Al principio ponemos play.
+
+05:38.760 --> 05:39.580
+Vamos a ver.
+
+05:42.810 --> 05:45.440
+Bien esto ha sido todo por este proyecto.
+
+05:45.570 --> 05:50.830
+Vámonos a la conclusión para recapitular todo lo que hemos hecho en este proyecto.

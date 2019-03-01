@@ -1,0 +1,121 @@
+WEBVTT
+
+00:08.210 --> 00:08.730
+Hola que tal.
+
+00:08.730 --> 00:10.590
+Ya estamos de regreso.
+
+00:10.650 --> 00:17.190
+En este nuevo proyecto que vamos a realizar vamos a crear un login con redes sociales en nuestro segundo
+
+00:17.190 --> 00:19.460
+proyecto de los cinco de nuestro curso.
+
+00:19.620 --> 00:25.590
+Así que bien vamos a analizar un poco las librerías que vamos a utilizar para realizar el OGM.
+
+00:25.620 --> 00:31.150
+Primero tenemos que tener React Facebook blogging que es una dependencia de mpm.
+
+00:31.260 --> 00:33.330
+Las dos Google.
+
+00:33.890 --> 00:41.130
+Esas están creadas por la comunidad y también les están dando soporte a eso que quiere decir que si
+
+00:41.130 --> 00:47.550
+te llegas a trabar que si te llega a salir un defecto por ahí que no puedas solucionar solo puedes acudir
+
+00:47.880 --> 00:56.040
+al repositorio a Los illouz o la documentación o esta Cover Flow que muchas veces nos salva de muchos
+
+00:56.040 --> 00:57.230
+errores.
+
+00:57.540 --> 00:59.740
+Las herramientas a utilizar.
+
+00:59.880 --> 01:07.900
+Obviamente aparte de lo que es atomar nuestros servidores LPM es Facebook Developers Facebook Developers.
+
+01:08.040 --> 01:16.140
+Es una herramienta que nos dio Zuckerberg para crear aplicaciones en el sentido de que si tú quieres
+
+01:16.140 --> 01:21.840
+realizaron login tienes que crear una aplicación de Facebook te da un código un sí y este es el que
+
+01:21.840 --> 01:24.340
+vas a colocar en la librería Ok.
+
+01:24.390 --> 01:31.110
+Entonces las librerías que acabamos de ver ahorita es un ruper para Arriaga y eso que quiere decir que
+
+01:31.140 --> 01:36.320
+nos facilita la vida y no tenemos que hacer todos los pasos que está en la documentación de Facebook.
+
+01:36.610 --> 01:44.730
+También vamos a necesitar Google Consol que es Google consoles una herramienta donde están todas TODAS
+
+01:44.820 --> 01:49.460
+LAS los servicios que Google nos ofrece para nuestras aplicaciones desde Google.
+
+01:49.590 --> 01:55.420
+Google Maps es Longhi que es el O2 etcetc.
+
+01:55.470 --> 01:56.400
+Ya lo vamos a ver.
+
+01:56.460 --> 02:02.250
+Para esto obviamente necesitamos tener cuenta de Facebook y cuenta de Google que creo que el 70 por
+
+02:02.250 --> 02:05.010
+ciento 80 por ciento de las personas no tiene Facebook.
+
+02:05.010 --> 02:08.570
+Yo creo que todos los desarrolladores tenemos así que bien.
+
+02:09.840 --> 02:12.610
+En si el proyecto se va a tratar de lo siguiente.
+
+02:12.990 --> 02:20.130
+Es un sitio web con enrutamiento en el cual la primera pantalla va a ser un Locking con redes sociales.
+
+02:20.250 --> 02:27.150
+Si el usuario ya está logueado me va a mandar a la pantalla de John en el cual bastará una barcón la
+
+02:27.150 --> 02:32.370
+foto de perfil de la red social que este usuario haya elegido.
+
+02:32.370 --> 02:34.520
+Así que simplemente son dos pantallas.
+
+02:34.530 --> 02:36.210
+Vamos a ocupar freak raro.
+
+02:36.390 --> 02:42.020
+Pero si viste el proyecto anterior nosotros configuramos un.
+
+02:42.240 --> 02:44.120
+Entonces volver a configurar otro.
+
+02:44.130 --> 02:46.440
+Ahora nos vamos a tomar otra hora.
+
+02:46.440 --> 02:52.400
+Entonces es por eso que yo me di a la tarea de crear un repositorio en mi repo personal.
+
+02:52.440 --> 03:00.240
+Ahí es donde yo tengo la configuración ñatos ya toda creada entonces se puede decir un esqueleto de
+
+03:00.240 --> 03:00.830
+reagrupado.
+
+03:00.870 --> 03:01.530
+Así que.
+
+03:01.540 --> 03:09.120
+Bien entonces en el siguiente vídeo vamos a descargarlo y vamos a iniciar y no ahorra mucho tiempo.
+
+03:09.120 --> 03:11.450
+Así que bien iniciemos.

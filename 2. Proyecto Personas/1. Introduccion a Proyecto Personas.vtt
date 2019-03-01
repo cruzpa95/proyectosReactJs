@@ -1,0 +1,88 @@
+WEBVTT
+
+00:08.400 --> 00:10.430
+Hola qué tal de nuevo en este video.
+
+00:10.440 --> 00:16.590
+Vamos a ver lo que vamos a realizar como primer proyecto que es el proyecto personas así que vamos a
+
+00:16.590 --> 00:21.930
+empezar primeramente las librerías que vamos a utilizar principalmente son cuatro.
+
+00:21.960 --> 00:27.990
+Además de las básicas que ya sabemos que tenemos que utilizar en React como Herriak reagruparon etc..
+
+00:28.200 --> 00:33.760
+Primero Redux Redux es una librería que pesa tan solo 2 kilos.
+
+00:33.880 --> 00:35.690
+Este es muy ligera.
+
+00:35.780 --> 00:38.730
+Es para controlar los estados de la aplicación.
+
+00:38.820 --> 00:47.150
+Cuando nosotros queremos tener una estructura parecida flux y queremos hacer un ala a una.
+
+00:47.220 --> 00:54.210
+Ok entonces Redux es la mejor manera para manejar los estados en una llamada Mega.
+
+00:54.240 --> 00:56.140
+Por qué Freak.
+
+00:56.250 --> 01:01.830
+Esto es principalmente para el ruteo de nuestra aplicación quiere decir que si tenemos más de una pantalla
+
+01:02.310 --> 01:08.850
+queremos crear una página de una sola página valga la redundancia ocupamos reagrupado para cambiar de
+
+01:08.850 --> 01:09.440
+pantalla.
+
+01:09.610 --> 01:16.430
+Qué apoyas también es una librería para hacer las peticiones.
+
+01:16.540 --> 01:21.030
+Lo rico como post PACh Lilit etcétera.
+
+01:21.220 --> 01:23.070
+Aunaba a una espía.
+
+01:23.550 --> 01:30.480
+Y por último que no quiero hacer tanto énfasis en los estilos es material eilis CSS que es una librería
+
+01:30.790 --> 01:39.090
+que se implementa materializa en Google que es similar a bushra me gusta mucho usarla en este caso para
+
+01:39.090 --> 01:45.560
+este curso lo vamos a utilizar para simplificar los estilos y no durar tanto tiempo perdiendo aquí en
+
+01:45.660 --> 01:48.700
+estilizan con CSS y todas esas cosas.
+
+01:48.750 --> 01:54.420
+Así que bueno la descripción del proyecto es muy sencilla vamos a crear un sitio web con enrutamiento
+
+01:54.510 --> 01:57.220
+ayudando con pegándonos con reagruparon.
+
+01:57.600 --> 02:05.610
+Vamos a consumir una API REST utilizando Redux que la API nos va a regresar usuarios o personas en la
+
+02:05.610 --> 02:11.460
+cual vamos a mostrarnos en una lista que cada uno de ellos si le das un click nos va a mandar al detalle
+
+02:11.460 --> 02:16.680
+de cada persona que simulando que tiene sus publicaciones recientes.
+
+02:16.740 --> 02:19.100
+O como si fuesen tuits ok.
+
+02:19.140 --> 02:24.590
+Así que todo eso viene de base de datos así que todo eso lo vamos a manejar con red.
+
+02:25.050 --> 02:28.850
+Así que vamos a empezar primero con nuestro gráfico.
+
+02:28.950 --> 02:31.400
+Te invito a que continúe con mi curso.

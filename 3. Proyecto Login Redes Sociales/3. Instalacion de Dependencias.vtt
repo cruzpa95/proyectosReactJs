@@ -1,0 +1,160 @@
+WEBVTT
+
+00:08.320 --> 00:09.390
+Ya estamos de regreso.
+
+00:09.430 --> 00:16.480
+Ahora en este video te voy a mostrar cómo instalar las librerías que no es nada difíciles son librerías
+
+00:16.480 --> 00:20.240
+de LPM que están allí alojadas en algún Klout.
+
+00:20.380 --> 00:26.320
+Así que pienso primero que nada es la que ya habíamos mencionado en la introducción de este proyecto
+
+00:26.770 --> 00:32.470
+es real Facebook blogging que es una librería que está actualizada.
+
+00:32.470 --> 00:35.280
+De hecho el último fue hace dos meses.
+
+00:35.440 --> 00:42.100
+Tal vez no es tan reciente dada la fecha de grabación que es aproximadamente enero de 2018.
+
+00:42.250 --> 00:51.180
+Pero hay librerías que no tienen tanto soporte que su último fue hace años o más de 10 meses.
+
+00:51.210 --> 01:00.100
+Eso es cuando entra una preocupación porque ya no hay tantos soportes lo que quiere decir que esa gente
+
+01:00.100 --> 01:05.440
+que lo creó ya no le está dando mantenimiento entonces si te sale algún error pues vas a sufrir porque
+
+01:05.440 --> 01:10.740
+tú no la escribiste entonces o le mueves al código tú o optas por otro nuevo.
+
+01:10.780 --> 01:17.200
+Algunas veces cuando ya no le dan soporte lo ponen en su ritmo y actualizan o crean otro componente.
+
+01:17.200 --> 01:23.710
+Así que Privat Facebook blogging es la librería que nos va a permitir utilizar el botón de redes sociales
+
+01:23.710 --> 01:24.970
+con Facebook.
+
+01:25.350 --> 01:27.340
+Y la segunda que es rimac.
+
+01:27.400 --> 01:36.090
+Google login que es similar de hecho su último commit fue de hace 26 días y que resolvieron unir los
+
+01:36.120 --> 01:39.250
+sitios que la comunidad crea que están por.
+
+01:40.110 --> 01:41.070
+Aquí arriba.
+
+01:41.220 --> 01:42.440
+Así que bien.
+
+01:42.510 --> 01:45.560
+Ahora es exactamente igual si son de la misma manera.
+
+01:45.570 --> 01:48.430
+Lo único que ves que va a cambiar es el Klein.
+
+01:48.480 --> 01:53.310
+Porque son dos proveedores diferentes esto que quiere decir que ahorita que entremos a la configuración
+
+01:53.310 --> 01:59.540
+de Facebook tú tienes que crear una aplicación y te da un ciclo saidi y Google te da otros.
+
+01:59.580 --> 02:06.620
+Así que bien vamos a instalar estas dos librerías lulac google login y Facebook primax FACEBOOK lovins
+
+02:06.630 --> 02:08.920
+así que vamos a abrir nuestro código.
+
+02:10.490 --> 02:12.120
+Qué vamos a.
+
+02:12.830 --> 02:13.910
+Aquí estamos.
+
+02:14.490 --> 02:15.380
+Perfecto.
+
+02:15.550 --> 02:16.390
+Ah.
+
+02:16.500 --> 02:21.440
+Ahora nosotros bueno cómo planeamos un proyecto.
+
+02:21.720 --> 02:31.200
+Tal vez no esté tan genial que el proyecto se llame Redux es el esqueleto vamos a ponerle un nombre
+
+02:31.620 --> 02:34.430
+mejor vaya apropiado a lo que estamos haciendo.
+
+02:34.740 --> 02:40.740
+Para eso tenemos que cambiarle el nombre al proyecto desde el Pacaya quizá porque es el que va a ser
+
+02:40.740 --> 02:42.600
+el pista así que vamos a cambiarlo.
+
+02:44.090 --> 02:46.050
+Le voy a llamar social Sol.
+
+02:46.390 --> 02:49.830
+Soy sangre en OK.
+
+02:49.880 --> 02:54.600
+Recuerda que atap no permite el Camel que tiene que ser con ideales.
+
+02:58.120 --> 02:58.740
+Perfecto.
+
+02:58.840 --> 03:01.290
+Karité a ustedes en nombre de la carpeta.
+
+03:01.420 --> 03:07.540
+No me dejes aquí por cuestiones de los permisos pero yo lo voy a crear ahorita desde mi explorador de
+
+03:07.540 --> 03:15.440
+archivos así que vamos a abrir la terminal y vamos a poner mpm va a ser un poquito más grande la letra
+
+03:15.450 --> 03:16.390
+en la terminal.
+
+03:20.040 --> 03:27.760
+Gnp y de al guión ese mayuscula de Skype y vamos a poner React.
+
+03:29.160 --> 03:38.150
+Google blogging mi Además espacio Riad Facebook Locking.
+
+03:38.490 --> 03:42.660
+Aquí con este mismo comando me van a instalar las dos librerías.
+
+03:42.660 --> 03:43.410
+Eso qué quiere decir.
+
+03:43.410 --> 03:47.530
+Me las voy a instalar y me las va a guardar con el soib en el callejón.
+
+03:47.670 --> 03:50.940
+Recuerda que el modus nunca se sube.
+
+03:50.940 --> 03:53.950
+Es por eso que no me deja.
+
+03:54.050 --> 04:01.920
+Bueno más que nada como yo lo tengo en el archivo signor no me deja o no me muestra de este lado la
+
+04:01.920 --> 04:12.020
+carpeta no es así Qué bien vamos a ver si el proyecto está corriendo perfecto lo corremos de nuevo y
+
+04:12.030 --> 04:17.460
+ya tenemos instalado en nuestras dos dependencias así que esto ha sido todo por este video pero en el
+
+04:17.460 --> 04:23.840
+siguiente vamos a configurar la aplicación de Facebook Developers así que no te despegues.

@@ -1,0 +1,127 @@
+WEBVTT
+
+00:09.080 --> 00:09.800
+Qué tal.
+
+00:09.800 --> 00:14.880
+Bienvenido a tu nuevo curso construyendo cuatro proyectos con rimac de ellas.
+
+00:15.020 --> 00:16.110
+Me presento rápido.
+
+00:16.280 --> 00:22.220
+Mi nombre es Juan Ortiz ingeniero en tecnología de software con más de 4 años de experiencia trabajando
+
+00:22.220 --> 00:24.020
+en el ámbito de la programación.
+
+00:24.050 --> 00:31.250
+Además soy JavaScript Developer por lo cual me gusta mucho utilizar no gillies como backend y por supuesto
+
+00:31.490 --> 00:39.100
+la librería de Facebook para afronten reagge el contenido del curso es bastante completo la verdad.
+
+00:39.110 --> 00:40.560
+Para un nivel intermedio.
+
+00:40.700 --> 00:47.120
+A mí me gustó mucho cuando lo diseñé es el proyecto usuarios el cual vamos a crear un proyecto con la
+
+00:47.120 --> 00:54.920
+ayuda del Redux con la ayuda de reagrupar y además de aquello que es una librería para manejar los rincones
+
+00:54.920 --> 00:56.470
+de nuestra aplicación.
+
+00:56.630 --> 01:02.840
+Entonces nosotros vamos a llamar a una hippie y vamos a manejar la información de nuestras fronteras.
+
+01:02.930 --> 01:10.100
+Como segundo proyecto tenemos el proyecto Lovin con redes sociales el cual básicamente consiste en iniciar
+
+01:10.100 --> 01:17.660
+sesión con Facebook y con Google por lo cual tenemos que aprender a manejar la consola de Google y además
+
+01:17.960 --> 01:21.830
+Facebook Developers también lo vamos a ver aquí por supuesto.
+
+01:21.830 --> 01:30.500
+Además vamos a seguir utilizando reagrupar en nuestro tercer proyecto llamado Proyecto Spotify el cual
+
+01:30.740 --> 01:36.110
+consiste básicamente en un buscador de canciones con la espía de Spotify.
+
+01:36.170 --> 01:42.320
+Obviamente también como en nuestro proyecto anterior de Lovin con redes sociales tenemos que crear credenciales
+
+01:42.320 --> 01:46.800
+para autenticar los Y también es necesario crear una cuenta de Spotify.
+
+01:46.910 --> 01:50.320
+Por si aún no la tienes es momento de que la vayas creando.
+
+01:51.630 --> 01:57.840
+Después de que busquemos una canción vamos a poder darle click y escuchar un preview de 30 segundos
+
+01:58.140 --> 02:05.340
+el cual nos provee gratuitamente Spotify nuestro cuarto y último proyecto llamado proyecto MAPS en el
+
+02:05.340 --> 02:13.140
+cual vamos a poder utilizar una librería conocida como Google Maps en la cual vamos a incrustar un mapa
+
+02:13.140 --> 02:15.310
+un mapa dentro de nuestro proyecto.
+
+02:15.360 --> 02:21.360
+Además vamos a colocar marcadores los cuales van a ser dinámicos y vamos a crear como un reproductor
+
+02:21.360 --> 02:22.350
+de marcadores.
+
+02:22.440 --> 02:28.500
+Lo vamos a ver más adelante por supuesto y como ya te lo mencionaba todas las herramientas que vamos
+
+02:28.500 --> 02:35.790
+a aprender de Google Maps como consumieron apruebes manejar los estados con Redux a utilizar las consolas
+
+02:35.790 --> 02:38.800
+para Dive los verdes de Google Facebook y Spotify.
+
+02:38.860 --> 02:41.690
+Y además reagrupado en casi todas.
+
+02:41.820 --> 02:49.170
+Además vamos a utilizar una librería para el diseño que es materia en la SSS pero no la coloque aquí
+
+02:49.170 --> 02:52.130
+porque realmente solo lo vamos a utilizar un poquito.
+
+02:53.140 --> 02:53.680
+Bien.
+
+02:53.750 --> 03:00.290
+Esta es básicamente la metodología de cada uno de nuestros proyectos como los vamos a trabajar así que
+
+03:00.290 --> 03:04.970
+básicamente el 10 por ciento del tiempo no lo vamos a llevar.
+
+03:04.970 --> 03:06.200
+En la introducción.
+
+03:06.200 --> 03:11.040
+Después vamos a explicar gráficamente qué es lo que vamos a realizar.
+
+03:11.060 --> 03:17.510
+Es decir vamos a explicar mediante una maqueta muy sencilla o mejor conocida como un prototipo de baja
+
+03:17.510 --> 03:19.070
+fidelidad.
+
+03:19.440 --> 03:27.380
+Y además vamos a ocupar el 60 por ciento de nuestro tiempo codificando y al final vamos a dar un video
+
+03:27.590 --> 03:34.490
+de conclusión o reseña de lo que hicimos en nuestro proyecto para que las dudas que vayan saliendo se
+
+03:34.490 --> 03:40.660
+vayan despejando y al final por supuesto puedes preguntarlo Así que comencemos.

@@ -1,0 +1,490 @@
+WEBVTT
+
+00:08.360 --> 00:13.310
+Primero que nada tenemos que reparar esto que tenemos aquí.
+
+00:13.310 --> 00:17.060
+Este espacio simplemente es un padín.
+
+00:17.090 --> 00:18.900
+Vamos a hacerlo de la siguiente manera.
+
+00:23.470 --> 00:30.940
+El contenedor principal de John no tiene absolutamente ningún ningún padre.
+
+00:30.940 --> 00:32.660
+Es por eso que yo se lo voy a agregar.
+
+00:34.720 --> 00:36.750
+Vamos a ponerle clase.
+
+00:39.220 --> 00:40.390
+Vamos a agregar.
+
+00:41.990 --> 00:42.640
+Jo.
+
+00:43.000 --> 00:50.140
+Así se llama el componente así que tengo que importar mi índex puntos SS así que vamos a importar Index
+
+00:51.610 --> 00:57.570
+Index puntos es dentro de mí índex puntos tengo hasta abajo.
+
+00:57.790 --> 01:03.120
+Vamos a colocar un poco más de la letra.
+
+01:04.620 --> 01:06.270
+Perfecto.
+
+01:06.480 --> 01:13.230
+Vamos a dar un margen de 1 por ciento y vamos a ver como se ve esto quiere decir que el componente a
+
+01:13.410 --> 01:22.280
+lo que hay adentro de la clase tiene un 1 por ciento de margen y se ve un poco diferente verdad.
+
+01:22.530 --> 01:27.190
+Y ahora más seria cuestión de Padang dentro de estos elementos que os está comiendo un poco.
+
+01:27.420 --> 01:30.990
+Pero bueno vamos a abrir el inspector.
+
+01:31.290 --> 01:34.000
+Simplemente no lo vamos a dejar de la mejor manera.
+
+01:34.020 --> 01:35.940
+No hay que perder tanto tiempo.
+
+01:36.180 --> 01:37.950
+En cuanto al diseño pero.
+
+01:38.810 --> 01:43.390
+Pero si hay que jugarlo decente así que es este.
+
+01:43.880 --> 01:48.030
+Y nada vamos a ver si tiene un padín de 1 por ciento.
+
+01:49.420 --> 01:54.100
+Esta vez vamos a poner 5 pixeles.
+
+01:58.500 --> 01:59.470
+10.
+
+01:59.910 --> 02:07.410
+Vamos a colocar entonces no es necesario poner otra clase si queremos hacer esto o no. Vamos a poner
+
+02:07.530 --> 02:11.800
+un padi de 5 píxeles guardamos.
+
+02:13.110 --> 02:18.800
+Ya actualizamos listo no se ve de la mejor manera pero la idea es que que se vea decente.
+
+02:18.900 --> 02:25.890
+Así que ahora si vamos a agregar la imagen es por ello que yo me voy con mi navegador vamos a en recuerda
+
+02:25.890 --> 02:32.640
+que aquí se guardaron las variables locales torax aquí las puede verificar qué quiere decir con esto
+
+02:32.640 --> 02:34.110
+que te estoy diciendo.
+
+02:34.140 --> 02:41.040
+Y si no lo sabías los sitios web almacenan muchos locales toralla algunos no lo prefieren tanto porque
+
+02:41.040 --> 02:46.900
+de repente no tiene tanta compatibilidad y es por eso que vamos a hacer un paréntesis Local Storage.
+
+02:48.820 --> 02:52.310
+Aquí puedes verificar en que navegador funciona.
+
+02:52.430 --> 03:02.350
+Es muy importante porque puede que imagínate que no funciona en cierta versión y tu sitio web está basado
+
+03:02.350 --> 03:06.510
+tu autenticación en en base a eso valga la redundancia.
+
+03:06.820 --> 03:09.040
+Pero si no pues no lo puedes utilizar.
+
+03:09.100 --> 03:14.450
+Mucha gente prefiere ser cuquis y que esa a tu conveniencia si que bien.
+
+03:14.520 --> 03:22.330
+A qué dice Vamos a verificar las variables aquí están y está Google Data y Facebook Data.
+
+03:22.480 --> 03:31.820
+Así que voy a eliminarlas por Porque hoy voy a mostrar el Obey eliminarlas para que no me deje entrar
+
+03:31.810 --> 03:38.280
+a esta página y que además me deje ingresar solamente con uno porque aquí ingrese con OS 2.
+
+03:38.350 --> 03:40.300
+No tiene lógica no tiene sentido.
+
+03:40.360 --> 03:46.000
+Así que bien vamos a ver primero con Facebook vamos a ver el valor no voy a copiar.
+
+03:47.380 --> 03:56.680
+Y lo voy a pegar por aquí me dice que la profe del pixelar o picher Esa es la.
+
+03:57.460 --> 04:09.970
+Ok perfecto entonces dentro de mi de mi componente voy a agregar Component Wilma owned un método de
+
+04:09.970 --> 04:17.290
+ciclo de vida de Herriak y voy a agregar por supuesto el constructor que no lo habia agregado ya que
+
+04:17.290 --> 04:23.050
+no habia necesitado de él pero ahora si voy a declarar una variable de estado que se va a llamar.
+
+04:25.980 --> 04:28.770
+Qué más es hacer un link.
+
+04:28.920 --> 04:30.180
+Porque son reales.
+
+04:30.540 --> 04:41.370
+Y el n o la o poner refunde que también va a estar así entonces es que vamos a ver qué es lo que sucede
+
+04:41.370 --> 04:42.140
+aquí.
+
+04:42.210 --> 04:48.160
+Vamos a poner loco electoras punto G.
+
+04:50.540 --> 04:58.160
+Así recibió dos parámetros vamos a colocar en un parámetro el nombre de la variable que quiero de los
+
+04:58.250 --> 05:05.020
+lectores que es Facebook Data y vamos a imprimirlo vamos a mandarlo en consola para que veas que es
+
+05:05.030 --> 05:08.530
+lo que te está mandando así que guardamos.
+
+05:11.620 --> 05:13.120
+Vámonos a la consola.
+
+05:13.390 --> 05:16.730
+Esto es exactamente lo que me está dando.
+
+05:16.730 --> 05:24.010
+Ok entonces bien vamos a colocar punto email.
+
+05:26.860 --> 05:29.330
+Iba a decir un definido eso es por qué.
+
+05:29.330 --> 05:37.580
+Porque si te das cuenta no es un Jayce en el que me están mandando porque yo lo cambié en com en índex
+
+05:37.580 --> 05:42.540
+perdón que está por acá que blogging este.
+
+05:42.560 --> 05:49.640
+Nosotros pusimos un link para poder guardar en locales torax tienes que pasar.
+
+05:49.850 --> 05:51.410
+De lo contrario no te va a funcionar.
+
+05:51.560 --> 05:54.000
+Así que hacemos lo invertido.
+
+05:54.080 --> 06:00.610
+Lo que están es Fring lo volvemos a Jayson de la siguiente manera Vamos a colocar este.
+
+06:02.380 --> 06:06.080
+Me va a dar un respondes bueno este mes me da algo.
+
+06:06.160 --> 06:07.790
+Así que vamos a hacer lo siguiente.
+
+06:11.150 --> 06:11.840
+Ok.
+
+06:12.580 --> 06:14.800
+Es una función.
+
+06:16.850 --> 06:19.720
+Qué es un Data.
+
+06:19.910 --> 06:25.730
+Así que voy a imprimir data para ver si si está definido vamos a ver.
+
+06:33.670 --> 06:39.340
+Este es el error error que cometió un error.
+
+06:39.380 --> 06:45.900
+El primer argumento de que tal ítem es el es el nombre de la variable y el segundo es un error en caso
+
+06:45.900 --> 06:48.740
+de que haya un error va a pasar aquí pero no está pasando.
+
+06:49.020 --> 06:52.220
+Así que bien esto lo voy a meter dentro de una variable.
+
+06:52.430 --> 06:53.420
+Voy a poner.
+
+06:54.970 --> 06:59.510
+Let data va a ser igual a los lectores.
+
+06:59.710 --> 07:09.770
+A esto voy a ser un Jayson pars que Jayson punto pars locales torax Facebook Data.
+
+07:09.900 --> 07:14.830
+Como ya lo había explicado lo que está en Jayson lo pasamos restringe ahora tenemos que hacer viceversa.
+
+07:15.130 --> 07:21.800
+Entonces vamos a imprimir data con la intención de ver que esos campos que vienen en forma de string
+
+07:21.820 --> 07:23.990
+ya están en forma de Jayson.
+
+07:24.040 --> 07:27.200
+Vamos a ver ahí está ahí está.
+
+07:27.280 --> 07:32.530
+Ya están los campos que necesito este ojo esos son los de Facebook Data.
+
+07:33.600 --> 07:36.890
+Lo que necesito es la imagen y el nombre.
+
+07:36.900 --> 07:46.110
+Así que bien entonces vamos a hacer esto lo siguiente Unicef y vamos a ponerlo por acá pero esto se
+
+07:46.110 --> 07:53.350
+va a llamar a data Facebook Data Facebook Data y voy a copiarme en la misma línea y le voy a poner Google
+
+07:53.400 --> 07:54.050
+ElDato.
+
+07:55.950 --> 07:59.480
+Google Data y kinnaman le ponemos Google Data.
+
+07:59.580 --> 08:05.420
+Vamos a corroborar que sí le hayamos llamado así en bloque lectores Google Data.
+
+08:05.880 --> 08:08.050
+Vamos a colocarlo aquí.
+
+08:08.160 --> 08:10.340
+Google Data o qué.
+
+08:10.440 --> 08:11.220
+Sí.
+
+08:12.150 --> 08:14.320
+Facebook Data está definido.
+
+08:18.070 --> 08:21.800
+Si Google Data está definido que qué estoy haciendo aquí.
+
+08:21.990 --> 08:24.540
+Estoy tratando de sacar las.
+
+08:24.710 --> 08:26.550
+Los dos tipos de variables.
+
+08:26.550 --> 08:29.270
+Si uno está definido quiere decir que inicio de sesión con Facebook.
+
+08:29.310 --> 08:33.540
+De lo contrario quiere decir que inicie sesión con Google haga holyfield.
+
+08:33.650 --> 08:36.930
+El EXIF porque imagínate que quieras agregar a otro.
+
+08:37.080 --> 08:41.750
+Otro método del Olimpo vale entonces aquí agregas otro otro.
+
+08:42.000 --> 08:46.140
+Así que bien si está definido entonces va a ser 2.70.
+
+08:46.420 --> 08:47.580
+Y vamos a aceptar
+
+08:50.110 --> 08:53.380
+profit emerge como.
+
+08:53.750 --> 09:04.720
+Como hemos visto aquí en consola que ha imprimido picher es Facebook Data punto picchio y además el
+
+09:04.740 --> 09:08.590
+fuld Ley que es Facebook Data.
+
+09:09.690 --> 09:12.000
+Punto.
+
+09:14.220 --> 09:15.370
+Estamos.
+
+09:16.290 --> 09:21.040
+De lo contrario si es Google Data posará vamos a imprimir Google Daten.
+
+09:21.060 --> 09:25.100
+En este caso me va a funcionar porque no lo pusimos esa lógica.
+
+09:26.120 --> 09:31.570
+Imprimimos la variable que viene de los colectores que es World Data.
+
+09:33.760 --> 09:39.060
+Creo que me está mandando un pequeño error y lo corregimos.
+
+09:39.140 --> 09:47.190
+Listo dislates nos define la línea 23 línea 23 data que está demandando un logo aquí de una variable
+
+09:47.210 --> 09:56.000
+que ya eliminamos hace rato así que vamos a actualizar a ésta y esto es lo que viene de Google.
+
+09:56.360 --> 10:05.610
+Así que vamos a necesitar el nombre que el es el naive y pixel OK así que es lo mismo.
+
+10:05.740 --> 10:09.770
+Nani y pizzo así que no pasa nada.
+
+10:09.780 --> 10:17.080
+Yo creo que con eso lo que sería Google Data hulda Podríamos simplificar este código.
+
+10:17.090 --> 10:19.010
+Podríamos hacer muchas cosas.
+
+10:19.010 --> 10:21.320
+Google Eldad ahí estamos.
+
+10:21.440 --> 10:24.460
+Entonces vamos a ver qué se te da primero.
+
+10:24.470 --> 10:25.900
+No puede entrar los dos.
+
+10:25.910 --> 10:27.420
+En este caso va a entrar a Live.
+
+10:27.470 --> 10:29.380
+O sea de Facebook Data.
+
+10:29.450 --> 10:30.080
+Por qué.
+
+10:30.080 --> 10:33.660
+Porque tenemos por error las dos definidas.
+
+10:33.710 --> 10:34.480
+Vamos a ver.
+
+10:37.840 --> 10:43.160
+Creo que no mandamos vamos a mandar que en el rendering vamos a poner diez puntos.
+
+10:43.450 --> 10:45.270
+Punto profe.
+
+10:50.360 --> 10:51.870
+Ahí está la imagen de perfil.
+
+10:52.090 --> 11:01.020
+Así que ya tenemos la imagen de perfil el nombre entonces yo puedo colocar un libro con una lista lista
+
+11:01.030 --> 11:04.110
+de temas y vamos a colocar aquí.
+
+11:06.680 --> 11:07.460
+Puntos.
+
+11:07.490 --> 11:08.520
+Punto.
+
+11:09.510 --> 11:16.450
+Y de este lado en la otra la imagen en imagen cómo se ve.
+
+11:18.630 --> 11:21.630
+Creo que no se está viendo a full.
+
+11:23.560 --> 11:24.740
+Füle.
+
+11:27.990 --> 11:29.090
+Salvamos.
+
+11:32.180 --> 11:32.790
+Y ahí está.
+
+11:32.830 --> 11:39.840
+Ese es mi nombre en Facebook así que voy a heredar ahora una imagen para crear una imagen más exactamente
+
+11:39.840 --> 11:44.690
+lo mismo que en HTML el dhruv.
+
+11:45.060 --> 11:52.900
+Y vamos a poner como source puntos este punto profiling el IMSS.
+
+11:53.970 --> 11:54.870
+Perfecto.
+
+11:54.870 --> 12:01.140
+Y entonces cuando me cargue a cargar la imagen está cargando.
+
+12:01.650 --> 12:09.730
+Así que yo lo puedo poner dentro de una lista para que no me casé algún conflicto que me la desorden
+
+12:09.810 --> 12:13.490
+o algo así porque es que me parece del lado izquierdo y me está invadiendo.
+
+12:14.070 --> 12:15.610
+Asi que listo bien.
+
+12:17.140 --> 12:25.640
+Esta de hecho existe una clase para las imágenes en materiales que te permite hacer circular las fotos
+
+12:25.880 --> 12:27.130
+como un avatar.
+
+12:27.220 --> 12:35.610
+Que clase de circo de esto simplemente agregando eso va a heredar los estilos de materiales propios
+
+12:35.610 --> 12:37.700
+donde está definida esta clase.
+
+12:38.160 --> 12:44.770
+Y ahí está pero le vamos a pasar otra clase de establecer denosotros y le vamos a llamar John avatar
+
+12:45.270 --> 12:51.170
+porque lo estamos pasando está porque necesitamos hacer más chico esto no funciona así no se ve bien
+
+12:51.850 --> 12:54.950
+así que bien vámonos a nuestro índex puntos punto.
+
+12:55.430 --> 13:00.740
+íbamos a agregar John avatar.
+
+13:01.360 --> 13:07.320
+Vamos a probar un uit-t de 50 píxeles y una altura de automático salvamos.
+
+13:08.820 --> 13:14.190
+Ya está de hecho en 40 45 estaría bien perfecto.
+
+13:15.530 --> 13:16.300
+Ahí estamos.
+
+13:16.320 --> 13:21.130
+Entonces ya está mostrando nuestra imagen de perfil.
+
+13:21.170 --> 13:23.400
+Ya iniciamos con goooool.
+
+13:23.660 --> 13:29.480
+En este caso está ganando Facebook porque es la primera que encuentra y Xtra mi nombre de Facebook y
+
+13:29.600 --> 13:31.470
+mi perfil de Facebook.
+
+13:31.880 --> 13:36.920
+Así que bien hasta aquí le vamos a dejar con este video que estoy un poquito largo en el siguiente vídeo
+
+13:36.920 --> 13:41.070
+vamos a hacer los Gout o cerrar sesión.
+
+13:41.300 --> 13:48.980
+Y además si está guiado una persona no tiene que pasar por el Hobbit tiene que pasar directamente aquí
+
+13:49.070 --> 13:50.190
+a la pantalla de.
+
+13:50.490 --> 13:55.770
+Ok entonces te veo en el siguiente vídeo porque ya estamos terminando este proyecto.

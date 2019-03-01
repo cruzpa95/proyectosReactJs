@@ -1,0 +1,466 @@
+WEBVTT
+
+00:08.630 --> 00:14.160
+Bien ahora en este vídeo lo que tenemos que realizar es ser felices de cada una de las canciones o de
+
+00:14.170 --> 00:15.800
+la canción elegida por el usuario.
+
+00:15.830 --> 00:16.710
+O sea por ti.
+
+00:16.870 --> 00:22.080
+Así que bien primero tenemos que obtener de nuestra web relé que la tenemos.
+
+00:23.730 --> 00:31.180
+Nuestro que ya hemos declarado en nuestro rubro en punto y ella es que le pasamos el IBI.
+
+00:31.290 --> 00:37.880
+Así que lo podemos obtener de la siguiente manera Primero vamos a hacer apps vamos a hacer Supper de
+
+00:37.890 --> 00:44.850
+props para poder utilizarlas dentro de nuestro constructor y vamos a colocar son heydi va a ser igual
+
+00:44.850 --> 00:52.770
+a hadiz punto props punto mazz punto para ambos puntos son goyri así rápidamente excedemos disputo props
+
+00:52.860 --> 01:02.280
+punto Mads spams son OK y lo puedes corroborar que está correcto mandando un log de 10 puntos Toit puntos
+
+01:02.280 --> 01:08.910
+son Haití asi que bien actualizamos guardamos y vamos a continuar.
+
+01:09.740 --> 01:10.420
+Ahí está.
+
+01:10.650 --> 01:15.060
+Y del lado derecho acá en la consola cómo lo puedes observar.
+
+01:15.080 --> 01:22.490
+A mí me está saliendo mi son hedi que es practicamente este que viene y así te darás cuenta que esto
+
+01:22.790 --> 01:30.920
+está correcto asi que bien vámonos de nuevo a nuestro código vamos a eliminar este blog que aun no lo
+
+01:30.920 --> 01:38.810
+necesito para nada y tenemos que conectar este componente con Redux para nosotros poder utilizar las
+
+01:38.810 --> 01:41.130
+acciones que vamos a crear una también.
+
+01:41.390 --> 01:44.600
+Así que bien vamos a importar.
+
+01:50.280 --> 02:01.890
+Este viene de REACT Redux el conector que se utiliza el importe Balint Action creeros éste viene de
+
+02:01.890 --> 02:02.760
+Redux.
+
+02:04.280 --> 02:10.250
+Y por lo pronto es lo que vamos a utilizar vamos hasta abajo y vamos a crear la función.
+
+02:11.600 --> 02:14.620
+Fonction MAP Toit.
+
+02:15.940 --> 02:16.910
+Props.
+
+02:20.140 --> 02:21.260
+Y la función.
+
+02:22.730 --> 02:24.610
+Mav Dispatch.
+
+02:27.090 --> 02:34.110
+Pues que ya la habíamos creado anteriormente en nuestro componente de índex.
+
+02:34.220 --> 02:41.080
+Así que yo creo que no vas a tener que escuchar de nuevo que lo explique.
+
+02:41.290 --> 02:44.880
+Así que tu propio recibio como parámetro el Estatut.
+
+02:46.040 --> 02:52.710
+Y me va a regresar por lo pronto Rats Toit punto.
+
+02:52.870 --> 02:58.190
+Por lo pronto porque aún no tengo ningún redución no tengo ninguna variable que me esté mandando la
+
+02:58.210 --> 03:06.380
+ástor bien el MAP Dispatch tu props este recibe como parámetro el Dispatch que es el encargado de haste
+
+03:06.520 --> 03:09.160
+comunicarse o lanzar las acciones.
+
+03:09.340 --> 03:19.420
+Así que vamos a poner el grito on veulent Action perores y además voy a pasar aquí el Dispatch y aquí
+
+03:19.420 --> 03:26.440
+voy a colocar cada uno de los del logo de las funciones que yo vaya a utilizar como Dispatch así que
+
+03:27.160 --> 03:29.510
+vamos a conectarlo ahora este componente.
+
+03:29.680 --> 03:37.360
+Vamos a conectarlo Esporte faull Connect que es el importe ya hicimos de Herriak Redux que es el conector
+
+03:37.660 --> 03:47.780
+y le vamos a pasar como argumento el MAP props y el MAP Dispatch props y además lo voy a pasar el play
+
+03:47.790 --> 03:50.650
+y listo.
+
+03:50.770 --> 03:57.830
+Ahora si actualizamos y me dice que displays no difumine Index donde tenemos un display Dispatch.
+
+03:57.840 --> 03:58.560
+Perdón.
+
+04:00.560 --> 04:01.620
+Actualizamos.
+
+04:03.280 --> 04:03.700
+Y listo.
+
+04:03.700 --> 04:06.470
+Por lo pronto no tenemos ningún error.
+
+04:06.670 --> 04:07.920
+Absolutamente nada.
+
+04:09.830 --> 04:10.880
+Listo.
+
+04:11.060 --> 04:14.650
+Ahora sí que vamos a.
+
+04:15.850 --> 04:17.720
+A verificar que todo esté correcto.
+
+04:17.910 --> 04:25.230
+No tenemos ningún bien ahora como lo notamos anteriormente vamos a hacer fetch de la canción y vamos
+
+04:25.230 --> 04:34.980
+a reproducir nuestro Component wilman por lo cual nosotros necesitamos hacer un Axon acá de nuevo en
+
+04:35.030 --> 04:37.270
+índex y le voy a llamar.
+
+04:40.930 --> 04:47.360
+Cons export onds porque esto sí la vamos a utilizar en otro archivo y le voy a llamar.
+
+04:49.480 --> 04:51.480
+Como le pondremos play back.
+
+04:52.530 --> 04:53.210
+Listo.
+
+04:53.990 --> 04:59.530
+Y este recibe como argumento el SoC y listo.
+
+05:04.340 --> 05:05.330
+Perfecto.
+
+05:05.790 --> 05:07.220
+Esto va a ser ratón.
+
+05:08.810 --> 05:09.960
+El Dispatch.
+
+05:11.960 --> 05:14.470
+Y además el jet set.
+
+05:15.360 --> 05:20.020
+Que ya vienen cuando se los paso en la función anterior.
+
+05:20.020 --> 05:20.950
+Listo.
+
+05:20.950 --> 05:22.140
+Perfecto.
+
+05:22.180 --> 05:24.620
+Ahora ya hemos terminado con este plan.
+
+05:24.670 --> 05:29.080
+Ahora lo tenemos que importar dentro de mi componente Player.
+
+05:29.110 --> 05:30.070
+Vamos a importar.
+
+05:30.070 --> 05:31.770
+Importa tu edad.
+
+05:31.810 --> 05:32.720
+Crack.
+
+05:35.450 --> 05:36.370
+Desde.
+
+05:38.310 --> 05:38.700
+Punto.
+
+05:38.700 --> 05:44.050
+Punto diagonal punto diagonal Auctions y esta.
+
+05:46.280 --> 05:51.520
+Entonces ya estamos listos con esto vamos a actualizar y vamos a hacer que no tengamos ningún error.
+
+05:53.760 --> 05:56.190
+Aquí tenemos un pequeñito error.
+
+05:56.190 --> 05:58.650
+Vamos que es lo que está pasando aquí.
+
+06:02.880 --> 06:04.140
+Es por contais.
+
+06:06.070 --> 06:14.470
+Es que esto es igual así es lo que nos está faltando el igual así que perfecto ya estamos listos.
+
+06:16.370 --> 06:17.670
+Y hasta correcto.
+
+06:18.050 --> 06:22.520
+Ahora sí vamos a ver qué es lo que vamos a hacer en nuestro componente.
+
+06:22.790 --> 06:25.780
+Bien Básicamente cuando el componente inicie.
+
+06:26.950 --> 06:32.520
+Nuestra pantalla de Play Troi un son heydi que viene dentro de la torre L.
+
+06:32.730 --> 06:40.930
+éste es tomado y guardado en un Estado dicho Estado va a mandar o va a ser Trigger de una función que
+
+06:40.930 --> 06:45.750
+se va a llamar pleura que mediante Reedus va a ir a la nube de Spotify.
+
+06:46.570 --> 06:53.490
+Y en esta nube va a regresar la canción mediante suardi al front y en el front la voy a poder reproducir
+
+06:53.820 --> 07:02.270
+todo esto con la ayuda de nuevo de Redux así que tenemos alguna cosa especial que tenemos que tratar.
+
+07:03.680 --> 07:11.210
+Antes de hacer el play track tenemos que tener en cuenta importar el check training.
+
+07:11.420 --> 07:12.100
+Por qué.
+
+07:12.230 --> 07:20.360
+Porque si el usuario se llega a desbloquear en esta pantalla o se llega a morir la sesión por aquí ya
+
+07:20.360 --> 07:27.100
+no va a funcionar nada así que vamos a hacer primero el check in Así que vamos a colocar el componente
+
+07:27.250 --> 07:36.830
+wilman a poner punto props punto checks sin que eso me va a checar y como segundo parámetro vamos a
+
+07:36.830 --> 07:39.560
+mandar apuntó props.
+
+07:39.560 --> 07:40.870
+Punto.
+
+07:41.180 --> 07:48.150
+Play track y como parámetro la vamos a pasar el son y listo.
+
+07:48.290 --> 07:56.690
+Entonces cuando el componente vaya a renderizar checar primero el training y después va a hacer el OK
+
+07:57.200 --> 07:57.920
+y el Play.
+
+07:57.950 --> 08:05.250
+Ahorita no hace absolutamente nada pero ahora sí vamos a darle la funcionalidad así que bien continuamos.
+
+08:05.390 --> 08:08.020
+Vamos a mandar primero el Dispatch.
+
+08:09.140 --> 08:11.980
+Y vamos a mandar el START feeds.
+
+08:13.030 --> 08:21.370
+Básicamente lo que estamos haciendo aquí es diciéndole al Reedus oye ya empezó un fets y ahora vamos
+
+08:21.370 --> 08:25.740
+a tener que importar aquellos que ya lo tenemos aquí a usar.
+
+08:25.750 --> 08:36.160
+Perdón aquellos para poder hacer el test así que vamos a hacer Axiom punto que disto y te coloco la
+
+08:36.160 --> 08:47.050
+web de Spotify que es HTTP 2 puntos diagonal diagonal Japy puntos potingue puntocom diagonal versión
+
+08:47.050 --> 08:49.700
+1 diagonal tracks.
+
+08:49.840 --> 08:50.530
+Listo.
+
+08:50.950 --> 08:54.210
+Y aquí le pasa como parámetro.
+
+08:54.700 --> 09:02.560
+Dos cosas que vamos a verlas en nuestro en nuestro Kim le tienes que pasar el heydi de la web.
+
+09:02.590 --> 09:04.710
+L as Spotlight.
+
+09:05.510 --> 09:07.200
+Tienes que pasar en la web.
+
+09:07.400 --> 09:09.990
+L Es una L.
+
+09:10.940 --> 09:19.280
+Listo es eso pero además tienes que pasar el track Cadí o sea el heydi de la canción y además tienes
+
+09:19.280 --> 09:24.140
+que pasar un tercer parámetro que es un jeder de retoque.
+
+09:24.230 --> 09:26.500
+O sea el toque.
+
+09:26.950 --> 09:29.210
+Y esto se hace de una manera muy sencilla.
+
+09:31.460 --> 09:32.110
+Listo.
+
+09:32.240 --> 09:36.650
+Vamos a hacerlo entonces que nos permita hacer esto.
+
+09:36.860 --> 09:42.270
+Así que a eso yo lo voy a concatenar atraques punto con Cath.
+
+09:46.910 --> 09:50.260
+Le voy a concatenar el track o el son Addy.
+
+09:51.340 --> 09:52.380
+Listo.
+
+09:52.470 --> 09:54.160
+Así que se va el hedi.
+
+09:54.610 --> 09:59.030
+Y además este va a traer un Gears.
+
+10:00.680 --> 10:03.930
+Que es el toque en que se lleva como autorización.
+
+10:05.320 --> 10:07.410
+Y se han visto.
+
+10:08.470 --> 10:13.950
+Y es común ver ver a ver.
+
+10:15.950 --> 10:18.570
+Y viene aquí es donde le vamos a pasar el heydi.
+
+10:18.710 --> 10:28.220
+Así que esto es de autentificación converso y este va como punto kleinen punto toquen lo mismo con catt.
+
+10:28.310 --> 10:29.900
+Como tú gustos.
+
+10:30.210 --> 10:33.200
+Así que bien listo.
+
+10:33.230 --> 10:36.750
+Lo que creo que no nos falta absolutamente nada más.
+
+10:38.300 --> 10:39.280
+Listo.
+
+10:39.350 --> 10:41.230
+No tenemos ningún error guardamos.
+
+10:44.520 --> 10:47.320
+Si hay un error esta llave abre.
+
+10:48.370 --> 10:50.480
+Esta llave cierra.
+
+10:51.760 --> 10:57.140
+Adquirió Spotify puntocom catton hedi Este con catt aquí una coma.
+
+11:00.020 --> 11:04.840
+Si esto está bien pero nos está faltando una llave.
+
+11:06.590 --> 11:09.910
+Actualizamos guardamos.
+
+11:11.440 --> 11:12.140
+Y listo.
+
+11:14.100 --> 11:17.720
+Bien ahorita verificamos esto ahora.
+
+11:17.840 --> 11:23.460
+Esto me regresa a una promesa por lo cuales hunden respondés.
+
+11:24.480 --> 11:29.440
+Y el respondés va a hacer algo o de lo contrario va a haber un error Gats.
+
+11:32.060 --> 11:32.860
+Error.
+
+11:35.850 --> 11:36.420
+Listo.
+
+11:36.420 --> 11:36.970
+Punto.
+
+11:37.020 --> 11:40.090
+Catz listo.
+
+11:40.110 --> 11:41.370
+Si es que.
+
+11:41.380 --> 11:42.300
+Que sí.
+
+11:42.330 --> 11:45.490
+Entonces vamos a mandar respondés punto data.
+
+11:45.840 --> 11:46.760
+O sino.
+
+11:48.280 --> 11:48.890
+Error.
+
+11:50.680 --> 11:52.530
+Qué es lo que va a pasar aquí.
+
+11:52.840 --> 11:58.280
+Pero antes esto no nos va a funcionar porque es con un punto.
+
+12:00.510 --> 12:01.200
+Listo.
+
+12:02.120 --> 12:07.820
+Por qué chixoy ni-ni Play track todavía no las declare dentro de mi componente Player.
+
+12:07.840 --> 12:09.120
+Al final como.
+
+12:11.110 --> 12:14.220
+Exeni y Play.
+
+12:20.610 --> 12:21.400
+Play.
+
+12:21.850 --> 12:26.460
+Así que me faltaba realizar esto para que pudieran ser.
+
+12:27.520 --> 12:30.220
+Leídas como propiedades de mi componente.
+
+12:30.460 --> 12:36.390
+Así que actualizamos estoy aquí me están mandando un 401.
+
+12:36.460 --> 12:40.110
+Lo vamos a reparar en nuestra segunda parte de este vídeo.

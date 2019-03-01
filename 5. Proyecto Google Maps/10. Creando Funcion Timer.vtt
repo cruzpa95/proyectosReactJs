@@ -1,0 +1,286 @@
+WEBVTT
+
+00:08.230 --> 00:13.570
+Una vez que nosotros tengamos el intervalo aún nos falta hacer el timmer.
+
+00:13.560 --> 00:15.150
+Por eso voy a prueba que un.
+
+00:15.310 --> 00:19.520
+Pero antes tengo que pasarle una propiedad muy importante.
+
+00:19.600 --> 00:24.140
+Por qué no le hemos pasado la propiedad a este componente.
+
+00:24.160 --> 00:26.530
+De dónde es dónde va a centrar.
+
+00:26.530 --> 00:33.550
+Al principio porque tenemos que tener coordinadas donde esté centrando así que yo me voy a ir a mi componente
+
+00:33.550 --> 00:34.350
+av.
+
+00:34.540 --> 00:40.290
+Y donde tengo declarado mapa aquí estoy yo lo estoy pasando.
+
+00:40.390 --> 00:46.600
+Bueno la referencia es para obtener algún valor los marcadores.
+
+00:46.840 --> 00:55.900
+Pero además yo le voy a pasar una propiedad que voy a crear que se va a llamar Center MAP coordiné que
+
+00:56.230 --> 01:03.520
+simplemente son las coordenadas que yo voy a utilizar para centrar al principio porque vamos a ir cambiando
+
+01:03.880 --> 01:08.930
+para que no se pierda el mapa o que se centre en algún otro lado.
+
+01:09.040 --> 01:10.780
+Vamos a poner 19 puntos.
+
+01:10.970 --> 01:11.860
+32.
+
+01:11.870 --> 01:13.230
+Ya tengo anotadas.
+
+01:13.240 --> 01:14.500
+Punto Cero 2.
+
+01:14.640 --> 01:16.870
+Punto 8 29.
+
+01:17.050 --> 01:17.970
+Y además.
+
+01:21.040 --> 01:22.390
+A ver a gistau.
+
+01:23.430 --> 01:25.710
+Listo bien.
+
+01:25.980 --> 01:29.170
+Y la longitud va a ser de menos 99.
+
+01:29.250 --> 01:40.770
+Punto 43 28 154 listo y ahora aquí en mi componente lo que voy a hacer es crear estas coordenadas no
+
+01:40.770 --> 01:46.970
+las voy a cachar en una variable de estado que por lo cual yo lo voy a colocar aquí.
+
+01:48.740 --> 01:50.590
+Laut va a ser igual.
+
+01:50.730 --> 01:51.190
+Punto.
+
+01:51.210 --> 01:59.360
+Props punto Center MAP Coordination de cero porque se supone que en la latitud y la longitud hacer disputo
+
+01:59.380 --> 02:02.370
+props Center MAP coordiné de uno.
+
+02:02.940 --> 02:09.070
+Qué es lo que estoy haciendo aquí en resumen básicamente lo estoy pasando las propia por propiedades.
+
+02:09.200 --> 02:16.290
+Estos dos valores que también los puedo validar aquí en lugar de tener un cero pero yo lo estoy haciendo
+
+02:16.290 --> 02:18.780
+para que se vea mejor.
+
+02:18.940 --> 02:23.730
+Pero imagínate que este componente sea dinámico pues si se te hace el valor aquí pues vamos a estar
+
+02:23.760 --> 02:28.330
+vamos a estar mal y vamos a tener un problema por eso mejor se lo dejamos a las propias.
+
+02:28.350 --> 02:36.660
+Qué quiere decir que estas coordenadas que yo le estoy asignando son las que van a ser enviadas al componente
+
+02:36.900 --> 02:45.240
+para que se centre por primera vez así que voy a guardar perfecto y ahora sí vámonos a nuestro timmer
+
+02:45.450 --> 02:47.670
+que es donde marcamos el tú.
+
+02:47.700 --> 02:54.510
+Lo primero que tenemos que hacer es nuestro primer Kahn que se esté llamando vamos a tener que se Tear
+
+02:54.510 --> 03:00.710
+tres valores en la actual posición porque se supone que va a estar cambiando una vez.
+
+03:01.470 --> 03:09.010
+La latitud y la longitud que la tengo asignado como cobro en latín LNG.
+
+03:09.390 --> 03:19.230
+Listo entonces vamos a sortear las disputas que antes debe aguardar a que en variable loco y a ocupar
+
+03:19.740 --> 03:28.080
+marketers acto de posesión es igual a disputo este para no tener que estar poniendo puntos punto actual
+
+03:28.130 --> 03:32.850
+por donde disputando sus partes más limpio.
+
+03:33.510 --> 03:36.660
+Lo que tengo que colocar es primero la actual posición.
+
+03:36.870 --> 03:42.390
+O sea que cada vez que usted llamando el intervalo cada tres segundos bastará bastará llamándose este
+
+03:42.390 --> 03:46.500
+método o sea cada tres segundos vamos a estar actualizado una posición que quiere decir que vamos a
+
+03:46.500 --> 03:49.970
+estar más uno más uno más uno más uno.
+
+03:50.100 --> 03:56.300
+Entonces esto sería básicamente actual posición +1.
+
+03:58.250 --> 04:03.820
+Bien vamos a poner correo en ladd esto sería marketers.
+
+04:05.100 --> 04:14.510
+De la posición actual de la actual posición qué la que quiere decir que la posición actual va a ser
+
+04:14.840 --> 04:21.770
+la del arreglo de marcadores en la posición que estemos Ok va a ser la siguiente.
+
+04:22.250 --> 04:23.120
+Perfecto.
+
+04:23.530 --> 04:26.430
+Y ahora vamos a poner aquí la corriente.
+
+04:26.720 --> 04:31.390
+Longitud hacer lo mismo marketers de acto y posición.
+
+04:33.140 --> 04:34.360
+Punto.
+
+04:34.430 --> 04:41.330
+El NG listo y aquí lo que estamos haciendo básicamente es avanzar uno adelante.
+
+04:41.750 --> 04:52.850
+Ahora imagínate que la posición actual más uno sea cinco y tu arreglo solamente sea de cuatro.
+
+04:53.180 --> 04:59.910
+Entonces vamos a tener un empleo y para no tener que catt para no tener que matar los intervalos aquí
+
+04:59.960 --> 05:01.190
+en el proceso.
+
+05:01.190 --> 05:06.170
+Vamos a hacer una validación su actual posición +1 es menor.
+
+05:07.310 --> 05:09.830
+Marquès Puntos Leng.
+
+05:12.040 --> 05:18.540
+Si es eso entonces lo correcto actual posición +1.
+
+05:18.820 --> 05:20.120
+De lo contrario.
+
+05:22.120 --> 05:24.380
+Acto El posición va a ser cero.
+
+05:24.600 --> 05:32.360
+Qué quiere decir que ya ya el siguiente valor pues ya no ya no va a ser otro marcador sino vamos a volver
+
+05:32.360 --> 05:33.110
+al inicio.
+
+05:33.360 --> 05:36.310
+Entonces básicamente eso es lo que trato de explicar.
+
+05:36.740 --> 05:37.530
+Perfecto.
+
+05:37.930 --> 05:43.950
+Y con este taymor que estaríamos terminando nuestro nuestro.
+
+05:44.030 --> 05:47.510
+Nuestro timmer valga la redundancia.
+
+05:47.900 --> 05:53.340
+Así que bien lo que sigue es vámonos acá al final a revisar cómo estamos.
+
+05:53.690 --> 06:03.980
+El Pocillo solamente que aquí vamos a tener un detalle que la posición de que está tomando aquí.
+
+06:05.950 --> 06:07.390
+Latitud longitud.
+
+06:08.260 --> 06:10.360
+Listo estamos bien.
+
+06:10.360 --> 06:13.910
+Perfecto no aquí estamos correctos y vamos a actualizar con esto.
+
+06:15.470 --> 06:17.160
+Bien.
+
+06:17.380 --> 06:22.160
+Ahora vas a ver un poquito el mapa como que está parpadeando.
+
+06:22.180 --> 06:27.700
+Pues porque el taymor ya está funcionando pero sin embargo no está cambiando el centro por una sencilla
+
+06:27.700 --> 06:34.260
+razón yo me tengo que ir al final donde está el de Foll Center que es el centro que yo les igme.
+
+06:34.390 --> 06:40.390
+Entonces yo lo tengo que cambiar por una variable de estado la latitud va a ser igual a diez puntos
+
+06:40.460 --> 06:46.220
+o vamos a poner coronen Laut y la longitud va a ser igual la corren.
+
+06:46.480 --> 06:47.920
+El NG La longitud.
+
+06:48.010 --> 06:54.660
+Entonces aquí cuando la variable esté cambiando sea cuando el peimbert esté cambiando va a estar cambiando.
+
+06:54.730 --> 06:59.710
+Este nuestro nuestro centro se haga valer y sea el mercado perfecto.
+
+06:59.950 --> 07:01.730
+Entonces yo tengo que declararlo aquí.
+
+07:02.860 --> 07:06.190
+Corren Laut y corriente.
+
+07:06.520 --> 07:08.440
+Longitud actualizamos.
+
+07:10.870 --> 07:12.450
+Hoy estamos en el primer marcador.
+
+07:13.540 --> 07:14.280
+Vamos a ver.
+
+07:16.250 --> 07:18.020
+Estamos en el segundo marcador.
+
+07:19.530 --> 07:20.520
+Vamos a Chile.
+
+07:22.180 --> 07:26.570
+Y luego nos vamos al mar a Perú y luego a Argentina.
+
+07:28.210 --> 07:31.230
+Y otra vez a México.
+
+07:31.350 --> 07:38.760
+Entonces hasta aquí con este video ya está funcionando nuestro nuestro timmer que quiere decir que ya
+
+07:38.790 --> 07:46.200
+nuestros marcadores están funcionando correctamente con autoplay pero ahora si viene lo interesante
+
+07:46.200 --> 07:50.470
+vamos a tener que dar la funcionalidad a Stop Play.
+
+07:50.670 --> 07:54.410
+Annex en VAC así que te espero en el siguiente video.

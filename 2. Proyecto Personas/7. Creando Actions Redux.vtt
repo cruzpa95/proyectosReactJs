@@ -1,0 +1,268 @@
+WEBVTT
+
+00:08.160 --> 00:09.440
+Listo ya estamos de regreso.
+
+00:09.450 --> 00:14.940
+En este vídeo vamos a configurar las acciones aquellas que van a ser accionadas por el componente o
+
+00:14.940 --> 00:15.700
+la vista.
+
+00:15.790 --> 00:22.190
+Así que bien vámonos directo a crear una carpeta nueva en nuestro src llamada actions.
+
+00:25.400 --> 00:27.780
+Vamos a poner un índex punto.
+
+00:30.160 --> 00:35.770
+Para que cuando las importemos no tengamos que importar lo demás bien.
+
+00:35.780 --> 00:39.930
+Además voy a crearme otro archivo que se va a llamar HTTP.
+
+00:40.160 --> 00:41.490
+Punto.
+
+00:42.690 --> 00:46.510
+Para que un HTTP el HTTP.
+
+00:46.820 --> 00:50.650
+Es utilizado para la configuración de accesos.
+
+00:50.660 --> 00:59.690
+Esta librería es la que me permite hacer una un recuesto un post que pude pads a la base de datos o
+
+00:59.690 --> 01:06.950
+a la piai así que bien vamos a empezar creando primero el archivo de HTTP que es el que nos va a permitir
+
+01:06.950 --> 01:11.630
+como ya lo mencionábamos la interacción con el pie así que vamos a importar.
+
+01:11.630 --> 01:15.840
+Ya tenemos instalada la librería Access desde.
+
+01:21.440 --> 01:27.970
+Tenemos que crear una constante que se llame HTTP como yo le llamé al archivo así que vamos a llamar
+
+01:28.240 --> 01:30.190
+cons HTTP.
+
+01:30.380 --> 01:32.040
+Esto va a ser igual.
+
+01:32.090 --> 01:33.100
+Punto.
+
+01:36.480 --> 01:37.180
+Listo.
+
+01:38.490 --> 01:40.490
+Abre y cierra paréntesis.
+
+01:40.500 --> 01:43.610
+Abro y cierro corchetes dentro de Cuba.
+
+01:43.710 --> 01:54.120
+Una propiedad muy importante que es la r.l. a la cual vamos a llamarle elevase a la Colombes a llamar
+
+01:54.660 --> 01:55.710
+a la espía.
+
+01:55.950 --> 01:59.470
+En este caso la nuestra la voy a poner enseguida.
+
+02:01.040 --> 02:02.730
+Vamos a poner la propiedad.
+
+02:02.780 --> 02:05.670
+Veis currele igual.
+
+02:07.090 --> 02:09.110
+Y ponemos la torre L como si fuese un estrella.
+
+02:09.270 --> 02:09.980
+Así que.
+
+02:11.220 --> 02:12.560
+Yo la tengo en mi navegador.
+
+02:13.520 --> 02:18.790
+Es esta https: 2 puntos diagonal diagonal a 10.
+
+02:18.850 --> 02:23.460
+Dicho proyecto Punto Eurocup punto con esto.
+
+02:24.350 --> 02:29.470
+Acabamos de colocar la VR L en la cual vamos a hacer nosotros a la ipic.
+
+02:29.480 --> 02:34.830
+Así que después de esto vamos a tener que exportar la variable para que pueda ser utilizada en otro
+
+02:34.830 --> 02:39.730
+chivo por lo cual o poner por default HTTP.
+
+02:41.050 --> 02:42.640
+Guardamos y listo.
+
+02:42.640 --> 02:49.480
+Ahora este archivo va a tener que ser importado en nuestro kindes de la carpeta Absence así que vamos
+
+02:49.480 --> 02:50.880
+a proceder a hacerlo.
+
+02:51.880 --> 02:52.670
+Import.
+
+02:53.610 --> 02:54.690
+HTTP.
+
+02:55.440 --> 02:56.270
+Desde.
+
+02:57.730 --> 03:03.850
+Punto de bonal ya que estamos en la misma carpeta y aquí está el archivo HTTP guardamos.
+
+03:05.420 --> 03:07.500
+Para esto vamos a correr nuestro proyecto.
+
+03:08.630 --> 03:11.870
+Para verificar que no tengamos errores con el PM.
+
+03:16.710 --> 03:17.410
+Bien.
+
+03:17.900 --> 03:24.440
+Para crear una acción es muy sencillo simplemente hay que crear.
+
+03:24.650 --> 03:31.280
+Dependiendo del método que vayamos a tener en este caso como ya lo habíamos visto en nuestro diseño
+
+03:32.000 --> 03:35.850
+vamos a tener que hacer un rico para atraer todos los usuarios o personas.
+
+03:36.710 --> 03:39.960
+Por lo cual una acción se va a llamar.
+
+03:42.250 --> 03:42.960
+Users.
+
+03:47.280 --> 03:51.560
+Por lo cual una acción se va a llamar Guest users.
+
+03:54.090 --> 03:59.790
+Es nuestra primera acción por lo cual vamos a crearlo de la siguiente manera vamos a tener que ponerles
+
+03:59.880 --> 04:02.500
+voz para que pueda ser utilizado dentro del componente.
+
+04:02.520 --> 04:04.280
+Ya va a iniciar nuestra aplicación.
+
+04:07.170 --> 04:12.940
+Export va a ser una constante que se va a llamar Goeth users.
+
+04:13.290 --> 04:14.460
+Esto va a ser igual.
+
+04:15.810 --> 04:17.540
+Esto es una función.
+
+04:19.060 --> 04:21.200
+Con la harro.
+
+04:22.410 --> 04:23.080
+Listo.
+
+04:24.310 --> 04:25.870
+Esto a su vez es un reto.
+
+04:26.940 --> 04:28.410
+Y este me manda por.
+
+04:29.480 --> 04:35.540
+Como parãmetros el Dispatch que es el que nos puede accionar hacia el uso.
+
+04:36.450 --> 04:39.190
+El que también me lo regresa.
+
+04:42.280 --> 04:43.310
+Y listo.
+
+04:43.330 --> 04:45.680
+Esto es otra función a su vez anidada.
+
+04:46.830 --> 04:49.940
+Y aquí es donde vamos a hacer vamos a poner un tubo.
+
+04:51.340 --> 04:52.120
+Rico.
+
+04:54.060 --> 04:55.340
+Con acciones.
+
+04:55.470 --> 04:56.090
+Ok.
+
+04:56.320 --> 04:58.250
+Entonces esto es básicamente.
+
+04:58.990 --> 05:06.280
+Una acción que va a ser de accionar por el componente después me llega aquí y con el Dispatch yo puedo
+
+05:06.280 --> 05:09.230
+hacer la llamada a los reduzcas.
+
+05:09.280 --> 05:12.670
+Así que bien vamos a crear.
+
+05:13.030 --> 05:15.020
+Creo que aquí tenemos un pequeño error.
+
+05:16.430 --> 05:20.010
+Aquí al parecer es con parentesis no con Chávez.
+
+05:25.950 --> 05:27.420
+Ya que es otra función.
+
+05:29.250 --> 05:36.580
+Y aquí lo vamos a dejar pendiente vamos a poner vamos a poner un log solamente se llamó.
+
+05:40.080 --> 05:41.050
+La acción.
+
+05:43.060 --> 05:44.870
+Y sabes qué.
+
+05:46.120 --> 05:48.870
+Entonces ya con esto ya lo podemos utilizar en otros archivos.
+
+05:50.160 --> 05:56.130
+Porque ya lo estamos exportando así que bien por lo pronto vamos a terminar cómo se crearon las acciones
+
+05:56.340 --> 06:00.450
+cómo configurar nuestro archivo HTTP en el cual tenemos.
+
+06:00.460 --> 06:08.280
+Con acción creamos laboré elevase que es donde nosotros vamos a tener nuestra piai y en base a qué íbamos
+
+06:08.270 --> 06:10.580
+a hacerlo ricketts torrico.
+
+06:10.980 --> 06:20.250
+En base a una Borrel en este caso yo le pongo este aquí un jet users como lo hacemos normalmente para
+
+06:20.250 --> 06:21.960
+una hippie y va a desplegar.
+
+06:22.820 --> 06:27.940
+Toda una base de datos así que bien esta capilla está previamente cargada extranjero.
+
+06:28.280 --> 06:34.340
+Así que no te preocupes por tener este o crear una API está creada con ollés así que nos vemos en el
+
+06:34.340 --> 06:35.140
+siguiente vídeo.
+
+06:35.140 --> 06:41.920
+Por qué vamos a crear la conexión de Redux con el componente así que espero.

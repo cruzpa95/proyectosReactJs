@@ -1,0 +1,175 @@
+WEBVTT
+
+00:08.260 --> 00:15.370
+Bien continuemos con nuestro proyecto de login con redes sociales así que vamos a nuestro navegador
+
+00:15.400 --> 00:21.560
+voy a abrir otra pestaña nueva que le voy a poner Facebook Developers.
+
+00:21.910 --> 00:27.000
+Ok vamos a entrar a este apartado de Facebook.
+
+00:27.010 --> 00:29.700
+No es la red social en sí.
+
+00:29.710 --> 00:36.700
+En esa consola de Facebook si no las ha utilizado puedes crear muchas aplicaciones para darle diferente
+
+00:36.700 --> 00:43.970
+fin para hacer un login para hacer integración de Facebook para hacer un Cheer de una página etcétera.
+
+00:43.990 --> 00:48.400
+Incluso lo que se está utilizando mucho hoy en día son los chatbot.
+
+00:48.400 --> 00:51.940
+Puedes crear un chat desde aquí o no desde aquí.
+
+00:51.990 --> 01:00.970
+Pero Akita que esas esap esa API esos esos eiriz que necesitas para poder realizarlo así que vienen
+
+01:00.970 --> 01:01.840
+muchos ejemplos.
+
+01:01.840 --> 01:09.280
+En este caso nosotros lo vamos a utilizar para crear nuestro login con Facebook así que bien esto es
+
+01:09.280 --> 01:16.120
+para muchas aplicaciones hoy en día le facilitan a los usuarios entrar con redes sociales.
+
+01:16.150 --> 01:19.070
+Es muy molesto para nosotros los usuarios en especial.
+
+01:19.070 --> 01:24.640
+Bueno también me incluyo cuando vamos a entrar a una nueva página y te pide llenar un formulario con
+
+01:24.640 --> 01:27.910
+dirección con nombre con fecha de nacimiento.
+
+01:28.000 --> 01:31.650
+Imagínate que nada más te pide correo usuario y contraseña.
+
+01:31.690 --> 01:34.180
+Aún así es muy molesto para nosotros.
+
+01:34.210 --> 01:41.320
+Nosotros entramos a una página web casi siempre cuando tiene el lobby con redes sociales si no lo evitamos.
+
+01:41.320 --> 01:46.270
+Es ahí donde se pierde mucha mucha gente de usuarios de una aplicación.
+
+01:46.270 --> 01:53.890
+Así que si está guiado que en este caso soy yo y que soy logueado voy a poner aquí en la parte superior
+
+01:53.890 --> 01:55.320
+derecha de mi pantalla.
+
+01:55.570 --> 01:58.340
+Le voy a poner agregar una aplicación.
+
+01:58.670 --> 02:08.590
+Si una app la que estoy creando es simplemente un apartado un proyecto en el cual yo voy a colocar para
+
+02:08.590 --> 02:12.260
+que lo quiero y me va a dar unos eiriz CON ESTOS eiriz.
+
+02:12.260 --> 02:18.460
+Nosotros vamos a ser muy felices porque nos vamos a poder o vamos a poder implementar en nuestro sitio.
+
+02:18.600 --> 02:25.360
+Es lo viven con redes sociales así que bien yo les voy a poner el nombre de la aplicación que es el
+
+02:25.360 --> 02:32.280
+que va a aparecer cuando tú des inicio de sesión cuando inicias sesión.
+
+02:32.380 --> 02:39.430
+Perdón en una página web que te aparece quién es el proveedor al cual tú le vas a presentar tu información
+
+02:39.490 --> 02:43.280
+al cual vas a permitirle ver cierta información.
+
+02:43.330 --> 02:47.840
+No toda la información tampoco porque Facebook también te limita.
+
+02:48.130 --> 02:54.640
+Yo aconsejo ponerle un ejemplo porque ven no vamos a hacer nada de la vida real.
+
+02:54.710 --> 02:59.950
+A este proyecto no se va a ir a una empresa pero sin embargo si tú lo vas a hacer para una empresa te
+
+02:59.950 --> 03:05.980
+recomiendo que le pongas el nombre de la empresa así que yo le voy a poner el ejemplo del logo.
+
+03:06.600 --> 03:07.290
+Ok.
+
+03:07.660 --> 03:13.430
+Ejemplo de lo que le voy a poner creare identificador de la aplicación.
+
+03:13.660 --> 03:20.650
+El correo de contacto te digo si es para una empresa yo te recomiendo ponerle aquí el nombre del correo
+
+03:20.650 --> 03:25.220
+de la empresa pero en este caso dejó el correo mío por default.
+
+03:25.220 --> 03:37.300
+Ok vamos a crear la aplicación y enseguida me pide un control de seguridad para poder para poder validar
+
+03:37.330 --> 03:38.850
+que no soy un robot.
+
+03:38.950 --> 03:45.740
+Aunque esto para prevenir esta creación de aplicaciones este sinsentido.
+
+03:45.940 --> 03:49.400
+Así que bien ya tenemos creada la aplicación.
+
+03:49.490 --> 03:54.860
+Ahora es muy importante muy importante que conozcamos todo lo que podemos hacer.
+
+03:54.890 --> 03:57.010
+Podemos hacer el inicio de sesión con Facebook.
+
+03:57.310 --> 03:59.680
+Ojo con esta aplicación podemos entrar.
+
+03:59.770 --> 04:08.410
+No es necesario crear otra para con audio o con Android así que incluso está pagos y API esa Eso sí
+
+04:08.410 --> 04:11.880
+para integrar Instagram en nuestro sitio web.
+
+04:11.920 --> 04:13.000
+Cómo lo Guin.
+
+04:13.000 --> 04:15.180
+Es muy muy laborioso.
+
+04:15.280 --> 04:19.980
+No es difícil pero tienes que pasar una serie de pasos para que te valide.
+
+04:20.050 --> 04:22.830
+Así que vamos a el panel.
+
+04:24.280 --> 04:29.600
+Bueno estamos en el panel y ahora ese es el identificador de la aplicación.
+
+04:29.740 --> 04:33.560
+En mi caso por qué no tengo un público.
+
+04:33.640 --> 04:36.010
+No pasa nada lo voy a eliminar.
+
+04:36.160 --> 04:43.360
+Una vez terminado el curso así que yo te recomiendo tener tu propio identificador.
+
+04:43.630 --> 04:51.430
+Vamos a copiar este identificador que es muy importante porque va a ser el que nos va a abrir las puertas
+
+04:51.820 --> 04:57.610
+hacia el desarrollo de alguien con redes sociales en este caso con Facebook así que en el siguiente
+
+04:57.610 --> 04:59.550
+video vamos a implementar.
+
+04:59.670 --> 05:01.570
+Este es el Hobbit.

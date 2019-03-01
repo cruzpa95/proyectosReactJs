@@ -1,0 +1,274 @@
+WEBVTT
+
+00:08.780 --> 00:14.590
+Bien ahora en este vídeo tenemos que darle un poquito de diseño a cada una de las imágenes que se están
+
+00:14.590 --> 00:15.330
+mostrando aquí.
+
+00:15.340 --> 00:17.470
+Porque la verdad es que están muy grandes.
+
+00:17.470 --> 00:24.290
+Primero vamos con las imágenes así que vámonos a nuestro son item a nuestro Dib le voy a dar una clase.
+
+00:24.420 --> 00:26.500
+Las voy a llamar son hoy.
+
+00:27.890 --> 00:28.880
+A este.
+
+00:28.900 --> 00:33.580
+A la imagen que vamos a acomodar un chip.
+
+00:36.050 --> 00:40.380
+Y aquí voy a colocar las que son item.
+
+00:42.320 --> 00:43.820
+Foto.
+
+00:44.090 --> 00:53.780
+Ahí es donde vamos a poner la imagen y del otro lado vamos a poner las naimi son arte.
+
+00:54.940 --> 01:02.240
+Y en el cual en el lado izquierdo lo que yo estoy tratando de realizar aquí va a ser lo siguiente Me
+
+01:02.250 --> 01:03.180
+borro ésto.
+
+01:07.010 --> 01:13.970
+Este es un Dib imagina que es hundí del lado izquierdo vamos a tener nuestra imagen o nuestro.
+
+01:14.030 --> 01:16.930
+Foto del álbum o del artista que estamos buscando.
+
+01:17.090 --> 01:20.440
+Y del lado derecho un poco de información.
+
+01:20.600 --> 01:22.000
+Básicamente serias.
+
+01:22.200 --> 01:31.970
+Así es por eso que estoy poniendo dos dips así que este va a ir en Info y la foto por supuesto que va
+
+01:31.970 --> 01:35.440
+a ir en moto asi que bien.
+
+01:35.510 --> 01:39.100
+A quién son hoy Tembo ya voy a importar.
+
+01:39.310 --> 01:41.860
+Importa la hoja de estilos.
+
+01:47.270 --> 01:50.240
+Listo ahí estamos.
+
+01:50.360 --> 01:51.260
+Perfecto.
+
+01:51.350 --> 01:59.270
+Entonces lo que tenemos que hacer aquí es colocar la clase a un item y después han un foto y aires utilizando.
+
+01:59.350 --> 02:02.190
+Así que por lo cual voy a empezar por ahí.
+
+02:02.300 --> 02:08.540
+En mi Index puntos SS voy a poner aquí son item y le voy a poner display Flex.
+
+02:11.240 --> 02:12.060
+Es eso.
+
+02:13.910 --> 02:22.950
+El Huid del 100 por ciento con respecto a su padre obviamente es esto y vamos a poner el derecho.
+
+02:22.970 --> 02:25.360
+Bueno están Brow así que me conviene.
+
+02:25.700 --> 02:26.570
+Vamos a dejarlo así.
+
+02:26.600 --> 02:28.860
+Vamos a buscar de nuevo.
+
+02:33.450 --> 02:39.870
+Buscamos esta ya está del lado derecho hacia la imagen vamos a ponerle un tamaño porque es muy grande
+
+02:39.870 --> 02:44.930
+esto no está bien así que le vamos a poner a.
+
+02:45.870 --> 02:50.570
+Lista son eutm foto que es el contenedor.
+
+02:54.080 --> 02:59.170
+A lo que hay ahí al TACC de imagen que desde ahí le vamos a dar un huid.
+
+03:00.570 --> 03:06.720
+De 100 píxeles una altura automática y nada más.
+
+03:07.910 --> 03:14.400
+Y ya ves como luce un poquito mejor llora si dentro de mi navegador al H2 puedo saber que tamaño de
+
+03:14.480 --> 03:16.700
+fuente le voy a dar fonz 6.
+
+03:17.580 --> 03:19.340
+Un doble ve.
+
+03:21.550 --> 03:27.270
+Con 1.5 VH que básicamente por Wii.
+
+03:28.210 --> 03:37.790
+Y el de abajo que es el artista no va a poner fond es un beat.
+
+03:38.690 --> 03:43.960
+Lo voy a dar un margen de cero y por supuesto que el de arriba también un margen de cero.
+
+03:45.370 --> 03:48.420
+Y listo me parece que parece agradable.
+
+03:48.590 --> 03:54.920
+Asi que ya con eso vámonos a nuestro código y vámonos a otro contenedor que es son item.
+
+03:57.210 --> 04:07.570
+Lo que haya HD2 pero creo en HD no hay todo si H3 que el HD vamos a empezar con el H2 el fonz del H2
+
+04:08.050 --> 04:17.880
+es de 1.4 o sea el ancho de la pantalla un margin de cero y ahora son AITE.
+
+04:19.980 --> 04:26.530
+Que este H4 si no me equivoco H3 perdón.
+
+04:27.900 --> 04:31.470
+Y vamos a poner un fontanelles de 1 punto.
+
+04:32.660 --> 04:36.250
+Primero punto 2 bit Project listo.
+
+04:37.370 --> 04:40.320
+Actualizamos ya que estamos ya un poquito mejor.
+
+04:41.390 --> 04:45.780
+Asi que bien vamos a dar un poquito más de margen aquí.
+
+04:49.930 --> 04:59.890
+Aquí vamos a separar markin margin left Be por uit-t de 1 a sony hay info.
+
+05:02.610 --> 05:04.420
+Item guionismo.
+
+05:05.560 --> 05:08.640
+Margin leff de unbe.
+
+05:09.420 --> 05:11.720
+Doble o listo.
+
+05:14.680 --> 05:17.750
+Y vamos a buscar ahora a Coldplay.
+
+05:20.670 --> 05:24.650
+Hoy está bien y se ve mucho mejor.
+
+05:24.670 --> 05:26.570
+Vamos a dar un margen a todo completo.
+
+05:29.330 --> 05:39.140
+Vamos a poner un margen de 1 por ciento en 1 por ciento 1% 1 por ciento para aprobar 1 2 3 4 5 de aquí
+
+05:39.140 --> 05:42.370
+un cero por ciento un dos está bien.
+
+05:43.180 --> 05:51.620
+Debajo un dos dos está bien de la derecha lo dejamos en 2 y de arriba lo dejamos en 3 4.
+
+05:52.060 --> 05:56.180
+Asi que este margin no me lo voy a tomar y lo voy a poder hoy.
+
+06:00.290 --> 06:02.420
+Perfecto actualizamos.
+
+06:04.700 --> 06:08.200
+Y voy a buscar de nuevo a óscar y imaginaros.
+
+06:11.560 --> 06:19.190
+Ya está ahora otra cosa que voy a hacer que es muy sencilla es que cada que yo pase sobre cada una de
+
+06:19.190 --> 06:25.230
+las canciones me aparezca el cursor en Painter y además Jonhatan una transición muy leve.
+
+06:25.490 --> 06:26.960
+Así que lo voy a hacer.
+
+06:27.290 --> 06:33.430
+Son eutm SON eutm Jover vaqueira un color.
+
+06:35.780 --> 06:38.830
+Aquí les voy a poner un rey ok.
+
+06:39.400 --> 06:42.430
+Y además este va a poner transición.
+
+06:43.590 --> 06:46.060
+O PUNTO 13S.
+
+06:49.930 --> 06:56.320
+Esto básicamente es que cuando el rover cuando se haga overs va a pintarse de gris y además de hacer
+
+06:56.320 --> 06:58.940
+una transición en ese efecto.
+
+06:59.110 --> 07:00.340
+Así que como se ve.
+
+07:02.460 --> 07:04.330
+Bueno ahora le voy a dar.
+
+07:06.520 --> 07:08.450
+Cursor Painter.
+
+07:09.680 --> 07:10.270
+Listo.
+
+07:12.600 --> 07:13.330
+Ahí estamos.
+
+07:13.470 --> 07:19.770
+Básicamente vamos a un pequeño parque para que no se vea todo como muy amontonado.
+
+07:22.490 --> 07:24.190
+Así que vamos contentos.
+
+07:24.230 --> 07:26.600
+Hoy vamos a darle adding.
+
+07:27.520 --> 07:29.100
+1 por ciento.
+
+07:31.460 --> 07:32.500
+3.
+
+07:33.170 --> 07:39.910
+Un 2 por ciento que vienen son que son hoy tema en un parking de 2 por ciento.
+
+07:42.460 --> 07:44.720
+Listo ahí estamos.
+
+07:44.750 --> 07:46.640
+Esto ya se ve mucho mejor.
+
+07:47.750 --> 07:48.710
+Ahí estamos.
+
+07:51.490 --> 07:58.340
+Así que básicamente Este sería el diseño sencillo rápido de nuestra pantalla de buscador.
+
+07:58.510 --> 08:04.870
+Así que en nuestro siguiente vídeo es cuando le demos clica cada una nos tiene que llevar a la siguiente
+
+08:04.870 --> 08:05.530
+pantalla.
+
+08:05.610 --> 08:07.090
+O sea el reproductor.
+
+08:07.090 --> 08:08.570
+Así que te espero.

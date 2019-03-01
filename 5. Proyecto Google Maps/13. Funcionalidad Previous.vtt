@@ -1,0 +1,283 @@
+WEBVTT
+
+00:08.440 --> 00:15.370
+Bien ya estamos en el video de On previous en el cual nosotros vamos a realizar la funcionalidad para
+
+00:15.370 --> 00:24.010
+que me regrese un marcador atrás por lo cual voy a crear el método on previous listo y este va a tener
+
+00:24.010 --> 00:31.030
+dos validaciones a diferencia de las demás que solamente tenían una validación que en este caso sí la
+
+00:31.030 --> 00:34.790
+posición actual menos uno porque recuerda que anexe Es más uno.
+
+00:34.900 --> 00:44.980
+Estamos un incremento sí de la posición actual menos uno es menor a la longitud de los marcadores entonces
+
+00:45.190 --> 00:46.790
+dejame ir atrás.
+
+00:48.380 --> 00:55.700
+Y la otra es que si la posición actual menos uno es mayor a cero también me vas a dejar ir atrás.
+
+00:55.790 --> 00:58.020
+De lo contrario estaríamos volando.
+
+00:58.250 --> 01:06.330
+El arreglo por lo cual ahí tendríamos que hacer la validación botarlo y decirle que es la nueva posición
+
+01:06.330 --> 01:10.790
+es cero y mandarlo al principio tal y como lo hicimos aquí.
+
+01:10.850 --> 01:14.780
+Así que bien vamos a darle una variable que se va a llamar New posición.
+
+01:18.710 --> 01:21.700
+Ser más grande en la letra.
+
+01:22.900 --> 01:31.700
+Si la posición actual dice puntos de punto actual posición menos uno es menor.
+
+01:31.710 --> 01:38.550
+Como ya lo había dicho a diez puntos del punto Marcos junto a la longitud de los marcadores si esto
+
+01:38.550 --> 01:45.750
+se cumple entonces es válido ir atrás y también se tiene que cumplir otra con otra condición que si
+
+01:46.530 --> 01:53.060
+pedís puntos Tett punto actual posición menos uno es mayor a cero.
+
+01:53.310 --> 01:57.140
+Si es mayor a cero entonces también es válido.
+
+01:57.330 --> 02:02.180
+De lo contrario aquí ni oposición va a ser igual a cero.
+
+02:02.220 --> 02:04.070
+O sea mandadme el principio.
+
+02:04.260 --> 02:05.360
+Pero sí sí.
+
+02:05.730 --> 02:16.070
+Entonces la nueva posición mi posición va a ser igual a la posición actual punto actual posición menos
+
+02:16.460 --> 02:18.170
+que quiere decir uno atrás.
+
+02:19.920 --> 02:20.540
+Listo.
+
+02:20.670 --> 02:24.900
+Y con esto vamos a tener el Estado aquí abajo disputase deteste.
+
+02:25.380 --> 02:26.780
+Y le voy a llamar.
+
+02:27.700 --> 02:32.590
+La actual posición igual va a ser igual al único posible.
+
+02:33.410 --> 02:34.850
+El correlato con el Long.
+
+02:34.890 --> 02:39.040
+Bueno este básicamente va a ser el mismo.
+
+02:42.580 --> 02:43.600
+Listo.
+
+02:43.830 --> 02:47.020
+Y básicamente que con esto terminaría ahora.
+
+02:47.040 --> 02:54.250
+Yo me voy a ir de nuevo a mi componente app y le voy a llamar prohibidos previous.
+
+02:54.550 --> 03:01.750
+Esto va a ser igual a punto rêves punto mapp punto con previos quiere decir básicamente lo que he venido
+
+03:01.750 --> 03:09.970
+haciendo en los otros métodos con el método previous a llamar al método de mav que se llama A través
+
+03:09.970 --> 03:12.260
+de las referencias bien.
+
+03:12.520 --> 03:16.020
+Y ahora le voy a dar la funcionalidad a mi botón.
+
+03:16.230 --> 03:21.700
+Un clic va a ser igual de punto previos.
+
+03:22.960 --> 03:25.050
+Perfecto actualizamos.
+
+03:25.850 --> 03:26.800
+Listo.
+
+03:26.910 --> 03:29.780
+A quién no me pude ir atrás.
+
+03:31.660 --> 03:32.170
+Ok.
+
+03:32.200 --> 03:38.550
+A mí me está mandando un pequeño error me hice Canal 13 no puede leer la preferencia porque es indefinida.
+
+03:38.560 --> 03:42.680
+Vamos a ver nuestro código en previous.
+
+03:44.920 --> 03:46.490
+En mi componente A..
+
+03:48.860 --> 03:49.800
+Perfecto.
+
+03:50.210 --> 03:51.140
+No declaré.
+
+03:52.170 --> 03:57.790
+Disputo previous es igual a disputo previous se me pasó una disculpa.
+
+03:59.130 --> 03:59.820
+Listo.
+
+03:59.850 --> 04:06.100
+No estoy haciendo el vagner por lo cual aquí no funciona el disco.
+
+04:07.290 --> 04:07.810
+Vámonos.
+
+04:07.880 --> 04:11.790
+Uno atrás ve no me regresa al principio.
+
+04:12.020 --> 04:18.680
+Por eso hacerse como Flash que sí lo voy a dejar que se vaya uno adelante y lo regreso a México.
+
+04:18.680 --> 04:21.100
+Hoy estamos en España y yo me regreso.
+
+04:24.980 --> 04:27.550
+España México México.
+
+04:30.870 --> 04:37.710
+Se ve un poco como que hace un un cambio y parece que está incorrecto es por la transición que hay.
+
+04:37.860 --> 04:39.230
+Yo le estoy dando clic.
+
+04:39.570 --> 04:44.230
+Cuando cuando está haciendo la transición me voy a darle clic.
+
+04:44.610 --> 04:46.660
+Una vez que timmer haya cambiado.
+
+04:47.970 --> 04:50.520
+Vamos a esperar sólo ocho segundos.
+
+04:51.320 --> 04:54.650
+Bueno creo que lo tengo detenido vamos a iniciar esta Chile.
+
+04:58.650 --> 04:59.270
+Perú.
+
+05:02.440 --> 05:03.070
+Chile.
+
+05:05.090 --> 05:05.830
+España.
+
+05:06.200 --> 05:07.000
+México.
+
+05:07.280 --> 05:08.110
+Detenemos.
+
+05:10.290 --> 05:11.120
+Otra vez.
+
+05:11.220 --> 05:11.930
+México.
+
+05:14.050 --> 05:14.730
+España.
+
+05:14.870 --> 05:20.760
+Uno adelante Chile otro adelante Perú otro adelante.
+
+05:21.960 --> 05:25.370
+Argentina ya pasó a México porque ya cambia.
+
+05:25.530 --> 05:32.730
+Así que vamos a quitar ahora el por ejemplo vamos a quitar el timmer que lo hemos estado llamando en
+
+05:32.970 --> 05:33.930
+el intervalo.
+
+05:34.840 --> 05:36.930
+El intervalo.
+
+05:38.900 --> 05:40.030
+Comentarlo.
+
+05:41.380 --> 05:43.630
+El Eclair Interval también.
+
+05:45.390 --> 05:46.020
+Listo.
+
+05:46.020 --> 05:48.370
+Donde más lo estamos utilizando nada.
+
+05:50.080 --> 05:51.170
+Perfecto.
+
+05:51.610 --> 05:52.890
+Vamos a actualizar.
+
+05:55.790 --> 06:01.940
+Listo eso no se va a mover absolutamente para nada porque ello le quite la función a la funcionalidad
+
+06:01.940 --> 06:03.000
+del autoplay.
+
+06:03.470 --> 06:08.070
+Así que esto no se va a mover jamás pero muy adelante.
+
+06:09.440 --> 06:10.240
+España.
+
+06:11.950 --> 06:12.680
+Chile.
+
+06:14.470 --> 06:15.260
+Perú.
+
+06:17.260 --> 06:18.030
+Argentina.
+
+06:19.380 --> 06:20.920
+Me voy a leer.
+
+06:21.180 --> 06:29.840
+Este no es el óptimo proyecto para lanzar a producción pero simplemente estamos ejemplificando.
+
+06:31.050 --> 06:34.150
+Marcadores y mapa dentro de un proyecto.
+
+06:34.560 --> 06:40.830
+Cabe destacar que si tú quieres realizar esto no es muy común que alguien te pida realizar un reproductor
+
+06:40.830 --> 06:43.390
+de marcadores muy extraño.
+
+06:43.740 --> 06:50.160
+Lo que quisimos hacer aquí es jugar un poco con la librería obtener un poco losconocimientos de instalar
+
+06:50.490 --> 06:56.640
+la librería de google maps dentro de tu proyecto configurarla y además crear mapas perdón marcadores
+
+06:56.640 --> 07:02.690
+dinámicos así que bien en el siguiente video te espero porque vamos a optimizar un poco el código ya
+
+07:02.700 --> 07:08.900
+que estamos usando una estructura muy repetitiva dentro de mi proyecto de mapas.

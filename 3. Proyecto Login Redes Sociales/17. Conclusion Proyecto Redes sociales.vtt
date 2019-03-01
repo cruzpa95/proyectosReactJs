@@ -1,0 +1,172 @@
+WEBVTT
+
+00:08.630 --> 00:15.440
+En este último vídeo vamos a repasar cómo es nuestro curso como está organizado como se dijo desde un
+
+00:15.440 --> 00:16.730
+principio.
+
+00:17.020 --> 00:20.810
+El resumen final o la conclusión final de este proyecto.
+
+00:20.810 --> 00:28.640
+Así que rápidamente definimos un soini in y un home dos pantallas que las ves claramente en la cual
+
+00:28.700 --> 00:35.720
+en la primera que es llamadas a ining que le llevamos el componente vamos a tener dos botones el cual
+
+00:36.020 --> 00:38.610
+era para iniciar sesión con redes sociales.
+
+00:38.610 --> 00:45.630
+No es la manera común con correo y contraseña que hacen algunos sitios web pero ya todos los nuevos
+
+00:46.230 --> 00:47.740
+como cooptando.
+
+00:47.740 --> 00:50.930
+Perdón por acceder a uno de ellos.
+
+00:50.930 --> 00:55.040
+Así que de esto te va a llevar a una segunda pantalla que es com.
+
+00:55.190 --> 01:01.940
+Y así lo definimos que era nada más que una para representar por medio de la imagen de perfil y un nombre
+
+01:01.940 --> 01:08.290
+de perfil que el usuario de redes sociales está funcionando así que lo puedes probar absolutamente.
+
+01:08.300 --> 01:11.420
+Eso es en cuanto al diseño.
+
+01:12.330 --> 01:19.190
+Qué se hizo aquí está tenemos nuestra pantalla no tiene tienen mejor diseño claro por qué no me gustaría
+
+01:19.190 --> 01:26.190
+que me criticaran por hacer mucho énfasis en los diseños y que no viniste a tomar un curso deshaces.
+
+01:27.070 --> 01:27.940
+Materiales.
+
+01:27.980 --> 01:29.380
+Así que vamos a iniciar.
+
+01:31.300 --> 01:36.330
+Ok perfecto entonces mediante el apoyo de Google Developers.
+
+01:38.240 --> 01:39.160
+Guápiles.
+
+01:43.600 --> 01:51.720
+Mediante esta API y mediante Facebook Developers.
+
+01:54.000 --> 02:01.470
+Mediante estas dos plataformas yo pude obtener mis credenciales para poder conectarme de botón en redes
+
+02:01.470 --> 02:02.750
+sociales.
+
+02:03.230 --> 02:05.280
+Creé la aplicación que la creamos.
+
+02:05.280 --> 02:13.640
+Paso por paso y que con la ayuda de la librería o de las librerías Rimax Facebook Login y Herriak Google
+
+02:13.650 --> 02:16.520
+login pudimos hacer el hacer lo posible.
+
+02:16.710 --> 02:25.350
+El cual son nada más que dos componentes que ya vienen definidos y les tenemos que pasar la padi en
+
+02:25.350 --> 02:29.870
+caso de Facebook y los campos queremos que venga en Google.
+
+02:29.970 --> 02:39.110
+Este es similar simplemente hay que pasarle un API que para el para el CO2 o qué.
+
+02:39.120 --> 02:43.520
+Además tenemos que pasarle funciones de Calvados tenemos que pasar los.
+
+02:43.650 --> 02:45.920
+En caso de que sea exitoso.
+
+02:46.200 --> 02:54.060
+En caso de que no le mandamos un fallo que esos métodos los definimos aquí arriba en el cual si era
+
+02:54.060 --> 02:58.100
+exitoso lo guardábamos en variables locales.
+
+02:58.410 --> 03:05.370
+Estas variables que le pusimos un nombre de Facebook Data culatas el nombre tú lo puedes definir como
+
+03:05.480 --> 03:06.830
+tuvistes.
+
+03:06.930 --> 03:11.910
+Esto lo tuvimos que convertir a string porque cabe destacar que no podemos guardar arreglos dentro de
+
+03:12.010 --> 03:15.900
+los colectores o al menos de una manera sencilla.
+
+03:15.960 --> 03:25.830
+Entonces lo convertimos con la ayuda de un punto wifi que es algo que ya viene precargado en JavaScript
+
+03:25.830 --> 03:29.810
+no es necesario utilizar alguna otra libre.
+
+03:30.120 --> 03:31.360
+Ok.
+
+03:31.520 --> 03:42.150
+Eso sí estaba logueado hace un CTO a Chrome me redirecciona a mi pantalla Home que ya previamente definimos
+
+03:42.720 --> 03:46.330
+aquí está al iniciar la pantalla.
+
+03:46.680 --> 03:55.020
+Leía las trataba de leer las dos variables en mi local estores si alguno de los dos no estaba vacía
+
+03:55.020 --> 03:58.240
+me redirecciona a inicio de lo contrario.
+
+03:58.470 --> 04:05.960
+Si una de las dos está definida una no pueden ser las dos va a aceptar el estado de la imagen de perfil
+
+04:05.970 --> 04:11.700
+en caso de que sea Facebook o de Google en caso de que sea Google y su nombre que toda la información
+
+04:11.700 --> 04:19.980
+viene guardada en estos que ya los había definido dentro de mis responsos que es el token email Picture
+
+04:20.250 --> 04:23.830
+solución que aunque realmente no utilizamos en el pecho.
+
+04:23.860 --> 04:28.720
+Pero si los pusimos por si tú quieres colocar más.
+
+04:30.540 --> 04:38.460
+En caso de que el usuario ya una vez lo guiado quiera cerrar sesión le dimos la opción del gato que
+
+04:38.460 --> 04:43.590
+no es más que limpiar en locales torax porque todas nuestras variables las validamos a través de los
+
+04:43.610 --> 04:50.710
+conectores y mandamos o redireccionados a inicio a través de una variable de estado.
+
+04:50.780 --> 04:52.320
+Aquí me hacen roderic.
+
+04:52.470 --> 04:53.900
+Ok entonces.
+
+04:54.750 --> 04:58.710
+Eso fue el proyecto lo Guin con redes sociales.
+
+04:58.850 --> 05:06.990
+Te espero en el siguiente proyecto porque vamos a conectar nuestro SDK de una de las aplicaciones más
+
+05:07.620 --> 05:12.480
+concurridas más utilizadas a nivel mundial que es Spotify.
+
+05:12.480 --> 05:14.940
+Así que te espero en el siguiente vídeo.

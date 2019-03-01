@@ -1,0 +1,274 @@
+WEBVTT
+
+00:08.430 --> 00:16.530
+En este video vamos a ver cómo configurar o cómo obtener nuestra Piqui desde la consola de Google.
+
+00:16.680 --> 00:25.840
+La consola de Google vamos a entrar a ella y va a ser de la siguiente manera Vamos a poner Google API
+
+00:27.980 --> 00:31.390
+y vamos a acceder al segundo link que está aquí abajo que es Google.
+
+00:31.480 --> 00:32.620
+Piconto.
+
+00:34.460 --> 00:35.200
+Perfecto.
+
+00:35.240 --> 00:37.380
+Tenemos que crear un proyecto.
+
+00:37.520 --> 00:39.870
+Un nuevo proyecto y crear proyecto.
+
+00:39.980 --> 00:50.450
+Y le voy a okkhoy creo que ya se alcanzó mi límite pero voy a elegir otro proponer este mi proyecto
+
+00:51.190 --> 00:56.760
+porque crearlo ya no tiene tanta ciencia simplemente crear.
+
+00:56.960 --> 01:00.970
+Y después le das el nombre y ya eso es todo bien.
+
+01:01.010 --> 01:06.890
+Me voy a ir a la parte de abajo la tercera etapa de la izquierda donde dice credenciales y lo voy a
+
+01:06.890 --> 01:07.510
+poner.
+
+01:07.550 --> 01:14.990
+Crear credenciales aquí si quisiera sacar una píparo al Mavs a que lo voy a realizar pero en este caso
+
+01:15.290 --> 01:28.120
+quiero un heydi de cliente de Out esto para poder nosotros ingresar vaya a Google y poder crear este
+
+01:28.130 --> 01:32.550
+login y solicitar la información y que no la vuelva a regresar a nosotros.
+
+01:32.680 --> 01:37.820
+Que nos dice que para crear un cliente un cliente o debemos de configurar el nombre del producto en
+
+01:37.820 --> 01:42.830
+la pantalla de consentimiento entonces yo le voy a dar configurar pantalla de consentimiento.
+
+01:42.860 --> 01:54.390
+El nombre del producto al Aquí le voy a poner ejemplo del lobby que le doy a guardar el tipo de aplicaciones
+
+01:54.390 --> 02:03.480
+es una aplicación web le voy a dejar así como cliente web o como tú quieras ponerlo a poner curso proyectos
+
+02:04.250 --> 02:06.220
+reales.
+
+02:07.460 --> 02:10.140
+Y después le voy a dar en crear.
+
+02:12.800 --> 02:17.150
+éste que es el heydi del cliente me lo voy a copiar.
+
+02:17.180 --> 02:24.140
+Es muy importante porque es el que nosotros vamos a necesitar para poder realizar las peticiones a través
+
+02:24.140 --> 02:25.160
+de nuestro frontend.
+
+02:25.310 --> 02:32.810
+Así que bien voy a abrir mi código voy a expandir la pantalla y voy a irme al archivo en el que estábamos
+
+02:32.810 --> 02:37.970
+trabajando que era el login Ok el login.
+
+02:38.060 --> 02:42.370
+Ya habíamos ya hemos configurado Facebook pero nos falta Google.
+
+02:42.370 --> 02:45.460
+Es por eso que yo voy a importar Google.
+
+02:46.820 --> 02:53.000
+Guin esto viene de Google React Google login.
+
+02:53.360 --> 02:54.050
+Ok.
+
+02:54.560 --> 03:01.820
+Entonces con eso te podrás dar cuenta que los componentes son similares por lo cual vamos a hacerlo
+
+03:01.820 --> 03:03.800
+de la siguiente manera.
+
+03:04.640 --> 03:11.240
+Bueno voy a copiar mekki este código no lo voy a mover para nada no voy a guardar para nada porque si
+
+03:11.240 --> 03:14.480
+guardo me va a salir un error.
+
+03:14.480 --> 03:15.700
+Vamos a importar.
+
+03:15.740 --> 03:23.630
+Vamos a poner el componente Google login que cierra y vamos a darla para abajo vamos a ponerlo en primer
+
+03:23.630 --> 03:26.600
+parámetro que nos exige esta librería.
+
+03:26.770 --> 03:28.340
+De hecho vamos a abrir.
+
+03:30.140 --> 03:35.580
+Google cread Google login ok.
+
+03:37.220 --> 03:40.200
+Google login es el primero que fue el que utilizamos.
+
+03:43.360 --> 03:52.000
+Se utiliza de la siguiente manera con un cliente heydi el texto que es una string un leibovich con sushis
+
+03:52.150 --> 03:53.580
+y un fallo.
+
+03:53.920 --> 04:00.000
+Esas son las importantes entonces vamos a pasarle el clima de Klein.
+
+04:02.020 --> 04:05.610
+Heidi y la vamos a pasar el heydi que acabamos de crear ahorita.
+
+04:08.060 --> 04:09.040
+Perfecto.
+
+04:09.620 --> 04:15.460
+Como segunda propiedad tambien tiene el Autolog UT Autolog.
+
+04:17.050 --> 04:19.100
+Lo voy a poner como falso.
+
+04:23.180 --> 04:24.270
+John succès.
+
+04:27.140 --> 04:29.590
+Le vamos a pasar un metro.
+
+04:29.650 --> 04:30.170
+Punto.
+
+04:30.170 --> 04:36.040
+Ruiz Pons Google que ahorita lo vamos a declarar no lo tenemos declarado por eso no voy a salvar nada
+
+04:36.810 --> 04:45.370
+y con Fehler lo voy a pasar el mismo método que le pasé acá al responsable Facebook de que me equivoqué
+
+04:45.400 --> 04:46.370
+son Feilong.
+
+04:48.160 --> 04:49.570
+Fairplay.
+
+04:51.490 --> 04:52.090
+Listo.
+
+04:54.250 --> 05:00.590
+Y no importa porque al final de cuentas la función recibe un argumento que es el error.
+
+05:00.690 --> 05:01.930
+Ok.
+
+05:02.220 --> 05:08.480
+Vamos a ponerle un clausuren exactamente igual ya que es muy parecido a aquel.
+
+05:09.880 --> 05:17.710
+Los escritores de estas librerías son hoy conocidos entonces bien el la clase va a ser exactamente igual
+
+05:17.710 --> 05:21.850
+que la que tenemos en el botón de abajo se la vamos a pasar bien.
+
+05:22.390 --> 05:26.260
+Y aquí hay algo interesante.
+
+05:26.290 --> 05:32.180
+Google Google login te permite pasarle como hijo al botón.
+
+05:32.320 --> 05:40.880
+Esto que quiere decir que si yo hago esto y le paso lo que es el icono así.
+
+05:42.560 --> 05:51.530
+Me lo va a leer porque un blog permite pasar hijos o Shalke Children.
+
+05:51.680 --> 05:56.580
+Entonces yo lo estoy pasando un icono que es el de Google y lo va a leer.
+
+05:56.810 --> 06:00.270
+Así que simplemente voy a poner un hispan aquí abajo.
+
+06:01.650 --> 06:04.350
+Le voy a poner iniciar sesión.
+
+06:05.830 --> 06:09.260
+Iniciar sesión.
+
+06:11.070 --> 06:11.870
+Ahí estamos.
+
+06:11.970 --> 06:16.860
+Entonces ya hemos configurado nuestro componente Google login con el cliente que acabamos de obtener
+
+06:17.160 --> 06:20.200
+de nuestro de nuestra API consol.
+
+06:20.280 --> 06:26.760
+No queremos que se abra automáticamente tenemos el responsa en caso de ser sushis o ser correcto y en
+
+06:26.760 --> 06:30.650
+caso de ser un error Boira el método que hayamos declarado en clase.
+
+06:30.730 --> 06:37.460
+El diseño y lo que le pasamos como hijo que Facebook blogging no me permite hacer eso.
+
+06:37.710 --> 06:43.480
+Así que tenemos que klar responde Google que no nos hemos declarado en Vamos a ponerlo abajo responde
+
+06:44.760 --> 06:45.960
+Google.
+
+06:46.510 --> 06:47.120
+Ok.
+
+06:47.160 --> 06:50.730
+Y vamos a poner este log nada más.
+
+06:50.880 --> 06:54.040
+Con el responsable que nos manda en caso de ser correcto.
+
+06:54.290 --> 06:55.760
+Ok bien.
+
+06:56.010 --> 06:58.490
+Ahora lo tenemos que declarar arriba.
+
+06:58.640 --> 07:05.050
+Si no esto no va a funcionar responde Google va a ser igual a disputo Luis Pons Google punto bajen dice
+
+07:05.210 --> 07:11.550
+que para que el disco sea que esté definido dentro de mi método.
+
+07:11.610 --> 07:14.930
+De lo contrario esto va a ser indefinido.
+
+07:15.150 --> 07:18.410
+Así que bien vamos a actualizar nuestro Código.
+
+07:22.150 --> 07:23.350
+Ahí estamos.
+
+07:24.130 --> 07:24.960
+Vamos a ver.
+
+07:29.000 --> 07:31.680
+Está cargando nuestro código.
+
+07:31.820 --> 07:38.100
+Vamos a ver la consola creo que nos está mandando un error con la API de Google.
+
+07:38.120 --> 07:45.620
+Así que bien te espero en el siguiente vídeo porque tenemos que terminar con esto y ver qué es lo que
+
+07:45.620 --> 07:52.450
+nos está fallando en la configuración de nuestra API consolas que te espero.

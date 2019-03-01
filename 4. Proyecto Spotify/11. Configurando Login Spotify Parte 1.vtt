@@ -1,0 +1,358 @@
+WEBVTT
+
+00:08.750 --> 00:14.420
+En nuestro video anterior estuvimos configurando cada uno de los parámetros en nuestro código pero tal
+
+00:14.420 --> 00:17.570
+vez comenzaste a perderte un poco en el camino.
+
+00:17.780 --> 00:24.410
+O si vas en el camino te invito a que sigas viendo este video porque de aquí vamos a partir a lo que
+
+00:24.410 --> 00:27.430
+vamos a hacer más adelante y el funcionamiento de Spotify.
+
+00:27.560 --> 00:34.760
+Así que bien en nuestro app nosotros definimos cómo es que funciona el Front Redux y cuando Spotify
+
+00:35.150 --> 00:41.410
+pero Spotify también tiene tiene otro truco tiene su propio blog en su propio inicio de sesión.
+
+00:41.570 --> 00:49.100
+No lo puse en el Moko Esto es porque ya trae su propio blog y no tenemos que hacerlo simplemente lo
+
+00:49.100 --> 00:54.650
+mandamos a llamar mediante una instancia así que yo voy a dibujar un poquito aquí.
+
+00:55.670 --> 01:00.990
+Lo que va a ser nuestra pantalla está un poco feo pero.
+
+01:01.840 --> 01:04.100
+Ahí está nuestro Lovin.
+
+01:04.160 --> 01:11.060
+Bueno más bien vamos a poner nuestro buscador de canciones así que simplemente lo voy a poner la barrita
+
+01:11.090 --> 01:11.980
+de búsqueda.
+
+01:12.170 --> 01:14.270
+Listo.
+
+01:14.900 --> 01:22.400
+Este componente es la pantalla para que pueda comenzar a buscar tenemos que tener un token de Spotify.
+
+01:22.580 --> 01:30.900
+No te he hablado aún de un token y de inicio de sesión es porque realmente no vamos a hacer nada de
+
+01:30.900 --> 01:34.730
+esto más que llamar a una API y esto no va a hacer todo.
+
+01:34.760 --> 01:44.480
+Esta búsqueda de canciones lo que me va permitir es llamar mediante las configuraciones que yo hice.
+
+01:44.480 --> 01:50.140
+A quién le voy a poner un pequeño candadito en el caso del lock.
+
+01:50.600 --> 01:54.670
+Estas son las configuraciones que yo lo estoy pasando Misi aquí.
+
+01:54.710 --> 01:58.840
+Mi Public kit que obtuve de mi Haab despótica y libelos.
+
+01:59.030 --> 02:00.730
+Ok.
+
+02:00.860 --> 02:08.090
+Cuando nosotros le pasamos todas las llaves Spotify me dice Ok entonces ahora sí tienes que iniciar
+
+02:08.090 --> 02:08.720
+sesión.
+
+02:08.750 --> 02:12.080
+Estás aprobado para que puedas hacerme rico a mí.
+
+02:12.200 --> 02:15.130
+Pero tienes que hacer un inicio de sesión.
+
+02:15.260 --> 02:18.960
+Este inicio de sesión normalmente se hace en tu pantalla.
+
+02:19.100 --> 02:27.100
+Es por eso que en el código voy a mostrar tantito el código Ok Axon aquí.
+
+02:27.290 --> 02:30.950
+Es por eso que tú tienes un Rude Derek you've R.
+
+02:31.210 --> 02:36.240
+Ok es para la web de tu servidor en el cual estás trabajando.
+
+02:36.260 --> 02:45.350
+Es por eso es muy importante que lo sepas de una vez porque tal vez te pierdas en el camino porque estamos
+
+02:45.350 --> 02:51.830
+implementando un login y ni siquiera lo estábamos haciendo es porque con esta llama con esta instancia.
+
+02:51.830 --> 02:53.920
+Nosotros podemos hacer muchas cosas.
+
+02:53.990 --> 02:57.170
+Es el SDK Spotify el que realmente nos está haciendo todo.
+
+02:57.170 --> 03:04.910
+Ahora bien otra vez venimos aquí una vez que ya tengamos nuestro inicio de sesión nos va a desplegar
+
+03:04.970 --> 03:13.360
+una pantalla que como repito las despóticas en nuestro SDK y te va a pedir que inicies tu cuenta con
+
+03:14.300 --> 03:17.330
+con tus datos o credenciales de Spotify.
+
+03:17.420 --> 03:20.320
+Una vez iniciado te va a regresar un toque.
+
+03:20.480 --> 03:31.280
+El token va a ser visible en la nube del navegador ese toque es donde Spotify te autoriza que tú puedas
+
+03:31.400 --> 03:35.020
+ser capaz de mandar rico y recibir canciones.
+
+03:35.120 --> 03:42.840
+Ok entonces mediante esto nosotros tenemos que hacer el login tenemos que comprobar borra todo.
+
+03:46.760 --> 03:47.240
+Listo.
+
+03:47.250 --> 03:54.600
+Una vez aquí tenemos que comprobar que cuando el usuario entra a esta pantalla que es básicamente el
+
+03:54.660 --> 03:58.040
+Home de nuestro nuestro proyecto.
+
+03:58.380 --> 04:04.530
+Antes en el componente Wilma Mount que es un componente del método de ciclo de vida en el cual rimac
+
+04:05.130 --> 04:08.270
+lo manda a ejecutar antes de hacer el render.
+
+04:08.640 --> 04:11.050
+Entonces vamos a preguntarle ok.
+
+04:11.100 --> 04:12.800
+Ya está el token definido.
+
+04:12.860 --> 04:13.540
+Sí.
+
+04:13.740 --> 04:19.950
+Entonces no hagas nada de lo contrario tenemos que hacer o mandar a llamar la instancia.
+
+04:19.950 --> 04:21.690
+Esto lo vamos a hacer con Redux.
+
+04:21.690 --> 04:22.110
+Por qué.
+
+04:22.110 --> 04:25.100
+Porque al final de cuentas es un henriquez perfecto.
+
+04:25.380 --> 04:35.490
+Otra cosa que tenemos que tener muy muy en claro es que estamos teniendo un error que vamos a configurar
+
+04:35.580 --> 04:36.970
+en el siguiente vídeo.
+
+04:37.260 --> 04:44.010
+Este error es el rey direc yuuri lo tenemos que configurar tal y como lo hicimos para para Google y
+
+04:44.010 --> 04:45.380
+para Facebook ok.
+
+04:45.560 --> 04:54.710
+Así que bien vamos a comenzar para esto por una última explicada tenemos lo que es el session.
+
+04:57.650 --> 05:05.030
+A diferencia de lo que hicimos en el login con redes sociales que utilizamos el local local y sus sesiones
+
+05:05.140 --> 05:10.920
+ahora son dos maneras de guardar información en tu navegador.
+
+05:11.500 --> 05:12.970
+Cuál es la única diferencia.
+
+05:12.980 --> 05:18.370
+La diferencia es que el local se queda guardado aunque cierras del navegador.
+
+05:18.410 --> 05:24.720
+Esto es bueno para cuando tú inicias o haces un proyecto en el cual el token dura algunas horas.
+
+05:25.240 --> 05:26.570
+Entonces.
+
+05:27.030 --> 05:28.880
+O bueno o 15 días.
+
+05:29.170 --> 05:29.810
+Imagínate.
+
+05:29.810 --> 05:34.210
+Facebook guarda en su memoria información del hogar.
+
+05:34.280 --> 05:35.090
+Esos son ejemplos.
+
+05:35.210 --> 05:38.640
+Realmente no sé cómo reeduca haga todo esto.
+
+05:39.040 --> 05:46.010
+Entonces el local locales ahora y se va a guardar tu información tu token en el cual el usuario va a
+
+05:46.010 --> 05:50.390
+poder entrar a Facebook y de hecho se guardan en caché y dura cierto tiempo.
+
+05:50.600 --> 05:58.950
+Pero en esto ahora normalmente cuando tú cierras el navegador sesión estarás matthau las variables que
+
+05:58.970 --> 06:06.880
+quiere decir que si yo abro una pestaña iniciar sesión y lo cierro y vuelvo a abrir mi navegador este
+
+06:06.890 --> 06:08.660
+ya no va a funcionar.
+
+06:08.750 --> 06:17.750
+Eso es necesario en este proyecto nada más porque después se pone un poco de que el token se actualiza
+
+06:17.750 --> 06:24.140
+cada cierto tiempo y entonces como no vamos a trabajar tanto tiempo para estar actualizando el token
+
+06:24.140 --> 06:32.270
+solamente queremos hacer la ejemplificación pero te voy a dejar Obviamente el material para que si quisieras
+
+06:32.270 --> 06:37.490
+hacer algo un poco más avanzado obviamente lo puedas implementar.
+
+06:37.550 --> 06:38.050
+Ok.
+
+06:38.270 --> 06:42.120
+Así que bien ahora vámonos a nuestro código.
+
+06:45.280 --> 06:50.620
+Aquí es donde nosotros en el Component Wilma aunque no lo hemos definido de nuestro índex tenemos que
+
+06:50.620 --> 06:58.130
+verificar si ya está nuestro o vaya si existe alguna variable en sus historias.
+
+06:58.150 --> 07:04.510
+Ok pero para eso yo tengo que mandar a llamar un método el cual lo voy a crear en mi Auctions que va
+
+07:04.510 --> 07:08.950
+a ser una acción que se va a disparar y le voy a llamar soini.
+
+07:08.980 --> 07:10.190
+Así que la OMS a cooder.
+
+07:11.870 --> 07:12.820
+Poner export.
+
+07:13.990 --> 07:17.820
+Es una constante check in.
+
+07:20.050 --> 07:21.330
+Es una función.
+
+07:23.890 --> 07:29.690
+Que siempre va a regresar esto ya lo habíamos visto en nuestro curso perdón en nuestros proyectos anteriores
+
+07:30.320 --> 07:32.880
+Dispatch y el que esté.
+
+07:37.260 --> 07:38.260
+Listo.
+
+07:38.310 --> 07:43.950
+Aquí es donde nosotros tenemos que colocar tres tipos de métodos.
+
+07:43.950 --> 07:47.750
+O sea tres tipos de validaciones en el cual vamos a decir Ok.
+
+07:47.940 --> 07:50.100
+Si el toca no existen.
+
+07:50.850 --> 07:54.040
+Entonces vamos a hacer ciertas cosas.
+
+07:54.270 --> 07:57.000
+Si no está otra cosa.
+
+07:57.180 --> 08:05.280
+Pero cuando nosotros hacemos inicio de sesión con Spotify en esta réduire yury nos manda un token como
+
+08:05.280 --> 08:08.920
+parámetro por lo cual yo voy a utilizar una función de JavaScript.
+
+08:09.230 --> 08:13.360
+El Location para ver si el token existe.
+
+08:13.410 --> 08:15.300
+Simplemente voy a hacer un split.
+
+08:15.630 --> 08:18.660
+Ok entonces vamos a hacer las tres validaciones.
+
+08:18.750 --> 08:21.250
+Si Cs no es torax.
+
+08:23.060 --> 08:24.800
+Y el nombre de la variable.
+
+08:24.800 --> 08:26.410
+Yo le voy a poner token.
+
+08:26.420 --> 08:27.380
+Así de simple.
+
+08:27.530 --> 08:29.540
+Si existe vas a hacer algo.
+
+08:30.900 --> 08:38.820
+De lo contrario si vamos a hacer la validación Window punto lo quellón punto jaja ok.
+
+08:38.940 --> 08:43.950
+Simplemente lo que vamos a hacer aquí es validar si hay un token en la web real.
+
+08:44.130 --> 08:49.560
+Así que va a ser de la siguiente manera vamos a utilizar el método de Split de strings de JavaScript
+
+08:50.070 --> 08:51.540
+que íbamos a quitar.
+
+08:51.570 --> 08:56.510
+Vamos a poner con perdón la posición cero.
+
+08:56.850 --> 09:00.370
+Ahorita vamos a ver cómo es que funciona esto y a esto le vamos a hacer el split.
+
+09:01.680 --> 09:03.730
+También ahora con el igual.
+
+09:03.730 --> 09:08.490
+Para que me quites qué pero este va a ser de la posición.
+
+09:08.630 --> 09:12.610
+Ahorita te voy a explicar y vamos a ver más a fondo cómo funciona esto.
+
+09:12.920 --> 09:14.860
+Mientras vamos a hacer la tercera validación.
+
+09:16.740 --> 09:23.520
+Simplemente elhers qué pasa si ninguno de los dos casos y en la web Relay no existe ningún token y tampoco
+
+09:23.520 --> 09:24.800
+nuestros lectores.
+
+09:24.990 --> 09:30.810
+Entonces aquí dónde vamos a poner el caso 3 que va a hacer iniciar sesión así que te espero en el siguiente
+
+09:30.810 --> 09:33.450
+vídeo por Porque vamos a realizar esto.

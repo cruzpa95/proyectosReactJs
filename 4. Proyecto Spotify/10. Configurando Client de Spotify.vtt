@@ -1,0 +1,109 @@
+WEBVTT
+
+00:08.290 --> 00:13.080
+Para poder avanzar más con este proyecto tenemos que hacer o consumir.
+
+00:13.080 --> 00:14.990
+Es una piai.
+
+00:15.040 --> 00:21.930
+En este caso nuestra hípica es Pontifice para lo cual me tengo que apoyar de la librería de Spotify
+
+00:21.930 --> 00:29.100
+y ese deca que acabo de descargar para configurar los datos del cliente configurando los datos del cliente.
+
+00:29.290 --> 00:35.590
+Ya podemos hacer rico es a través de aquellos activos que no la hemos instalado todavía lo vamos a instalar
+
+00:36.000 --> 00:36.470
+de una vez.
+
+00:36.470 --> 00:38.160
+Voy a abrir nuestra terminal.
+
+00:40.420 --> 00:41.990
+Y voy a colocar aquí.
+
+00:43.050 --> 00:48.400
+DPM Install aquellos guiones.
+
+00:48.700 --> 00:58.210
+Mientras se instala tenemos que irnos a nuestro archivo donde estamos aquí des actions okkhoy y crear
+
+00:58.350 --> 01:02.960
+encontramos que crear un index punto es el que nos va a limitar.
+
+01:04.110 --> 01:06.700
+A delimitar que es hijo de.
+
+01:08.150 --> 01:10.240
+De qué bien.
+
+01:10.560 --> 01:13.080
+A quién Auctions dónde va a ir toda la magia.
+
+01:13.110 --> 01:15.700
+Todos los Dispatch que van a correr hacia las tor.
+
+01:15.930 --> 01:16.670
+Así que bien.
+
+01:16.770 --> 01:21.200
+Pero también necesitamos configurar los datos de nuestro cliente.
+
+01:21.330 --> 01:29.230
+Así que bien vamos a importar Primero que nada importa axudas desde aquellos.
+
+01:30.250 --> 01:37.630
+Vamos a importar track Handler y además klay.
+
+01:39.680 --> 01:46.470
+Esto bien en Spotify es edeka así que bien el cliente es el que vamos a utilizar ya.
+
+01:46.770 --> 01:54.010
+Para qué van configurando así que vamos a crear una variable cliente Let Client va a ser igual a cliente
+
+01:54.040 --> 02:02.890
+punto instan a crear una instancia de este cliente y además vamos a tener clientes punto settings que
+
+02:02.890 --> 02:06.690
+es donde vamos a hacer la configuración con nuestras credenciales.
+
+02:06.880 --> 02:16.530
+Así que te voy a cortar el vídeo para que hagas eso y a vuelos para que veas lo que vamos a tener en
+
+02:16.540 --> 02:24.970
+mis micronet y mi cliente heydi así que espero tontito listo.
+
+02:25.470 --> 02:27.940
+Yo tengo mi cliente y mi ciclo es de Audi.
+
+02:28.150 --> 02:36.670
+Además de los telescópico voy a necesitar y además una r.l. de redireccionamiento que en este caso el
+
+02:36.670 --> 02:45.190
+local 3000 ahorita y yo te voy a mostrar como poner la ury para que no tengas ningún problema o altercado
+
+02:45.190 --> 02:51.170
+al momento de estar probándola la aplicación así que voy a salvar esto.
+
+02:53.680 --> 02:54.420
+Listo.
+
+02:55.850 --> 03:02.160
+Ahora es lo que va a seguir es cuando nosotros estamos dentro de mi navegador.
+
+03:04.280 --> 03:13.540
+Spotify normalmente te pide que inicie sesión con su inicio de sesión así que ahora lo que sigue es
+
+03:13.540 --> 03:15.850
+que cuando yo esté en esta pantalla.
+
+03:16.130 --> 03:22.540
+Si el usuario no está logueado me pida largarme Ok y si está bloqueada que no me pide absolutamente
+
+03:22.540 --> 03:23.080
+nada.
+
+03:23.320 --> 03:24.760
+Así que te espero.

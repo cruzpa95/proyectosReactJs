@@ -1,0 +1,154 @@
+WEBVTT
+
+00:08.440 --> 00:10.500
+Continuamos con nuestro siguiente video.
+
+00:10.700 --> 00:12.280
+Voy a eliminar mi consola log.
+
+00:12.370 --> 00:15.850
+Lo que vamos a realizar en este vídeo es la siguiente pantalla.
+
+00:15.970 --> 00:23.590
+O sea que esta pantalla ya no lo voy a utilizar por el momento pero sí voy a irme a play indexe visto
+
+00:23.590 --> 00:25.440
+que ahorita no tiene absolutamente nada.
+
+00:25.630 --> 00:29.060
+Lo que vamos a hacer es simplemente vamos a poner una clase.
+
+00:29.930 --> 00:31.300
+Y le vamos a llamar Player.
+
+00:32.980 --> 00:34.660
+Y además vamos a tener un día.
+
+00:35.630 --> 00:36.980
+Qué va a clase.
+
+00:37.860 --> 00:40.350
+Que es un kart y tiene un hijo.
+
+00:42.290 --> 00:48.850
+Nadie es contén exactamente lo que hicimos en nuestro anterior en nuestros vídeos anteriores.
+
+00:49.260 --> 00:55.530
+Entonces todavía es el componente principal el cartel del contenido así que vamos a ver a quien ama
+
+00:55.530 --> 00:59.250
+se ve eso pero voy a hacer lo mismo que en el video anterior.
+
+00:59.430 --> 01:01.570
+Primero voy a importar mi hoja de estilo.
+
+01:02.460 --> 01:04.250
+Punto índex puntos es ese.
+
+01:06.190 --> 01:13.330
+Y ahora voy a poner en mi índex puntos desde ese punto pude ver que la clase de mi componente principal
+
+01:13.540 --> 01:22.840
+y le voy a poner que se muestren a usar Flex Flex box lo vamos a alinear al centro y lo vamos a justificar
+
+01:22.840 --> 01:23.530
+al centro.
+
+01:23.680 --> 01:24.470
+Para qué.
+
+01:24.520 --> 01:30.040
+Para que pueda tener un centrado horizontal vertical muy sencillo.
+
+01:30.430 --> 01:36.370
+Una de las gran ventaja y es que está aquí arriba centrado horizontal y vertical pero lo queremos aquí
+
+01:36.370 --> 01:36.920
+abajo.
+
+01:37.000 --> 01:43.870
+Así que basta con darle una altura del 100 por ciento de la altura de la pantalla a nuestro componente
+
+01:43.870 --> 01:44.500
+Player.
+
+01:45.370 --> 01:52.220
+Y aquí está centrado horizontal y vertical y listo lo que vamos a pasar aquí va a ser una imagen vamos
+
+01:52.220 --> 01:56.330
+a notarlo en nuestro guim que es nuestro editor de texto.
+
+01:56.360 --> 02:02.750
+Básicamente sería lo mismo solamente que arriba vamos a agregar nuestro reproductor y además un poco
+
+02:02.750 --> 02:04.480
+de información de la izquierda.
+
+02:04.490 --> 02:09.100
+Viene el álbum de la cantante o del cantante o del grupo.
+
+02:10.080 --> 02:11.060
+Listo.
+
+02:11.130 --> 02:13.270
+Así que bien vamos a continuar.
+
+02:14.210 --> 02:16.500
+Vamos a agregar de nuevo un día.
+
+02:17.640 --> 02:18.520
+Y otro día.
+
+02:19.670 --> 02:23.070
+Cual al de la Esquerdo le voy a llamar.
+
+02:29.630 --> 02:31.340
+Y a su vez al del lado derecho.
+
+02:31.340 --> 02:33.720
+Le voy a llamar Today right.
+
+02:36.950 --> 02:43.800
+En el cual el player leff va a venir la imagen y en el Player right va a venir un texto.
+
+02:44.270 --> 02:48.590
+Pero además viene un reproductor y lo vamos a realizar.
+
+02:48.590 --> 02:50.020
+Así que vamos a actualizar.
+
+02:52.770 --> 02:56.570
+Listo ahí bueno todavía no se está viendo absolutamente nada.
+
+02:56.580 --> 03:02.700
+Pero ya más o menos tienes una idea de es lo que de lo que vamos se realiza.
+
+03:02.820 --> 03:05.110
+Así que bien ahora.
+
+03:07.480 --> 03:11.660
+Vamos a colocar aquí componen.
+
+03:15.630 --> 03:17.580
+Vamos a poner un todo.
+
+03:19.210 --> 03:23.750
+Vamos a ser Fets de la canción.
+
+03:25.400 --> 03:27.660
+Y reproducirla.
+
+03:28.080 --> 03:30.760
+O sea que vamos a ocupar nuestro constructor.
+
+03:32.360 --> 03:33.580
+Vamos a ser super.
+
+03:36.280 --> 03:37.620
+Listo.
+
+03:37.780 --> 03:45.280
+Así que no te despegues porque nuestro siguiente vídeo vamos a realizar el reducir para el player obviamente
+
+03:45.510 --> 03:50.640
+y para poder utilizar o reproducir una canción.

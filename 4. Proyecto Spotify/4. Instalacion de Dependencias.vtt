@@ -1,0 +1,226 @@
+WEBVTT
+
+00:08.360 --> 00:12.350
+Hola qué tal ahora en este video tenemos que sestear nuestro ambiente de trabajo.
+
+00:12.590 --> 00:19.850
+Así que bien nos podríamos chutar otros tres 4 videos haciendo instalación Reedus subrogarse etcétera.
+
+00:19.850 --> 00:25.190
+Pero bueno como ya te diste cuenta en el video pasado me dio la tarea de crear un esqueleto en el cual
+
+00:25.550 --> 00:30.650
+este sería nuestro proyecto base para los proyectos de este curso así que vamos a realizar eso así que
+
+00:30.650 --> 00:39.050
+bien yo voy a irme a mi repositorio personal que es crítico puntocom diagonal Juan Ortiz 10 diagonal
+
+00:39.080 --> 00:45.290
+Redux guión raros guiones que igual en la descripción en la descripción del video voy a dejar el link
+
+00:45.320 --> 00:46.660
+para que no tengas problemas.
+
+00:46.880 --> 00:55.830
+Yo wye IRME A Clockwork download y voy a darle copy stuckler o copiar y me voy a ir a mi terminal ok.
+
+00:56.090 --> 01:04.790
+Y voy a dar click clon que no voy a clonar alguna rama en específico asi que por favor clonó Master
+
+01:04.830 --> 01:07.340
+asistes en las mentes clon y la Borrel.
+
+01:07.640 --> 01:17.150
+Entonces yo tengo el proyecto Riau Redux Robador skeleton asi que yo me voy a ir al CD pues Redux Flavor
+
+01:17.150 --> 01:26.420
+el esqueleto analista y voy a dar mpm instar para instalar las librerías que vienen dentro de mi papá
+
+01:26.570 --> 01:27.950
+calláis.
+
+01:27.950 --> 01:34.060
+Cabe destacar que ya vienen sorteadas Redux y Razor como ya lo había mencionado.
+
+01:34.100 --> 01:40.170
+Así que bien mientras esto se instala voy a abrir otra terminal.
+
+01:40.840 --> 01:43.740
+Para ser un poco más grande la letra.
+
+01:47.400 --> 01:48.550
+Proyectos.
+
+01:49.780 --> 01:51.530
+Redux ladro.nes skeleton.
+
+01:52.460 --> 02:00.650
+Estamos abrirã Apto para ir viendo nuestro código para ver cómo se va a comportar así que estamos aquí
+
+02:00.650 --> 02:02.060
+tenemos rato.
+
+02:03.450 --> 02:06.470
+Vamos a ver cómo va la descarga.
+
+02:07.460 --> 02:07.960
+Bien.
+
+02:08.090 --> 02:13.930
+Como ya les mencionaba vamos a necesitar de alguna librería así que en nuestro código.
+
+02:13.940 --> 02:19.310
+Primero que nada el Pacaya tenemos que cambiar el nombre del proyecto lo vamos a hacer enseguida.
+
+02:19.640 --> 02:24.770
+Pero me gustaría hacer un poquito de énfasis sobre lo que vamos a saber.
+
+02:24.860 --> 02:26.760
+Vamos a usar Spotify.
+
+02:29.940 --> 02:37.780
+Así que para que te vayas dando una idea de lo que se realiza dentro de Spotify Developer yo te recomendaría
+
+02:38.050 --> 02:42.000
+que si ya estás en este paso y no sabes.
+
+02:42.010 --> 02:47.650
+Bueno yo creo que un 80 por ciento de la población sabe que es Spotify.
+
+02:47.950 --> 02:55.400
+Si me refiero a la comunidad que está dentro es el estudiantil o no estudiantil laboral.
+
+02:55.460 --> 02:57.840
+Ok no me estoy refiriendo a otras personas.
+
+02:58.030 --> 02:59.240
+Bien.
+
+02:59.710 --> 03:04.740
+Nosotros podemos hacer varias cosas aquí de hecho aquí vienen algunos artículos.
+
+03:04.840 --> 03:05.950
+Ok.
+
+03:06.370 --> 03:13.150
+Yo me hubiera Spotify web huapi pero también aquí tengo las aplicaciones apps.
+
+03:14.070 --> 03:21.590
+Aquí es donde vamos a crear nuestras aplicaciones así que necesitas crearte.
+
+03:21.610 --> 03:26.780
+Ese es el momento para que te creas una cuenta despótica.
+
+03:27.460 --> 03:32.120
+Tal vez algunos no son buscadores o al órgano swinger de Spotify Spotify pero lo es.
+
+03:32.200 --> 03:37.720
+Hay alguien que es un geyer y que prefiere ser bueno pues en este caso te pido que hagas una cuenta
+
+03:37.780 --> 03:44.030
+así que es darla de baja después pero bueno la idea es ejemplificar así que bien vámonos.
+
+03:44.100 --> 03:46.090
+Allá se instalaron las librerías.
+
+03:46.240 --> 03:49.550
+Vamos a tener que ya están instaladas.
+
+03:49.720 --> 03:50.880
+Vamos a instalar algo así.
+
+03:50.940 --> 03:57.500
+Las que las adicionales las que vimos en nuestro introduccion.
+
+03:57.580 --> 04:00.340
+Así que bien vamos a darle a un cliente la consola.
+
+04:00.490 --> 04:03.190
+Vamos a DPM Install.
+
+04:03.500 --> 04:07.860
+Así que llegamos a poner Spotify
+
+04:10.150 --> 04:11.160
+SDK.
+
+04:12.840 --> 04:13.840
+Espacio.
+
+04:15.070 --> 04:23.350
+Vamos a utilizar también aquellos bocaccio ya estaba instalado así que vamos a revisar no sólo esta
+
+04:23.440 --> 04:27.830
+Redux así que también lo vamos a utilizar.
+
+04:28.080 --> 04:31.490
+Que está también porque viene con React.
+
+04:31.810 --> 04:37.980
+No vamos a mostrar historia y también que nos sirve para para cuestiones de enrutamiento.
+
+04:38.130 --> 04:45.460
+Creo que por el momento estos datos y que vamos a instalarlo y vamos a proceder a cambiarle el nombre
+
+04:45.460 --> 04:46.360
+al proyecto.
+
+04:46.570 --> 04:50.000
+Yo le voy a poner este Spotify.
+
+04:53.090 --> 04:54.880
+Es el nombre que gusev.
+
+04:54.890 --> 05:01.700
+La verdad no nos afecta pero hay que ponerse hay que ponérselo alpacas Jayson y como vienen el Pacaya
+
+05:01.710 --> 05:03.420
+eso se lo tienes que poner a tocar PET.
+
+05:03.530 --> 05:06.500
+No digo que sea un requisito mayor pero.
+
+05:07.400 --> 05:14.600
+Lo necesitamos hacer ya que el nombre del proyecto que yo te puse viene es que viene de otra manera
+
+05:15.000 --> 05:19.150
+así que tampoco vamos a hacer lo mismo.
+
+05:19.500 --> 05:24.830
+Así que bien podría abrir mi carpeta voy a poner a Redux fluoruro skeleton.
+
+05:25.120 --> 05:30.060
+Me voy a poner igual como le puse en el pack casi Jayson que es Spotify.
+
+05:32.420 --> 05:35.080
+Qué hace suponer que todo está correcto.
+
+05:35.310 --> 05:37.710
+Vamos a dar LPM Start.
+
+05:39.990 --> 05:44.460
+Vamos a ver nuestros scripts si tenemos el LPM Start aquí está.
+
+05:45.940 --> 05:50.950
+Pues bien va a cargar esto y ya tenemos nuestro juego que es bueno.
+
+05:51.510 --> 05:56.940
+Tenemos nuestro proyecto definido vamos a ver si no si no tenemos ningún error en la consola.
+
+05:56.940 --> 06:03.660
+Yo siempre recomiendo estar revisando la consola casi nosotros los desarrolladores tenemos la consola
+
+06:03.660 --> 06:07.170
+siempre abierta y de este lado tenemos nuestra pantalla.
+
+06:07.350 --> 06:13.810
+Para estar viendo el dum para estar viendo qué cambios hay que que hay en la consola de Chop convidar
+
+06:13.860 --> 06:22.560
+lo había comentado y eso es que la extensión de Crom de jugar así que así es más fácil ver que código
+
+06:22.890 --> 06:30.480
+estoy viendo en pantalla así que vámonos al siguiente video porque ahora tenemos que ir comenzando a
+
+06:30.480 --> 06:32.260
+tirar código para las rutas.

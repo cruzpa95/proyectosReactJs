@@ -1,0 +1,331 @@
+WEBVTT
+
+00:08.480 --> 00:16.310
+Ahora tenemos que irnos a nuestro código que ya tenemos aquí previamente instalado en nuestro video
+
+00:16.310 --> 00:17.470
+anterior.
+
+00:17.470 --> 00:22.140
+Así que bien creo que.
+
+00:22.970 --> 00:28.130
+No se ha cambiado aquí el nombre voy a cerrar el proyecto.
+
+00:28.300 --> 00:32.730
+Te voy a dar 6B y voy a abrir mi terminal.
+
+00:33.470 --> 00:34.560
+Ok.
+
+00:35.070 --> 00:43.760
+Creo que este no existe porque ya se lo cambié a Spotify Play o que estas.
+
+00:47.770 --> 00:48.570
+Abrir.
+
+00:49.470 --> 00:51.480
+Al nuevo proyecto Spotify Player.
+
+00:51.700 --> 00:56.280
+Bueno que es exactamente el mismo pero que le cambia el nombre ahora.
+
+00:56.730 --> 01:03.020
+Así que bien vamos a mi tampoco es que tenemos que ir a Spotify.
+
+01:03.140 --> 01:06.910
+Son cuestiones que estoy haciendo simplemente en mi computador.
+
+01:06.980 --> 01:08.410
+No te preocupes por esto.
+
+01:10.590 --> 01:11.900
+Iniciando el servidor.
+
+01:14.510 --> 01:16.030
+Vamos a esperar.
+
+01:16.140 --> 01:17.200
+Ahí estamos.
+
+01:17.510 --> 01:24.500
+Abro mi consola no tengo nada asi que bien vamos a tener que ordenar nuestra estructura de carpetas
+
+01:24.890 --> 01:30.980
+tenemos nuestra carpeta públic y no es necesario mencionar para qué trata tenemos nuestra carpeta virus
+
+01:31.430 --> 01:39.200
+Producers que además vamos a necesitar la carpeta de Auctions que es donde vamos a crear las acciones
+
+01:39.230 --> 01:49.730
+que van a crear van a ayudarnos a comunicarnos con este a hacer el Dispatch con el reducirles etcétera.
+
+01:49.970 --> 01:57.730
+Bien también vamos a crear una carpeta más que nada con la lista de constantes.
+
+01:58.010 --> 02:05.120
+Esta carpeta vamos a tener lo voy a hacer solamente vamos a tener un archivo pero para que tu veas tomando
+
+02:05.120 --> 02:13.630
+la costumbre de que si vas a utilizar algún texto así es para hacer validaciones pues mejor grávalos
+
+02:13.640 --> 02:16.090
+una constante bien.
+
+02:16.600 --> 02:19.210
+Eso sería básicamente todo.
+
+02:19.340 --> 02:27.570
+Pero ahora vamos a las vistas en las vistas donde nosotros tenemos que crear es nuestra nuestra pantalla.
+
+02:27.740 --> 02:33.320
+Así que bien voy a crear una carpeta para cada una de las dos pantallas que yo previamente he definido
+
+02:33.380 --> 02:35.560
+en nuestro ennuestra introducción.
+
+02:35.810 --> 02:38.130
+Uno es el índex.
+
+02:38.250 --> 02:40.340
+Te voy a llamar índex.
+
+02:42.780 --> 02:45.320
+Y a la otra le voy a llamar.
+
+02:46.280 --> 02:46.980
+Play.
+
+02:49.480 --> 02:55.480
+Bien en índex tengo que crear su hoja de estilo y el por supuesto.
+
+02:55.690 --> 02:58.160
+Así que voy a crear el Index.
+
+03:05.560 --> 03:06.520
+.10.
+
+03:09.410 --> 03:14.360
+Parece un poco raro tener índex dentro de un índex pero bueno se le llamamos ya si le quieres cambiar
+
+03:14.360 --> 03:16.910
+el nombre no pasa absolutamente nada.
+
+03:17.030 --> 03:24.370
+Tenemos que darles su hoja de estilo que es índex punto CSS.
+
+03:25.160 --> 03:26.020
+Ahí estamos.
+
+03:27.070 --> 03:27.730
+Bien.
+
+03:28.000 --> 03:29.010
+Eso sería todo.
+
+03:29.010 --> 03:32.790
+Por el momento después vamos a crear otro archivo dentro de Index.
+
+03:32.890 --> 03:37.730
+Ahora dentro de Player por supuesto tiene que ir su index .10 cada carpeta.
+
+03:37.750 --> 03:41.850
+Si vas a hacer la estructura de carpetas como lo estoy haciendo yo.
+
+03:42.010 --> 03:46.260
+Recuerda ponerle siempre un índex punto y es a esa carpeta.
+
+03:46.270 --> 03:48.570
+Esto quiere decir que este archivo principal.
+
+03:48.580 --> 03:53.760
+Así que bien también tenemos que ponerle sus estilos índex puntos CSS.
+
+03:54.990 --> 04:03.160
+Al tener dos carpetas tienes 2000 Index y dos CDs y es bueno la carpeta lo define todo.
+
+04:03.240 --> 04:12.210
+Así que bien hasta aquí por el momento la estructura de carpetas no tenemos nada adicional que agregar.
+
+04:12.300 --> 04:22.290
+Pero ahora tenemos que irnos a nuestro app punto de vista que es el componente principal en el cual
+
+04:22.470 --> 04:28.170
+nosotros hemos estado cargando las rutas así que tenemos que importar nuestras rutas que vamos a estar
+
+04:28.170 --> 04:29.850
+utilizando.
+
+04:30.090 --> 04:35.030
+Ya no lo vamos a utilizar así que voit voya eliminarlo de aquí.
+
+04:36.100 --> 04:43.640
+Dit que ya no existe que solamente tenemos la carpeta de índex Player dentro de mis BIOS principales
+
+04:43.970 --> 04:50.210
+así que tenemos que importarlas primero que nada dentro de mi componente app que es el que va y se carga
+
+04:50.390 --> 04:56.000
+al índex punto y es que es el principal que se cuelga al DOM del navegador.
+
+04:56.270 --> 05:07.190
+Así que bien vamos a poner import índex desde punto diagonal vicious Diagonal índex recuerda que no
+
+05:07.190 --> 05:15.650
+es necesario importar el archivo porque este CPAC que Reactable cobre corre sobre huev pack se encarga
+
+05:15.650 --> 05:16.620
+de esto.
+
+05:17.240 --> 05:22.610
+Vamos a importar también Player este viene igual.
+
+05:22.670 --> 05:24.110
+Punto diagonal.
+
+05:26.030 --> 05:28.250
+La carpeta Player ok.
+
+05:28.700 --> 05:33.740
+Y tenemos que poner las dos rutas así que por lo cual yo voy a eliminar el componente porque la ruta
+
+05:33.950 --> 05:36.810
+principal sí la voy a ocupar el Pate.
+
+05:36.890 --> 05:38.390
+Exacto.
+
+05:38.630 --> 05:40.200
+Voy a ponerle índex.
+
+05:41.910 --> 05:45.640
+Y voy a copiarme esta línea le voy a pegar abajo.
+
+05:47.370 --> 05:53.700
+Y le voy a poner la siguiente ruta Player que iba a tener un Sony.
+
+05:58.780 --> 06:04.060
+Si no hemos visto nada bueno yo creo que en los videos pasados no hemos visto nada de parámetros por
+
+06:04.060 --> 06:05.560
+medio de Borrel.
+
+06:05.740 --> 06:12.730
+Esto que quiere decir que me va a llevar el Exact ya no lo ocupo no lo quiero tan bien.
+
+06:13.360 --> 06:20.980
+Si el usuario entra a la app a la perdon a la ruta Player y si el siguiente argumento.
+
+06:21.040 --> 06:27.640
+Sea cual sea son heydi que quiere decir que este argumento son hedi lo puede utilizar dentro de mi componente
+
+06:27.940 --> 06:36.370
+para poder hacer algo en este caso si uno va a ir al la a la Edit de la canción que tenga valga la redundancia
+
+06:36.370 --> 06:42.680
+como uno y la va a buscar en las librerías y fuelles voy a mandar un recuesto un Response perdón.
+
+06:42.730 --> 06:44.480
+Asi que de eso se trata.
+
+06:44.480 --> 06:46.140
+Lo vamos a ver más adelante.
+
+06:46.240 --> 06:49.080
+El componente esplai.
+
+06:51.460 --> 06:53.890
+Guardamos y vamos a ver que no tengamos ningún error.
+
+06:53.890 --> 06:56.690
+No tenemos ningún error hasta el momento.
+
+06:56.740 --> 07:04.600
+Esta vez nos va a marcar algún error cuando se dé cuenta de que no tenemos nada dentro de índex y nada
+
+07:04.600 --> 07:07.640
+dentro de player pero Indek si lo tenemos que declarar.
+
+07:07.660 --> 07:09.450
+Así que vamos a poner import.
+
+07:11.420 --> 07:28.500
+React Component desde Riau es una clase le vamos a llamar índex que extiende de Compone que lo va a
+
+07:28.500 --> 07:35.660
+hacer un poquito rápido porque la estructura básica de un componente que creo que ya la debes de saber
+
+07:36.130 --> 07:40.940
+que lo voy a poner índex esto no va a funcionar si no le pongo un export.
+
+07:48.990 --> 07:49.260
+Ok.
+
+07:49.290 --> 07:53.090
+Así que vamos a importarlo como índex y que ya debe estar aquí.
+
+07:53.100 --> 08:02.730
+Asi que la ruta com de hom que es la ruta principal ya debe de estar este.
+
+08:03.360 --> 08:04.490
+Vamos a ver.
+
+08:05.240 --> 08:07.580
+Vamos a abrir nuestro navegador.
+
+08:11.300 --> 08:19.380
+Ok me dice Aquí está marcando un error error en la línea 15 de Apple y es aquí porque el componente
+
+08:19.380 --> 08:25.290
+que le estamos pasando no es una clase de Herriak no es un componente así que voy a copiar la misma
+
+08:25.290 --> 08:25.870
+línea.
+
+08:26.010 --> 08:34.050
+No todo el código de índex punto ellas te lo voy a poner a leer a índex punto de Player y simplemente
+
+08:34.050 --> 08:35.350
+le cambio como Play.
+
+08:40.530 --> 08:43.640
+Ahí estamos y vamos a actualizar.
+
+08:43.790 --> 08:46.740
+Y no tengo ningún error y ya se guardo Index.
+
+08:46.770 --> 08:52.680
+Ya se está viendo en pantalla índex así que bien lo que acabamos de hacer es que acabamos de sitiar
+
+08:52.950 --> 08:56.770
+todas nuestras carpetas dentro de virus que vamos a utilizar.
+
+08:56.790 --> 09:06.160
+Cada uno tiene su índex es decir su índex y ellas y además acabamos de Tear en el radar las rutas las
+
+09:06.160 --> 09:08.650
+2 rutas únicas rutas que vamos a tener.
+
+09:08.670 --> 09:17.820
+Importamos los componentes salvo que la ruta lleva a una ETI así que ya están los dos componentes listos
+
+09:18.220 --> 09:18.800
+ya.
+
+09:18.830 --> 09:20.290
+Ya Renteria una clase.
+
+09:20.310 --> 09:24.140
+Pero bueno ya se britton pero solamente de índex.
+
+09:24.330 --> 09:31.360
+Así que ya podemos comenzar a usar materiales para poder este.
+
+09:32.210 --> 09:38.610
+Para poder empezar la yōkai y después ir metiendo poco a poco lo que es es posible.
+
+09:38.630 --> 09:44.660
+Recuerda que también tenemos que crear la happened así que ese es el momento para que creas una cuenta
+
+09:44.920 --> 09:46.300
+nos vemos en el siguiente vídeo.

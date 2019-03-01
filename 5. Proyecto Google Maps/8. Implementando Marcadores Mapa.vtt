@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.870 --> 00:04.590
+Para este video ya que los marcadores van a ser dinámicos.
+
+00:04.710 --> 00:10.740
+Yo he creado me he preparado con un Jayson el cual lo he validado en la página Jayson Hint que es un
+
+00:10.740 --> 00:19.000
+validador bellezón que no es más que un arreglo de ciudades con sus debidas latitudes y longitudes.
+
+00:19.130 --> 00:24.220
+Y además yo le puse una imagen de la bandera representativa de ese país agrega.
+
+00:24.240 --> 00:30.860
+México España Chile Perú y Argentina este este bellezón.
+
+00:30.900 --> 00:36.940
+Lo voy a poner en la descripción del video para que no tardes tanto tiempo.
+
+00:37.800 --> 00:40.450
+Colocando así que bien.
+
+00:40.520 --> 00:45.860
+Ahora voy a colocã ahora voy a buscar Jayson minifalda.
+
+00:49.100 --> 00:54.600
+Simplemente lo que vamos a hacer es que este Jayson que acabo de crear aquí.
+
+00:55.390 --> 01:03.310
+Lo coloque en una sola línea lo coloco y le doy yeso en mini y me lo crea en una sola línea.
+
+01:03.550 --> 01:10.060
+Esto me lo voy a copiar clisés de puntocom diagonal Jayson minifiguras en la página igual la dejo aquí
+
+01:10.060 --> 01:10.700
+abajo.
+
+01:12.550 --> 01:18.230
+Perfecto mordiera mi código y en mi app .10 voy a crear un constructor.
+
+01:22.220 --> 01:23.750
+Del cual voy a ser súper.
+
+01:28.160 --> 01:30.740
+Listo y voy a crear una variable de estado.
+
+01:32.260 --> 01:34.180
+Que se llame Mark.
+
+01:36.960 --> 01:39.560
+Y esto va a ser igual a lo que acabamos de copiar.
+
+01:43.230 --> 01:47.600
+En nuestro vinificación y listo aquí y allá están todas las ciudades.
+
+01:47.610 --> 01:53.240
+Perdón que nosotros vamos a utilizar así que guardamos.
+
+01:55.910 --> 01:58.420
+Yo se la voy a pasar como propiedad a mi papá.
+
+01:58.480 --> 01:59.990
+Voy a poner Marker.
+
+02:01.850 --> 02:06.390
+Va a ser igual en marcas y voy a declarar la variable afuera.
+
+02:10.100 --> 02:11.880
+Va a ser igual a disputase.
+
+02:12.890 --> 02:14.590
+Y listo actualizamos.
+
+02:17.740 --> 02:24.070
+Ahorita no tenemos absolutamente nada simplemente hemos agregado una variable de marcadores y además
+
+02:24.130 --> 02:28.520
+de pasar como propiedades pero este componente uno sabe que recibe marketers.
+
+02:28.840 --> 02:30.830
+Así que mi componente mapp.
+
+02:32.980 --> 02:36.460
+Y aquí en mi constructora voy a hacer un súper.
+
+02:37.980 --> 02:42.440
+Está hecho simplemente agregar el props y voy a agregar una variable de estado.
+
+02:43.030 --> 02:44.480
+Esta variable de estado.
+
+02:46.640 --> 02:51.670
+Llamar marketers igual iba a ser igual a disputo props Marcos.
+
+02:54.400 --> 02:59.390
+O sea esto viene de lo que yo le pase de los marcadores de acá.
+
+02:59.410 --> 03:01.670
+O sea esta qué.
+
+03:03.190 --> 03:03.870
+Listo.
+
+03:05.780 --> 03:08.890
+Entonces básicamente con eso.
+
+03:09.790 --> 03:18.400
+Podemos empezar a pintar marcadores así que vamos a hacerlo para que terminando este video nos vayamos
+
+03:18.490 --> 03:20.850
+al siguiente ya con marcadores.
+
+03:20.970 --> 03:21.940
+Aquí en el mapa.

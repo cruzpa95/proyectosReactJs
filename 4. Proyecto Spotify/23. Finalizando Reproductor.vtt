@@ -1,0 +1,259 @@
+WEBVTT
+
+00:08.260 --> 00:12.760
+Bien vamos a finalizar nuestro proyecto de Spotify.
+
+00:12.930 --> 00:16.250
+Son sinker que también le llame proyectos por.
+
+00:16.570 --> 00:25.210
+Ahora lo que vamos a realizar es mostrar cada una de las caras la canción y su información.
+
+00:25.270 --> 00:27.560
+Así que voy a hacerlo de una manera muy sencilla.
+
+00:27.790 --> 00:29.670
+Voy a guardar en una variable.
+
+00:29.920 --> 00:32.740
+Le voy a colocar.
+
+00:33.040 --> 00:40.120
+Todo esto viene de disputo pues es básicamente lo que hemos venido haciendo.
+
+00:42.740 --> 00:44.820
+Sí Player.
+
+00:46.870 --> 00:48.230
+Punto.
+
+00:48.610 --> 00:52.340
+O sea es del tipo completed Song.
+
+00:53.290 --> 00:57.590
+Entonces me va a regresar todo lo que tengo aquí.
+
+01:01.180 --> 01:05.590
+De lo contrario vamos a ser un ratón de un Dib nadamás así vacío.
+
+01:05.650 --> 01:11.470
+Por lo pronto antes de poner nuestro espinola o si gustas lo puedes dejar así no pasa absolutamente
+
+01:11.470 --> 01:14.770
+nada es cuestión de estilos es cuestión de gustos.
+
+01:14.770 --> 01:22.340
+Y así que bien la imagen vamos a ver cómo viene cada uno de Lock Player.
+
+01:22.380 --> 01:23.300
+Punto.
+
+01:23.530 --> 01:29.730
+Vamos a poner payload y ver que es lo que necesitamos así que vamos a actualizar.
+
+01:31.520 --> 01:33.500
+Aquí está el pelo viene el álbum.
+
+01:33.800 --> 01:38.440
+Primeramente vamos a necesitar la imagen así que álbum.
+
+01:40.600 --> 01:44.260
+Vamos a buscar imágenes de cero punto.
+
+01:44.380 --> 01:46.100
+Así que vamos primero por eso.
+
+01:46.840 --> 01:49.620
+En la imagen vamos a poner el Source.
+
+01:49.630 --> 01:50.390
+Cómo.
+
+01:52.340 --> 01:53.640
+Player punto.
+
+01:53.650 --> 01:57.370
+Payload punto al album.
+
+01:58.510 --> 02:03.620
+Punto y mojes de cero punto.
+
+02:03.740 --> 02:09.330
+RL esto a esto yo lo voy a dar una clase en por lo pronto.
+
+02:09.430 --> 02:10.870
+Con eso es suficiente.
+
+02:12.010 --> 02:14.930
+Vamos a Vamos a actualizar esto.
+
+02:15.030 --> 02:22.090
+Ahí está la imagen de De-mon y del lado derecho tenemos que poner nuestro reproductor que lo vamos a
+
+02:22.090 --> 02:23.740
+hacer con HTML5.
+
+02:23.890 --> 02:30.520
+Muy sencillo simplemente colocamos audio le ponemos la propiedad control para que aparezcan y vamos
+
+02:30.520 --> 02:34.850
+a poner showers que es el Hijo directo showers.
+
+02:35.840 --> 02:43.220
+El PC que es el Source y de donde viene y en este caso vamos a nuestro navegador en nuestro payload
+
+02:43.730 --> 02:45.860
+viene el preview.
+
+02:46.400 --> 02:55.140
+El preview r.l no es más que la web Relay en donde viene la canción de 30 segundos que Spotify te da.
+
+02:55.340 --> 02:59.890
+Así que vamos a colocarla dentro de mis shows.
+
+03:00.590 --> 03:04.660
+Vamos a poner play punto.
+
+03:06.990 --> 03:07.680
+Punto.
+
+03:07.700 --> 03:10.600
+Bailout punto.
+
+03:13.280 --> 03:14.730
+Preview.
+
+03:17.890 --> 03:19.130
+Así era como se llamaba.
+
+03:21.200 --> 03:28.960
+Y además fuera de audio vamos a colocar una ch4 y este va a ser props Player.
+
+03:28.970 --> 03:37.090
+Perdón punto payload vamos a ver cómo se llama el artista y el nombre de la canción así que el nombre
+
+03:37.090 --> 03:44.740
+de la canción es como naimi así directo el del artista debe de estar aquí en Artist Zero y en nombre
+
+03:44.740 --> 03:50.160
+del artista así que vamos a colocar eso payload.
+
+03:50.550 --> 03:51.980
+Punto.
+
+03:52.390 --> 03:56.840
+Ese sería el primero que sería el nombre del artista de la canción.
+
+03:57.430 --> 03:58.560
+Después ponemos un hacha.
+
+03:58.570 --> 03:59.630
+6.
+
+04:01.020 --> 04:01.760
+Listo.
+
+04:01.770 --> 04:11.070
+Y vamos a colocar el punto payload punto Artists de Zero que es el arreglo de los artistas que ya habíamos
+
+04:12.360 --> 04:14.220
+visto horitas en los segundos.
+
+04:14.340 --> 04:15.350
+Punto.
+
+04:16.530 --> 04:18.750
+Actualizamos esto y vamos a ver cómo se ve.
+
+04:22.990 --> 04:27.930
+Ahí está la imagen bueno es la quieres hacer más pequeña a tu gusto.
+
+04:28.090 --> 04:33.910
+Pero vamos a estilizar un poco así que vamos a emplear.
+
+04:35.310 --> 04:37.720
+Arconte Play CAR.
+
+04:37.850 --> 04:41.660
+Perfecto aquí.
+
+04:42.100 --> 04:43.750
+Ja ja ja.
+
+04:45.670 --> 04:48.310
+Vamos a colocar.
+
+04:48.460 --> 04:50.550
+Cerrar este quien lo necesitamos.
+
+04:50.590 --> 04:58.950
+Auctions tampoco y mi indexe aquí tenemos dos cosas o lo podemos dejar así o lo podemos hacer como como
+
+04:59.410 --> 05:01.690
+el reproductor que hicimos ahorita no lo son.
+
+05:01.690 --> 05:08.510
+Hay temas así que bien aquí le voy a poner una adicional y le voy a poner play box.
+
+05:11.240 --> 05:17.640
+Entonces voy a poner tu Layar con Player box.
+
+05:18.550 --> 05:27.470
+Este le va a comprar display Flex que es básicamente está para que pueda dividirse en dos en la right.
+
+05:27.530 --> 05:28.280
+Y ahí está.
+
+05:29.580 --> 05:35.390
+Y además Play Player leff tiene una imagen así que le vamos a hacer más pequeña.
+
+05:35.580 --> 05:41.130
+Vamos a poner deller Left con un Huid de 200 píxeles.
+
+05:41.130 --> 05:42.110
+Con eso es suficiente.
+
+05:42.110 --> 05:44.150
+No es necesario poner la imagen más grande.
+
+05:49.910 --> 05:54.620
+Celeb a la imagen le estamos poniendo a todo el todo el día.
+
+05:54.700 --> 05:56.720
+Es básicamente imagen.
+
+05:57.950 --> 05:59.100
+Ahí estamos.
+
+06:00.260 --> 06:01.340
+Bien.
+
+06:01.400 --> 06:02.720
+Play Player right.
+
+06:07.450 --> 06:08.210
+Right.
+
+06:09.050 --> 06:10.710
+Va a tener markin Left.
+
+06:11.650 --> 06:17.190
+De un 2 por ciento actualizamos y listo vamos a.
+
+06:18.020 --> 06:25.980
+A reproducir la canción así que voy a activar el audio para que lo escuche porque ahorita tengo audífonos
+
+06:25.980 --> 06:31.540
+así que no creo que escuches así que bien ahora sí.
+
+06:41.100 --> 06:45.260
+Listo que esta canción es un poco triste así que vamos a mejor a buscar otra.
+
+06:45.440 --> 06:48.670
+Vamos a colocar a Imagine Dragons que es uno de mis artistas favoritos.
+
+06:48.680 --> 06:50.370
+Espero que el tuyo tambien verdad.
+
+06:50.380 --> 06:54.870
+Si no no pasa absolutamente nada vamos a poner una que está muy de moda.

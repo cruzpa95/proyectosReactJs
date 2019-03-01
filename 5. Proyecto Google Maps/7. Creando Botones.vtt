@@ -1,0 +1,217 @@
+WEBVTT
+
+00:09.310 --> 00:13.550
+Ahora tenemos que corregir el problema de que eso no funciona.
+
+00:14.360 --> 00:16.800
+Todo está en su lugar excepto una cosa.
+
+00:18.060 --> 00:24.640
+Le coloqué posición a mí a mi mapa de Google pero sin embargo es default Center.
+
+00:24.770 --> 00:28.390
+Por qué posición le corresponde a un mapa.
+
+00:28.670 --> 00:31.470
+Perdona un marcador así que te dejo una disculpa.
+
+00:31.640 --> 00:32.200
+Bien.
+
+00:32.450 --> 00:36.820
+Cómo lo podrás contar en nuestro mapa ya se está viendo correctamente.
+
+00:37.010 --> 00:43.610
+Es decir eso ya está funcionando perfectamente así que el siguiente paso es colocar los botones abajo
+
+00:44.210 --> 00:53.330
+de Play atrás stop etcétera para lo cual yo me fui a los botones de materiales y voy a copiar voy a
+
+00:53.330 --> 00:57.620
+copiar la clase de este botón OK.
+
+00:58.190 --> 00:58.700
+Por qué.
+
+00:58.700 --> 01:09.540
+Porque se muy bien la verdad así que vámonos a mi app que es y aquí abajo del mapa voy a colocar un
+
+01:09.540 --> 01:16.840
+Dib que va a ser contenedor de estos botones abajo de mi mapa y crear un boton.
+
+01:17.910 --> 01:19.030
+Con el Clas.
+
+01:23.440 --> 01:27.770
+Acabo de copiar de vez botón.
+
+01:29.310 --> 01:34.320
+Te lo voy a copiar otras 2 3 veces perdón.
+
+01:35.560 --> 01:37.170
+Que te va a hacer atras.
+
+01:38.080 --> 01:39.280
+Este va a ser plei.
+
+01:40.270 --> 01:43.860
+Este va a ser top y este va a ser adelante.
+
+01:47.170 --> 01:49.720
+Guardamos y actualizamos.
+
+01:51.780 --> 01:56.600
+Me voy a mi navegador y como puedes ver ya está aquí atrás.
+
+01:56.620 --> 02:00.940
+Play stop y adelante pero tenemos un pequeño problema.
+
+02:01.150 --> 02:08.080
+Esto yo lo representé con iconos en mi Mako así que yo en mi librería de materiales me oyera el apartado
+
+02:08.080 --> 02:16.360
+de alcoholes porque había una manera muy sencilla de utilizar estos iconos de materiales simplemente
+
+02:16.420 --> 02:24.700
+heredas su clase pero para esto tienes que agregar en tu HTML esto así que vamos a hacerlo que es básicamente
+
+02:25.030 --> 02:34.170
+el CD en donde están toda la librería todos los iconos de materiales así que bien en índex HTML arriba
+
+02:35.050 --> 02:42.880
+después del título voy a que voy a koppel voy a pegar lo que acabo de copiar y es fondo Google APIs
+
+02:43.080 --> 02:48.970
+y me dice Font family de materiales con los que aquí lo voy a cambiar a Maps.
+
+02:52.360 --> 02:53.950
+Ok perfecto.
+
+02:54.260 --> 03:01.920
+Entonces yo con eso ya puedo utilizar dentro de mis botones los iconos así que vamos a utilizarlos dice
+
+03:01.940 --> 03:07.760
+que no basta con poner un tag de ahí y poner la clase matinée laicos.
+
+03:09.490 --> 03:11.240
+Pero primero vamos a buscarlo.
+
+03:12.500 --> 03:13.730
+Vamos a buscar Play.
+
+03:19.340 --> 03:21.170
+Aquí está ley harro.
+
+03:22.110 --> 03:23.770
+Así que dentro de mi botón.
+
+03:24.660 --> 03:28.570
+Yo voy a colocar un espacio que voy a colocar Sony.
+
+03:29.610 --> 03:41.520
+Con un clausure como nos lo dice y la documentación material John Icons y como texto el nombre del icono
+
+03:42.030 --> 03:43.550
+actualizamos para ver esto.
+
+03:47.380 --> 03:50.530
+Está el Play o el playback.
+
+03:52.220 --> 03:53.100
+Aquí abajo.
+
+03:57.480 --> 03:59.320
+Este lo voy a pegar varias veces.
+
+04:07.860 --> 04:12.230
+Listo entonces este atrás así que vamos a buscarlo dentro de mí.
+
+04:12.300 --> 04:13.940
+De hemiciclos de materiales.
+
+04:16.900 --> 04:18.210
+A buscarlo.
+
+04:19.320 --> 04:20.040
+Back.
+
+04:21.680 --> 04:23.550
+No me parece del todo.
+
+04:27.300 --> 04:29.130
+Vamos a seguir buscando.
+
+04:36.260 --> 04:37.800
+De hecho esta me gusta.
+
+04:39.090 --> 04:45.700
+Wort a lo lest la voy a colocar aquí aquí y aquí vienes top.
+
+04:45.850 --> 04:49.100
+Así que vamos a buscar el stop stop.
+
+04:49.200 --> 04:51.690
+Aquí está igual.
+
+04:51.720 --> 04:52.520
+Stop.
+
+04:53.570 --> 04:55.780
+Este mismo el arroz leff.
+
+04:55.850 --> 05:02.370
+Simplemente al leer le pongo el Rik para que aparezca el icono hacia el lado derecho.
+
+05:02.930 --> 05:03.990
+Actualizamos.
+
+05:04.970 --> 05:05.940
+Ya está.
+
+05:06.410 --> 05:09.670
+Ya tenemos los botones de atrás adelante.
+
+05:09.680 --> 05:10.480
+Play.
+
+05:11.500 --> 05:13.400
+Y a ponerle en paz.
+
+05:13.560 --> 05:19.800
+Así que bien en resumen lo que hemos hecho es crear el mapa crear los botones con la ayuda de Matía
+
+05:20.580 --> 05:21.690
+y listo.
+
+05:21.690 --> 05:28.870
+Así que lo que agregamos a nuestro indexe HTML es la librería de material laicos de las fuentes.
+
+05:29.680 --> 05:31.460
+Y abajo agregamos nuestro.
+
+05:32.880 --> 05:39.390
+Nuestro Link perdón con nuestro ki para poder utilizar la librería de google maps.
+
+05:39.390 --> 05:40.920
+Qué pasa si yo quito esto.
+
+05:45.140 --> 05:49.670
+Esto no va a funcionar me va a seguir mandando el error de que al crear una instancia de Google Maps
+
+05:49.760 --> 05:50.610
+esto no funciona.
+
+05:50.690 --> 05:51.260
+Por qué.
+
+05:51.260 --> 05:53.710
+Porque no tenemos agregado nuestro.
+
+05:54.130 --> 05:54.940
+Y listo.
+
+05:55.820 --> 06:02.440
+Hoy está funcionando así que espero el siguiente vídeo porque ahora lo que vamos a realizar es colocar
+
+06:02.440 --> 06:05.420
+cada uno de los marcadores en mi mapa.

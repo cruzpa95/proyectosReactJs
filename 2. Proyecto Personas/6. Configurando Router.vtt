@@ -1,0 +1,232 @@
+WEBVTT
+
+00:08.110 --> 00:13.960
+Después de haber entendido cómo funciona Redux vámonos a nuestro código primero tenemos que observar
+
+00:13.960 --> 00:15.000
+la pantalla de bienvenida.
+
+00:15.080 --> 00:15.820
+Es la pantalla.
+
+00:15.820 --> 00:21.520
+Cabe destacar que es la que creó el break app te da por default cuando creas una aplicación con este
+
+00:21.700 --> 00:22.880
+componente.
+
+00:22.910 --> 00:30.260
+Bien ahora en mi archivo app punto y lo voy a abrir y vas a ver todo esto que estamos viendo.
+
+00:30.310 --> 00:38.710
+Creo que es el wahl contro React y que para iniciar en este archivo lo puedas editar para poder ver
+
+00:38.710 --> 00:39.650
+los cambios.
+
+00:39.850 --> 00:43.460
+Así que bien yo voy a eliminar exactamente todo esto.
+
+00:46.110 --> 00:47.270
+Y lo voy a guardar.
+
+00:47.370 --> 00:52.810
+La ventaja de escribir recta es que automáticamente te lee los cambios.
+
+00:53.110 --> 00:58.850
+Ok con el scrip de pensar que es una configuración que ya viene previamente.
+
+00:59.040 --> 01:03.110
+Perfecto este logo pues no la verdad no nos vamos a ocupar para nada.
+
+01:04.330 --> 01:10.290
+Bien ahora tenemos que importar el router porque el ruteador se va a configurar en este archivo.
+
+01:10.290 --> 01:11.310
+Por qué.
+
+01:11.450 --> 01:14.740
+Perfecto entonces vamos a importar import.
+
+01:15.930 --> 01:16.780
+Routh.
+
+01:19.510 --> 01:22.620
+Que son principalmente las dos cosas que yo necesito.
+
+01:22.620 --> 01:28.180
+Probable que va a ser todo el componente y Routh que es una ruta o una escena si lo queremos ver así
+
+01:28.390 --> 01:30.570
+o una pantalla más bien.
+
+01:30.910 --> 01:35.560
+Esto viene desde React.
+
+01:39.230 --> 01:45.080
+Ahora si este componente donde va a estar el ruteador tiene que estar de la siguiente manera hacer todo
+
+01:45.080 --> 01:46.120
+el componente.
+
+01:46.840 --> 01:49.690
+Tiene que estar encerrado por los tacos.
+
+01:49.840 --> 01:55.340
+Y después ponemos el chip que teníamos anteriormente como padre único.
+
+01:57.300 --> 02:01.130
+Muy bien dentro van a venir las rutas Routh.
+
+02:02.810 --> 02:08.960
+En este caso vamos a poner una que se va a llamar que es por lo cual yo voy a poner que es una ruta
+
+02:08.960 --> 02:11.400
+exacta que Exact pad.
+
+02:13.300 --> 02:16.750
+Quiere decir que es mi primer ruta o sea Jump el índex.
+
+02:17.940 --> 02:18.970
+Y después de paso.
+
+02:18.990 --> 02:22.410
+Otro argumento a mi ruta que va a ser componerlo.
+
+02:22.680 --> 02:28.260
+Cuál es el componente Actualmente no tengo creado pero por eso crear la carpeta vistas entonces me voy
+
+02:28.260 --> 02:33.750
+a crear un archivo que se llame Home .10 en el cual.
+
+02:34.820 --> 02:39.070
+Voy a importar React componen desde.
+
+02:40.390 --> 02:42.250
+Ríe.
+
+02:43.270 --> 02:46.000
+Tengo que crear este componente ya mejor.
+
+02:48.150 --> 02:51.840
+Quereda DE compone.
+
+02:52.700 --> 02:56.500
+Después el método más importante de un componente es el render.
+
+02:57.450 --> 02:58.410
+Renderiza.
+
+02:59.470 --> 03:07.550
+Tiene que regresar siempre algo en este caso y lo vamos a poner un H2 que diga John.
+
+03:09.840 --> 03:11.090
+Antes tenemos que.
+
+03:12.140 --> 03:15.630
+Exportarlo para que pueda ser utilizado en otros archivos.
+
+03:17.580 --> 03:20.550
+Lo exportamos como muy bien.
+
+03:21.570 --> 03:22.740
+Este ya está terminado.
+
+03:25.260 --> 03:30.010
+Ahora lo tengo que importar en mi archivo import Home.
+
+03:32.040 --> 03:32.890
+Desde.
+
+03:33.660 --> 03:41.000
+Punto Diagonal porque está al mismo nivel la carpeta que views diagonal op.
+
+03:43.560 --> 03:46.180
+Así que para ser mi componente principal.
+
+03:48.000 --> 03:50.270
+Lo guardo y vamos a actualizar.
+
+03:53.190 --> 03:55.860
+Nos están mandando un pequeño error vamos a corregirlo.
+
+04:04.550 --> 04:09.330
+Esto es principalmente porque nos está pidiendo el registro y no lo encuentra.
+
+04:09.330 --> 04:13.620
+El History Yo lo tengo en mi componente anterior que es el índex.
+
+04:15.020 --> 04:16.900
+Entonces yo sólo tengo que pasar.
+
+04:18.390 --> 04:21.060
+Propiedades así que vamos a hacerlo.
+
+04:22.740 --> 04:29.210
+A mi componente AV Lo voy a pasar y Sony que es propiamente elegisteis y que declare.
+
+04:32.970 --> 04:34.520
+De este lado al rubro.
+
+04:34.680 --> 04:42.460
+Si yo le paso elegir cómo funciona y Sony va a ser igual.
+
+04:42.470 --> 04:42.900
+Punto.
+
+04:42.900 --> 04:44.290
+Props con dos gitxi.
+
+04:51.150 --> 04:51.970
+Listo.
+
+04:52.810 --> 04:54.350
+Listo ahí estamos.
+
+04:55.220 --> 04:55.720
+Vamos a ver.
+
+04:55.770 --> 04:56.620
+Y ya funciona.
+
+04:56.850 --> 04:58.560
+Pero entonces tenemos que importar.
+
+04:58.560 --> 05:04.060
+Vamos a poner las propias apps es importante siempre poner las propp Tips.
+
+05:07.800 --> 05:09.220
+Para qué se implemente.
+
+05:09.300 --> 05:15.720
+Realmente no tienen una función específica pero sí se tienen que poner para que nosotros nos demos cuenta
+
+05:16.140 --> 05:17.580
+de que tiene que recibir una propiedad.
+
+05:17.580 --> 05:22.450
+Imagínate que tu código ya no lo voy a leer en unos meses pues vas a decir hoy esta propiedad que anda.
+
+05:22.650 --> 05:28.060
+Entonces vamos a poner a punto por APP tips.
+
+05:29.450 --> 05:30.540
+Va a ser igual.
+
+05:32.950 --> 05:38.580
+Recibe History y le ponemos con mayúscula que es el paquete que acabamos de importar.
+
+05:38.600 --> 05:39.840
+Punto.
+
+05:39.830 --> 05:42.390
+La vas a poner en NY y el.
+
+05:42.800 --> 05:45.340
+O sea que esta propiedad es requerida.
+
+05:48.750 --> 05:52.100
+Ya quedó definido en nuestra pantalla de Home.
+
+05:52.410 --> 05:58.490
+Así que bueno es que te espero en el siguiente video porque tenemos que ver ahora los reduzcas.

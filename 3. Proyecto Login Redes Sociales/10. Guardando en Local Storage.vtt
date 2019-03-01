@@ -1,0 +1,304 @@
+WEBVTT
+
+00:08.300 --> 00:12.600
+Bien una vez ya hayamos realizado lo responde.
+
+00:12.650 --> 00:19.490
+Ahora sí viene una parte interesante como es que yo voy a guardar que voy a poner un todo este respondés.
+
+00:19.580 --> 00:26.900
+Cómo es que lo voy a guardar en mi local lectores locales toralla es un almacenamiento que se utiliza
+
+00:26.900 --> 00:30.620
+para guardar variables dentro de tu navegador.
+
+00:31.000 --> 00:31.410
+Ok.
+
+00:31.450 --> 00:32.940
+Entonces.
+
+00:33.080 --> 00:37.660
+Esta opción es muy viable para habilitar en este proyecto.
+
+00:38.150 --> 00:43.240
+Si el usuario está adentro entonces simplemente llamamos así Local Storage.
+
+00:43.240 --> 00:47.060
+Así se llama la propiedad que viene precargada.
+
+00:47.060 --> 00:52.460
+Le voy a poner punto set AITE que zweiten recibe dos parámetros.
+
+00:52.510 --> 00:53.180
+1.
+
+00:53.540 --> 01:00.950
+El nombre de la string de la cual tú o nombre de la variable como la vas a guardar en el tórax y como
+
+01:00.950 --> 01:07.570
+segundo recibe como parámetro el valor así que yo voy a colocar cómo primero.
+
+01:09.250 --> 01:11.110
+Facebook Data.
+
+01:11.600 --> 01:12.470
+Ok.
+
+01:12.910 --> 01:17.820
+Y como segundo parámetro voy a pasarle lo que el responde que viene.
+
+01:17.920 --> 01:22.450
+Pero para eso tengo que usar el Jayson punto string griffey.
+
+01:26.170 --> 01:33.370
+Listo esto con el fin de que me guarde el Jayson data dentro de mí de mi lectoras porque si lo guardo
+
+01:33.370 --> 01:35.290
+como arreglo no me va a funcionar.
+
+01:35.390 --> 01:36.910
+Así de directos en el estreno.
+
+01:37.180 --> 01:42.310
+Así que le voy a aceptar el token el toque es lo que viene dentro del Luis.
+
+01:42.370 --> 01:52.280
+Punto toque por si quiero hacer un a Facebook el email el email es el email que viene de tu de tu cuenta.
+
+01:52.340 --> 01:59.280
+Ahí estamos el Noi que es el nombre de como aparece en tu perfil que ya lo vimos arita y el pizzo el
+
+01:59.290 --> 02:06.720
+Picture que es la imagen que viene respondés punto picher punto.
+
+02:09.990 --> 02:10.900
+Punto.
+
+02:12.940 --> 02:15.280
+Punto data punto.
+
+02:16.120 --> 02:17.080
+Ahí estamos.
+
+02:17.130 --> 02:24.040
+Es la imagen o la web relé de la cual abrimos hace unos momentos cuando yo hago esto se va a guardar
+
+02:24.040 --> 02:25.050
+en mi local Storage.
+
+02:25.180 --> 02:29.190
+Vamos a ver esto así que vamos a abrir en el navegador.
+
+02:30.360 --> 02:31.900
+Vamos a actualizar la aplicación.
+
+02:32.010 --> 02:39.000
+Vamos a hacer login con Facebook y como ya tenía la aplicación abierta este ya no es necesario volver
+
+02:39.000 --> 02:43.640
+a ponerlo pero yo no puedo ver el estar allá a menos que me vaya por aquí.
+
+02:44.180 --> 02:44.750
+Ok.
+
+02:44.800 --> 02:50.670
+En la pestaña de aplicación dentro de mi navegador y donde dice el local Estarás lo abro y leo en el
+
+02:50.670 --> 02:56.590
+local los 3 000 y aquí me guardo el facebook data.
+
+02:56.760 --> 03:00.350
+Entonces si está funcionando me está guardando todo lo de mi Facebook.
+
+03:00.350 --> 03:04.640
+Ese es el local Storage y si es de la manera en que lo puedo ver.
+
+03:04.830 --> 03:09.750
+Ok entonces una vez realizado esto guardando en locales.
+
+03:09.800 --> 03:17.130
+Ahora tenemos que actualizar de alguna manera tenemos que encontrar la manera en que si esta loca electorales
+
+03:17.940 --> 03:27.120
+funcionando vamos a vamos a tener que actualizar a la pantalla de Home.
+
+03:27.390 --> 03:36.030
+Es por eso que tenemos que hacer una variable que me diga y logre o cista logueado el usuario por lo
+
+03:36.030 --> 03:41.480
+cual me voy a crear una variable de estado disposto esta va a ser igual a blog.
+
+03:43.170 --> 03:44.240
+Igual es falso.
+
+03:44.450 --> 03:51.350
+Sí pero si lo que ahora está en Facebook Data funcionando entonces el Oviedo es igual a Trump.
+
+03:51.560 --> 03:54.460
+Es por eso que vamos a abrir.
+
+03:54.470 --> 03:56.190
+Estamos perfecto.
+
+03:56.540 --> 04:04.640
+Entonces tenemos que tener otra banderilla que me diga la red social de la cual el usuario se acaba
+
+04:04.640 --> 04:05.320
+de guiar.
+
+04:05.390 --> 04:07.820
+Si es por Facebook o por Gmail.
+
+04:08.030 --> 04:10.630
+Es por eso que tenemos que guardar también eso.
+
+04:10.790 --> 04:20.330
+Entonces una vez que el usuario haya hecho bien el login vamos a aceptar el Estado.
+
+04:20.870 --> 04:29.580
+Vamos a aceptar disjuntos sextete vamos a aceptar y verloc ES IGUAL A TU.
+
+04:30.490 --> 04:34.050
+Y además el social va a ser igual.
+
+04:36.760 --> 04:38.590
+Facebook.
+
+04:43.600 --> 04:44.210
+Listo.
+
+04:44.290 --> 04:50.790
+Esto que quiere decir que cuando la variable cambia Tru por aquí en el render me va a mandar al ROM.
+
+04:51.010 --> 04:57.290
+O de lo contrario este se quede igual OK y la variable social me va a servir también.
+
+04:57.550 --> 05:06.330
+Entonces vamos a importar el Red Direct que es algo importante y fundamental del Real.
+
+05:06.580 --> 05:08.500
+Así que vamos a ponerlo arriba.
+
+05:09.010 --> 05:13.970
+Vamos a importar import réduire.
+
+05:18.360 --> 05:22.810
+Este viene de Riad reabrir dum.
+
+05:22.950 --> 05:23.890
+Perfecto.
+
+05:24.530 --> 05:34.220
+Entonces en el render funciona de la siguiente manera si Viz puntos Toit punto y la UGT.
+
+05:34.320 --> 05:41.380
+O sea esto balibar y verifica perdón que es thru o que existe pero en este caso que es boliviano Si
+
+05:41.450 --> 05:41.980
+es.
+
+05:42.030 --> 05:43.680
+Entonces me vas a regresar.
+
+05:43.860 --> 05:47.190
+El siguiente componente que es un rediris.
+
+05:47.610 --> 05:53.710
+O sea que no me vas a regresar el componente de abajo y a donde me va a regresar este me va a regresar
+
+05:53.810 --> 05:56.540
+a home que creo que así se llamaba el pad.
+
+05:56.610 --> 06:02.800
+Vamos a punto y es com a esta se llama bajón entonces.
+
+06:03.090 --> 06:05.460
+Así es como funciona esto.
+
+06:05.460 --> 06:06.240
+Nada más.
+
+06:06.240 --> 06:14.580
+Nada más que tengo que poner aquí de la siguiente manera estamos tenemos que poner el pad.
+
+06:14.630 --> 06:18.430
+Y si hasta logueado a mandar vamos a ver si esto es cierto.
+
+06:18.690 --> 06:19.720
+Actualizamos.
+
+06:21.150 --> 06:25.350
+Bueno todavía no hemos hecho el test vamos a hacerlo.
+
+06:26.460 --> 06:27.530
+Vamos a.
+
+06:30.570 --> 06:32.100
+No funcionó.
+
+06:32.450 --> 06:36.160
+Vamos a mandar un log dentro de mi render para ver qué es lo que está haciendo.
+
+06:36.170 --> 06:38.290
+Disponte usted tantos logros y el otro.
+
+06:38.390 --> 06:39.610
+Ah bueno.
+
+06:40.020 --> 06:43.290
+Por alguna razón borre el CD.
+
+06:43.430 --> 06:45.500
+Así que vamos a tener disputo set.
+
+06:47.470 --> 06:51.550
+Esto va a ser igual si es disloca igual a Tru.
+
+06:53.420 --> 06:56.870
+Y el social va a ser profe.
+
+07:02.400 --> 07:03.180
+Perfecto.
+
+07:04.850 --> 07:09.750
+Vamos a actualizar vamos a entrar por red social.
+
+07:09.910 --> 07:18.020
+Llámese redireccionando por qué ya inicio sesión así que alguna otra cosa que tenemos que decirle a
+
+07:18.020 --> 07:24.560
+la pantalla de Home es que tienen que saber que Red social fue la que inició si fue Facebook o si fue
+
+07:24.560 --> 07:28.830
+Google o también lo podemos hacer dentro de mi data.
+
+07:28.920 --> 07:34.450
+Entonces dentro de miyata le voy a poner source desigual.
+
+07:35.440 --> 07:37.060
+Facebook.
+
+07:37.160 --> 07:39.730
+Y aquí me ahorro esta variable de estado.
+
+07:39.950 --> 07:45.880
+Entonces lo que les lleva a saber el toque en el email el lema El pixel y el tipo de Souls.
+
+07:46.160 --> 07:53.210
+Si es por Google va a aparecer Google que ahorita lo vamos a realizar entonces suburbial me ahorro esta
+
+07:53.210 --> 08:00.450
+variable de estado guardo y vamos a actualizar esta en Home porque la variable está aceptada.
+
+08:00.620 --> 08:01.590
+Vamos de nuevo.
+
+08:02.690 --> 08:06.970
+Vamos a poner a iniciar sesión y me lleva y listo.
+
+08:06.980 --> 08:14.540
+Acabamos de iniciar sesión con redes sociales en Facebook así que en el siguiente vídeo vamos a realizarlo
+
+08:14.720 --> 08:17.130
+con Google así que te espero.

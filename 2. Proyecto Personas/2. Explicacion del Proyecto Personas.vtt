@@ -1,0 +1,160 @@
+WEBVTT
+
+00:08.700 --> 00:09.300
+Hola qué tal.
+
+00:09.300 --> 00:16.030
+Ya estamos de nuevo en este curso del viaje y es así que vamos a explicar el proyecto personas cómo
+
+00:16.030 --> 00:20.390
+es que va a funcionar de qué va a tratar el frontend cómo es que va a ser la estructura.
+
+00:20.390 --> 00:26.430
+Eso es muy importante entenderlo antes de codificar Así que para eso me di a la tarea de crear esos
+
+00:26.430 --> 00:27.460
+gráficos para ti.
+
+00:27.600 --> 00:34.020
+Así que vamos a ver cada uno de ellos vamos a empezar primeramente por el diseño el diseño es muy sencillo
+
+00:34.400 --> 00:41.540
+es simplemente dos pantallas cada una de las pantallas que van a estar en nuestro rol.
+
+00:41.620 --> 00:45.360
+Qué bien la primera es el nuestro.
+
+00:46.180 --> 00:51.320
+Vamos a tener usuarios o personas como le quieras llamar.
+
+00:51.430 --> 00:57.010
+Cada uno de ellos listados estos vienen de la base de datos por supuesto de la guía.
+
+00:57.640 --> 01:00.300
+Después el flujo nos lleva a la segunda pantalla.
+
+01:00.420 --> 01:03.760
+Qué va a pasar cuando le damos clic a cada uno de ellos.
+
+01:03.820 --> 01:09.280
+Cada uno de nuestros hay temas que le tenemos que poner un líder que nos lleva a la segunda pantalla
+
+01:09.280 --> 01:16.240
+que es el detalle del usuario en el cual vamos a mostrar su foto este que venga cargada es simplemente
+
+01:16.240 --> 01:22.360
+un link que la imagen está por ahí en la base de datos y sus tuits o publicaciones vamos a llamarle
+
+01:22.360 --> 01:25.170
+publicaciones para no hacer publicidad.
+
+01:25.210 --> 01:26.490
+Esta red social.
+
+01:26.530 --> 01:33.730
+Entonces el diseño es muy sencillo básicamente esto pero bueno vamos a ver ahora cómo es que yo los
+
+01:33.730 --> 01:38.160
+llamaría a esas pantallas a cada uno de los componentes.
+
+01:38.190 --> 01:46.540
+Yo lo llamaría de la siguiente manera tendríamos dos pantallas una sería Job que sería básicamente la
+
+01:46.540 --> 01:47.850
+que ya les expliqué.
+
+01:48.960 --> 01:56.700
+Cada uno de los componentes sería un item o que si lo nombramos así me gusta usar mucho el Camel caéis
+
+01:56.730 --> 02:02.810
+porque esto hace referencia a que es un componente no me gusta usar todo con menos plazo o guiones bajos
+
+02:02.820 --> 02:10.040
+de hecho la mayoría de la gente prefiere hacerlo de esta manera que cuando le demos a cada un ítem que
+
+02:10.110 --> 02:16.130
+si ya lo conocemos como ítem nos va a mandar al yussef dicté que es la segunda pantalla.
+
+02:16.320 --> 02:21.420
+Ya lo explicamos también pero vamos a nombrar a cada uno de sus componentes es decir que el primer componente
+
+02:21.530 --> 02:22.630
+sería como un jede.
+
+02:22.740 --> 02:25.330
+Yo lo llamaría el cóver ok.
+
+02:25.650 --> 02:33.510
+Siguiendo con el camau el que después abajo en que sería el body de nuestra pantalla el Yuso RITE body.
+
+02:33.760 --> 02:41.250
+Igual que lo pudimos haber llamado yusei el cover etcétera no no afecta en nada en absoluto simplemente
+
+02:41.250 --> 02:49.920
+que lo reconozca la idea de nombrar bien a un componente que más adelante si en 4 5 o 6 meses un año
+
+02:49.920 --> 02:56.310
+dos años le vuelves a mover a un código Imagínate que tú vendes un sitio web a una empresa y después
+
+02:56.310 --> 03:01.160
+le das mantenimiento y le estás dando mantenimiento y de tantos códigos que haces se te olvida.
+
+03:01.290 --> 03:06.120
+Entonces es bueno seguir este patrón.
+
+03:06.380 --> 03:09.490
+Vamos a definirlo como un patrón de nombrar componentes.
+
+03:10.350 --> 03:19.170
+Cada uno de ellos de nuestro body es un serpost qué entonces bien básicamente ese sería el nombre de
+
+03:19.170 --> 03:25.380
+cada uno de nuestros componentes y todos delimitados por el componente.
+
+03:25.810 --> 03:26.900
+Por qué app.
+
+03:26.940 --> 03:34.170
+Porque cuando nosotros creamos un proyecto con Reactable que ya lo hemos utilizado vamos a tener un
+
+03:34.170 --> 03:37.450
+componente app que es el que engloba a todo esto.
+
+03:37.860 --> 03:45.700
+Y básicamente app está configurado por el radar y por supuesto ruedas.
+
+03:45.780 --> 03:53.190
+Entonces básicamente eso sería todo por el diseño pero ahora vamos a lo más importante a la estructura
+
+03:53.280 --> 03:57.040
+de cómo va a funcionar esto así que vamos a hacer mouth.
+
+03:59.720 --> 04:10.250
+Ya hicimos mal que bien el frontend que va a ser básicamente lo que ya hablamos atrás va a estar conectado
+
+04:10.250 --> 04:13.850
+directamente con fui a probar que aquí estaba encerrado.
+
+04:13.940 --> 04:19.780
+Y todo esto más tarde ayudándonos Redux para controlar los estados de una aplicación.
+
+04:19.910 --> 04:26.780
+Porque si Redux es una mega estor con que controla los estados no importa qué pantalla tiene toda la
+
+04:26.780 --> 04:28.090
+información.
+
+04:28.130 --> 04:35.640
+Así que cuando la necesitemos hoy va a estar así que el Front va a estar en conexión directamente con
+
+04:35.650 --> 04:37.800
+controlados que lo edus.
+
+04:37.880 --> 04:44.780
+Obviamente ayudándose con acciones vamos a estar mandando solicitudes a la vía que va a estar en la
+
+04:44.780 --> 04:46.020
+nube por supuesto.
+
+04:46.490 --> 04:51.120
+Y así que bien esta va a ser nuestra estructura así que vamos a empezar.

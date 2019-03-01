@@ -1,0 +1,217 @@
+WEBVTT
+
+00:08.520 --> 00:09.370
+Bien.
+
+00:09.470 --> 00:15.680
+Tal vez notarás que tenemos un pequeño error que la API no está funcionando como queremos que funcione.
+
+00:15.870 --> 00:20.330
+Esto es porque nosotros lo pusimos en el Wit listo como se le conoce.
+
+00:20.400 --> 00:23.400
+Los lugares de origen nuestro local Jost.
+
+00:23.460 --> 00:32.710
+Es por eso que podemos crear de nuevo la credencial o hacer el cambio y que tome cinco minutos.
+
+00:32.820 --> 00:39.060
+En este caso lo va a crear de nuevo porque de lo contrario va a traer cinco minutos y para no perder
+
+00:39.180 --> 00:39.720
+el tiempo.
+
+00:39.750 --> 00:47.820
+Obviamente yo recortaría el vídeo pero me gusta hacerlo bien así que vamos a ponerla aquí http: los
+
+00:47.920 --> 00:55.130
+orígenes autorizados de JavaScript HTTP 2 puntos diagonal diagonal local Jost 3000.
+
+00:55.200 --> 01:03.630
+Eso quiere decir que cuando venga de esta web Relay un recueste Con esta API que me va a generar va
+
+01:03.630 --> 01:09.910
+a funcionar así que lo de crear y aquí está el nuevo cliente.
+
+01:10.090 --> 01:17.240
+Ok esos van a ser borrados después de que se grabe el curso así que yo te recomiendo poner el tuyo bien.
+
+01:17.310 --> 01:24.930
+Obviamente no vas a copiar esta obra pero vamos a ver vamos a poner aquí vamos a reemplazar este API
+
+01:25.160 --> 01:29.800
+que ya había creado Hotline heydi y vamos a actualizar.
+
+01:31.420 --> 01:35.880
+Vamos a actualizar y como puedes ver ya no tenemos ese error.
+
+01:35.950 --> 01:43.030
+Si yo voy a cerrar titel Inspector solamente tantito le voy a dar a quien iniciar sesión me va a parecer
+
+01:43.570 --> 01:49.280
+mi login con redes sociales con Google en el cual yo puedo elegir con que cuenta en ingresar.
+
+01:49.300 --> 01:52.350
+Es por eso que le voy a dar con mi cuenta principal.
+
+01:52.570 --> 02:02.940
+Ok esto a su vez manda llamar el responde Google el cual me manda muchos parámetros el token el Google
+
+02:02.940 --> 02:10.630
+leydi el profe ovv que es donde viene el nombre el email e inhiben Mi nombre es el Google eiti etc.
+
+02:10.850 --> 02:19.660
+Así que entonces vamos a hacer algo vamos a guardar lo mismo que hicimos en Facebook pero ahora lo vamos
+
+02:19.660 --> 02:21.280
+a realizar para Google.
+
+02:21.280 --> 02:24.210
+Así que bien responde Google.
+
+02:25.480 --> 02:34.330
+Aquí vamos a guardar un local Storage igual vamos a poner locale Storage puntosde hoy y lo vamos a poner
+
+02:34.930 --> 02:36.150
+Google.
+
+02:37.340 --> 02:44.200
+Data vamos a poner el Jayson .0 para poderlo guardar en mi local Storage.
+
+02:45.250 --> 02:53.950
+Salvamos y vamos a colocar los valores que acabo de ver yo por ahí en mi Consol vamos a poner que toquen
+
+02:54.400 --> 02:57.370
+más en Iguala respondes punto toquen.
+
+02:57.700 --> 02:58.580
+Perfecto.
+
+02:58.810 --> 03:10.660
+El email viene en el Luis Ponds punto profe obvie punto Hime y además el nene que es el respondes exactamente
+
+03:10.660 --> 03:12.130
+igual que el de arriba.
+
+03:12.190 --> 03:15.100
+OBJECT punto.
+
+03:15.550 --> 03:19.250
+Y el pitcher que es la foto que viene de perfil responde.
+
+03:19.300 --> 03:19.810
+Punto.
+
+03:19.820 --> 03:30.010
+Prophet Objet punto y más bureles no es más que la UE releche a la cual yo puedo acceder de hecho desde
+
+03:30.010 --> 03:37.780
+mi navegador vamos a actualizar esto a pie después de aqui tenemos que setter el Estado tal y como lo
+
+03:37.780 --> 03:39.080
+hicimos acá arriba.
+
+03:39.280 --> 03:49.890
+Pero también aquí le tenemos que mandar el suyo como Google y SteamOS el Estado 2.70 este.
+
+03:50.800 --> 03:53.990
+Y vamos a sestear blog.
+
+03:56.090 --> 03:57.400
+Es igual a otro.
+
+03:57.580 --> 03:58.100
+Ok.
+
+03:58.220 --> 04:05.540
+Y esto nos va a mandar a la otra pantalla y nos va a guardar el respondés en local así que vamos a ver
+
+04:05.540 --> 04:07.560
+si esto está funcionando correcto.
+
+04:08.700 --> 04:11.110
+Vamos a aplicar dentro de mí.
+
+04:13.520 --> 04:15.050
+Inspector eustache.
+
+04:16.620 --> 04:18.000
+Vamos a actualizar.
+
+04:18.240 --> 04:21.260
+Y aquí está Google Data que es lo que yo guarde.
+
+04:21.490 --> 04:26.180
+De hecho el Facebook determinista no deberían de estar los dos pero por supuesto que no..
+
+04:26.300 --> 04:27.400
+Por qué.
+
+04:27.420 --> 04:32.940
+Porque por una razón porque otter o te lo quedas con una o te lo hagas con otra pero como nosotros ya
+
+04:32.940 --> 04:36.130
+le permitimos que sea lo que las dos opciones.
+
+04:36.160 --> 04:40.150
+Pues lo va a hacer pero esto es incorrecto en un sitio web.
+
+04:40.350 --> 04:40.920
+Ok.
+
+04:41.100 --> 04:43.500
+Si no imagínate ahí estamos.
+
+04:43.710 --> 04:49.310
+Entonces vamos a quedarnos y nos tiene que llevar a la pantalla de Home.
+
+04:49.690 --> 04:52.860
+A esta porque slap es igual a.
+
+04:53.100 --> 04:57.240
+Entonces ya tenemos nuestro Lovin con redes sociales ya creamos.
+
+04:57.240 --> 05:01.670
+Vamos a repasar nosotros queramos una vez más nuestro proyecto.
+
+05:01.680 --> 05:03.570
+Las credenciales de O2.
+
+05:03.700 --> 05:04.370
+Para qué.
+
+05:04.380 --> 05:11.610
+Para configurar desde un inicio la dirección de origen local ghosh 3000 porque de lo contrario en la
+
+05:11.610 --> 05:18.000
+que ya habíamos creado iba a tardar un poquito más que yo ya lo había realizado pero sigue tardando
+
+05:18.000 --> 05:19.600
+un poquito entonces.
+
+05:19.700 --> 05:27.150
+Bien ahora después nos lleva a Rom porque ya se te ha mosén locales torax tal y como lo hicimos para
+
+05:27.150 --> 05:27.760
+Facebook.
+
+05:27.920 --> 05:35.860
+El Data salvo que con otro código no va a ser la misma data Google Data o Facebook Data.
+
+05:36.090 --> 05:43.800
+Cuando esto sea verdadero o no sea el error el que esté llamándose abajo vamos a aceptarlo en mi local
+
+05:44.000 --> 05:50.430
+y además voy a aceptar el estado astrium y esto automáticamente cuando vuelvo a llamar el render va
+
+05:50.440 --> 05:57.580
+a saber que si está guiado me redirija a John sin ningún parámetro porque todos guardan locales.
+
+05:57.750 --> 06:08.190
+Entonces el siguiente paso es guardar es hacer la página dejo con su unaparte en el cual vamos a traer
+
+06:08.190 --> 06:16.050
+toda la información guardada en Local Storage y mostrarlo como un inicio de sesión así que te espero
+
+06:16.050 --> 06:17.410
+en el siguiente vídeo.

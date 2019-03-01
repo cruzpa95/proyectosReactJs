@@ -1,0 +1,181 @@
+WEBVTT
+
+00:08.780 --> 00:10.230
+Bien ya estamos de regreso.
+
+00:10.250 --> 00:16.130
+Ahora vamos a colocar la imagen de perfil y vamos a hacer la letra un poco más chica y terminaríamos
+
+00:16.250 --> 00:18.440
+de utilizar cada uno de nuestros karts.
+
+00:18.560 --> 00:24.440
+Así que bien yo en Internet le puse avatar en la búsqueda y mes y voy a seleccionar esta que está por
+
+00:24.440 --> 00:24.920
+aquí.
+
+00:24.950 --> 00:28.860
+Lei clic derecho coppi y más Address ok.
+
+00:29.400 --> 00:39.500
+Esta me la voy a copiar y me la voy a traer a item y a quien dice ser BCO Souls vamos a poner la dirección
+
+00:39.500 --> 00:47.140
+que nos nos acaba de copiar a nuestro portapapeles que la dirección de donde está la imagen le doy.
+
+00:47.150 --> 00:47.980
+6.
+
+00:48.320 --> 00:50.230
+Vamos a ver que aparece.
+
+00:52.570 --> 00:54.340
+Nos aparece la imagen claro.
+
+00:54.610 --> 00:57.560
+También hay que darle su propio estilo.
+
+00:57.880 --> 01:05.680
+Así que bien vamos a darle a reventarlos y para abajo ya que no me gusta hacer scroll hacia la izquierda
+
+01:05.710 --> 01:12.420
+o hacia la derecha en este caso lo voy a poner un Classmate que se va a llamar hoy Team left box.
+
+01:14.760 --> 01:17.860
+Asi no vamos a meternos tanto orita en las convulsiones.
+
+01:17.860 --> 01:18.290
+Bien.
+
+01:20.000 --> 01:24.610
+Ahora en mi indexe vamos a hacerlo más más pequeño.
+
+01:26.260 --> 01:28.400
+Así que vamos a ponerla por aquí abajo.
+
+01:30.010 --> 01:31.200
+Punto la clase.
+
+01:32.310 --> 01:39.600
+Un Wit de 200 pixeles me parecería bastante bien bueno dejarlo en 150.
+
+01:41.080 --> 01:44.680
+Estamos 150 es bastante agradable.
+
+01:44.860 --> 01:55.570
+Ahora vamos con el tamaño de estos de sus cuates así que vamos con el primer item Naim un iPhone 6 que
+
+01:55.570 --> 02:05.590
+es el del tamaño de 1.2 en un margen cero ya que por default los Reader's los Tack de H tienen un margen
+
+02:05.690 --> 02:06.220
+asi que.
+
+02:06.240 --> 02:11.370
+Pues eso no es no es agradable tampoco estamos bien.
+
+02:11.410 --> 02:12.470
+Ahora sigue.
+
+02:13.770 --> 02:16.210
+Bueno creo que no no no hay tema.
+
+02:19.180 --> 02:20.350
+Punto.
+
+02:20.380 --> 02:24.390
+Perdón Last ne este va a tener un fonz 6.
+
+02:26.240 --> 02:28.670
+En qué más pequeño.
+
+02:30.370 --> 02:32.090
+Muy bien.
+
+02:32.600 --> 02:33.970
+Y user item.
+
+02:37.370 --> 02:40.010
+Bueno yo creo que aquí tenemos que hacer algo.
+
+02:40.070 --> 02:48.970
+Vamos a poner en una misma línea el ausnahme que para no estar consumiendo este.
+
+02:50.220 --> 02:55.620
+Dos componentes entonces este me lo puedo ahorrar y no existe.
+
+02:55.620 --> 02:59.030
+Ahí estamos para que se ponga nombre y apellidos juntos.
+
+02:59.350 --> 03:05.370
+Entonces el Last naima esta propiedad ya no existe así que la vamos a eliminar salvamos y actualizamos
+
+03:05.370 --> 03:07.690
+a Vista a mejor.
+
+03:07.750 --> 03:11.330
+Muy bien y ahora sigue el Facebook y user eutm.
+
+03:13.140 --> 03:17.700
+Facebook y el iPhone 6 se iba a hacer.
+
+03:18.900 --> 03:22.480
+La de arriba que es el tema en la que hay que eliminar porque no las estamos utilizando.
+
+03:22.530 --> 03:24.250
+Vamos a poner un margen de cero.
+
+03:25.330 --> 03:26.530
+Y veamos a esta.
+
+03:26.530 --> 03:33.340
+Hoy se está viendo mejor así que vamos a centrar ahora toda esta información que está en la caja del
+
+03:33.340 --> 03:40.270
+lado derecho que es el Bright box así que vamos a ver vámonos a right box que es aquí vamos a poner
+
+03:40.270 --> 03:45.610
+un display Flex vamos a ver cómo se ve esto se ve todo junto.
+
+03:45.610 --> 03:46.470
+Claro que sí.
+
+03:46.540 --> 03:54.770
+Y vamos a poner que el Flex dirección obviamente va a ser en columna y además vamos a centrar.
+
+03:56.160 --> 03:58.290
+Horizontal y vertical.
+
+04:00.040 --> 04:02.160
+Bien ahí estamos.
+
+04:02.160 --> 04:08.970
+La imagen un poco más pequeña ya que no me agrada tanto que se vea muy grande la izquierda del lado
+
+04:08.970 --> 04:11.010
+derecho más pequeño.
+
+04:11.020 --> 04:16.150
+Pues como que no cuadra bien vamos a hacerla en 120 píxeles.
+
+04:17.660 --> 04:20.810
+Ahí estamos me parece perfecto muy bien.
+
+04:21.170 --> 04:23.600
+Ahí rápidamente hicimos los estilos.
+
+04:24.840 --> 04:30.180
+De cada uno de los elementos que vienen desde la base de datos que estoy consumiendo con la ayuda de
+
+04:30.180 --> 04:32.970
+activos y con la estructura de flux.
+
+04:33.000 --> 04:34.280
+En este caso Redux.
+
+04:34.410 --> 04:40.730
+Y después cuando yo le clica cada uno vamos a mandar a la siguiente pantalla.
+
+04:41.070 --> 04:43.010
+Así que nos vemos en el siguiente vídeo.

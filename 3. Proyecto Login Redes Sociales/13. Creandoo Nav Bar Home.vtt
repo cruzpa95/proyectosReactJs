@@ -1,0 +1,163 @@
+WEBVTT
+
+00:08.830 --> 00:10.280
+Ya estamos de regreso.
+
+00:10.300 --> 00:17.410
+Ahora nuestra tarea es crear nuestro barco en el cual vamos a colocar un icono con la imagen del usuario
+
+00:17.410 --> 00:21.340
+que viene desde Facebook o Google según sea el caso.
+
+00:21.370 --> 00:28.350
+Es por eso que yo me voy a apoyar en materia de la SSS para no meternos tanto en cuestión de diseño.
+
+00:28.370 --> 00:36.120
+Yo lo voy a colocar o voy a buscar material de puntos es ese material ese es ese punto com.
+
+00:36.370 --> 00:39.360
+Y le voy a colocar aquí.
+
+00:41.910 --> 00:43.050
+Perfecto.
+
+00:43.350 --> 00:52.920
+Básicamente es un tag de HTML es una app y después es un Dib con la clausen Aprobar que se vaya el que
+
+00:52.920 --> 00:57.140
+va en volver a todos nuestros nauman se va a ver de la siguiente manera.
+
+00:57.440 --> 01:05.940
+Si la izquierda vamos a poner casi lo mismo el logo realmente aquí pondrías tú el nombre de tu proyecto
+
+01:05.980 --> 01:14.830
+tu empresa negocio etc. Y del lado derecho que está básicamente donde va a estar el logo.
+
+01:14.850 --> 01:20.520
+En este caso quién lo manejan como tres links al final de cuentas son listas.
+
+01:20.520 --> 01:22.440
+Es una lista no ordenada.
+
+01:22.560 --> 01:32.010
+Así que bien vamos a abrir nuestro código perfecto y vámonos a nuestro archivo que ya hemos creado de
+
+01:32.030 --> 01:40.830
+John que no tiene absolutamente nada más que el H2 que es un taco que ya definimos en un principio simplemente
+
+01:40.830 --> 01:46.090
+para probar que la pantalla estaba funcionando así que bien vamos a colocar dentro.
+
+01:46.110 --> 01:50.250
+Vamos a eliminar nuestro nuestro Job del texto.
+
+01:50.290 --> 01:52.230
+Realmente no lo vamos a necesitar.
+
+01:52.300 --> 01:54.170
+Vamos a poner una app.
+
+01:54.610 --> 02:02.580
+Dicho NAB no tiene ninguna clase pero el el que sí la va a tener y como lo veíamos enmateria en la esputos
+
+02:02.580 --> 02:07.260
+es recordar que en reagge no acepta klasse nada más.
+
+02:07.410 --> 02:14.090
+En el ejemplo hay que tener muy en claro siempre y las que lo hacen haplogrupo todas estas clases son
+
+02:15.000 --> 02:21.750
+heredadas y si no si no funciona ahora que lo revisamos pero cuando tú agregas un componente padre el
+
+02:21.750 --> 02:26.890
+material es automáticamente todos los hijos no van a tener.
+
+02:26.940 --> 02:35.310
+Tenemos el Link que básicamente es a ver no me voy a ver en ningún lado o no pongo H.
+
+02:35.910 --> 02:38.250
+Pero si tiene una clase en clase.
+
+02:38.460 --> 02:46.980
+Y es que el borland Lobo es muy similar o mostrar mi material ese cds-pp tienen un mismo objetivo una
+
+02:46.980 --> 02:50.160
+librería para simplificar el desarrollo de Yoani.
+
+02:50.850 --> 02:53.590
+Se parece mucho al lambarri es embuste.
+
+02:54.060 --> 03:03.030
+Así que bien le voy a poner logo exactamente igual como estaba en el ejemplo como el segundo hijo del
+
+03:03.030 --> 03:03.740
+rock.
+
+03:03.960 --> 03:06.010
+Es una lista no ordenada.
+
+03:06.100 --> 03:09.230
+Un gordo atlistas perfecto.
+
+03:09.480 --> 03:17.340
+Ahora si tiene vamos a ver el hijo que va a hacer una avatar ahorita no lo buscamos pero nos falta poner
+
+03:17.750 --> 03:26.100
+el heydi de la navaja que siempre es NAV móvil porque así nos lo pide no requiere materiales.
+
+03:26.400 --> 03:28.450
+Tiene un clásico y un presupuesto.
+
+03:28.520 --> 03:33.150
+Esta clase es recibe las clases que tú le des.
+
+03:33.390 --> 03:38.910
+Puedes ponerle varias en este caso la primera es Right que quiere decir que los elementos de la lista
+
+03:38.930 --> 03:46.000
+no ordenada van a ir alineados a la derecha que vamos a poner la siguiente clase.
+
+03:46.520 --> 03:48.630
+Con Med.
+
+03:49.530 --> 03:54.700
+Tal y como nos coloca en el ejemplo vamos a saber euskera.
+
+03:55.470 --> 04:02.140
+Básicamente lo estamos colocando hacia la derecha en nuestros componentes o vaya a nuestra lista.
+
+04:02.280 --> 04:10.020
+Pero en este caso no tenemos lista más que uno que vamos a poner de ejemplo a poner el perfil de una
+
+04:10.020 --> 04:10.780
+lista.
+
+04:12.850 --> 04:15.800
+Y les vamos a poner perfil.
+
+04:17.620 --> 04:23.780
+Vamos a salvar con controles que ibamos a ver nuestros cambios actualizar ya.
+
+04:25.480 --> 04:27.890
+Vamos a iniciar sesión con una red social.
+
+04:28.280 --> 04:30.710
+Estamos.
+
+04:32.050 --> 04:32.890
+Bien.
+
+04:33.410 --> 04:36.060
+Ahorita vamos esto es cuestión del padre.
+
+04:36.330 --> 04:37.210
+Bien.
+
+04:37.300 --> 04:46.840
+Ahora sí ya tenemos vaya nuestro naman en el cual tenemos lo que es el lobo y el perfil.
+
+04:46.840 --> 04:55.570
+Ahora nos falta una sola cosa esto que nos está faltando es básicamente la imagen así que en el siguiente
+
+04:55.570 --> 04:58.140
+vídeo lo vamos a colocar.

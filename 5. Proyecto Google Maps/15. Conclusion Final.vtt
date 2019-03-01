@@ -1,0 +1,172 @@
+WEBVTT
+
+00:08.810 --> 00:15.170
+Espero que los cuatro proyectos que hemos creado hasta ahorita que es el final del curso es la conclusión
+
+00:15.170 --> 00:21.980
+de este proyecto y a su vez es la conclusión del curso que haya sido de todo grado que vamos a trabajar
+
+00:21.980 --> 00:29.750
+para más cursos obviamente a que es de otras tecnologías pero bien aquí tenemos básicamente lo que fue
+
+00:30.050 --> 00:38.270
+el diseño que propusimos nosotros que fue básicamente un mapa un mapa llamado Map cómo su componente
+
+00:38.510 --> 00:43.870
+y además vamos a tener botones cada botón iba a tener cierta funcionalidad.
+
+00:43.990 --> 00:49.420
+Al regresar el Play el stop y el siguiente Qué bien.
+
+00:49.420 --> 00:53.140
+Y además nuestro componente obviamente estaba creado en red.
+
+00:53.150 --> 00:55.860
+Creo que esto es redundante.
+
+00:56.850 --> 01:04.280
+Y además mediante una Piqui que nosotros conseguimos dentro de la consola de Google que nos provee de
+
+01:04.280 --> 01:07.180
+forma gratuita hasta cierto límite de proyectos.
+
+01:08.030 --> 01:10.130
+Nosotros accedimos a los servicios de Google.
+
+01:10.190 --> 01:12.670
+En este caso a Google Maps.
+
+01:12.950 --> 01:18.440
+Básicamente De eso se trató nuestro diseño y que tú lo puedes ver implementado de la siguiente manera
+
+01:18.710 --> 01:23.330
+tenemos nuestro mapa de Google y nuestros botones de reproducción.
+
+01:23.330 --> 01:28.380
+Ahora si nosotros nos vamos al código el cual hemos creado tenemos la estructura de un proyecto.
+
+01:29.790 --> 01:31.350
+Voy a cerrar estos archivos.
+
+01:31.470 --> 01:37.980
+Nuestro componente principal es el de donde yo tengo un mi material para que me ayudara un poquito con
+
+01:37.980 --> 01:41.930
+el diseño de los botones para no meterme a estilos en este proyecto.
+
+01:42.090 --> 01:48.260
+Meterme un poquito nada más crear una variable de estado que es un Jayson que te voy a dejar.
+
+01:48.260 --> 01:54.050
+Por supuesto en los comentarios en el cual Yok por cada objeto del objeto.
+
+01:54.150 --> 02:01.080
+Yo tenía un heydi un hombre latitud longitud y el icono de un lugar o qué.
+
+02:01.200 --> 02:08.570
+Además yo tenía cargado quimí Componente mapa en el cual yo le pasaba le ponía una referencia para yo
+
+02:08.630 --> 02:10.710
+poder utilizar sus métodos.
+
+02:10.710 --> 02:16.540
+Le pasaba a un arreglo de marcadores que los marcadores que yo definí en un principio.
+
+02:16.680 --> 02:23.510
+Y además le pasaba una propiedad que se coordine el cual yo le pasaba una regla de dos Corden de.
+
+02:23.550 --> 02:32.180
+Dos datos perdón que son dobles se puede decir son decimales el cual centra el mapa en una primera ocasión.
+
+02:32.190 --> 02:34.610
+Además aquí está mi código de los cuatro botones.
+
+02:34.740 --> 02:38.490
+Qué tiene la funcionalidad funcionabilidad de un clic.
+
+02:38.710 --> 02:39.180
+Ok.
+
+02:39.210 --> 02:42.090
+Con previous play stop inecc.
+
+02:42.150 --> 02:50.520
+Ahora dentro de mi componente MAP que es donde está todo el mapa yo tengo básicamente la librería de
+
+02:50.730 --> 02:51.710
+google maps.
+
+02:51.720 --> 02:58.350
+Cabe destacar que esta librería se basa en ogx o componentes de alto orden que ya fueron explicados
+
+02:58.740 --> 03:02.260
+en un pequeño espacio de este proyecto.
+
+03:02.470 --> 03:03.620
+Por qué.
+
+03:03.780 --> 03:10.370
+Básicamente funcionamos mediante un timmer el cual se declaraba en el componente Did Mount okkhoy y
+
+03:10.490 --> 03:13.080
+era cada ocho segundos uno de cada tres.
+
+03:13.080 --> 03:18.060
+Pero como se me hizo un poco molesto estar viendo el cambio a cada rato y no me cargaba el mapa por
+
+03:18.060 --> 03:20.890
+cuestiones de velocidad de Internet en este momento.
+
+03:20.920 --> 03:22.350
+Pues no fue tanto.
+
+03:22.680 --> 03:28.070
+Pero bien se iba a ejecutar la función tomar el cual iba a estar dando uno hacia adelante.
+
+03:28.270 --> 03:33.100
+Si ya era el último marcador entonces me llevaba al principio.
+
+03:33.230 --> 03:38.940
+Y aquí fue donde declaré los cuatro métodos que me daban la funcionalidad de ir hacia atrás desde adelante
+
+03:38.940 --> 03:42.150
+cierre o reproducir o detener.
+
+03:42.690 --> 03:50.160
+Entonces básicamente teníamos los marcadores dinámicos que ya venían de las propiedades de mi componente
+
+03:50.160 --> 03:50.710
+padre.
+
+03:50.850 --> 03:53.910
+Por eso las declare de esta manera.
+
+03:54.270 --> 03:59.360
+Pero además aquí viene como propiedades y la manejen una variable de estado.
+
+03:59.460 --> 04:06.690
+Otro componente además de todo eso lo puse en mi componente de alto orden que es Google Map.
+
+04:06.810 --> 04:13.530
+Aquí con lo que los marcadores son dinámicos que le pase la latitud y longitud en la cual va a estar
+
+04:13.530 --> 04:22.320
+centrado cada que esté cambiando las propiedades del componente bien y eso es como funciona la librería
+
+04:22.680 --> 04:24.780
+de google maps con marcadores.
+
+04:24.780 --> 04:29.430
+Hicimos un pequeño reproductor para ejemplificar cómo funciona esto.
+
+04:29.430 --> 04:34.830
+Así que espero y te haya gustado el curso pero te hayan gustado los cuatro proyectos dejame tus comentarios
+
+04:35.100 --> 04:37.830
+para seguir mejorando y creando más cursos para ti.
+
+04:37.830 --> 04:39.300
+Y nos vemos en el siguiente curso.
+
+04:39.360 --> 04:41.380
+Te espero tu servidor Juan Ortiz.

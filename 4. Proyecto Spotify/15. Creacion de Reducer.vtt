@@ -1,0 +1,310 @@
+WEBVTT
+
+00:08.620 --> 00:12.910
+Ahora tenemos que crear nuestro reducir para poder comunicarnos con el Front ok.
+
+00:12.970 --> 00:17.800
+Así que en nuestra carpeta de Reduce los voy a crear un nuevo.
+
+00:17.850 --> 00:20.210
+Le voy a poner Player punto ellas.
+
+00:22.370 --> 00:25.610
+Y voy a crear mi reduce tal y como lo hemos creado anteriormente.
+
+00:25.650 --> 00:31.440
+El proyecto UNU por default es una función que se va a llamar Player.
+
+00:32.650 --> 00:35.400
+Recibe como parámetro el vacío.
+
+00:37.280 --> 00:38.280
+Listo.
+
+00:39.330 --> 00:40.770
+Recibe el Ayuntamiento.
+
+00:42.110 --> 00:43.490
+Perfecto.
+
+00:43.520 --> 00:50.510
+Ahora vamos a hacer un switch CAIS en el cual vamos a validar si la expresión es igual a ésta o igual
+
+00:50.510 --> 00:56.300
+a la otra y vamos a ver qué hacer con la data así que ven primero en la expresión es acción Puntoticket
+
+00:56.840 --> 01:02.930
+que no es más que lo que nosotros tenemos en nuestro Auctions que es el tip que yo estoy definiendo
+
+01:02.960 --> 01:05.590
+aquí en esas constantes.
+
+01:05.600 --> 01:07.560
+Así que por eso no hay ningún problema.
+
+01:07.560 --> 01:15.710
+El primer caso va a ser que sea del tipo compliques fets que si es completed va a hacer algo.
+
+01:17.040 --> 01:24.450
+De lo contrario el otro caso es error fets y el otro caso es.
+
+01:28.000 --> 01:31.430
+Estar fets si no vamos a corroborarlo.
+
+01:32.540 --> 01:33.160
+Fetch.
+
+01:35.680 --> 01:36.290
+Listo.
+
+01:36.560 --> 01:38.710
+Perfecto si es cómplice.
+
+01:38.930 --> 01:40.750
+Entonces vamos a regresar.
+
+01:42.370 --> 01:50.170
+Una regla de cinco posiciones porque recuerdas que la data que te mandaba el reproductor era el arreglo
+
+01:50.170 --> 01:57.500
+de 5 y además información adicional que no la necesito así que voy a poner Axion punto pelota.
+
+02:01.410 --> 02:07.840
+Y así sucesivamente hasta llegar a la posición 4 1 2 3 4.
+
+02:07.920 --> 02:13.590
+Esto me Barredos hacer un arreglo de un objeto listo.
+
+02:13.590 --> 02:15.150
+Ahorita lo vamos a ver en nuestro Rond.
+
+02:15.270 --> 02:25.650
+En caso de que sea el error vamos a regresar el axon Akio por usar el punto tap nada más que gusto.
+
+02:25.740 --> 02:31.030
+En este caso lo a la acción a los dos pobretón y por default.
+
+02:33.310 --> 02:35.240
+Voy a regresar el este.
+
+02:38.200 --> 02:48.280
+Listo creo que no no tenemos ningún error hasta el momento y punto y coma de Fort Jackson.
+
+02:48.330 --> 02:51.590
+Aquí tenemos los puntos.
+
+02:52.320 --> 02:53.980
+Vamos a hacer que no tengamos ningún error.
+
+02:58.990 --> 03:00.870
+Todo correcto.
+
+03:01.140 --> 03:09.450
+Ahora sí vámonos a nuestro front que es en el índex y vamos a mandar un look aquí de disputo props a
+
+03:09.450 --> 03:11.170
+ver qué es lo que trae a nuestra propiedad.
+
+03:11.920 --> 03:20.220
+Como ya está conectado a nuestra estor se supone que debe de mandar la información así que vamos a antes
+
+03:20.300 --> 03:22.580
+vamos a andar antes de aquí.
+
+03:24.250 --> 03:28.420
+La voy a mandar aquí abajo.
+
+03:30.160 --> 03:31.770
+Vamos a actualizar.
+
+03:35.670 --> 03:36.220
+Listo.
+
+03:36.240 --> 03:40.900
+Manda elinicio el que es el que cree voy a ponerle mav.
+
+03:47.430 --> 03:48.660
+Se tardó un poco.
+
+03:49.140 --> 03:54.410
+Aquí está la información que yo había mandado.
+
+03:54.490 --> 04:00.490
+Pero bueno ahora tenemos que colocarla dentro en este lugar así que lo voy a poner.
+
+04:02.220 --> 04:09.520
+Shanks va a ser igual este punto Shanks que creo que así es como me va me va a llamar la información
+
+04:09.970 --> 04:10.930
+así que bien.
+
+04:11.630 --> 04:13.870
+Vamos a corroborar que eso esté funcionando.
+
+04:14.980 --> 04:21.180
+Pero nuestro urruzuno se llama playero así que no va a funcionar así que es perfecto.
+
+04:22.200 --> 04:29.370
+Vamos a ver que está todo perfecto de este lado en Auctions el surje busca el disparo el Dispatch y
+
+04:29.490 --> 04:39.720
+el complot y colapsan el complot fets que es este lo tenemos en nuestro sol el listo aunque esto no
+
+04:39.720 --> 04:44.520
+lo hemos conectado todavía entonces lo que estábamos mostrando era el lock.
+
+04:45.890 --> 04:46.620
+Perfecto.
+
+04:46.700 --> 04:47.800
+Vamos a eliminarlo.
+
+04:48.580 --> 04:49.790
+Listo.
+
+04:50.070 --> 04:56.300
+índex punto y es que en nuestra carpeta de usos vamos a importar nuestro reducir que se va a llamar
+
+04:56.300 --> 04:57.070
+Play.
+
+04:58.050 --> 05:02.120
+Y este viene de punto diagonal playa.
+
+05:02.690 --> 05:05.210
+Y lo tenemos que combinar con este.
+
+05:09.680 --> 05:10.920
+L'Illa lo voy a eliminar.
+
+05:10.970 --> 05:12.470
+Ya no lo necesito.
+
+05:12.620 --> 05:15.440
+Realmente lo necesitaba para no tener uno.
+
+05:15.540 --> 05:16.400
+Vamos a actualizar.
+
+05:16.400 --> 05:21.110
+Vamos a ver nuestro código está y nos está mandando un pequeño error.
+
+05:21.400 --> 05:23.900
+Que pleno contiene un exploit llamado Player.
+
+05:23.900 --> 05:26.320
+Vamos a ver por qué me está diciendo eso.
+
+05:27.310 --> 05:31.620
+Os aplaudiera exporto fonction aquí está.
+
+05:32.460 --> 05:40.810
+No sé porque vamos a verificar un poco por default fonction.
+
+05:41.160 --> 05:45.050
+Esta es una función que la estaban mandando a llamar.
+
+05:50.840 --> 05:52.190
+Por qué.
+
+05:52.270 --> 05:59.260
+Porque no es necesario hacer como lo hicimos Arrival las llaves porque es directo el importe.
+
+06:01.290 --> 06:02.200
+Ya está funcionando.
+
+06:02.220 --> 06:05.780
+Entonces vamos a buscar una canción por ejemplo mermaba.
+
+06:05.810 --> 06:15.110
+De nuevo rebuscar es un poco tardado esto es que ahora no hice no hice el lock pero ya se está haciendo.
+
+06:15.110 --> 06:16.520
+Vamos a ver el Network.
+
+06:19.110 --> 06:21.830
+Vamos a ver aquí los ricos que estoy haciendo quizás el sorge.
+
+06:24.350 --> 06:31.320
+No un Cuesta esta web que shapis Spotify version 1 sorge el tipo de la canción y me tiene que regresar
+
+06:31.320 --> 06:33.020
+algo perfecto.
+
+06:33.120 --> 06:34.770
+Vámonos a nuestro código de nuevo.
+
+06:36.480 --> 06:39.270
+índex Songs.
+
+06:39.360 --> 06:45.390
+Se supone que ya está disponible como propiedad así que lo voy a poner disputo props puntos Shanks.
+
+06:45.480 --> 06:48.400
+Al principio tiene que ser indefinido porque no está definido.
+
+06:48.450 --> 06:50.390
+Vamos a ver si esto es correcto.
+
+06:51.830 --> 06:58.420
+Perdón porque lo mandamos y listo vamos a poner Maps está actualizando.
+
+06:58.650 --> 07:06.900
+Lo de buscar y me dice fechan y les pedí después el valor es las canciones así que ya tenemos conectado
+
+07:06.910 --> 07:11.800
+nuestro rehúso y el funcionamiento fue básicamente el siguiente.
+
+07:14.730 --> 07:21.590
+Tenemos nuestra pantalla original en el cual tenemos nuestro recuadro central horizontal y vertical.
+
+07:21.690 --> 07:24.180
+Tenemos nuestro buscador con un botón.
+
+07:24.180 --> 07:32.190
+Cuando yo hago el escribo algo aquí le doy al botón sorge la variable de estado que está aquí la toma
+
+07:32.280 --> 07:39.690
+y la manda a Redux al azar un mando un Action el cual se encarga de ir a buscar a la librería de Spotify
+
+07:40.320 --> 07:42.100
+mediante Redux.
+
+07:42.520 --> 07:44.020
+Todo esto.
+
+07:44.100 --> 07:50.300
+Las canciones en la lista de las canciones me la despliega en un rico es este rico.
+
+07:50.600 --> 07:57.250
+Este logo lo maneja el reducir y el producer que está de este lado.
+
+08:01.650 --> 08:05.180
+Viene y me regresa un gris Ponds a mi fronto.
+
+08:05.430 --> 08:07.910
+Básicamente la estructura de lo que está pasando.
+
+08:08.190 --> 08:18.360
+Entonces el botón hacias es Pot DIFE mediante el action de Redux me manda a El Dispatch al reducir y
+
+08:18.390 --> 08:21.030
+el producirme lo regresa de nuevo al componente.
+
+08:21.290 --> 08:24.720
+Y es aquí donde yo voy a manejar la información de mi reproductor.
+
+08:24.720 --> 08:28.750
+Ya me están mandando las canciones como Lo puedes ver me manda 5x5 resultados.
+
+08:30.010 --> 08:39.340
+Visto ahora si lo que se diga que viene el nombre a la calle es Mavs la popularidad que el nombre de
+
+08:39.370 --> 08:44.150
+un derecho del CD 5 de marrón.
+
+08:44.410 --> 08:46.330
+Asi que te espero en el siguiente vídeo.
+
+08:46.400 --> 08:49.620
+Porque vamos a mostrar estas canciones aquí abajo.

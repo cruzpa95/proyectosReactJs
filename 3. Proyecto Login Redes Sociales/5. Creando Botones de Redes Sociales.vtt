@@ -1,0 +1,346 @@
+WEBVTT
+
+00:08.660 --> 00:17.410
+Bien ya estamos de regreso ahora tenemos que crear nuestro login para antes proceder a crear nuestro.
+
+00:17.540 --> 00:21.580
+Nuestra conexión con la aplicación que acabamos de crear en Facebook.
+
+00:21.770 --> 00:23.560
+Así que bien vámonos a nuestro código.
+
+00:24.550 --> 00:31.160
+Ahora que estoy en el archivo apunto Y es que a nivel de Source se refiere.
+
+00:31.660 --> 00:32.580
+Es hijo directo.
+
+00:32.650 --> 00:40.550
+Como recordarás descargamos Uhm un repositorio en el cual nosotros ya tenemos configurado nuestro crear
+
+00:41.200 --> 00:43.050
+con Reedus red.
+
+00:43.090 --> 00:51.100
+Realmente no lo vamos a necesitar porque estas peticiones se hacen a través de dentro del componente
+
+00:51.130 --> 00:53.900
+no es necesario cargarlos redox.
+
+00:53.980 --> 00:58.690
+Si quieres lo puedes hacer pero en este caso no lo voy a hacer bien.
+
+00:58.690 --> 01:07.510
+Nosotros tenemos una ruta que es exactamente ésta es John pero recuerdas que en nuestro proyecto nuestro
+
+01:07.510 --> 01:15.160
+prototipo consiste en realizar un Logue el cual procederá a mandarnos al algo así que voy a crear una
+
+01:15.160 --> 01:15.850
+ruta.
+
+01:15.910 --> 01:22.090
+De hecho aquí dejé el comentario que son las rutas aquí iban todas las rutas que tú vayas a utilizar.
+
+01:22.090 --> 01:27.500
+Así que voy a eliminar esto y voy a poner otra ruta.
+
+01:28.690 --> 01:30.290
+La Ruta.
+
+01:33.370 --> 01:36.680
+El PATH va a ser Joh.
+
+01:40.250 --> 01:42.730
+Y el componente este iba a ser John.
+
+01:47.520 --> 01:55.710
+Pero la primera ruta que es el que teníamos de Home va a ser lobby por lo cual aquí nos va a salir una
+
+01:55.920 --> 02:00.180
+persona voy a guardar porque el componente Lovin no existe.
+
+02:00.180 --> 02:05.860
+Es por eso que en vicious Voy a crear un nuevo archivo que se va a llamar lo guía .10.
+
+02:10.070 --> 02:11.490
+Ok perfecto.
+
+02:11.600 --> 02:14.440
+Este mismo lo voy a importar aquí.
+
+02:14.790 --> 02:20.290
+Impor lo Guin desde igual punto y diagonal al mismo nivel.
+
+02:20.290 --> 02:24.440
+Vistas lo que estamos no es necesario poner el 10.
+
+02:24.440 --> 02:31.340
+Ya lo había mencionado anteriormente así que esto aún nos va a seguir dando error porque el componente
+
+02:31.370 --> 02:32.250
+está vacío.
+
+02:32.390 --> 02:38.720
+No tiene ningún método de renda por lo cual renderiza a nada y truenan nuestra aplicación así que vamos
+
+02:38.720 --> 02:44.340
+a copiarnos esta línea que no hace más que importar React y Component del paquete.
+
+02:44.510 --> 02:48.490
+Así que bien vamos a hacer la clase de login que va a extender.
+
+02:49.340 --> 02:50.490
+De componer.
+
+02:55.670 --> 03:01.700
+Muy bien vamos a poner el método de render que es el método principal de un componente que siempre va
+
+03:01.700 --> 03:02.610
+a regresar algo.
+
+03:09.420 --> 03:10.400
+Tenemos que poner un chip.
+
+03:10.410 --> 03:15.510
+Hay que recordar que siempre hay que poner el chip que va a ser nuestro raperos de todo el componente
+
+03:16.380 --> 03:22.620
+por default vamos a exportar lo Guin para que pueda ser utilizado en otros componentes y ahora si vamos
+
+03:22.620 --> 03:23.310
+a salvar.
+
+03:24.330 --> 03:29.760
+Controlase y eso nos tendría que mandar exactamente nada.
+
+03:29.910 --> 03:30.630
+Por qué.
+
+03:30.630 --> 03:34.150
+Porque nuestro componente principal Guin está vacío.
+
+03:34.230 --> 03:40.700
+Ya no es así que esto va a hacer click derecho para ver que no tengamos ningún error.
+
+03:42.040 --> 03:43.310
+Consola y vacío.
+
+03:43.360 --> 03:48.390
+Todo está correcto para verificar que esto está correcto voy a poner simplemente un texto que dentro
+
+03:48.390 --> 03:51.550
+de lo Guin voy a salvar y voy a actualizar.
+
+03:51.820 --> 03:52.610
+Ahí estamos.
+
+03:52.660 --> 04:00.880
+Ya tenemos configurado nuestra pantalla de lo que es por esto que ahora tenemos que crear nuestra cajita
+
+04:01.120 --> 04:09.430
+en el cual vamos a tener un componente centrado horizontal y verticalmente y después lo vamos a vamos
+
+04:09.430 --> 04:13.280
+a meter los botones de Google y de Facebook.
+
+04:13.510 --> 04:20.800
+Así que bien vamos a realizarlo para lo cual lo Guin yo le voy a dar un clase que se vaya a Marley recuerda.
+
+04:20.950 --> 04:29.070
+Estamos siguiendo este patrón para nombrar las clases como componentes y así sucesivamente.
+
+04:29.140 --> 04:29.890
+A sus hijos.
+
+04:29.950 --> 04:32.090
+Así que el primer componente es log.
+
+04:32.710 --> 04:40.120
+Voy a poner otro Dib que para que sea el componente que va a ir centrado.
+
+04:40.300 --> 04:46.510
+Así que bien y dentro de este componente van ir los botones Así que para ejemplificar el centrado en
+
+04:46.510 --> 04:53.660
+este video voy a poner dos botones de prueba uno va a hacer un botón que va a decir Facebook.
+
+04:54.400 --> 04:57.610
+Totalmente sin diseño totalmente sin CSS.
+
+05:00.700 --> 05:06.930
+El siguiente va a ser Google que recordarla es muy importante.
+
+05:06.930 --> 05:13.550
+Un Tab es suficiente y siempre utiliza un tab muchas empresas muchas compañías están utilizando un tag
+
+05:13.570 --> 05:14.460
+de inventario.
+
+05:14.590 --> 05:18.520
+Por qué para diferenciar la Cuáles son sus hijos.
+
+05:18.520 --> 05:25.700
+Entendido así que salvamos y esto me va a tener en pantalla más que dos botones sin sentido.
+
+05:25.720 --> 05:28.620
+Es aquí donde va a entrar nuestro CSS.
+
+05:28.900 --> 05:33.640
+Así que bien vamos a crear dentro de BIOS podemos crear una carpeta estilos.
+
+05:33.940 --> 05:41.140
+No pasa nada pero en este caso yo voy a poner un índex punto CSS puede ser un YYY están bien pero yo
+
+05:41.140 --> 05:49.420
+voy a utilizar clases con CSS no estilos en forma de JavaScript o meter el CSS dentro de JavaScript
+
+05:49.570 --> 05:52.270
+que también es un método muy válido.
+
+05:52.420 --> 05:57.890
+Así que bien a este contenedor yo le voy a llamar log in guión.
+
+05:59.280 --> 06:01.830
+Lo voy a poner box ok.
+
+06:02.350 --> 06:07.370
+Y esos botones puede que les ponga un Audi o puede que les ponga una clase.
+
+06:07.500 --> 06:09.670
+Les va a poner una iribe ya que son únicos.
+
+06:09.810 --> 06:11.610
+Le voy a poner Facebook.
+
+06:12.140 --> 06:15.130
+Y al que sigue yo le voy a poner.
+
+06:18.340 --> 06:24.730
+Recordar que la heydi no se tiene que repetir asi que bien empecemos primeramente hostilizar un poquito
+
+06:24.730 --> 06:31.330
+lo que es luoghi tenemos que ponerlo en Flex al poner la propiedad de Flex nosotros podemos utilizar
+
+06:31.630 --> 06:35.620
+todas estas características que ya están cargadas en nuestro CSS.
+
+06:35.890 --> 06:43.130
+No es necesario instalar alguna dependencia adicional de alguno de los paquetes disponibles.
+
+06:43.660 --> 06:44.520
+Así que bien.
+
+06:45.640 --> 06:52.690
+Vamos a poner el fleksy Dirección en la línea ítemes vamos a ponerlos hacia el centro y que el centro
+
+06:52.690 --> 06:58.420
+justificado sea hacia el centro que quiere decir que todo lo que esté dentro del bastarse entrado horizontal
+
+06:58.480 --> 06:59.240
+y vertical.
+
+06:59.440 --> 07:05.640
+Así que entonces qué es lo que Inbox y los inbox que le voy a dar otra clase.
+
+07:06.160 --> 07:11.900
+Para eso le asigne Locking guión Books vamos a asignar tambiénun display Flex.
+
+07:13.710 --> 07:22.650
+Y vamos a poner el contenido el Flex dirección que por Fables ROU vamos a ponerlo en Colón.
+
+07:22.880 --> 07:29.930
+Y esto lo que nos va a hacer o lo que yo estoy intentando hacer es centrar horizontal y verticalmente
+
+07:30.110 --> 07:31.310
+nuestro login.
+
+07:31.340 --> 07:37.550
+Esta parte de arriba y lo Inbox vamos a centrar algo bueno o vamos a mandarlo hacia abajo la dirección
+
+07:37.970 --> 07:39.640
+de las columnas así que vamos a ver.
+
+07:42.140 --> 07:45.800
+Aquí no no nos está funcionando.
+
+07:45.890 --> 07:53.600
+Eso es por Obviamente razón no hemos definido algún estilo para nuestro HTML por lo cual el tamaño la
+
+07:53.600 --> 08:01.420
+altura y el huir Witches 100 por ciento pero el no vamos a ponerlo aquí vamos a probar en nuestro navegador.
+
+08:03.840 --> 08:10.520
+En BH estamos y vamos a ver un margen de cero para que no hagan ningún margen.
+
+08:10.550 --> 08:18.430
+Y eso se lo vamos a asignar a nuestro HTML y bodys así que vamos a poner HTML Bodhi.
+
+08:19.400 --> 08:20.780
+Un del 100 por ciento.
+
+08:20.800 --> 08:34.100
+Obviamente el overflow en X va a ser o que va a estar oculto porque si yo tengo mi overflow oculto siempre
+
+08:34.710 --> 08:40.300
+no va a ser ni krol ni NX ya que quiere decir que cuando una página tenga contenido hacia abajo o Señé
+
+08:40.660 --> 08:46.270
+no va a hacer scroll asi que son los de la izquierda es que es el izquierda derecha que es el X que
+
+08:46.270 --> 08:49.830
+se ve muy mal y vamos a darle una altura.
+
+08:52.060 --> 08:54.890
+Una altura de 100 UBE H.
+
+08:55.180 --> 08:57.040
+Así que vamos a ver.
+
+08:59.370 --> 09:00.160
+Listo.
+
+09:00.240 --> 09:01.150
+Seguimos igual.
+
+09:01.160 --> 09:08.110
+Vamos a ver al hogue Inbox login casquista vamos al Shalom jeudi del BH.
+
+09:10.670 --> 09:18.510
+Vamos a ver hoy no nos está leyendo los estilos vamos a irnos a nuestro componente Longhi no nos está
+
+09:18.510 --> 09:23.720
+leyendo las hojas la hoja a decirles porque no la habíamos importado vamos a colocar import.
+
+09:25.760 --> 09:33.170
+Qué quiere decir este impor punto diagonal índex puntos CSS que para todos los componentes sub o hijos
+
+09:33.620 --> 09:39.380
+o el mismo componente el locking todos los estilos que hayan estado al estilo Van a ser aplicados asi
+
+09:39.440 --> 09:47.780
+que vamos a ver estamos ya está centrado aquí y nos falta que para que el logo tenga una altura del
+
+09:47.780 --> 09:52.620
+100 por ciento que ya la habíamos puesto pero se nos había borrado a ésta.
+
+09:52.910 --> 10:00.110
+Vamos a darle a lo que tiene una altura al 100 por ciento y celam Salitral HTML y Bodhi para evitar
+
+10:00.800 --> 10:03.030
+problemas o complicaciones adelante.
+
+10:03.340 --> 10:06.410
+Estamos bien.
+
+10:07.270 --> 10:10.330
+Hoy que has entrado arriba y abajo Facebook.
+
+10:10.410 --> 10:18.180
+Así que bien que en el siguiente vídeo vamos a meter el estilo bonito vamos a hacer que esto funcione
+
+10:18.180 --> 10:25.470
+de manera correcta y entonces sí vamos a codear y a utilizar las librerías para poder hacer el inicio
+
+10:25.470 --> 10:26.170
+de sesión.

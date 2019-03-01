@@ -1,0 +1,304 @@
+WEBVTT
+
+00:09.000 --> 00:15.270
+Ya cuando nuestro mapa esté funcionando lo primero que tenemos que hacer es darle la funcionalidad a
+
+00:15.980 --> 00:16.780
+esto.
+
+00:17.070 --> 00:19.370
+Así que vamos a nuestro código.
+
+00:20.560 --> 00:26.280
+Yo voy a agregar una variable de estado más a mi componente y le voy a llamar auto.
+
+00:29.770 --> 00:31.230
+Esto va a ser igual a otro.
+
+00:31.710 --> 00:32.610
+Qué es el autoplay.
+
+00:32.610 --> 00:41.010
+Básicamente se va a estar activa y entonces el mapa va a estar activo.
+
+00:41.390 --> 00:44.060
+Entonces vamos para al final.
+
+00:45.270 --> 00:48.860
+Visto íbamos a hacer un método aquí que se va a llamar.
+
+00:50.400 --> 00:51.160
+Play.
+
+00:54.390 --> 00:56.770
+Y otro que se va a llamar honesto.
+
+00:59.180 --> 01:04.240
+Que los Tengo que declararme constructor disputo on Play.
+
+01:04.600 --> 01:06.690
+Va a ser igual a disputo con Play.
+
+01:06.880 --> 01:08.990
+Punto 20 días.
+
+01:10.810 --> 01:11.610
+Perfecto.
+
+01:12.460 --> 01:16.580
+Lo único que vamos a hacer en un pleito no es cambiar esta variable de estado.
+
+01:16.720 --> 01:18.890
+Vamos a poner punto sétait.
+
+01:19.820 --> 01:23.390
+Vamos a aceptar un play si es clic con Play.
+
+01:23.570 --> 01:27.480
+Entonces va a ser autoplay va a ser igual a otro.
+
+01:28.550 --> 01:32.590
+De lo contrario si es donde esto va va a ser igual.
+
+01:32.870 --> 01:33.540
+Falso.
+
+01:37.300 --> 01:40.260
+Y ahora si vemos que no tengamos ningún error en nuestro código.
+
+01:41.050 --> 01:44.850
+Al parecer no todo está perfecto bien ahora.
+
+01:44.950 --> 01:55.690
+Donde vamos a nosotros hacer clic en play stop si dices aquí en mi mapa no tengo ningún botón pero lo
+
+01:55.690 --> 01:56.830
+tengo en aviary.
+
+01:57.070 --> 02:00.500
+Es por eso que yo realicé esos botones.
+
+02:01.930 --> 02:09.040
+Y para eso le vamos a dar la funcionalidad aquí así que vamos a hacerlo si es un play vamos a darle
+
+02:09.040 --> 02:12.760
+un clic a un clic va a ser igual.
+
+02:12.800 --> 02:16.030
+Hadiz punto Play.
+
+02:16.370 --> 02:18.150
+Y vamos a declarar Carrio.
+
+02:24.830 --> 02:32.780
+Y vamos a tener que declararlo en nuestro constructor también disputo Play va a ser igual a un play
+
+02:32.810 --> 02:34.120
+punto 20.
+
+02:37.260 --> 02:38.160
+Punto.
+
+02:38.200 --> 02:38.700
+Stop.
+
+02:38.700 --> 02:43.290
+Va a ser igual a diez puntos top 20 días de una vez.
+
+02:43.300 --> 02:46.540
+Aprovechando que estamos aquí vamos a colocar el stop.
+
+02:48.370 --> 02:52.130
+Perfecto si es Play entonces presiona.
+
+02:52.150 --> 02:53.990
+Manda llamar el botón de play.
+
+02:54.070 --> 02:55.170
+Perdón el evento.
+
+02:55.390 --> 02:57.860
+Entonces fíjate como lo voy a hacer.
+
+02:57.910 --> 03:04.510
+Vamos a utilizar la referencia ya que con referencia yo puedo entrar a cada uno de los métodos o valores
+
+03:04.810 --> 03:09.990
+de mi componente por lo cual yo le voy a dar disputo Reeves que es la forma de accesar a Rehab.
+
+03:10.180 --> 03:12.940
+Si aún no recuerdas referencias.
+
+03:12.940 --> 03:19.550
+Básicamente es un valor que tú le asignas a un componente para identificarlo y poder accesar a sus métodos
+
+03:19.690 --> 03:21.190
+o sus valores.
+
+03:21.190 --> 03:24.050
+Punto mapp que perfecto.
+
+03:24.460 --> 03:28.620
+Y después le voy a dar punto en nombre del método.
+
+03:28.630 --> 03:31.870
+Con esto puedo acceder al método o sea un play.
+
+03:34.310 --> 03:37.850
+Y de lo contrario vamos a ir con esto.
+
+03:39.160 --> 03:41.360
+Para ver que se está funcionando.
+
+03:41.680 --> 03:50.140
+Yo voy a aquí voy a mandar un lock Bueno vamos a mandar un render y le voy a poner 10 puntos y punto.
+
+03:52.210 --> 03:59.490
+Punto autoplay perfecto para ver que estoy cambiando mi variable de estado cuando le estoy dando clic.
+
+03:59.720 --> 04:02.540
+Así que voy a actualizar esta primero.
+
+04:02.930 --> 04:07.550
+Ya rendering me dice que es lo que le doy es Stop.
+
+04:09.710 --> 04:13.360
+Ve cómo está funcionando en play through.
+
+04:13.640 --> 04:19.700
+Ya estamos accediendo al metro pero sin embargo lo tenemos que mandar y llamar así que lo voy a poner
+
+04:19.700 --> 04:24.640
+a quienes lo voy a poner un clic que es otro método y lo voy a poner puntos.
+
+04:24.650 --> 04:26.240
+Todo perfecto.
+
+04:26.390 --> 04:27.570
+Actualizamos.
+
+04:28.960 --> 04:37.020
+Tru Fallouts Tru Fawkes pero actualmente esto no me dice nada.
+
+04:37.020 --> 04:37.530
+Por qué.
+
+04:37.530 --> 04:45.930
+Porque pues sin embargo yo puedo ver que mi que mis marcadores siguen pasando entonces esto no está
+
+04:45.930 --> 04:46.440
+bien.
+
+04:46.620 --> 04:53.460
+Entonces yo me voy a ir a mi código y muy bien más específicamente y es lo que está por aquí lo voy
+
+04:53.460 --> 05:00.360
+a quitar y lo voy a poner autoplay la voy a declarar como variable también dentro de mi constante Estados
+
+05:00.750 --> 05:05.200
+y la voy a poner de este lado aquí.
+
+05:05.620 --> 05:13.780
+Entonces tengo que hacer la validación la validación que vamos a realizar es si el Autoplay está dentro
+
+05:13.800 --> 05:16.370
+o sea o si está funcionando el autoplay.
+
+05:16.590 --> 05:26.220
+Entonces tienes que poner el enlace y corren de longitud de lo contrario yo lo sugeriría de nuevo que
+
+05:26.220 --> 05:32.990
+te mande a los centros a los centros que habías definido por propiedades si autoplay es tu.
+
+05:33.120 --> 05:37.360
+Entonces me va a mostrar esto la Alcobendas.
+
+05:37.770 --> 05:41.230
+De lo contrario me va a mostrar la inicial.
+
+05:41.250 --> 05:48.790
+O sea lo que viene por propiedades entonces esto va a ser lo siguiente si autoplay entonces.
+
+05:49.700 --> 05:51.330
+Me manda esas.
+
+05:53.530 --> 05:54.970
+Creo que nos falta una llave.
+
+05:55.240 --> 06:03.130
+De lo contrario esto lo voy a poner en varias líneas para que no se vea tan tan mal que de lo contrario
+
+06:03.630 --> 06:12.850
+latitud va a ser igual a lo que venga en center MAP cortinajes de cero y la longitud va a ser lo que
+
+06:12.850 --> 06:17.120
+venga en center MAP coordiné de uno perfecto.
+
+06:17.370 --> 06:20.470
+Y aquí las tengo que aclarar tambien por supuesto.
+
+06:21.940 --> 06:26.400
+Center MAP coordiné es igual a disputo props.
+
+06:27.360 --> 06:28.230
+Ahí estamos.
+
+06:28.530 --> 06:30.700
+Entonces ya ya la puedo acceder.
+
+06:30.720 --> 06:36.300
+Entonces si autoplay es así está clickea el Plains que quiere que es por default Play pley entonces
+
+06:36.840 --> 06:42.140
+la latitud y la longitud van a ser de las que están definidas por el timer.
+
+06:42.270 --> 06:44.180
+De lo contrario van a ser las iniciales.
+
+06:44.370 --> 06:45.560
+Así que vamos a actualizar.
+
+06:47.470 --> 06:48.490
+Está funcionando.
+
+06:49.510 --> 06:52.240
+Vamos a ver en México y hasta en España.
+
+06:52.330 --> 06:58.850
+Pero si le doy clic en stop no está funcionando más se queda en México que es la posición inicial que
+
+06:58.950 --> 07:00.510
+esto es correcto.
+
+07:00.940 --> 07:07.110
+Vamos a darle play y me manda México España.
+
+07:09.260 --> 07:10.020
+Chile.
+
+07:12.250 --> 07:12.960
+Perú.
+
+07:15.210 --> 07:16.050
+Argentina.
+
+07:16.850 --> 07:19.950
+Pasó y me manda a México.
+
+07:20.090 --> 07:27.470
+Cómo lo verás cada tres segundos se sigue actualizando el timmer Ahorita lo vamos a arreglar esto porque
+
+07:27.500 --> 07:31.050
+no le tenemos una variable que se está actualizando.
+
+07:31.490 --> 07:34.060
+Si el auto pleiss Falso pues.
+
+07:34.230 --> 07:36.380
+No como que no queremos que se actualicen.
+
+07:36.680 --> 07:37.990
+Pero sí le doy play.
+
+07:38.810 --> 07:46.070
+Ahí estamos viendo el siguiente video en el cual vamos a realizar el back.

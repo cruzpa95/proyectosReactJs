@@ -1,0 +1,274 @@
+WEBVTT
+
+00:10.420 --> 00:18.040
+Una vez que tengamos ya nuestro parámetro obtenido de la RL Vamos a proceder a conectar nuestro componente
+
+00:18.430 --> 00:24.570
+orbite a nuestra estor entonces vamos a hacer lo mismo que hicimos en nuestro componente.
+
+00:24.700 --> 00:31.210
+Así que para hacerlo rápidamente me voy a copiar el Connect y el boyne acción que es para conectar mi
+
+00:31.210 --> 00:34.510
+componente este a Redux.
+
+00:34.510 --> 00:40.130
+De hecho por eso se instala o se viene desde este paquete y también el cine.
+
+00:40.150 --> 00:45.700
+Jackson creeros que es el encargado de poder utilizar los métodos para hacer el disparo.
+
+00:45.800 --> 00:46.970
+Así que vamos a hacerlo.
+
+00:52.040 --> 00:59.660
+Bien de esos importes solamente me está faltando uno de Action me tengo que traer la acción que creamos
+
+00:59.660 --> 01:00.780
+en video anterior.
+
+01:03.760 --> 01:10.310
+El que vaya heydi OK en el cual va a recibir un parámetro cuando la mandemos llamar así que bien vamos
+
+01:10.310 --> 01:11.100
+a realizarlo.
+
+01:13.540 --> 01:14.800
+Vamos a importar.
+
+01:17.190 --> 01:27.210
+Vaya heydi desde punto punto diagonal aktion porque a este nivel de Auctions y no voy a ser este el
+
+01:27.210 --> 01:29.320
+otro impor recordarlo.
+
+01:31.060 --> 01:38.610
+Es el índex incluiría hacklab me reconoce esto así que una de las ventajas que tiene este paquete.
+
+01:39.990 --> 01:41.110
+Vamos a guardar.
+
+01:41.260 --> 01:42.920
+Qué bien.
+
+01:43.960 --> 01:49.870
+Ahora tenemos que hacer las funciones al final de nuestro componente para conectarlo al estor y para
+
+01:49.870 --> 01:55.740
+poder utilizar el estatus de la estor como propiedad en el componente que vamos a hacer la función.
+
+01:57.980 --> 02:00.010
+Bien la función.
+
+02:01.210 --> 02:02.540
+MAP.
+
+02:09.660 --> 02:17.670
+Recibe como parámetro el este que es donde viene todo de la historia.
+
+02:18.070 --> 02:21.640
+Esta es una función hay que recordarlo y me va a regresar.
+
+02:26.240 --> 02:28.530
+En este caso me va a regresar.
+
+02:28.800 --> 02:32.480
+Como yo voy a llamar dentro de mi componente a esa propiedad.
+
+02:32.480 --> 02:40.540
+En este caso lo voy a poner y dite user Detail con calma el caéis este punto.
+
+02:40.670 --> 02:46.950
+Por lo pronto la oponerte ya una vez que sepamos cómo se llama este lo vamos a poner bien.
+
+02:47.240 --> 02:48.350
+Hay que poner otra función.
+
+02:48.350 --> 02:54.350
+El MAB Dispatch props que es la encargada de poder utilizar el Axion.
+
+02:54.530 --> 02:57.770
+Vaya heydi dentro de mi componente como propiedad.
+
+02:57.930 --> 02:58.740
+Vamos a usarlo.
+
+03:00.810 --> 03:04.150
+Es una función también MAP Dispatch to props.
+
+03:08.120 --> 03:13.480
+Recibe un parámetro que es muy importante siempre poner el Dispatch.
+
+03:14.320 --> 03:18.750
+Es el encargado de lanzar las acciones hacia la Torre.
+
+03:22.050 --> 03:33.620
+Este regresa el 20 actions creeros que es muy importante ya que este es el que me va en cargar o me
+
+03:33.620 --> 03:40.620
+va a ayudar más que nada a que el que se vaya y pueda ser utilizado en mers-cov del componente cerdita
+
+03:40.740 --> 03:41.970
+el como props.
+
+03:43.430 --> 03:45.140
+Así que bien es una función.
+
+03:48.640 --> 03:57.120
+Y por supuesto BAP como parámetro esa acción que es en este caso ser bayati el que manda.
+
+03:57.160 --> 04:02.110
+Otro segundo parámetro que es Dispatch Dispatch si no se la mando.
+
+04:02.170 --> 04:06.700
+Créanme que esto no va a funcionar bien.
+
+04:06.700 --> 04:14.440
+Por último hay que ser el NEC en el cual yo le paso como parámetro estas dos funciones que acabo de
+
+04:14.440 --> 04:14.940
+realizar.
+
+04:14.980 --> 04:17.320
+Y por supuesto también el componente.
+
+04:17.500 --> 04:19.210
+Así que bien vamos a hacer el konecta.
+
+04:23.680 --> 04:24.420
+Connect.
+
+04:26.210 --> 04:31.800
+Repasamos Maps y props MAP Dispatch props.
+
+04:32.320 --> 04:34.790
+Y luego le pasamos el componente.
+
+04:44.040 --> 04:46.130
+Vamos a guardar.
+
+04:46.230 --> 04:50.140
+Vamos a ver si no tenemos algún error nos dice que no que no tenemos nada.
+
+04:52.000 --> 04:54.410
+Así que bien vamos a.
+
+04:55.340 --> 04:56.220
+Vamos a ver.
+
+04:57.080 --> 05:05.180
+Bien entonces para probar para probar únicamente que ya estamos conectados a nuestra estor ya podemos
+
+05:05.180 --> 05:11.950
+hacer cosas aún en Happy vamos a nuestro código incorporen wilmut.
+
+05:12.290 --> 05:14.730
+Vamos a llamar disputo props.
+
+05:16.600 --> 05:20.650
+Diz punto props punto G.
+
+05:20.880 --> 05:29.380
+Vaya heydi que al hacer estro esto perdón ocupamos un parámetro que es el que será heydi y que claramente
+
+05:29.440 --> 05:32.440
+es este que viene como parámetro en la VR.
+
+05:32.470 --> 05:33.730
+Así que vamos a ponerlo.
+
+05:36.990 --> 05:41.030
+Vamos a guardaremos a quitar este blog que no me sirve de nada orita.
+
+05:42.810 --> 05:49.820
+No me manda ningún error salvo este warning que en com es un constructor de más o sea obviamente nada
+
+05:49.890 --> 05:54.870
+tiene un constructor pero ese constructor no está siendo utilizado por lo cual es innecesario pero son
+
+05:54.870 --> 05:59.000
+Mandel las que bien para ver si ya está funcionando.
+
+05:59.000 --> 06:05.670
+Me hubiera Auctions aquí donde está el que se vaya hedi VAMOS A MANDAR UN Loka quieren responde punto
+
+06:05.670 --> 06:06.220
+data.
+
+06:06.330 --> 06:08.190
+A ver qué es lo que nos está mandando.
+
+06:08.300 --> 06:11.690
+Se supone que esto ya está funcionando me están mandando al completo.
+
+06:11.970 --> 06:13.180
+Así que vamos a hacerlo.
+
+06:15.790 --> 06:19.600
+Bien responde punto data vamos a ver.
+
+06:23.540 --> 06:31.460
+Responsa punto data que se manda o se ejecuta cuando el yussuf RITE carga así que es la me mandan la
+
+06:31.460 --> 06:38.420
+edad el Audi las naïve el Facebook los mensajes en este caso serían los tweets.
+
+06:39.150 --> 06:40.910
+El teléfono y el Twitter.
+
+06:41.100 --> 06:47.520
+Cabe destacar que no es un triste real no existe Twitter.com House o al menos no estoy enterado pero
+
+06:47.610 --> 06:55.740
+es solamente falso para simular un campo de Facebook así que bien vamos a recibir esta información como
+
+06:55.750 --> 06:59.030
+ya lo estamos mandando en nuestro Dispatch.
+
+06:59.070 --> 07:05.980
+Ya tienen que estar en el componente como props así que vamos a ver este look lo voy a quitar de aquí
+
+07:06.800 --> 07:12.190
+bien os lo voy a cerrar no lo necesito para nada en el MAP.
+
+07:12.390 --> 07:13.940
+Vamos a mandar un lobb del State.
+
+07:13.980 --> 07:22.460
+A ver como se llama nuestro nuestra información que ocupamos de lector en este componente.
+
+07:22.680 --> 07:24.690
+Bien está.
+
+07:26.530 --> 07:27.690
+Se llama.
+
+07:27.850 --> 07:31.870
+Vaya heydi exactamente como se llama el método o la acción.
+
+07:32.080 --> 07:34.480
+Así que esto va a ser este punto.
+
+07:36.780 --> 07:38.060
+Y vaya.
+
+07:38.910 --> 07:39.750
+Y esto.
+
+07:40.600 --> 07:49.910
+Pasa a ser la prov del componente entonces si yo en mi render le pongo disponte props punto yussef.
+
+07:50.490 --> 07:52.580
+Vamos a ver lo que nos manda guardamos.
+
+07:54.890 --> 07:56.500
+Estamos al final.
+
+07:56.520 --> 08:01.110
+El cómplice jet set vahidi me manda la data en la que yo necesito.
+
+08:02.040 --> 08:05.030
+Así que bien una vez que hayamos consumido.
+
+08:05.100 --> 08:10.790
+En Paint vamos a proceder a hacer el diseño que ya propusimos asi que te espero en el siguiente vídeo.

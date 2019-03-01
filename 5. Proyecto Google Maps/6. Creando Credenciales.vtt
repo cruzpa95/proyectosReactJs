@@ -1,0 +1,151 @@
+WEBVTT
+
+00:08.410 --> 00:16.890
+Bien ahora para corregir esto que tenemos de nuestro proyecto es porque aún no tenemos ningún scrip
+
+00:17.140 --> 00:20.440
+para nosotros poder correr en nuestro mapa.
+
+00:20.530 --> 00:24.560
+Por eso nos está marcando error aquí al crear una instancia de mar.
+
+00:24.910 --> 00:27.530
+Si nosotros nos vamos a la librería.
+
+00:30.230 --> 00:37.750
+Ve cómo le utilizan un componente de alto orden que es Weeds Creep y Whites escribia y es un componente
+
+00:37.930 --> 00:47.470
+que utiliza esta librería para implementar la API de hieles de mapas pero lo podemos realizar de esta
+
+00:47.470 --> 00:55.090
+manera o utilizándolo dentro de nuestro índex HTML dentro de la carpeta públic que es lo más sencillo.
+
+00:55.240 --> 01:02.290
+Así que bien yo estoy en mi consola de Google igual dejo el link abajo lo war kubiak para crear un proyecto
+
+01:02.350 --> 01:03.600
+y le voy a poner.
+
+01:04.690 --> 01:05.780
+Proyecto.
+
+01:06.580 --> 01:07.380
+Maps.
+
+01:08.880 --> 01:10.570
+Kluivert ok.
+
+01:10.950 --> 01:20.740
+Y me va a desplegar la lista de aplicaciones que puede utilizar o de APIs para poder yo ya sea usar
+
+01:20.740 --> 01:23.200
+o août mapas etc..
+
+01:24.390 --> 01:31.750
+Así que bien vamos a poner APIs en servicios para ver que mapa está habilitado.
+
+01:32.120 --> 01:33.410
+Quizá Google Maps.
+
+01:34.360 --> 01:37.470
+Está deshabilitada así que yo lo arquine Hibu.
+
+01:39.140 --> 01:48.650
+Y me está cargando y me está habilitando la vía de la cual yo puedo generar un token una Piqui para
+
+01:48.650 --> 01:50.990
+poder utilizarlo en mi Front.
+
+01:51.910 --> 01:55.350
+Así que solamente vamos a esperar por lo pronto.
+
+01:55.570 --> 01:58.360
+Estamos bien vamos.
+
+01:58.390 --> 02:05.410
+De hecho arriba me dice que para usar esta piauí tu vas a necesitar O bueno puedes necesitar credenciales
+
+02:05.410 --> 02:08.720
+así que vamos a dar en crear credenciales para iniciar.
+
+02:11.030 --> 02:13.520
+Bien me dice que API estoy utilizando.
+
+02:16.240 --> 02:18.810
+Le voy a dar aquí.
+
+02:20.400 --> 02:21.430
+Listo.
+
+02:21.880 --> 02:30.060
+Y me dice gettier tensos y me dice que es mi a pique casquista y esta Happy que no la voy a eliminar
+
+02:30.060 --> 02:35.670
+aquí en el vídeo no la voy a censurar porque la voy a eliminar una vez terminando de grabar este vídeo
+
+02:35.950 --> 02:40.330
+así que trata de no utilizarla para que te funcione la voy a copiar.
+
+02:42.110 --> 02:43.020
+Y me voy.
+
+02:44.870 --> 02:54.350
+A mi proyecto después me voy a ir a mi carpeta públic y a mi componente HTML basicamente que es donde
+
+02:54.350 --> 03:02.400
+se carga todo el React en el componente root así que yo voy a agregar a un script.
+
+03:07.860 --> 03:09.740
+Donde el Source.
+
+03:14.890 --> 03:24.490
+Ese va a ser básicamente la dirección de donde está alojado el mapa de JavaScript así que siempres https.
+
+03:25.710 --> 03:29.500
+Diagonal a esta diagonal diagonal Maps.
+
+03:29.880 --> 03:30.510
+Punto.
+
+03:30.510 --> 03:32.130
+Google APIs.
+
+03:34.990 --> 03:37.040
+APIs punto com.
+
+03:38.450 --> 03:45.520
+Diagonal Mavs diagonal piai Diagonal es signo de interrogación.
+
+03:45.530 --> 03:55.010
+Para poner un parámetro o hacer aquí Iguala y aquí vamos a pegar nuestra API que acabamos de copiar
+
+03:55.180 --> 04:00.670
+de generar en nuestro en la consola de Google y listo.
+
+04:00.680 --> 04:03.330
+Básicamente sería todo voy a quitar esto.
+
+04:05.320 --> 04:06.690
+Voy a guardar.
+
+04:08.580 --> 04:10.540
+A veces aquí lo verdon.
+
+04:11.790 --> 04:18.140
+Ya tengo mi credencial y me dice que cree que el 26 de febrero al 2018 que es la fecha de grabación
+
+04:18.140 --> 04:18.830
+de este vídeo.
+
+04:19.990 --> 04:23.010
+Así que voy a actualizar.
+
+04:25.320 --> 04:25.870
+Y listo.
+
+04:25.920 --> 04:35.880
+Ya no tenemos el error pero sin embargo seguimos teniendo un problema el mapa aún no se ve así que no
+
+04:35.880 --> 04:36.820
+te despegues.

@@ -1,0 +1,175 @@
+WEBVTT
+
+00:08.740 --> 00:13.150
+Bien ya estamos en la parte final de nuestro curso de este proyecto.
+
+00:13.150 --> 00:21.490
+Por supuesto nos faltan aún dos funcionalidades que son privados y onexpo que son básicamente.
+
+00:21.820 --> 00:28.000
+Adelante y el atrás que atrás no más tenemos que agregar un poquito más de validación ya que si no vamos
+
+00:28.180 --> 00:33.600
+a acceder el arreglo y podemos caer en un error en un error o en acepción.
+
+00:33.850 --> 00:41.590
+Así que bien vamos a crear primero el método aquí abajo con un stop y le voy a llamar on line.
+
+00:44.620 --> 00:50.600
+Y esto básicamente va a aceptar un Estado también tres estados.
+
+00:50.610 --> 00:54.890
+El actual posición el color en lata el LNG o el corrupto.
+
+00:55.030 --> 00:56.400
+Qué perfecto.
+
+00:56.600 --> 01:02.500
+Básicamente vamos a hacer la validación actual positrón va a ser igual a lo que haya en el Estado.
+
+01:02.600 --> 01:07.410
+Puntos Toit punto actual posición +1 a la validación.
+
+01:07.730 --> 01:09.270
+Igual que lo hicimos aquí arriba.
+
+01:09.560 --> 01:18.350
+Si la posición actual +1 es menor a la longitud diez puntos Toit va a ser un poquito más grande en la
+
+01:18.350 --> 01:18.960
+letra.
+
+01:20.200 --> 01:33.790
+Estamos disputo este punto marketers punto que si esto es válido entonces vas a poner la posición actual.
+
+01:33.840 --> 01:40.460
+Punto a punto este punto actual posición +1 que quiere decir que estamos volando.
+
+01:40.480 --> 01:43.700
+Este arreglo de marcadores no vamos a hacer el un bouncer.
+
+01:44.170 --> 01:51.610
+Y sino por no hacer lo que quiere decir que si es el siguiente ya es el último entonces me va a mandar
+
+01:51.940 --> 01:54.910
+a mi posición cero que en este caso es México.
+
+01:55.030 --> 01:55.440
+Ok.
+
+01:55.480 --> 02:03.230
+Y lo que es el coro en que va a ser igual a diez puntos Tett punto marketers.
+
+02:04.250 --> 02:08.370
+De la posición de disposto punto actual posición.
+
+02:10.120 --> 02:14.090
+Punto Laut y esto me lo voy a copiar también.
+
+02:15.330 --> 02:17.500
+El NG disto.
+
+02:18.430 --> 02:28.220
+Pero aquí va a ser el torrent El LG que es la longitud y básicamente ese sería la funcionalidad de mi
+
+02:28.220 --> 02:30.670
+método o Next vamos a.
+
+02:31.390 --> 02:32.070
+Bien.
+
+02:32.270 --> 02:38.390
+Ahora lo que vamos a realizar es que en mi componente app que es donde yo he estado declarando su play
+
+02:38.450 --> 02:41.410
+stop y por referencias lo mande llamar.
+
+02:41.570 --> 02:49.270
+De hecho le voy a poner como Next dentro de mi método render disputo perdón fuera de mi reto.
+
+02:49.280 --> 02:55.640
+Método render Red punto MAP que es como le llame a mi componente on next.
+
+02:57.300 --> 02:58.650
+Y lo vamos a aclarar aquí.
+
+02:58.770 --> 03:05.130
+Si estuviéramos utilizando los Harrow Phone no tendríamos que aclarar que disputo Next va a ser igual
+
+03:05.130 --> 03:08.830
+a despunten X punto boyne.
+
+03:10.860 --> 03:11.420
+Punto.
+
+03:11.430 --> 03:16.090
+20 bits listo.
+
+03:16.420 --> 03:20.510
+Y además le tengo que agregar la funcionalidad funcionabilidad.
+
+03:20.510 --> 03:23.430
+Perdón aquí un click.
+
+03:24.730 --> 03:25.880
+Va a ser igual.
+
+03:26.260 --> 03:28.900
+Hadiz punto Next.
+
+03:29.360 --> 03:30.450
+Vamos a actualizar.
+
+03:32.750 --> 03:38.850
+Empezamos primero en México y después me va a mandar a España.
+
+03:39.320 --> 03:40.330
+Solo doy clic.
+
+03:41.140 --> 03:45.450
+Perú Argentina y México me devuelve Lenis.
+
+03:48.520 --> 03:55.120
+Aunque estaba un poco lento mi colección ahorita por eso este es un poco lento al momento de cargar
+
+03:55.520 --> 03:56.580
+mi mapa.
+
+03:56.590 --> 03:57.650
+Como lo puedes ver.
+
+03:58.920 --> 03:59.810
+Ahí estamos.
+
+04:02.390 --> 04:07.130
+Voy a poner el que actualice cada mayor tiempo que se tarde más.
+
+04:07.140 --> 04:09.250
+Perdón vamos a colocar.
+
+04:10.780 --> 04:19.180
+El timbre va a ser de ocho en lugar de esto actualizamos simplemente para que no se ve para que se vea
+
+04:19.180 --> 04:25.300
+cuando se cargue el mapa porque la conexión es un poco lenta dentro de mi zona.
+
+04:25.450 --> 04:27.040
+Igual aquí está el éxito.
+
+04:28.430 --> 04:31.490
+Va a tardar ocho segundos y luego va a cambiar.
+
+04:31.580 --> 04:32.650
+Hoy estamos en España.
+
+04:34.010 --> 04:35.040
+Estamos en Chile.
+
+04:37.870 --> 04:44.810
+Hoy estamos en Perú en el mar porque realmente escogió una zona cerca de Argentina también porque no
+
+04:44.810 --> 04:53.360
+escogí la Capital pero básicamente de eso trata este video de dar el NEX en el siguiente vamos a ver
+
+04:53.570 --> 04:54.540
+el previos.

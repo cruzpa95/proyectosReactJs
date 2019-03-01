@@ -1,0 +1,52 @@
+WEBVTT
+
+00:08.420 --> 00:13.180
+Vamos a hacer un pequeño paréntesis antes de continuar con nuestro proyecto de Spotify.
+
+00:13.190 --> 00:19.270
+Si no te ha funcionado esto es por una razón muy muy especial.
+
+00:19.790 --> 00:28.330
+Es que esta aplicación de Spotify que ya hemos creado en vídeos anteriores vamos a Settings.
+
+00:29.540 --> 00:36.300
+Y aquí viene cierta información que tú puedes cambiar tu sitio web belmondo LA Edi en caso de que sea
+
+00:36.320 --> 00:41.110
+una aplicación móvil o en Android etcétera.
+
+00:41.510 --> 00:46.210
+Pero realmente lo que yo ocupo es el yuuri que es el local 3000.
+
+00:46.220 --> 00:49.690
+Es por eso que no te está funcionando cuando estás iniciando sesión.
+
+00:49.880 --> 00:56.470
+Así que yo te recomiendo poner HTTP 2 puntos diagonal diagonal local Jost 2 puntos 3mil.
+
+00:56.530 --> 01:02.310
+A veces puede tomar un minuto dos minutos en realizarse la configuración a veces nada esos dependiendo
+
+01:02.390 --> 01:05.290
+de los servidores despóticas de la configuración.
+
+01:05.330 --> 01:07.250
+Pero bueno hoy me dejas tus comentarios.
+
+01:07.250 --> 01:09.000
+Vamos a eliminar.
+
+01:09.070 --> 01:13.310
+Perdona guardar y me dice que ya la información para mi.
+
+01:13.430 --> 01:20.530
+CURSO DE MIS app ha sido guardada asi que voy a poner Editing y Ekiza local 3mil.
+
+01:20.570 --> 01:27.400
+Asi que en caso de que no te llegara a funcionar esto son un caso muy extraño.
+
+01:27.610 --> 01:33.560
+Déjame tu comentario igual yo te apoyo asi que lo hacemos en el siguiente vídeo porque tenemos que continuar
+
+01:33.860 --> 01:35.670
+con nuestra búsqueda de canciones.

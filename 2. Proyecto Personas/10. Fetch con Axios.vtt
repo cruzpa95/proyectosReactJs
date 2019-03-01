@@ -1,0 +1,214 @@
+WEBVTT
+
+00:07.990 --> 00:08.970
+Bien.
+
+00:09.300 --> 00:13.300
+Ahora los va a marcar un error que en el Dispatch.
+
+00:13.310 --> 00:19.320
+Esto es porque puse el despacho fuera de donde fue declarado fuera de sus COV por lo cual aquí no existe.
+
+00:19.320 --> 00:20.350
+Es indefinido.
+
+00:20.580 --> 00:24.500
+Entonces vamos a ponerlo solamente dentro y vamos a actualizar.
+
+00:24.510 --> 00:30.720
+En este video vamos a ver cómo hacen un rico conexiones y vamos a quitar ya esta consola así que vamos
+
+00:30.720 --> 00:33.420
+a realizarlo de una vez.
+
+00:33.420 --> 00:40.710
+Primero tenemos que recordar que ya nosotros hicimos una configuración de accesos con http que es el
+
+00:40.710 --> 00:42.720
+archivo que tengo exactamente.
+
+00:45.590 --> 00:49.200
+En el cual configures su VR elevase a partir de esta.
+
+00:49.340 --> 00:55.640
+Vamos a colocar la gorra del pais y si es GET PUT post o Pats.
+
+00:55.910 --> 01:00.840
+En este caso vamos a utilizar un jet así que va a ser HTTP punto ket.
+
+01:01.780 --> 01:03.240
+Y entre paréntesis.
+
+01:03.270 --> 01:04.780
+Así es como funciona.
+
+01:04.950 --> 01:09.070
+Vamos a mandarle la ruta del empeine en este caso Acer y users.
+
+01:10.380 --> 01:12.460
+Listo.
+
+01:12.630 --> 01:16.910
+Esto a su vez es una promesa entonces por lo cual vamos a utilizar helden.
+
+01:18.040 --> 01:25.480
+Y que me manda una función de respuesta como parámetro que voy a mandar un log de responde.
+
+01:25.510 --> 01:31.720
+Para ver cómo es que funciona y de lo contrario si esto llega a arrojar un error vamos a poner el catt
+
+01:31.990 --> 01:36.930
+para que no truene nuestro sitio y nos mande un poco.
+
+01:38.010 --> 01:39.050
+Así que bien.
+
+01:40.700 --> 01:41.770
+Esto recibe.
+
+01:43.920 --> 01:50.220
+Otra función que manda el error como parámetro y lo podemos imprimir como listo.
+
+01:50.250 --> 01:52.550
+Así que vamos a ver cómo es que funciona esto.
+
+01:52.560 --> 01:54.380
+Vamos a abrir nuestro navegador.
+
+01:56.090 --> 02:02.470
+Vamos a poner el inspeccion el inspector perdón y vamos a ver el objeto.
+
+02:04.810 --> 02:05.500
+Listo.
+
+02:05.560 --> 02:07.700
+Aquí seamos ricos.
+
+02:08.020 --> 02:16.180
+En la línea 15 de Index de acciones que es exactamente esta me está dando un responso el cual viene
+
+02:16.450 --> 02:23.590
+data config los GTs el estatus y es un 215 que es okay y aquí está el estatus tedx como Ok.
+
+02:23.680 --> 02:27.350
+Así que bien vamos a poner nosotros de la siguiente manera.
+
+02:28.050 --> 02:30.980
+Punto Data está presente.
+
+02:32.910 --> 02:36.010
+Entonces vamos a llamar al Dispatch.
+
+02:38.510 --> 02:43.290
+Dispatch para que me lo mande a mi reduce y a De la siguiente manera.
+
+02:43.310 --> 02:44.500
+Como cómplice.
+
+02:44.920 --> 02:46.650
+Es que es éste.
+
+02:46.700 --> 02:53.510
+Esta acción de este método de por acá para que me envíe todo el complejo osores y un data data y enviar
+
+02:53.510 --> 02:55.250
+como parámetro que corresponde.
+
+02:55.280 --> 02:56.440
+Punto data.
+
+02:58.400 --> 03:03.470
+Y eso sería mandarlo al reducir el reducir por supuesto.
+
+03:03.470 --> 03:04.240
+A la vista.
+
+03:05.170 --> 03:07.590
+En caso de que haya un error vamos a mandar al Dispatch.
+
+03:09.930 --> 03:11.800
+Y le vamos a poner error.
+
+03:11.950 --> 03:16.490
+Users le vamos a mandar que también quiere un parámetro necesita un parámetro error.
+
+03:16.820 --> 03:18.450
+En este caso es obvio aquí.
+
+03:20.630 --> 03:21.410
+Y listo.
+
+03:26.710 --> 03:32.090
+Ahora en un espacio hay que cuidar ese espacio porque si no no me va a funcionar.
+
+03:32.250 --> 03:35.920
+Ahora vamos a verificar que reduce los estados absolutamente bien.
+
+03:37.080 --> 03:44.730
+En el switch hay un error porque cabe destacar que la acción manda un tip y un Redi o un tip y un data
+
+03:45.050 --> 03:52.230
+o un error entonces aquí tiene que ser Action Puntoticket para que pueda entrar a cualquiera uno de
+
+03:52.230 --> 03:58.960
+los tres casos que tengo por aquí y me regrese toda la data a mi fronteras y que bien vamos a actualizar.
+
+04:01.280 --> 04:07.140
+Aquí tengo un props en el render que me va a imprimir ya me mandan los tres props.
+
+04:07.160 --> 04:10.080
+Cabe destacar que está conectado al rares.
+
+04:10.100 --> 04:16.750
+También me mandan las historias y lo que ella y match por supuesto al principio usuales está vacío.
+
+04:17.240 --> 04:23.970
+El segundo blog de props cuando cambia me manda yussuf como Tip Star Wars.
+
+04:24.810 --> 04:32.310
+Y al final me manda el cómplice Gott con su respectiva data el cual viene de la API.
+
+04:32.390 --> 04:38.000
+El heydi el nombre Last nadim el iPhone y el Facebook todo eso es información ficticia.
+
+04:38.000 --> 04:43.010
+Cabe destacar que no es información traída de una base de datos real que está en producción en algún
+
+04:43.010 --> 04:43.680
+sitio web.
+
+04:45.110 --> 04:47.040
+Así que bien.
+
+04:47.290 --> 04:52.730
+Ya después que tengamos esto vamos a hacer un pequeño Review todo esto.
+
+04:52.730 --> 05:01.400
+Empezamos por el home el Jonh es el que cuando carga la pantalla gracias a que yo estoy haciendo el
+
+05:01.730 --> 05:06.730
+Action creeros get users que es una acción que está en mi archivo indexe acciones.
+
+05:08.690 --> 05:17.290
+Cuando esto pasa el Dispatch está encargado de enviar al micro users a mí reduce en este caso que es
+
+05:17.300 --> 05:19.710
+justo reducir estas acciones.
+
+05:19.730 --> 05:27.180
+El tipo si se inicia la transacción si se completa o si de plano es un error ok.
+
+05:27.240 --> 05:34.520
+Y en eso accesos con la ayuda de acciones con la configuración que ya habíamos hecho a este Pain me
+
+05:34.520 --> 05:40.550
+va a traer esa data porque es un get me atrae y responde Sí responde punto puntuada está completamente
+
+05:40.550 --> 05:41.410
+correcto.
+
+05:41.540 --> 05:51.170
+Entonces va y manda reducir su data que después la va a mostrar OK al Front entonces hasta aquí con
+
+05:51.170 --> 05:58.060
+este vídeo en el siguiente vamos a manipular esta información en el front y a pintarla en los karts.

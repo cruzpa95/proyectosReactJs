@@ -1,0 +1,184 @@
+WEBVTT
+
+00:08.320 --> 00:14.020
+Ahora en este video tenemos que crear nuestra aplicación en Spotify.
+
+00:14.020 --> 00:22.620
+Así que yo voy a colocar bueno colocados por ahí dentro de mi navegador de Google.
+
+00:23.300 --> 00:26.430
+Vine por búsqueda por default pero pones arriba.
+
+00:26.650 --> 00:29.410
+Esto es lo más importante.
+
+00:29.440 --> 00:30.890
+Vamos botifarra y développer.
+
+00:31.000 --> 00:37.990
+Y además aquí te va a colocar o te va a mostrar cada una de las cosas que puedes hacer en la parte de
+
+00:37.990 --> 00:44.360
+arriba donde dice Maya ábsides en manos applications de huaura y clic.
+
+00:44.870 --> 00:50.970
+Y me va a decidir control puedes controlar aplicaciones así que puedes ir de regreso puedes ir a decir
+
+00:51.290 --> 00:58.360
+que da alegría y te va a mandar a los términos de servicio si estando guiado.
+
+00:58.370 --> 01:01.270
+También te puede mandar a otra pantalla adicional.
+
+01:01.270 --> 01:06.220
+Simplemente vamos a aceptar los términos que si los quieres ver aquí están.
+
+01:08.600 --> 01:13.930
+Yo he creado aplicaciones para para mi proyecto que tengo actualmente.
+
+01:14.060 --> 01:21.850
+No tengo en un servidor pero bajar el link de la web abajo para que vean el ejemplo final el ejemplo
+
+01:21.860 --> 01:22.580
+final.
+
+01:22.670 --> 01:25.260
+Así que vamos a crear una aplicación.
+
+01:26.630 --> 01:37.430
+íbamos a poner el nombre de la aplicación en este caso lo voy a poner curso de mi Spotify a la descripción
+
+01:37.460 --> 01:46.550
+vamos a poner este aplicación de muestra del funcionamiento de Spotify.
+
+01:47.480 --> 01:49.530
+Esto es como todo lo quieras.
+
+01:51.190 --> 01:54.310
+A aprender que estamos creando un sitio de escritorio.
+
+01:57.020 --> 01:58.090
+Y nada más.
+
+01:59.560 --> 02:00.990
+Sale para abajo.
+
+02:06.300 --> 02:07.140
+Siguiente.
+
+02:09.560 --> 02:15.680
+A ponerle que no simplemente que no se está preguntando que si nosotros estamos integrando esto para
+
+02:15.680 --> 02:17.630
+un sitio comercial.
+
+02:17.690 --> 02:22.790
+Imagínate que tú tienes un sitio web o alguien de tu familia tiene un sitio web en el cual está vendiendo
+
+02:22.790 --> 02:26.170
+algo y va a ocupar la API Spotify para vender al.
+
+02:26.360 --> 02:27.840
+Pero cómo no.
+
+02:29.170 --> 02:35.330
+Vamos a cliquear aquí el primer término de condiciones en el cual nos dice que esta aplicación no es
+
+02:35.330 --> 02:37.710
+para uso comercial.
+
+02:39.420 --> 02:42.400
+Ok estamos de acuerdo con los términos y condiciones.
+
+02:43.370 --> 02:44.510
+Así que bien.
+
+02:44.540 --> 02:50.980
+Bueno yo te recomiendo no copiar este código porque lo voy a borrar la verdad.
+
+02:51.260 --> 02:59.200
+Así que no te preocupes este te apures por querer intentar algo así que bien.
+
+02:59.360 --> 03:06.350
+Ya tenemos nuestra aplicación creada ahora lo que vamos a necesitar es nuestro cliente heydi y nuestros
+
+03:06.350 --> 03:06.890
+ticker.
+
+03:06.970 --> 03:12.850
+Que bueno si no lo voy a mostrar ahorita pero darle clic aquí bien.
+
+03:12.950 --> 03:16.240
+Ahora sí vámonos a mí a mi código.
+
+03:18.490 --> 03:21.560
+Perfecto package.
+
+03:21.850 --> 03:28.400
+Vamos a revisar que no tengamos no tengamos la librería instalada y la vamos a instalar así que vamos
+
+03:28.400 --> 03:32.410
+a usar nuestro navegador y le vamos a colocar.
+
+03:32.470 --> 03:36.490
+Bueno de hecho aquí lo puedes ver en la documentación.
+
+03:37.060 --> 03:41.980
+Han actualizado la página de Spotify y hace poco la última vez no estaba no estaba.
+
+03:42.080 --> 03:51.060
+Bueno al menos una fecha que se está grabando este vídeo acaba de cambiar así que vamos a poner en Kickstarter.
+
+03:51.190 --> 03:57.950
+Dependiendo de lo que quieras hacer y de hecho aquí te ponen el SDK como lo puedes instalar.
+
+03:58.100 --> 04:04.830
+Eso sería en web sin nada de red.
+
+04:04.900 --> 04:12.070
+Así que esto lo podrías hacer ya que está el código Sors etc pero bueno esa no es la intención.
+
+04:12.070 --> 04:17.980
+La intención es descargar la librería y vernos en el siguiente vídeo pero vamos a realizarla sobre nuestro
+
+04:17.980 --> 04:19.040
+terminal.
+
+04:23.380 --> 04:28.260
+Llegamos a colocar en el Premis tal billonesde.
+
+04:28.970 --> 04:34.010
+También vamos a ponerle Spotify el SDK.
+
+04:35.510 --> 04:37.630
+Y ahí vamos a guardarlo y vamos a buscarlo.
+
+04:37.830 --> 04:41.120
+Spotify SDK JavaScript.
+
+04:47.550 --> 04:48.920
+Perfecto.
+
+04:49.320 --> 05:01.300
+Este último Convit fue de hace aproximadamente dos años así que vamos a trabajar sobre esta librería.
+
+05:01.660 --> 05:02.860
+Ya se instaló.
+
+05:03.160 --> 05:10.530
+Así que en el próximo vídeo vamos a trabajar ya sobre construir la estructura del Redux.
+
+05:10.690 --> 05:19.780
+Hemos creado la estructura básica muy sencilla de nuestra pantalla principal pero tenemos que conectarnos
+
+05:19.840 --> 05:31.300
+y crear todo lo necesario de Redux para poder consumir ya que al hacer rico a Spotify conlleva una conexión
+
+05:31.580 --> 05:32.670
+con uno.
+
+05:32.770 --> 05:38.900
+Obviamente entonces lo podemos hacer dentro de nuestro componente pero no es lo recomendable así que
+
+05:38.900 --> 05:45.770
+lo vamos a hacer mediante acciones y la estructura de Redux hace que te veas en el siguiente vídeo.

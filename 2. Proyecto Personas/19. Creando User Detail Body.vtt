@@ -1,0 +1,328 @@
+WEBVTT
+
+00:08.620 --> 00:10.450
+Continuamos con nuestro proyecto.
+
+00:10.450 --> 00:12.100
+Usuarios o personas.
+
+00:12.100 --> 00:19.440
+Ahora tenemos que crear este componente que es el último para terminar nuestro proyecto bien es el user
+
+00:19.480 --> 00:22.480
+dicté el body que a su vez tiene un serpost.
+
+00:22.660 --> 00:26.440
+Así que vamos a proceder a crear el youssou orbite el body.
+
+00:26.440 --> 00:28.110
+Así que yo me voy a ir a mi código.
+
+00:29.320 --> 00:30.770
+En componentes.
+
+00:30.790 --> 00:33.410
+Porque no es una vicencio una pantalla.
+
+00:33.510 --> 00:39.400
+Yo creo que esa es la diferencia en mi código porque en sí es una vista user.
+
+00:43.270 --> 00:46.120
+Bodhi punto y es para agilizar esto.
+
+00:46.120 --> 00:50.250
+Voy a copiar esto de arriba que es exactamente lo mismo.
+
+00:54.530 --> 00:58.850
+Simplemente la clase que si tiene que ser declarada.
+
+00:59.540 --> 01:04.690
+Yo solicité el body que extiende de componente siempre me pasa lo mismo.
+
+01:06.330 --> 01:08.390
+Con baqueta hay que quitar.
+
+01:10.240 --> 01:11.370
+Y mi metodo render.
+
+01:14.520 --> 01:16.320
+Me va a Radio sarandí por supuesto.
+
+01:24.970 --> 01:29.080
+Vamos a poner una sola línea así en diferentes líneas.
+
+01:29.570 --> 01:40.070
+Con envio solicité el body que lo distinga de los demás klasse que yo uso.
+
+01:41.320 --> 01:44.780
+Y por supuesto hay que exportar este componente.
+
+01:46.360 --> 01:48.270
+Minusculas está pasando.
+
+01:48.810 --> 01:50.120
+Yo solicité el body.
+
+01:54.330 --> 01:54.960
+Perfecto.
+
+01:55.080 --> 01:56.780
+Vamos a ver si no tenemos ningún error.
+
+01:58.620 --> 01:59.920
+Todo en orden.
+
+02:00.060 --> 02:05.450
+Sin embargo aquí me dice que han sido propiedades que no hemos utilizado como El Alto.
+
+02:05.610 --> 02:08.330
+Así que vamos a ponérsela para que no me esté diciendo nada.
+
+02:09.030 --> 02:15.870
+Quiere decir que la imagen siempre tiene que tener un alto que la propiedad de HTML o de un tag de HTML
+
+02:16.650 --> 02:23.220
+que es renderizada o es mostrada cuando la imagen no está en el servidor por ejemplo imagínate que pones
+
+02:23.220 --> 02:26.430
+una foto de aquí y el Chavo la borra.
+
+02:26.430 --> 02:31.470
+Pues entonces vas a mostrar simplemente una imagen que no existe.
+
+02:31.530 --> 02:38.220
+Aparece un icono por default pero si tú lo tienes la propiedad alta aparece con un texto que es una
+
+02:38.640 --> 02:40.110
+leyenda para el usuario.
+
+02:40.120 --> 02:41.210
+Yo le voy a poner.
+
+02:46.130 --> 02:47.890
+Simplemente avatar.
+
+02:50.190 --> 02:51.330
+Listo.
+
+02:51.460 --> 02:57.480
+Muy bien actualizamos y se quitan los guanes mágicamente todo lo que nos hace una propiedad que tenemos
+
+02:57.480 --> 02:58.780
+que mostrar.
+
+02:58.820 --> 03:05.510
+Esos son a veces bueno para no dejar este código malo que si funciona pero siguen siendo warnings.
+
+03:05.520 --> 03:07.700
+No son estándares que si la doble UT3.
+
+03:07.980 --> 03:09.170
+Así que bien.
+
+03:09.630 --> 03:13.920
+Yo solicité el body va a tener otro componente que tenemos que crear de nuevo.
+
+03:13.950 --> 03:17.580
+Así es que yo me voy a copiar todo esto por qué.
+
+03:17.580 --> 03:21.640
+Porque es exactamente lo mismo que hace simplemente con otro nombre.
+
+03:24.150 --> 03:26.590
+Y qué le llamamos serpost.
+
+03:28.370 --> 03:33.530
+Así que vamos a crearlo yo uso el post punto diez.
+
+03:34.410 --> 03:36.520
+Y simplemente cambiamos todo.
+
+03:47.780 --> 03:51.040
+Creo que mi teclado se volvió un poco loco.
+
+03:51.110 --> 03:53.510
+Klaus Yuso el post.
+
+03:53.760 --> 03:54.880
+Ahí estamos.
+
+03:55.120 --> 03:58.540
+Y este el post va a ser la misma clase.
+
+04:01.490 --> 04:03.820
+Y creo que no alcancé a copiar.
+
+04:04.160 --> 04:06.580
+Estamos exactamente lo mismo.
+
+04:06.780 --> 04:12.000
+Obviamente va a tener diferentes tipos de propiedades atributos clases pero me lo copié para hacerlo
+
+04:12.000 --> 04:17.280
+más rápido para crear mi componente un poco más rápido así que yo solicité el cover que es el componente
+
+04:17.280 --> 04:19.080
+principal o la vista.
+
+04:19.110 --> 04:25.380
+Perdón yo que es la vista principal es donde los vamos a mostrar así que vamos a importar el yo solicité
+
+04:25.380 --> 04:33.210
+el body y el bodys o en ellos serpost tal y como lo mostramos en nuestra imagen así que bien.
+
+04:34.060 --> 04:39.330
+Vamos a hacer el import de Yuso detained Bodhi.
+
+04:39.370 --> 04:43.050
+Este viene exactamente lo mismo Component.
+
+04:45.550 --> 04:47.060
+Yo soy bitel.
+
+04:47.210 --> 04:51.330
+Así que este componente Me lo voy a poner aquí abajo de Yo soy terco.
+
+04:55.710 --> 04:56.310
+Perfecto.
+
+04:56.460 --> 04:58.930
+No tiene nada por lo cual solamente me ama a seguir.
+
+04:59.000 --> 05:05.890
+Se me va a seguir mostrando en esto así que vamos a darle un vaquero en blanco un blanco no tan fuerte.
+
+05:05.970 --> 05:13.470
+O sea no un fff no quiere decir que Blanco sea un color muy muy ruidoso pero bueno vamos a ponerlo el
+
+05:13.480 --> 05:15.090
+yussuf el body.
+
+05:15.120 --> 05:16.550
+Entonces yo solicité el body.
+
+05:16.560 --> 05:17.750
+Ya tiene.
+
+05:21.670 --> 05:23.680
+Creo que me copio otra.
+
+05:27.190 --> 05:27.750
+Perfecto.
+
+05:27.820 --> 05:31.710
+Vamos a poner los contenedores siempre arriba.
+
+05:31.810 --> 05:34.260
+Vamos a poner un background color rosa.
+
+05:34.380 --> 05:35.260
+Un fff.
+
+05:35.270 --> 05:39.750
+Yo sé que dije que no pero para partir de ahí y con la ayuda del inspector cambiar el color.
+
+05:39.900 --> 05:41.440
+Así que vamos a actualizar.
+
+05:41.440 --> 05:43.570
+Por supuesto no me van a mandar nada.
+
+05:43.570 --> 05:50.680
+Me dicen que no no hay nada porque no tienen altura pero vamos a forzar o vamos a poner un texto simplemente
+
+05:51.040 --> 05:52.270
+en el borde.
+
+05:55.820 --> 05:57.430
+Que no dicen nada en absoluto.
+
+05:58.060 --> 05:59.000
+Pero ahí está.
+
+06:00.000 --> 06:01.850
+Actualizamos y.
+
+06:02.020 --> 06:07.270
+Ahí está el FF pero yo no quiero que sea f.f así que bien vamos a poner.
+
+06:08.290 --> 06:15.310
+Vamos a agarrar el inspector que es muy interesante esta herramienta y vamos a jugar con los colores.
+
+06:15.560 --> 06:17.680
+Este es el blanco que se le fefé.
+
+06:17.830 --> 06:24.730
+Yo no lo quiero un blanco lo quiero un poco más opaco más o menos así que son 8 8 8 así que me lo voy
+
+06:24.730 --> 06:26.750
+a copiar y lo voy a pegar.
+
+06:35.300 --> 06:38.840
+Listo es otra cosa.
+
+06:38.930 --> 06:42.360
+Sí quiero que el socio solamente sea 100 por ciento y que no haya scroll.
+
+06:42.440 --> 06:48.770
+Por lo pronto no voy a poner escrotal porque las explicaciones no son tantas.
+
+06:48.920 --> 06:53.360
+Recuerda que le dimos un a una altura de 40 RITE el cobro.
+
+06:53.570 --> 07:00.590
+Entonces eso quiere decir que todavía me quedan 60 VH o 60 por ciento para que sea body.
+
+07:00.590 --> 07:02.110
+Entonces vamos a ponérselos.
+
+07:12.430 --> 07:15.960
+Listo solamente le cambiamos a 60.
+
+07:17.340 --> 07:19.750
+Salvamos guardamos.
+
+07:19.750 --> 07:20.730
+Y ahí está.
+
+07:20.930 --> 07:22.990
+Hoy toma ya un poquito más forma.
+
+07:23.320 --> 07:24.090
+Veamos.
+
+07:25.090 --> 07:30.250
+Me hace un ligero scroll critchley vamos a revisar porque no me lo tendría que estar haciendo.
+
+07:30.250 --> 07:35.050
+Se supone que 60 más 40 pesos obviamente queda un.
+
+07:36.900 --> 07:42.190
+Pero si queremos forzarlo si queremos quitar ya este es de scroll.
+
+07:42.300 --> 07:48.430
+No no basta más que dar un HTML o un body overflow.
+
+07:50.780 --> 07:58.340
+Pero si se la doy se va a quitar todo el overflow veille de la otra pantalla que es la principal.
+
+07:58.340 --> 07:59.350
+Vamos a mostrarla.
+
+08:03.390 --> 08:04.190
+Que se esta.
+
+08:05.540 --> 08:09.880
+No va a ser el overflow en el scroll y tendremos comentarios en PC.
+
+08:09.890 --> 08:16.160
+Pero bueno yo creo que por el momento por el momento lo vamos a dejar porque estamos en un curso de
+
+08:16.160 --> 08:19.820
+Diseño de Interfaces estamos en un curso de viaje.
+
+08:20.060 --> 08:21.850
+Así que esperan en el siguiente video.
+
+08:21.850 --> 08:27.370
+Por qué tenemos que terminar y pintar los post de nuestro usuario.

@@ -1,0 +1,259 @@
+WEBVTT
+
+00:08.300 --> 00:10.080
+Bien ya estamos de regreso.
+
+00:10.180 --> 00:17.890
+Ahora si nosotros quisiéramos hacer esto con Link que es una componente propios de otras librerías de
+
+00:17.890 --> 00:20.880
+Riad curraron raros dum.
+
+00:21.100 --> 00:28.300
+Tendríamos que instalarlo y después poner simplemente todo esto que es un Dib dentro de un componente
+
+00:28.300 --> 00:29.300
+link.
+
+00:29.560 --> 00:33.940
+Y al final va a ir renderiza como si estuviéramos realmente queesto un link.
+
+00:36.290 --> 00:41.890
+Pero por el momento lo vamos a dejar así para no estar instalando orita otro paquete extra.
+
+00:42.410 --> 00:44.470
+Vamos a actualizar y vamos a darle click.
+
+00:45.720 --> 00:53.580
+No nuestros pareciéndonos La Creo que tenemos un pequeño error aquí vamos a suponer que nos faltó colocar
+
+00:53.820 --> 00:54.740
+la Diagonal.
+
+00:54.750 --> 01:02.400
+Si no esto no va a funcionar ahí si no se pierde no encuentra la ruta ahí está nuestro bola el background
+
+01:02.400 --> 01:05.900
+que es que es negro ya lo habíamos definido previamente.
+
+01:06.060 --> 01:14.550
+Así que bien ahora vamos a recibir esos parámetros vamos a leer este parámetro que es uno y con él vamos
+
+01:14.550 --> 01:24.180
+a conectar nuestro componente a nuestra estor OK para hacer el rico para obtener el detalle de este
+
+01:24.270 --> 01:31.460
+usuario y a su vez puedas traer todos los tuits o comentarios que hayas hecho y los render leamos ok.
+
+01:31.660 --> 01:39.340
+Así que perfecto vamos a cerrar haub que no lo estamos necesitando ni un solo ítem pero sí yussef.
+
+01:39.420 --> 01:42.400
+Así que voy a poner Component.
+
+01:42.520 --> 01:48.210
+Bueno no lo necesitamos aquí en el render va a poner disputo props para que veas todas las propiedades
+
+01:48.210 --> 01:51.250
+que tenemos de esta pantalla.
+
+01:51.570 --> 01:52.610
+Vamos al Lok.
+
+01:55.050 --> 01:59.090
+Es un objeto en el cual yo tengo aquí mis el Padme.
+
+01:59.360 --> 02:03.920
+Es lo que yo quiero es que Mads.
+
+02:04.570 --> 02:07.330
+Parámetros y el ser heydi ONC.
+
+02:07.450 --> 02:08.480
+Así que lo voy a leer.
+
+02:08.800 --> 02:16.180
+Entonces yo no puedo meter en una variable de estado o no en este caso a menos que vayamos a hacer cambio
+
+02:17.050 --> 02:20.540
+de Heidi pero no es necesario.
+
+02:20.560 --> 02:22.910
+Así que bien componen wilmut.
+
+02:22.960 --> 02:30.970
+Ahora si lo vamos a necesitar y vamos a imprimir punto punto props estás disputo props Así que si yo
+
+02:30.970 --> 02:31.420
+me voy.
+
+02:31.420 --> 02:32.510
+Punto mazz.
+
+02:33.410 --> 02:37.570
+Punto Mat ya estaría aquí adentro.
+
+02:37.890 --> 02:41.740
+Con y me voy a amparamos punto para ambos.
+
+02:42.880 --> 02:44.650
+Ok ya estoy aquí dentro.
+
+02:44.680 --> 02:47.820
+Y ahora si me traigo la propiedad será con.
+
+02:48.160 --> 02:51.360
+Así que vamos a imprimirlo.
+
+02:53.700 --> 02:57.900
+Yo le cambiaría aquí al 2 imprimir el 2.
+
+02:58.010 --> 03:01.120
+Así que bien ese sería mi Ushahidi.
+
+03:01.400 --> 03:07.220
+Entonces vamos ahora sí a conectar nuestro componente.
+
+03:07.340 --> 03:15.720
+Así que antes de hacer esto vamos a crear las acciones para obtenerlo y por supuesto el reducir así
+
+03:15.770 --> 03:20.710
+que bien vámonos a mi índex punto y es vamos a hacer exactamente lo mismo.
+
+03:20.900 --> 03:25.500
+De hecho podríamos reciclar pero no pasa absolutamente nada.
+
+03:25.500 --> 03:36.110
+Si vuelvo a copiarme este código lo pongo aquí abajo target users entonces los del jet user voy heydi.
+
+03:37.650 --> 03:41.700
+Complot completed get user vale ahí.
+
+03:43.020 --> 03:48.880
+Error get user Boy heydi el Cambil que hay siempre presente.
+
+03:49.240 --> 03:52.880
+El target de User Boy.
+
+03:53.860 --> 03:55.570
+Y así lo voy a hacer con todos.
+
+03:55.910 --> 03:57.990
+Que Usher vaya Heidi.
+
+04:00.240 --> 04:03.830
+Y el error de ser boy heydi.
+
+04:04.570 --> 04:05.400
+Perfecto.
+
+04:05.710 --> 04:11.190
+Ahora si tengo que crear el siguiente método que me lo puedo copiar y lo puedo pegar.
+
+04:11.350 --> 04:13.160
+No pasa nada.
+
+04:13.300 --> 04:15.440
+Jett User Boy.
+
+04:17.670 --> 04:19.650
+Heydi ahora.
+
+04:19.730 --> 04:26.540
+Este método tiene que recibir una heydi que en este caso va a ser user heydi.
+
+04:26.840 --> 04:27.690
+OK.
+
+04:27.980 --> 04:37.700
+Entonces cuando inicie bastet START get buseros boidi Gradius el perdón el endpoint va a ser exactamente
+
+04:37.700 --> 04:40.760
+el mismo simplemente que yo lo voy a pasar aquí.
+
+04:40.790 --> 04:42.620
+El user Heidi.
+
+04:43.190 --> 04:43.860
+Ok.
+
+04:44.150 --> 04:52.280
+Entonces si responsa punto Data está presente entonces vamos a mandar conflit que user boidi en el cual
+
+04:52.280 --> 04:59.420
+yo lo voy a mandar un respondés punto de data que va a ser exactamente todo todo todo todo todo lo que
+
+04:59.420 --> 05:04.360
+viene de la base de datos de nuestro piauí y en caso de que salga un error vamos a mandar.
+
+05:04.380 --> 05:05.840
+Error.
+
+05:06.220 --> 05:07.050
+Vaya.
+
+05:07.310 --> 05:07.860
+Ok.
+
+05:08.000 --> 05:09.580
+Vamos a ver si no tenemos ningún error.
+
+05:11.260 --> 05:12.440
+Por supuesto que no..
+
+05:12.790 --> 05:16.920
+Ahora me voy a ir a mi reduces en el cual voy a crear otro reducir.
+
+05:17.660 --> 05:21.530
+Voy a copiar exactamente y pegar el mismo.
+
+05:21.530 --> 05:26.010
+Puedo hacer esto de diferentes maneras lo estoy haciendo de una manera sencilla de usar.
+
+05:26.090 --> 05:27.950
+Vaya idic.
+
+05:31.130 --> 05:35.110
+Vaya heydi exactamente todos.
+
+05:35.300 --> 05:38.420
+Vaya perfecto.
+
+05:38.510 --> 05:45.130
+Aquí sí parece como si estuviéramos nosotros mandando exactamente lo mismo.
+
+05:45.140 --> 05:52.590
+Podemos reciclarlo pero cuando entremos a más lógica si nosotros estamos trabajando en un proyecto esta
+
+05:52.910 --> 05:57.390
+acción no solamente va a ser un reto aktion va a haber muchas validaciones que tiene que pasar.
+
+05:57.530 --> 06:02.590
+Dependiendo de la lógica de negocio que tenga tu proyecto así que no tenemos que declarar.
+
+06:02.600 --> 06:09.040
+Obviamente aquí con menos recursos para hiri hay que importarlo y hay que combinarlo.
+
+06:11.370 --> 06:14.070
+Así puedo tener varios recursos por supuesto.
+
+06:17.200 --> 06:18.390
+Actualizamos.
+
+06:19.510 --> 06:21.320
+Y listo.
+
+06:21.880 --> 06:24.260
+Entonces muy bien.
+
+06:25.290 --> 06:32.020
+Vamos a proceder a conectar nuestra vista con la Store y la estor con el pie y para hacer nuestro rico
+
+06:32.760 --> 06:35.780
+y después consumir ladakh ok.
+
+06:35.820 --> 06:37.240
+Te espero en el siguiente vídeo.
+
+06:37.260 --> 06:38.250
+No te lo pierdas.

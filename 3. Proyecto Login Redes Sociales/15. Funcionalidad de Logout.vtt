@@ -1,0 +1,352 @@
+WEBVTT
+
+00:08.260 --> 00:16.990
+Bien en este video vamos a completar uno de los pasos finales para completar nuestro proyecto de login
+
+00:16.990 --> 00:18.230
+con redes sociales.
+
+00:18.310 --> 00:20.830
+En Primera Tenemos un error muy grande.
+
+00:20.830 --> 00:23.180
+Imagínate que yo me voy a home.
+
+00:23.650 --> 00:26.830
+Como ya lo he platicado inicio con Jaime.
+
+00:27.970 --> 00:28.950
+Me lo creo.
+
+00:29.350 --> 00:36.580
+Pero sin embargo me aparece mi nombre de Facebook y mi foto de perfil de Facebook lo cual es incorrecto.
+
+00:36.910 --> 00:37.730
+Por qué.
+
+00:37.900 --> 00:42.020
+Porque se supone que inicié con Google no con Facebook.
+
+00:42.450 --> 00:49.250
+Y si yo me voy a mi código si te vas a tu código vas a ver que tenemos un NIF y una CIF como el Facebook
+
+00:49.270 --> 00:52.430
+Data está definido entonces ya no entrarles el chip.
+
+00:52.440 --> 00:59.740
+Ya no es necesario para el algoritmo entrar aquí porque ya fue está así que se traslada de Google.
+
+00:59.950 --> 01:04.510
+Es por eso que nosotros tenemos que hacer una limpiar el local Storage.
+
+01:04.780 --> 01:05.630
+Para qué.
+
+01:05.740 --> 01:08.750
+Para podernos otros.
+
+01:10.030 --> 01:20.120
+Todas las variables en blanco y después irnos a Inicio y pasar a elogiar solamente si es que la variable
+
+01:20.120 --> 01:22.490
+de los toros no está definida.
+
+01:22.680 --> 01:30.580
+Ok que esto en teoría sería guiar al usuario si no está bloqueado o en caso de que ya este logueado
+
+01:30.790 --> 01:33.490
+pasarlo directamente a esta pantalla.
+
+01:33.640 --> 01:37.840
+Así que bien primero tenemos vamos a agregar un botón para limpiar el local.
+
+01:37.930 --> 01:43.140
+Lo puedes hacer en manual pero yo voy a aprovechar para poner mi botón aquí.
+
+01:43.420 --> 01:52.280
+Así que bien voy a abrir mi código y al lado de mi imagen voy a poner otro elemento.
+
+01:53.370 --> 02:05.170
+Una lista Ok no ordenada y voy a colocar un y con una clase porque es de Fon auzo que es la de Fon.
+
+02:05.640 --> 02:07.150
+FA Power.
+
+02:09.760 --> 02:18.790
+Esto no es más que la clase que te puedes encontrar en fogonazo del icono de apagar que en este caso
+
+02:18.790 --> 02:25.650
+lo vamos a utilizar para desbloquear al usuario o ser Einheit que ya lo ves de zelada.
+
+02:25.760 --> 02:28.630
+Qué hacíamos darle un poco de diseño.
+
+02:28.630 --> 02:32.430
+Vamos a ponerle una clase adicional a llamar Home.
+
+02:33.210 --> 02:35.350
+Lock Out.
+
+02:35.950 --> 02:40.590
+Y este voy a guardarlo sólo un poquito más grande la letra.
+
+02:43.750 --> 02:55.020
+Yo lo voy a copiar copiar y índex puntos CSS voy a agregar una clase al final John blo.
+
+02:57.580 --> 02:58.560
+El iPhone 6.
+
+02:58.630 --> 03:01.080
+Vamos a ponerlo como 1.5.
+
+03:03.790 --> 03:06.560
+Actualizamos guardamos lo de los dos lados.
+
+03:07.500 --> 03:09.050
+Un poquito.
+
+03:09.400 --> 03:12.850
+Está bien pero vamos a ver si le podemos dar un margin.
+
+03:16.900 --> 03:18.380
+Vamos a seleccionarlo.
+
+03:19.740 --> 03:21.970
+Vamos a ver si lo pensaron mal del cero.
+
+03:23.870 --> 03:25.400
+Si margin top.
+
+03:26.730 --> 03:29.380
+Menos 5 por ciento.
+
+03:29.960 --> 03:32.150
+Y así nos lo llevamos.
+
+03:35.470 --> 03:40.590
+40 margin left 5 por ciento.
+
+03:42.310 --> 03:50.210
+Aunque creo que está a 15 pixeles y un margin right de 15 pixels.
+
+03:50.530 --> 03:54.850
+Esto no lo podremos ahorraria hacer en una sola línea de Martines a tu gusto.
+
+03:55.000 --> 03:59.580
+Aunque bueno muchas buenas prácticas prefieren hacerlo así que vamos a hacerlo.
+
+04:00.330 --> 04:06.390
+Vamos a quitar estos y vamos a hacerlo como las buenas prácticas lo dicen primero es el top que es menos
+
+04:06.390 --> 04:10.120
+40 por ciento en Pixel pixeles.
+
+04:13.100 --> 04:20.150
+Vamos a poner un pixel un pixel un pixel me gusta esto y así jugamos con un poco que damos aquí.
+
+04:21.560 --> 04:22.640
+De botón nada.
+
+04:23.600 --> 04:26.470
+Right también le damos 10 y.
+
+04:28.570 --> 04:30.850
+Aquí lo dejamos en menos 5.
+
+04:30.970 --> 04:31.640
+Listo.
+
+04:32.890 --> 04:35.770
+Y aquí como puedes ver es este.
+
+04:36.880 --> 04:44.080
+Estamos haciendo todos los marginen no solo on line así que nos quitamos de poner cuatro líneas y esto
+
+04:44.080 --> 04:52.660
+me lo copio a mi clase Gout Guardo que estamos tenemos que poner la propiedad también del cursor poynter
+
+04:52.660 --> 04:54.990
+para que se vea que es un botón.
+
+04:57.290 --> 04:59.870
+Entonces piense eso.
+
+05:00.040 --> 05:03.630
+En cuanto al diseño que fue muy muy leve.
+
+05:03.670 --> 05:09.080
+Ahora si tenemos que ponerle un botón de un clique cuando la persona le dé un clic me haga logado.
+
+05:09.130 --> 05:10.950
+Así que vamos a darle un clic.
+
+05:12.860 --> 05:17.180
+Esto va a ser igual hadiz punto local.
+
+05:18.350 --> 05:23.120
+Vamos a ponerle un local perfecto.
+
+05:23.320 --> 05:24.340
+Qué quiere decir esto.
+
+05:24.340 --> 05:29.770
+Que cuando la persona Ley cleb va a irse a este metro el cual no tenemos definido y lo tenemos que definir
+
+05:29.770 --> 05:31.980
+primeramente en el constructor.
+
+05:31.990 --> 05:35.850
+Punto monologa OT va a ser igual.
+
+05:35.910 --> 05:40.240
+Punto monologa punto 20.
+
+05:40.360 --> 05:42.230
+Para que pueda hacer.
+
+05:43.490 --> 05:45.610
+Legible o leído.
+
+05:45.710 --> 05:55.870
+Dentro de todo dogout recibe un evento con parametro perfecto y aquí vamos a poner un argumento a verlo
+
+05:55.880 --> 05:56.620
+en todo.
+
+05:56.770 --> 05:59.530
+Qué voy a escribir lo que vamos a hacer.
+
+06:00.430 --> 06:13.800
+Se Tear todas las variables de mi local Storage en blanco o vacías y redireccionar.
+
+06:16.650 --> 06:22.190
+Al inicio qué es lo que tenemos que hacer es borrar todo mi local Storage.
+
+06:22.360 --> 06:24.370
+Y después voy a redireccionar.
+
+06:24.570 --> 06:25.950
+Así que vamos a hacerlo.
+
+06:26.150 --> 06:33.230
+Hay un comando que es Loka lectoras que es exactamente como lo hemos estado manejando aquí arriba.
+
+06:33.640 --> 06:35.680
+Simplemente le voy a dar clic.
+
+06:36.070 --> 06:44.200
+Esto que me hace todas las variables de los lectores de este sitio van a ser eliminadas por lo cual
+
+06:45.730 --> 06:53.090
+ya no va a estar logueado el usuario así que esto lo va a hacer pero sin embargo no me va a mandar a
+
+06:53.090 --> 06:53.980
+ningún lado.
+
+06:54.250 --> 07:01.310
+Es por eso que tenemos que importar el Direct y vamos a ponerle una variable de estado que sea disloca
+
+07:01.320 --> 07:01.880
+awt.
+
+07:05.100 --> 07:05.900
+Falso.
+
+07:06.270 --> 07:12.630
+Si esta variable la SteamOS verdadero entonces el direc me va a llevar a inicio entonces tenemos que
+
+07:12.630 --> 07:23.030
+importar nuestro réduire vamos a importar import réduire desde React.
+
+07:29.790 --> 07:33.060
+Tal y como lo hicimos acá es realmente así.
+
+07:36.790 --> 07:38.580
+Es decir que guardamos.
+
+07:38.580 --> 07:39.440
+Y ahora.
+
+07:40.460 --> 07:43.560
+Vamos a actualizar y ver que no tengamos ningún error.
+
+07:43.580 --> 07:51.050
+No tenemos ningún error perfecto así que va a quitar los toros y además tiene que aceptar una variable
+
+07:51.050 --> 07:54.550
+de estado que es lo Gout igual a Trump.
+
+07:54.710 --> 07:57.310
+Esto quiere decir que sea clickea el botón del hogar.
+
+07:57.560 --> 07:59.780
+Así que vamos a poner un disco .7 este.
+
+08:03.230 --> 08:05.470
+Y lo Gout igual.
+
+08:07.850 --> 08:14.570
+Entonces se hace de nuevo este valor entra de nuevo al render y es donde vamos a poner nuestro IP.
+
+08:14.900 --> 08:19.680
+Si despunta usted puntos Loka out es igual a Trump.
+
+08:20.030 --> 08:26.870
+Esto que quiere decir que vamos a regresar en lugar de regresar todo el boom de esta página vamos a
+
+08:26.870 --> 08:28.450
+regresar réduire.
+
+08:29.780 --> 08:33.060
+Hacia la página de inicio.
+
+08:35.480 --> 08:36.170
+Y listo.
+
+08:36.640 --> 08:37.810
+Así de sencillo.
+
+08:37.900 --> 08:39.030
+Vamos a actualizar.
+
+08:40.340 --> 08:41.280
+Ahí estamos.
+
+08:41.380 --> 08:48.930
+Vamos a ver en nuestro Application dentro de mi navegador velaba las variables que tenemos aquí definidas.
+
+08:48.940 --> 08:51.540
+Facebook Data Google Data lo cual es un tremendo error.
+
+08:52.500 --> 08:58.720
+Y además dentro de los locales cabe destacar voy a cerrar sesión.
+
+08:58.760 --> 09:06.800
+Entonces la idea es que una vez limpio bloque electoras esto me redirecciona a inicio así que esperamos
+
+09:06.800 --> 09:08.220
+que no haya ningún error.
+
+09:09.220 --> 09:11.830
+Estamos ya limpió mi lectores.
+
+09:11.860 --> 09:13.040
+Ya no hay nada aquí.
+
+09:13.920 --> 09:19.210
+Está vacío por lo cual el usuario puede decir que está odiado.
+
+09:19.370 --> 09:25.050
+Así es como funciona un login pero ahora viene lo bueno.
+
+09:25.220 --> 09:33.170
+Vamos a validar que en Facebook que en inicio ya sea de inicio con Facebook o inicio con Google Logue
+
+09:33.500 --> 09:39.770
+pero sólo uno ya que ahorita ya lo estamos haciendo con los dos y con los dos entraba pero sin embargo
+
+09:40.190 --> 09:44.660
+Facebook era el primero que agarrao porque era el primero que estaba en el IFE así que en la segunda
+
+09:44.660 --> 09:45.580
+parte de este vídeo.

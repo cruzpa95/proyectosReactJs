@@ -1,0 +1,427 @@
+WEBVTT
+
+00:08.660 --> 00:15.200
+Una vez solucionado nuestro error de Spotify tenemos que darle la funcionalidad a nuestro botón que
+
+00:15.200 --> 00:17.890
+lo hemos definido como un link.
+
+00:17.990 --> 00:20.750
+No pasa nada si tú lo defines como un link como un botón.
+
+00:20.930 --> 00:25.730
+Realmente con que tenga el material está funcionando bien.
+
+00:25.730 --> 00:36.490
+Le voy a dar aquí a mi componente link o un clic y vamos a ponerle dis puntos.
+
+00:36.850 --> 00:38.900
+Bueno vamos a poner una alerta primero.
+
+00:38.920 --> 00:42.920
+Primero que nada más poner una alerta para ver si esto está funcionando alerta.
+
+00:45.100 --> 00:49.360
+Bordamos verificamos que no tengamos error bueno tenemos error por el punto y coma.
+
+00:49.390 --> 00:50.880
+Ya que no tenemos llaves.
+
+00:51.920 --> 00:52.930
+Actualizamos.
+
+00:54.480 --> 00:55.440
+Listo.
+
+00:55.740 --> 00:57.960
+Fraguista está funcionando.
+
+00:58.470 --> 01:05.370
+Nosotros tenemos que realizar media entre las mediante la estructura de Redux el buscador de canciones
+
+01:05.370 --> 01:07.970
+o sea cada que vayamos a buscar una canción.
+
+01:07.980 --> 01:10.000
+Es una petición.
+
+01:10.200 --> 01:16.130
+Entonces tenemos que hacer un método dentro de mi Anxos y este me va a disparar a mí a mi.
+
+01:16.170 --> 01:19.410
+Reducir y reducir va a comunicarse con el componente.
+
+01:19.500 --> 01:25.950
+Así que bien tenemos que trabajar de nuevo con nuestro archivo Auctions y vamos a declarar primero un
+
+01:25.950 --> 01:32.830
+componente que se va a llamar un método más bien perdón por.
+
+01:33.600 --> 01:40.100
+Exactamente como el de arriba me va a regresar el dispares y el que es.
+
+01:43.650 --> 01:44.530
+Listo.
+
+01:44.580 --> 01:46.100
+Tenemos un pequeñito error.
+
+01:48.140 --> 01:52.080
+Te hemos pegado el ratón y eso no es correcto.
+
+01:52.320 --> 01:59.550
+Bien ahora si lo que tenemos que hacer en este método es hacer la petición a Spotify mediante el token
+
+01:59.550 --> 02:04.740
+que ya tenemos guardado en sesiones de horas y mediante lapalabra que vamos a buscar.
+
+02:05.160 --> 02:11.700
+Lo que tenemos que hacer aquí voy a hacer tres acciones más pero solamente son para este método y estas
+
+02:11.730 --> 02:18.570
+no las vamos a exportar más van a ser constantes para hacer referencia de lo que está sucediendo simplemente
+
+02:18.570 --> 02:22.100
+para ser más limpio esto voy a poner uno que se llama Start feeds.
+
+02:23.260 --> 02:26.540
+Otra que se llame konzept Error fets.
+
+02:27.930 --> 02:35.400
+Otra que se llame completa es muy genérico simplemente lo que vamos a hacer es estarle notificando al
+
+02:35.400 --> 02:37.230
+usuario que es lo que está pasando.
+
+02:37.450 --> 02:44.610
+Ok esta va a ser igual a un método que me va a regresar el tipo.
+
+02:46.070 --> 02:48.170
+Y este le voy a poner FETE.
+
+02:51.030 --> 02:56.810
+Como segundo parámetro o como segundo dato le voy a mandar y Sweeting.
+
+02:58.460 --> 03:02.660
+Igual a otro simplemente lo que estoy haciendo aquí esta información yo lo estoy manejando.
+
+03:02.760 --> 03:10.380
+O sea que esto lo va a recibir el Front para que tú lo valide desde que está haciendo el rico.
+
+03:10.460 --> 03:16.900
+Sí sí lo está haciendo pues puede que hoy jugamos con una espina así que vamos a aclarar el otro.
+
+03:16.970 --> 03:18.730
+Vamos a utilizarlo.
+
+03:18.960 --> 03:20.060
+El error Fetch.
+
+03:20.330 --> 03:25.600
+Esto es igual pero este recibe como parámetro un argumento que es el error.
+
+03:25.970 --> 03:26.670
+Vamos a regresar.
+
+03:26.690 --> 03:29.400
+El tipo Reston.
+
+03:30.790 --> 03:33.780
+El tipo va a ser error.
+
+03:38.160 --> 03:40.370
+Y switching es igual a falso.
+
+03:40.630 --> 03:42.160
+Por qué.
+
+03:42.160 --> 03:48.370
+Porque se supone que ya terminó pero resulto con error que la vamos a tener como tercer parámetro el
+
+03:48.370 --> 03:48.730
+error.
+
+03:48.790 --> 03:56.890
+Esto es lo mismo hacer esto así que le vamos a mandar un campo como en el cual viene el error de la
+
+03:56.890 --> 04:01.760
+base de datos de spot FIFA de donde sea y lo vas a mostrar al usuario.
+
+04:02.110 --> 04:05.910
+Perfecto el conflit Fetch va a ser exactamente lo mismo.
+
+04:06.670 --> 04:17.530
+Pero viene muy similar al de Halder viene la data y viene el retorno del nuevo rico el tipo.
+
+04:23.610 --> 04:29.910
+También es falso porque se supone que ya terminó y vamos a mandar el payload que es como un estándar
+
+04:30.270 --> 04:36.450
+que tú le mandes la data le puedes mandar la data normal así pero lo que se utiliza mucho es que uses
+
+04:36.510 --> 04:43.560
+el pelo es una palabra no reservada pero sí básicamente la utilizan mucho los programadores para enviar
+
+04:43.560 --> 04:44.950
+la información al frontón.
+
+04:45.080 --> 04:51.770
+El Front casi siempre pelo pelo pelo qué bien surge ahora sí viene.
+
+04:51.780 --> 04:53.460
+Para qué vamos a utilizar esto.
+
+04:53.490 --> 04:58.830
+Simplemente son llamadas a estos métodos para que vayan a reducir y el reducir le va a comunicar el
+
+04:58.830 --> 04:59.720
+componente oye.
+
+04:59.730 --> 05:03.340
+Ya inició el fets oye un error en el Fetch o completo.
+
+05:03.570 --> 05:07.950
+Si bien el pelo o la información adicional así que bien.
+
+05:08.170 --> 05:09.530
+Ahora.
+
+05:10.080 --> 05:16.490
+Este método va a recibir un argumento yo le voy a llamar track me puedes llamar como tu gusto que es
+
+05:16.500 --> 05:20.880
+básicamente el texto que estábamos escribiendo en nuestro imput.
+
+05:21.000 --> 05:28.560
+Entonces vamos a buscar por IMPO perfecto y esto a su vez vamos a mandar el despacho y vamos a poner
+
+05:29.250 --> 05:34.290
+Start fets vamos a poner así.
+
+05:34.740 --> 05:41.220
+Y esto lo que va a hacer es que el Dispatch me va a mandar a llamar este método y me va a mandar a mí
+
+05:41.220 --> 05:43.510
+reduce el ahorita lo vamos a escribir también.
+
+05:44.020 --> 05:50.820
+Y además aquí es donde tenemos que empezar a hacer los recuesto así que vamos a aponer voy a declarar
+
+05:50.910 --> 05:52.580
+una canción o sea un track.
+
+05:52.800 --> 06:02.630
+Va a ser igual a un Niu track track candler es una clase que viene de mi paquete de Spotify SDK.
+
+06:02.720 --> 06:07.980
+Este es para buscar o un gel en una clase para buscar canciones tiene muchos métodos ahorita te voy
+
+06:07.980 --> 06:13.410
+a dejar aquí en la descripción del video un material por si quieres seguir investigando más acerca de
+
+06:13.410 --> 06:14.190
+esta clase.
+
+06:14.580 --> 06:19.210
+Vamos a poner track y acceder a uno de sus nietos que es muy común.
+
+06:19.470 --> 06:20.300
+Storch.
+
+06:21.460 --> 06:23.860
+Este recibe como parámetro dos cosas.
+
+06:23.860 --> 06:29.080
+Bueno recibí una regla un objeto y recibe el nombre de la canción así que le voy a pasar como primer
+
+06:29.080 --> 06:37.330
+parámetro el nombre de la canción y como segundo parámetro Limit 5 que quiere decir que yo lo estoy
+
+06:37.330 --> 06:39.420
+diciendo que la mando busque cinco canciones.
+
+06:39.610 --> 06:44.720
+Bueno va a buscar muchas canciones en la biblioteca pero solamente me va a regresar cinco.
+
+06:45.040 --> 06:55.060
+Ok ahora esto me regresa una promesa por lo cual es Ven y me va a regresar una colección de canciones
+
+06:55.300 --> 07:05.800
+que le voy a llamar track colegio y esta colección trae data Velho lo voy a imprimir aquí para que los
+
+07:05.800 --> 07:07.790
+veas track.
+
+07:12.050 --> 07:14.240
+Listo ahora qué más nos falta.
+
+07:14.300 --> 07:21.300
+Cuando terminen a mandar el despacho de cumplir fets y la vamos a mandar el track.
+
+07:24.050 --> 07:29.920
+Entonces yo voy a mandar el Dispatch completo feeds y con la data que es el payload y esto se va a ir
+
+07:29.920 --> 07:33.170
+al reducir el uso de úselo a regresar a mi Component hockey.
+
+07:33.190 --> 07:37.500
+Esta información la puedo manipular aquí lo puedo manipular manipular.
+
+07:37.570 --> 07:40.880
+En este caso lo voy a manipular un poco en el ruedo.
+
+07:41.220 --> 07:44.180
+En caso de que haya un error usamos el catch.
+
+07:46.800 --> 07:47.610
+Error.
+
+07:47.940 --> 07:54.810
+Bueno que no composturas simplemente con esto listo y vamos a poner Dispatch.
+
+07:56.120 --> 07:56.760
+Error.
+
+07:57.110 --> 08:03.230
+Que le vamos a mandar el error como argumento y listo ya estoy utilizando en mis tres constantes que
+
+08:03.230 --> 08:05.530
+acabo de crear para que vaya al ruedo.
+
+08:06.910 --> 08:10.040
+Entonces vamos a probar esto antes de pasar a crear el reducir.
+
+08:10.090 --> 08:12.390
+Vamos a ver si la búsqueda está funcionando.
+
+08:12.400 --> 08:14.570
+Voy a abrir primero que no tengamos ningún error.
+
+08:16.940 --> 08:19.350
+Vámonos a mi navegador actualizamos.
+
+08:20.410 --> 08:21.230
+Listo.
+
+08:22.090 --> 08:27.710
+Ahora sí vamos a buscar lo que guste a poner Maps.
+
+08:28.830 --> 08:29.690
+Y esperamos.
+
+08:31.740 --> 08:34.590
+Otra cosa creo que nos adelantamos un poco.
+
+08:34.720 --> 08:41.190
+No va a funcionar porque ni siquiera hemos dado le hemos dado al componente la funcionalidad por lo
+
+08:41.190 --> 08:46.840
+cual es exactamente lo mismo que hice con el check reunirlo tengo que agregar le voy a poner shorts
+
+08:47.430 --> 08:50.560
+y además le voy a agregar abajo para que mande como propios.
+
+08:52.930 --> 08:53.500
+Listo.
+
+08:53.680 --> 08:59.180
+Y aquí esto recibió como un parámetro que es el evento entonces.
+
+09:00.110 --> 09:03.740
+Le voy a poner punto props puntos.
+
+09:05.390 --> 09:07.770
+Even punto target punto.
+
+09:07.780 --> 09:12.430
+Vale que quiere decir que cuando le dé clic.
+
+09:13.980 --> 09:18.210
+Bueno no precisamente vamos a mandar nombre de la canción.
+
+09:19.950 --> 09:21.230
+Diez puntos.
+
+09:22.700 --> 09:25.090
+Vamos a ponernos más son.
+
+09:26.610 --> 09:29.100
+Está el otro el target para el derribo.
+
+09:29.320 --> 09:32.160
+Voy a aclararlo en una constante y le voy a poner.
+
+09:34.330 --> 09:35.320
+Va a ser igual.
+
+09:37.430 --> 09:41.690
+Hadiz esté listo y ya la tengo.
+
+09:41.820 --> 09:42.610
+Perfecto.
+
+09:42.750 --> 09:45.510
+Entonces cuando yo le dé clic me va a ir a buscar.
+
+09:45.510 --> 09:52.110
+Esto es implícito así que no pasa nada si no lo pongo disputo props puntos sorge pila vamos a mandar
+
+09:52.110 --> 09:56.880
+como parámetro el nombre de la canción que está guardada en mi variable de estado que previamente ha
+
+09:56.880 --> 09:57.970
+sido cambiada.
+
+09:58.220 --> 10:00.040
+Aquí se puede optimizar.
+
+10:00.140 --> 10:03.210
+Y así porque ya lo tengo declarado Carrillo.
+
+10:05.390 --> 10:06.410
+Vamos a actualizar.
+
+10:07.490 --> 10:13.480
+Igual ya se actualizó pero no está de más dar un griferías y le voy a colocar Mapes.
+
+10:13.700 --> 10:15.070
+Esperemos que esto funcione.
+
+10:16.600 --> 10:17.340
+Listo.
+
+10:18.430 --> 10:19.120
+Cómo lo ves.
+
+10:19.120 --> 10:26.760
+Viene un look con un arreglo de cinco o sea de tamaño cuatro porque empezamos a contar desde cero y
+
+10:26.770 --> 10:32.800
+además información adicional que me manda la Hipias de Spotify en cada uno de los elementos viene el
+
+10:32.800 --> 10:40.470
+álbum la artista el marketing que está en los market en los mercados que está esta canción.
+
+10:40.930 --> 10:48.110
+Vaya para escuchar el número del disco la adoración en milisegundos el heydi qué canciones vámonos a.
+
+10:49.220 --> 10:49.940
+álbum.
+
+10:50.290 --> 10:54.390
+Y viene el tipo del álbum que viene el artista.
+
+10:54.570 --> 10:56.520
+Aquí el artista es marrón.
+
+10:56.890 --> 11:02.000
+O sea la de más listo entonces en el siguiente video vamos.
+
+11:02.000 --> 11:08.210
+Ahora además de la búsqueda tenemos que crear nuestro reducir y mandar la información a nuestro front
+
+11:08.510 --> 11:11.810
+para que el Front pueda desplegar la lista aquí.
+
+11:12.050 --> 11:13.710
+Así que no te despegues.

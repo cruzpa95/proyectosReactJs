@@ -1,0 +1,103 @@
+WEBVTT
+
+00:08.420 --> 00:12.160
+Bien ahora vamos a ver nuestro proyecto de Spotify.
+
+00:12.510 --> 00:15.020
+Ahora un poquito más gráfico.
+
+00:15.270 --> 00:21.870
+Así que para entender lo que ha explicado Bueno yo creo que todavía tienes ideas al aire principalmente
+
+00:21.960 --> 00:29.300
+vamos a tener dos pantallas una que es índex que es nuestra pantalla principal por dos razones.
+
+00:29.550 --> 00:34.890
+La segunda que es player qué vamos primero a explicar lo que es índex Index.
+
+00:34.890 --> 00:39.030
+Nuestra pantalla principal está que se va a ver cuando el proyecto se abra.
+
+00:39.120 --> 00:43.090
+Vamos a tener un CERS box y un results car ok.
+
+00:43.290 --> 00:49.560
+En el primero vamos a tener obviamente un componente de búsqueda con un input y un botón que cuando
+
+00:49.560 --> 00:54.090
+tú le des clic va desplegar una lista de resultados.
+
+00:54.180 --> 01:01.650
+Aunque estos resultados son los resultados que me va a traer la API de Spotify así que son todas las
+
+01:01.650 --> 01:08.600
+canciones que se supone que van a salir acorde a los resultados que escribiste en el cervix.
+
+01:08.640 --> 01:14.130
+Así que cada uno va a tener la habilidad de poder hacer clic clic.
+
+01:14.160 --> 01:17.070
+Así que vamos a representarlo un poquito más aquí.
+
+01:17.260 --> 01:20.570
+Esto es una lista al final de cuentas.
+
+01:24.310 --> 01:30.580
+Si tú le das clic a uno te va a mandar a esta pantalla que es la pantalla de Play ok.
+
+01:30.730 --> 01:38.020
+Esta pantalla le llame así porque por obvias razones es un devastan nuestro reproductor Ok entonces
+
+01:38.020 --> 01:41.510
+es donde va a pasar la magia dentro de Play.
+
+01:41.530 --> 01:48.430
+Tenemos un componente que es el que nos encierra a todos y está dividido en dos subcomponentes el player
+
+01:48.480 --> 01:51.010
+y mes y el player info.
+
+01:51.320 --> 01:57.260
+Y lo que es es básicamente la imagen de la canción o del álbum.
+
+01:57.370 --> 02:03.850
+Y es que cuando tú estás en Spotify normalmente te muestra una imagen ya sea de la canción porque este
+
+02:03.850 --> 02:05.140
+es un cover.
+
+02:05.140 --> 02:13.410
+Este es un sencillo o es parte del álbum de la banda y además viene la información que es pot diffa.
+
+02:13.420 --> 02:15.860
+También nos pasa de ese artista.
+
+02:15.970 --> 02:21.120
+Es decir Imagínate que tuvo que escuchar una canción de Coldplay.
+
+02:21.190 --> 02:21.730
+No sé.
+
+02:21.730 --> 02:27.060
+Una de las nuevas tú vas a poner a que te va a salir la imagen del álbum o del sencillo.
+
+02:27.160 --> 02:29.920
+Y acá el nombre de la canción y del artista.
+
+02:30.070 --> 02:39.130
+Pero además aquí vamos a tener nuestro reproductor ayudándonos con el tag de audio de HTML5 así que
+
+02:39.130 --> 02:43.110
+bien de una manera muy sencilla vamos a crear las lluvias.
+
+02:43.190 --> 02:44.770
+Aquí lo difícil.
+
+02:44.950 --> 02:49.910
+Más que nada sería el back así que te espero en el siguiente vídeo.
+
+02:50.030 --> 02:58.630
+Porque vamos a explicar un poco cómo es que funcionaría nuestra estructura para hacer qu'est a la API
+
+02:58.690 --> 02:59.590
+de Spotify.

@@ -1,0 +1,247 @@
+WEBVTT
+
+00:08.760 --> 00:17.650
+Visto ahora en este video tenemos que crear nuestra nueva ruta y además declararla para poder utilizarla
+
+00:17.680 --> 00:24.130
+al darle click como un link así que vamos a abrir nuestro código vamos a cerrar éste que no necesita
+
+00:24.280 --> 00:24.640
+acciones.
+
+00:24.640 --> 00:26.780
+Por el momento no hay tema.
+
+00:26.950 --> 00:31.410
+Así que vamos a importar aquí import link.
+
+00:32.000 --> 00:33.180
+Este viene.
+
+00:34.320 --> 00:35.780
+Desde.
+
+00:38.600 --> 00:40.720
+Riacho Robador dum.
+
+00:41.020 --> 00:42.510
+Qué bien.
+
+00:42.620 --> 00:52.850
+Así que cada son hoy te lo voy a encerrar con un link que cuando se le dé clic nos va a mandar a cierto
+
+00:52.850 --> 00:53.740
+link.
+
+00:54.220 --> 00:55.150
+O sea.
+
+00:56.050 --> 01:00.280
+Hacia la ruta que defina la voy a definir de una vez.
+
+01:00.640 --> 01:08.810
+Vámonos a nuestro punto y es que esta pelea ya la ha definido como Player y como parámetro son heydi
+
+01:08.820 --> 01:14.170
+lo habíamos definido en vídeos anteriores así que voy a ponerla como Player.
+
+01:15.620 --> 01:17.440
+Y vamos a ponerle.
+
+01:23.330 --> 01:25.090
+Creo que aquí vamos mal.
+
+01:25.190 --> 01:29.620
+Tenemos que poner las llaves a esa son eiti.
+
+01:31.130 --> 01:38.370
+Es la ley de la canción que le hemos pasado desde el padre y que no la pide como parámetro.
+
+01:39.330 --> 01:43.330
+Así que bien básicamente sería eso así que vamos a actualizar.
+
+01:45.450 --> 01:48.880
+Vamos a buscar una canción Imagine Dragons.
+
+01:53.370 --> 01:58.870
+Pero como lo podrás notar esto ha perdido un poquito de diseño.
+
+01:59.130 --> 02:02.110
+Así que vamos a alinear esto.
+
+02:02.190 --> 02:12.150
+Vamos a ver que estas son AITE pero son AITE Mester por un link asi que yo voy a poner en mi código.
+
+02:13.470 --> 02:17.400
+En mi índex puntos SS son eutm.
+
+02:18.950 --> 02:23.600
+Hoy lo que va a haber un tarde a y lo voy a poner el display Flex.
+
+02:26.560 --> 02:27.690
+Ya se actualiza.
+
+02:30.640 --> 02:33.310
+Ahí está el color de la Fuente.
+
+02:33.350 --> 02:38.060
+Pues lo voy a poner color 21:21 21.
+
+02:39.540 --> 02:40.190
+Ahí está.
+
+02:40.230 --> 02:42.130
+Aquí no pasa absolutamente nada.
+
+02:42.660 --> 02:45.260
+Si yo le doy clic a cada una de las canciones.
+
+02:46.750 --> 02:50.800
+Me tiene que llevar obviamente a la ruta.
+
+02:51.120 --> 02:58.830
+Como lo puedes ver aquí está Player y viene la de la canción pero aquí tenemos otro pequeño error es
+
+02:58.890 --> 03:06.240
+porque si te fijas en la parte de arriba tenemos un toque en este toque me lo probé Spotify pero el
+
+03:06.240 --> 03:12.120
+momento que yo voy a la siguiente pantalla no te deja reproducir si no tienes este mismo token por lo
+
+03:12.120 --> 03:22.290
+cual yo es por eso que le puse todo en paz como propiedad y no la he pasado de mi índex así que lo tenemos
+
+03:22.290 --> 03:22.800
+que hacer.
+
+03:22.830 --> 03:27.200
+Vamos a que toquen Pat toquen Pat.
+
+03:27.300 --> 03:30.790
+Va a ser igual hadiz punto que toque.
+
+03:33.330 --> 03:34.810
+Listo bien.
+
+03:34.880 --> 03:38.210
+Ese va a ser un método que lo va a crear guetto que en paz.
+
+03:39.480 --> 03:50.060
+Listo lo que voy a hacer aquí básicamente es hacer un ring de lo que son y sacar el acceso toquen y
+
+03:50.060 --> 03:57.110
+pasárselo con propiedad para que la siguiente pantalla sea capaz de utilizar los ricos o pueda utilizar
+
+03:57.110 --> 03:58.560
+el reproductor de Spotify.
+
+03:58.670 --> 04:02.400
+Spotify no tiene reproductor pero sí reproducir las canciones.
+
+04:02.600 --> 04:09.320
+Así que bien vamos en nuestro código y vamos a poner una variable que se llame Path va a ser igual a
+
+04:09.320 --> 04:10.130
+Windows.
+
+04:10.970 --> 04:11.420
+Punto.
+
+04:11.430 --> 04:13.440
+Lo que he hecho en punto acher.
+
+04:14.940 --> 04:17.620
+Visto que en el PATH que estamos actualmente.
+
+04:17.840 --> 04:19.350
+Y vamos a regresar.
+
+04:20.530 --> 04:22.790
+El PATH y le vamos a hacer obstruían.
+
+04:22.830 --> 04:29.940
+O sea vamos a recortarlo desde donde el iPad venga índex zoff.
+
+04:35.270 --> 04:42.880
+Vamos a recortar empezando desde la posición donde venga de donde empiece el símbolo de gato o de numero
+
+04:43.520 --> 04:47.170
+y no los va a llevar hasta que termine.
+
+04:50.910 --> 04:56.730
+Básicamente va a recortar desde aquí hasta donde termina.
+
+04:57.090 --> 05:03.000
+Y eso es lo que vamos a necesitar nosotros para realizar o seguir continuando con el proceso despóticas.
+
+05:03.180 --> 05:05.340
+Así que yo voy a guardar esto.
+
+05:08.460 --> 05:10.290
+Vamos a guardarlo.
+
+05:10.330 --> 05:11.060
+Listo.
+
+05:12.060 --> 05:14.810
+Aquí está el toque empate.
+
+05:15.180 --> 05:23.610
+Ahora si lo que tenemos que realizar es además donde está son AITE son hoy del aquí vamos a hacer otro
+
+05:23.670 --> 05:31.340
+con otra concatenación token Path listo voy a actualizar.
+
+05:32.380 --> 05:34.680
+Voy a buscar a otro artista.
+
+05:34.900 --> 05:37.240
+Vamos a buscar a.
+
+05:38.130 --> 05:41.980
+Julieta venegas.
+
+05:45.000 --> 05:50.000
+Creo que tenemos aquí un pequeño error vamos a ver qué es lo que está pasando.
+
+05:50.090 --> 05:52.910
+Indexan no la función.
+
+05:53.500 --> 05:56.010
+En la línea.
+
+05:56.030 --> 06:04.550
+Aquello creo que me equivoque es indexador creo que lo vamos a poner ahora.
+
+06:05.460 --> 06:07.940
+Julieta V.
+
+06:10.230 --> 06:16.420
+Ahora tenemos otro pequeño error y dice que no se puede leer la propiedad Heidi o indefinido.
+
+06:16.740 --> 06:18.590
+Vamos a ver qué es lo que está pasando aquí.
+
+06:21.500 --> 06:30.460
+Actualizamos más aquí nos falta un punto y coma actualizar vamos a poner Giulietta.
+
+06:32.610 --> 06:36.510
+Julieta andar conmigo está perfecto.
+
+06:36.870 --> 06:41.070
+Si le doy clic obviamente me va a mandar a la siguiente pantalla.
+
+06:43.510 --> 06:47.930
+Y como lo puedes ver me está mandando junto con teito.
+
+06:49.580 --> 06:53.840
+Que es la de la canción y este es el que viene aquí.
+
+06:53.890 --> 06:57.020
+Entonces ya con eso puedo realizar mi My Player.
+
+06:57.130 --> 07:03.270
+Así que te espero en el siguiente vídeo porque tenemos que estilizar un poco al buscar la canción y
+
+07:03.290 --> 07:04.050
+sería todo.

@@ -1,0 +1,403 @@
+WEBVTT
+
+00:08.770 --> 00:13.950
+Una vez en nuestro código vamos a eliminar la parte que no necesitamos.
+
+00:13.970 --> 00:19.660
+Así que esto no va aquí y además importar material tal y como lo ha hecho en los siguientes el perdón
+
+00:19.700 --> 00:28.930
+de los previos proyectos en la carpeta disait y después xss y después material a 1000 puntos.
+
+00:29.310 --> 00:36.280
+Y así automáticamente a todos los descendientes de AP van a tener la configuración de materiales.
+
+00:36.540 --> 00:40.830
+Ok voy a crear una carpeta y lo voy a poner un archivo.
+
+00:40.850 --> 00:42.580
+Te voy a poner componentes.
+
+00:44.880 --> 00:46.520
+Listo.
+
+00:46.770 --> 00:48.700
+Creo que acabo de crear.
+
+00:50.160 --> 00:52.300
+Un archivo es una carpeta.
+
+00:53.710 --> 00:54.830
+Componés.
+
+00:56.910 --> 00:57.770
+Esta carpeta.
+
+00:57.790 --> 01:01.750
+Yo le voy a poner un archivo que se va a llamar MAP .10.
+
+01:02.950 --> 01:03.690
+Listo.
+
+01:06.260 --> 01:07.340
+Y listo.
+
+01:07.370 --> 01:12.050
+Ahora lo que vamos a revisar es agregar nuestro mapa.
+
+01:12.050 --> 01:17.420
+Aquí como en un componente y después lo importo a mi componente.
+
+01:17.720 --> 01:21.490
+Así que bien vamos a ser los importes me los voy a copiar este import.
+
+01:22.730 --> 01:25.310
+Luego ya no necesito más.
+
+01:28.780 --> 01:33.380
+Klaus MAP que extiende compone.
+
+01:34.800 --> 01:38.820
+El render que me va a regresar.
+
+01:39.730 --> 01:44.760
+Algo El Export default.
+
+01:50.000 --> 01:51.370
+Básicamente.
+
+01:52.250 --> 02:02.030
+La estructura básica valga la redundancia de un componente pero ahora si tengo que implementar mi librería
+
+02:02.330 --> 02:07.810
+de Max por lo cual voy a importar Google Map.
+
+02:10.130 --> 02:13.170
+Guión Marker que son los marcadores.
+
+02:14.430 --> 02:21.950
+Y además with Google Maps que yo creo que te hace un poco referencia a lo que acabamos de ver en el
+
+02:21.950 --> 02:27.300
+vídeo anterior que quiere decir que tenemos un componente de alto gordo.
+
+02:27.890 --> 02:31.540
+Y esto viene de Biak Google+.
+
+02:36.260 --> 02:43.570
+Además voy a colocar una constante Google igual a Window punto Google.
+
+02:46.800 --> 02:49.240
+Esto es porque puede que te salga un error.
+
+02:50.000 --> 02:57.320
+Por qué vamos a utilizar Google como constante dentro de nuestro proyecto y tal vez no te la vaya a
+
+02:57.320 --> 02:58.860
+validar.
+
+02:59.880 --> 03:00.610
+Bien.
+
+03:00.670 --> 03:03.140
+Ahora tenemos que crear nuestro constructor.
+
+03:05.020 --> 03:08.760
+Vamos a colocarle el súper y listo.
+
+03:09.810 --> 03:10.590
+Bien.
+
+03:10.780 --> 03:18.670
+Ahora lo que tenemos que hacer es colocar el mapa dentro de mi ronda por lo cual tenemos que crear nuestro
+
+03:18.670 --> 03:26.270
+componente de alto orden que se va a llamar vamos a colocarlo aquí dentro de mi Renda antes de Bretón.
+
+03:26.620 --> 03:28.180
+Es una constante.
+
+03:28.390 --> 03:34.670
+Mary mav componen esto realmente.
+
+03:35.020 --> 03:37.880
+Es como tú no lo es mi MAP.
+
+03:37.900 --> 03:40.840
+Componentes como yo lo he llamado va a ser igual.
+
+03:40.870 --> 03:43.270
+With Google Maps.
+
+03:43.420 --> 03:50.480
+Aquí estoy utilizando mi componente de autor y esto recibe unas propiedades.
+
+03:50.650 --> 03:51.430
+Listo.
+
+03:53.050 --> 03:56.950
+Ahora sí vamos a utilizar Google Maps Google.
+
+03:57.910 --> 04:01.470
+Más que listo.
+
+04:01.770 --> 04:03.110
+Y aquí es donde la vamos a pasar.
+
+04:03.130 --> 04:11.080
+Propiedades como si fuera el mapa de JavaScript normal que normalmente tiene default shum y lo voy a
+
+04:11.080 --> 04:11.670
+poner.
+
+04:11.710 --> 04:12.530
+14.
+
+04:12.790 --> 04:19.880
+Es el mapa de hecho esto si tú te metes a tu navegador y le pones Maps mapas de Google.
+
+04:20.600 --> 04:23.620
+Puedes ver este el nivel del shum.
+
+04:23.900 --> 04:28.590
+Imagínate que yo voy a la Ciudad de México cdmx.
+
+04:30.650 --> 04:35.990
+Ok aquí y ves que aquí arriba dice 12 Z.
+
+04:36.220 --> 04:44.560
+Ese es el nivel del shum DEL de folsom que si me acerco sube si me acerco sube o si me voy alejando
+
+04:45.130 --> 04:46.030
+igual bajando.
+
+04:46.150 --> 04:52.900
+Así que yo le deje en 14 así que ese es nuestro de falso.
+
+04:53.230 --> 05:02.220
+La posición que tenemos que pasar la posición de latitud y longitud Así que ya que estamos en el mapa
+
+05:02.460 --> 05:05.750
+le voy a pasar las coordenadas de la Ciudad de México.
+
+05:06.620 --> 05:08.000
+Le voy a colocar.
+
+05:08.960 --> 05:12.850
+La latitud que es la primera que veo aquí en mi borrarle del navegador.
+
+05:15.630 --> 05:22.670
+Koma la longitud que está antes del 11-s eta negativo menos 99.
+
+05:24.060 --> 05:24.820
+Y listo.
+
+05:25.600 --> 05:37.180
+Además le voy a poner un default título como mapa que es una de las propiedades que me proporciona Google
+
+05:37.180 --> 05:37.570
+Maps.
+
+05:37.600 --> 05:44.410
+Igual te dejo la documentación para que la revises de Herriak Google Maps que es la librería creada
+
+05:44.410 --> 05:45.910
+por este.
+
+05:48.090 --> 05:56.710
+Que su usuario en Guijo viene una app demo además que viene como instalarlo a nosotros ya nos ahorramos
+
+05:56.970 --> 06:07.530
+ese paso y además puedes ver aquí como es como como funciona y además toda la documentación desde cómo
+
+06:07.530 --> 06:09.910
+instalarlo hasta cómo implementarlo.
+
+06:10.290 --> 06:13.930
+Como puedes ver lo que estamos haciendo es falso.
+
+06:14.220 --> 06:18.300
+Falta el pero eso es básicamente opciones.
+
+06:19.160 --> 06:21.100
+Así que bien Continuous.
+
+06:22.460 --> 06:26.620
+Ahora lo que tenemos que hacer es regresar.
+
+06:26.660 --> 06:32.950
+Este componente MAP componente en el cual nosotros le pasamos el mapa.
+
+06:33.720 --> 06:36.840
+Así que bien aquí no llevamos la llave.
+
+06:42.190 --> 06:51.100
+Ahora va a ser mi más componen este componente y le tengo que pasar tres propiedades que me dicen en
+
+06:51.100 --> 06:52.050
+mi librería.
+
+06:55.390 --> 07:05.240
+El logro en Element El Conteiner Element y el elmau Element que no son más que tres componentes que
+
+07:05.240 --> 07:12.320
+se van a renderizar en tu HTML así que yo te recomiendo copiar estas.
+
+07:13.200 --> 07:22.440
+Pero vamos a escribirla nosotros así que vamos a colocar loading Element va a ser igual.
+
+07:22.530 --> 07:23.600
+Este es hundí.
+
+07:27.130 --> 07:28.380
+Y el estilo.
+
+07:29.820 --> 07:32.770
+Le voy a poner una altura.
+
+07:37.490 --> 07:38.100
+Por qué no.
+
+07:38.220 --> 07:39.570
+Completa Joy.
+
+07:41.360 --> 07:43.550
+De 100 por ciento listo.
+
+07:44.180 --> 07:48.140
+El que sigue es el conteiner element.
+
+07:53.050 --> 07:59.940
+El Content Element que es básicamente ese que nos está pidiendo aquí es la altura que va a tener tu
+
+07:59.940 --> 08:00.620
+mapa.
+
+08:00.780 --> 08:04.040
+Así que yo lo voy a poner voy a poner un.
+
+08:04.350 --> 08:06.770
+Creo que me pase es así.
+
+08:10.800 --> 08:16.900
+El estilo se lo voy a dar de una altura de 70 VH.
+
+08:16.950 --> 08:17.560
+Qué quiere decir.
+
+08:17.560 --> 08:21.210
+Debió Prophet de la altura de tu pantalla.
+
+08:22.970 --> 08:24.140
+Perfecto.
+
+08:24.320 --> 08:25.950
+Ahí estamos.
+
+08:27.440 --> 08:29.380
+Qué me está faltando en ella berrío.
+
+08:32.330 --> 08:34.520
+Y aquí la otra.
+
+08:36.870 --> 08:37.730
+Listo.
+
+08:38.130 --> 08:44.310
+Ahora nos falta el mapp Element que es el otro la otra propiedad que nos está pidiendo la librería.
+
+08:46.170 --> 08:49.280
+Y vamos a cerrar este día aquí.
+
+08:49.490 --> 08:53.600
+El estilo es bajar de 100 por ciento.
+
+08:57.030 --> 08:59.910
+Es el componente de.
+
+09:00.540 --> 09:02.580
+Así que bien aunque aquí.
+
+09:04.550 --> 09:09.790
+No tenemos ningún error nos falta una por cerrar aquí y listo.
+
+09:11.260 --> 09:16.600
+Vamos a ver si en nuestra consola nos está marcando algún error.
+
+09:16.690 --> 09:23.350
+Por lo pronto no pero ahora lo tenemos que importar para ver si este componente de alto orden ha estado
+
+09:23.350 --> 09:25.610
+funcionando todo este tiempo.
+
+09:25.690 --> 09:33.110
+Tal vez te dirás porque aquí no lo Serre de este lado y le deje el Google Map que cierra.
+
+09:33.280 --> 09:37.300
+Esto es porque aquí lo voy a poner tú.
+
+09:37.980 --> 09:42.550
+Tú marcas akiva los marcadores de Google Maps.
+
+09:42.620 --> 09:57.370
+Ok actualizamos vamos a importarlo dentro de mí y le voy a poner import MAP la misma desde punto diagonal
+
+09:57.400 --> 10:01.130
+Components diagonal MAP .10.
+
+10:02.450 --> 10:03.430
+Guardamos.
+
+10:04.570 --> 10:11.770
+Vamos a ver nuestra y me dice que tenemos un pequeñito error aquí me dice que hay una línea en la línea
+
+10:11.770 --> 10:16.950
+14 número 33 de carácter.
+
+10:16.990 --> 10:17.610
+Hay un error.
+
+10:17.620 --> 10:18.510
+Vamos a ver.
+
+10:23.930 --> 10:29.510
+Creo que Kishi pusimos antes Ok fue un error mío.
+
+10:29.540 --> 10:33.700
+Disculpen esta latitud y longitud.
+
+10:35.090 --> 10:39.090
+Actualizamos y listo no tenemos ningún error hasta el momento.
+
+10:39.140 --> 10:43.260
+Esto es porque todavía no hemos colocado nuestro nuestro componente MAP.
+
+10:43.460 --> 10:53.060
+Así que vamos a colocarlo dentro de mi punto y voy a crear un contenedor hundí que va a hacer que va
+
+10:53.060 --> 11:01.190
+a tener como clasede Kart y su contenido obviamente va a tener clase de un contén.
+
+11:01.290 --> 11:05.490
+Eso es básicamente la estructura que ya hemos venido haciendo en los proyectos anteriores.
+
+11:06.800 --> 11:11.680
+Un kart con materiales y dentro voy a poner mi mapa.
+
+11:15.760 --> 11:18.690
+Y le voy a poner como red.
+
+11:19.220 --> 11:26.090
+Básicamente es la referencia por si yo quisiera obtener algún valor dentro de mi.
+
+11:26.540 --> 11:30.720
+De este componente de maimai vamos a actualizar.
+
+11:31.860 --> 11:35.880
+Y listo me dice que Google nos define.
+
+11:36.060 --> 11:41.370
+Nos vemos en el siguiente vídeo porque tenemos que corregir ese error y además esto no nos va a funcionar
+
+11:41.460 --> 11:46.200
+hasta que no tengamos nuestro app Piki de la consola de Google.

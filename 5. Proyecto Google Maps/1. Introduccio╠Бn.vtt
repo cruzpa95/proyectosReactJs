@@ -1,0 +1,70 @@
+WEBVTT
+
+00:08.380 --> 00:11.610
+Bien pues ya estamos en nuestro último proyecto de este curso.
+
+00:11.650 --> 00:18.730
+Pero que haya sido logrado hasta ahorita en este último proyecto yo lo llamé proyecto mapa en el cual
+
+00:18.760 --> 00:26.590
+vamos a ver o vamos a utilizar básicamente dos librerías biak Google Maps y material ayse es ya la hemos
+
+00:26.590 --> 00:34.210
+venido utilizando desde todos los proyectos básicamente materiales vía Google Maps que es básicamente
+
+00:34.210 --> 00:41.590
+una librería que me permite colocar mapas marcadores o vaya a implementar la librería de Javascript
+
+00:41.590 --> 00:43.630
+de Google Maps.
+
+00:44.350 --> 00:47.440
+Así que bien qué es lo que vamos a hacer para este curso.
+
+00:47.680 --> 00:49.440
+Vamos a crear un sitio web.
+
+00:49.510 --> 00:52.550
+Nada más de una sola página en este ocupamos rubro.
+
+00:52.570 --> 01:00.010
+Por eso no nos lo coloqué ni Redux por qué no vamos a realizar algún tipo de petición que se va a cargar
+
+01:00.010 --> 01:04.030
+un mapa con marcadores dinámicos es un marcador.
+
+01:04.030 --> 01:07.460
+Yo los voy a colocar en una variable de estado.
+
+01:07.660 --> 01:10.510
+Y yo voy a mostrar de uno en uno.
+
+01:10.510 --> 01:12.730
+Cómo es esto que voy a hacer.
+
+01:13.030 --> 01:18.330
+Voy a cargar los marcadores en ciertos lugares que yo ya previamente definido.
+
+01:18.730 --> 01:20.770
+Y además podrá reproducirlos.
+
+01:20.770 --> 01:28.280
+Es decir podrás visitar cada uno de los marcadores como si este fuese un reproductor musical.
+
+01:28.330 --> 01:30.250
+Así que esto es algo interesante.
+
+01:30.410 --> 01:36.770
+Entonces básicamente es implementar marcadores en un mapa dinámicos y que se mueva.
+
+01:36.880 --> 01:44.110
+Así que para esto vamos a necesitar de nuevo ir a la consola de Google y obtener una piki piki para
+
+01:44.110 --> 01:47.290
+poder ver nuestro mapa de JavaScript.
+
+01:47.320 --> 01:53.050
+De lo contrario puede que te aparezca una pantalla en gris porque no tienes el lapique correcto.
+
+01:53.290 --> 01:55.620
+Así que comencemos.

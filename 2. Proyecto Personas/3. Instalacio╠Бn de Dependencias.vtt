@@ -1,0 +1,151 @@
+WEBVTT
+
+00:08.150 --> 00:12.000
+Pie ya estamos de regreso en nuestro proyecto.
+
+00:12.000 --> 00:14.940
+Usuarios proyecto personas le quieres llamar.
+
+00:14.940 --> 00:22.230
+Vamos a crear nuestra aplicación con la ayuda de que redacta kubiak APP que le vamos a poner recuerda
+
+00:22.230 --> 00:27.550
+que no podemos utilizar el que os vamos a poner este proyecto.
+
+00:29.220 --> 00:31.850
+Llegan personas.
+
+00:32.700 --> 00:36.290
+Vamos a crear una nueva aplicación me dice en qué ruta va a ser.
+
+00:36.390 --> 00:42.090
+Va a ser en difusores con el tintineo de documentos en la carpeta que crea especialmente para este curso
+
+00:42.540 --> 00:44.290
+y luego se llama proyecto.
+
+00:44.460 --> 00:51.060
+Así que va a instalar todos los paquetes Principalmente burak y Reactor OK así que vamos a esperar un
+
+00:51.060 --> 00:51.550
+poco.
+
+00:53.240 --> 00:56.240
+Una vez ya terminado nos dice los scripts.
+
+00:56.240 --> 01:06.070
+Para nosotros correr nuestro servidor para correr el bombo por el para correr el test etc..
+
+01:06.680 --> 01:11.390
+Entonces vamos a comenzar vamos a usar esta carpeta que acabamos de crear.
+
+01:11.570 --> 01:14.960
+Se llama proyecto personal así que vamos a Proyecto personas.
+
+01:15.060 --> 01:23.410
+Aquí voy a limpiar la consola vamos a darle un rato un punto para que me abra a Tom que a en esta dirección.
+
+01:23.420 --> 01:26.450
+Así que nos va abrir el proyecto personas con auto.
+
+01:26.660 --> 01:27.800
+Así que vamos a.
+
+01:28.510 --> 01:33.760
+Abrir a tope para esquiar lo tengo abierto que es el editor de texto que vamos a utilizar.
+
+01:33.860 --> 01:34.870
+Puedes usar suplique.
+
+01:34.880 --> 01:37.140
+Claro que sí esté bien.
+
+01:37.430 --> 01:43.100
+Vamos a ver la estructura que tenemos aquí en nuestro.
+
+01:43.340 --> 01:48.650
+En nuestro proyecto tenemos el módulo donde están ya sabemos las carpetas nuestra carpeta pública donde
+
+01:48.650 --> 01:50.440
+se cuelga el JavaScript.
+
+01:50.440 --> 01:53.940
+Aquí tenemos nuestro HTML y nada más.
+
+01:53.990 --> 02:01.190
+Y aquí en este componente se carga todo nuestro rímac y esto nos damos cuenta en nuestra carpeta source.
+
+02:02.170 --> 02:06.380
+Qué índex se carga en el componente conadic.
+
+02:06.730 --> 02:07.340
+Listo.
+
+02:07.360 --> 02:11.680
+Muy bien entonces vamos a instalar las librerías que vamos a necesitar.
+
+02:11.710 --> 02:16.060
+Como ya sabíamos necesitamos primeramente Redux así que vamos a instalarlo.
+
+02:17.500 --> 02:23.010
+PM Install guión es en mayúscula y vamos a instalar las librerías ábsides.
+
+02:24.310 --> 02:29.190
+Redux con un espacio para instalar más de una librería.
+
+02:29.410 --> 02:34.660
+Vamos a poner rimac Raúl Gorriak.
+
+02:36.700 --> 02:43.140
+Más adelante vamos a explicar porqué estoy utilizando Buraco Gabriel y raro.
+
+02:44.320 --> 02:46.740
+Más adelante bien.
+
+02:46.810 --> 02:50.960
+Break Redux que es nuestro conector a Redux con React.
+
+02:52.600 --> 03:02.830
+Redux tank más adelante lo vamos a conocer es básicamente para asíncronas cosas asíncronas OK y listo
+
+03:03.130 --> 03:04.520
+vamos a instalar.
+
+03:05.910 --> 03:07.260
+Esos paquetes.
+
+03:07.350 --> 03:13.880
+Este siempre es bueno leer de que de qué trata cada uno.
+
+03:13.890 --> 03:21.370
+Para nosotros sí tenemos un problema lo podemos resolver así que vamos a esperar a que se instale listo
+
+03:21.550 --> 03:24.380
+este para darnos cuenta de que esto fue exitoso.
+
+03:24.390 --> 03:30.800
+Vamos a ver nos dice que exhaló acceso a Redux y su versión reagruparon regular el dum.
+
+03:31.560 --> 03:33.790
+Redux el productor.
+
+03:34.170 --> 03:38.620
+Con esto vamos a verificar nuestro bacanería para ver que todo esté en orden.
+
+03:38.620 --> 03:45.570
+Aquí tenemos cada una de las dependencias que los scripts en nombre del proyecto la versión y si es
+
+03:45.570 --> 03:46.260
+privado.
+
+03:46.430 --> 03:52.800
+Ok perfecto entonces que nuestro siguiente vídeo vamos a comenzar con la configuración de rimac.
+
+03:52.820 --> 03:53.350
+Bravo.
+
+03:53.420 --> 03:53.930
+Com.
+
+03:54.130 --> 03:56.140
+Así que no te lo pierdas.

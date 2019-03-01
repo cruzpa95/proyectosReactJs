@@ -1,0 +1,169 @@
+WEBVTT
+
+00:08.440 --> 00:14.410
+En el video anterior estuvimos tratando de poner un ícono nuestro motor lo cual es muy sencillo pero
+
+00:14.410 --> 00:19.540
+tuvimos un problema material la CSS no tiene íconos de Facebook.
+
+00:19.540 --> 00:27.490
+Es por eso que recurrí a colocar la librería de fonación o más bien a colocar los tags pero sin embargo
+
+00:27.560 --> 00:29.130
+eso nos están mostrando.
+
+00:29.130 --> 00:35.130
+Es por eso que yo me voy a ir y le voy a poner Fon a CNN que no es más que el link.
+
+00:35.170 --> 00:42.340
+Para ello es colocarlo dentro de HTML porque si tú te vas a fonación y quieres descargar el CD te van
+
+00:42.350 --> 00:45.180
+a pedir que pongas tu correo y ellos te lo envíen.
+
+00:45.280 --> 00:49.810
+Pero si ya está aquí pues para que para qué hacer otra cosa.
+
+00:49.840 --> 00:56.740
+Así que yo me voy a copiar solamente hace un clic sobre este link y te lo va a copiar aquí te va a decir
+
+00:56.800 --> 00:58.950
+el texto ha sido copiado a tu clip.
+
+00:59.170 --> 01:06.940
+Así que voy a abrir mi mi auto de nuevo y en mi carpeta Públic de nuevo en mi índex punto HTML voy a
+
+01:06.940 --> 01:10.610
+colocar otro link abajo del beicon.
+
+01:11.840 --> 01:18.470
+Le voy a poner link del tipo está el chip y el chérrez lo voy a cambiar por Link acabo de copiar a mi
+
+01:18.470 --> 01:19.570
+portapapeles.
+
+01:21.120 --> 01:22.020
+Lo guardo.
+
+01:23.240 --> 01:24.760
+Actualizamos nuestro navegador.
+
+01:24.800 --> 01:26.820
+O bueno no lo actualizamos porque está actualizado.
+
+01:27.020 --> 01:30.750
+Se actualiza sólopor gracias a atap y el olor.
+
+01:30.950 --> 01:33.790
+Lo Hoy estamos ya hasta el icono de Facebook.
+
+01:33.800 --> 01:35.610
+Y ya está el icono de Google.
+
+01:35.810 --> 01:44.030
+Si nos metiéramos tanto en diseño Esto no tiene un espacio tan notorio ni es entonces cuando se ve bien
+
+01:44.360 --> 01:48.470
+pero o quitó el icono Kito logo etcétera.
+
+01:48.530 --> 01:55.010
+Esto es como quieren la idea es que funcione o que la última parte de este vídeo o la intención de este
+
+01:55.010 --> 01:56.590
+vídeo es dar.
+
+01:56.630 --> 02:01.960
+Esto no se ve bien así o sea en una sola fila está en una dirección ROU lo tenemos que hacer en Condom
+
+02:02.270 --> 02:06.340
+así que vamos a inspeccionar ok.
+
+02:06.590 --> 02:14.390
+Y le voy a dar aquí al inspector que encierra esto car contén y aquí están los dos botones.
+
+02:14.570 --> 02:22.250
+Entonces o âscar contén nosotros le damos un estilo o escribimos Ok podemos hacerlo de la siguiente
+
+02:22.250 --> 02:28.350
+manera vamos a dar un flex dirección si es que tiene Flex día en Kolo no lo tienen.
+
+02:28.420 --> 02:35.130
+Tenemos que Banon display Flex lo vamos a poner un flex Direction en columna y me la va a para abajo.
+
+02:35.330 --> 02:37.080
+Eso es lo que tengo que hacer.
+
+02:37.250 --> 02:44.450
+Entonces yo me voy a a mi codigo voy a cerrar el Index punto HTML porque ya no lo necesito más.
+
+02:44.600 --> 02:48.700
+Y aquí en contén lo puedo estilos en línea.
+
+02:48.800 --> 02:55.130
+O podemos poderlo ponerlo por acá así que vamos a sobreescribir a cart contén.
+
+02:55.880 --> 03:02.030
+En este caso sí lo voy a sobreescribir acá porque no voy a utilizar My Car content.
+
+03:02.150 --> 03:07.760
+En otro lugar pero por ejemplo si tú estás haciendo un proyecto grande no te recomiendo hacer esto te
+
+03:07.760 --> 03:11.990
+recomendaría de la siguiente manera que aquí pongas celestine.
+
+03:14.060 --> 03:20.240
+Pero como nosotros estamos trabajando en un proyecto pequeño y lo quiero hacer un poquito limpio que
+
+03:20.240 --> 03:25.620
+no tenga los estilos aquí pues mano es otra cosa diferente o incluso puedo agregar otra clases.
+
+03:25.670 --> 03:26.720
+Hay tres maneras de hacerlo.
+
+03:26.720 --> 03:27.940
+La que más te gusta.
+
+03:28.160 --> 03:32.100
+Así que vamos a probar un display Flex hay que poner important.
+
+03:32.210 --> 03:32.780
+Por qué.
+
+03:32.780 --> 03:39.470
+Para sobrescribir los estilos que ya trae esta clase que están en material punto apunta CSS.
+
+03:39.640 --> 03:41.700
+Y cómo es una versión modificada.
+
+03:41.810 --> 03:48.380
+No puedo sobrescribir a menos que importe otra versión y los edit vamos a poner un flexibilizaron en
+
+03:48.380 --> 03:48.950
+color.
+
+03:50.040 --> 03:51.660
+Guardamos.
+
+03:52.260 --> 03:53.920
+Estamos muy bien.
+
+03:53.970 --> 04:02.670
+Este me parece perfecto esto ahora vamos a dar un pequeño espacio que podemos agregar simplemente un
+
+04:02.670 --> 04:06.920
+BR para no meternos tanto en estilizar que es un salto de línea.
+
+04:09.130 --> 04:09.920
+Br.
+
+04:12.340 --> 04:14.600
+Igual esto está funcionando.
+
+04:14.600 --> 04:16.590
+Entonces te espero en el siguiente vídeo.
+
+04:16.590 --> 04:24.630
+Porque ahora si vamos a conectar el botón utilizando la librería Terry actu blogging Facebook blogging.
+
+04:24.860 --> 04:30.850
+Y luego en el que sigue con Google ovinas así que te espero no te esperes porque apenas viene lo mejor.

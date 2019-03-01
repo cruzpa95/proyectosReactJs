@@ -1,0 +1,361 @@
+WEBVTT
+
+00:08.680 --> 00:16.930
+En este video vamos a instalar matería la SSS con la intención de darle un diseño bonito a esto pero
+
+00:16.930 --> 00:19.020
+sin sobrepasarlos tanto tiempo.
+
+00:19.060 --> 00:22.060
+Es por eso que yo voy a abrir mi terminal.
+
+00:22.660 --> 00:27.350
+Aquí donde estoy y voy a dar mpm Install.
+
+00:27.630 --> 00:32.610
+Y ese mayuscula de guardar materia materiales.
+
+00:34.380 --> 00:37.430
+Puntos ese es guión CSS.
+
+00:39.150 --> 00:46.530
+Esto me va a descargar la dependencia de materiales el cual consiste en una hoja de estilos Maya vamos
+
+00:46.530 --> 00:49.010
+a poner materiales.
+
+00:49.140 --> 00:49.960
+Vamos a.
+
+00:51.430 --> 00:56.820
+ETT's el que vas a utilizar en todos los proyectos de este curso que hemos estado ya utilizan.
+
+00:56.830 --> 01:02.160
+Así que bien vamos a Vamos a ver si estudias ya se ha instalado.
+
+01:02.170 --> 01:07.420
+Vamos a abrir nuestro código ya estudia está instalado y vamos a antes.
+
+01:07.420 --> 01:14.230
+Creo que había un pequeño Book Book aquí de que hay un pequeño scroll que no debe de pasar es porque
+
+01:14.260 --> 01:20.030
+hay un margen en el body y el componente entonces vamos a poner un margen cero.
+
+01:20.280 --> 01:24.160
+Y con eso se quita que ya no hay ningún scroll por aquí en la derecha.
+
+01:24.340 --> 01:29.760
+Así que bien vamos a agregar ahora materiales a nuestro componente login.
+
+01:29.800 --> 01:31.530
+Entonces vamos a hacer import.
+
+01:31.720 --> 01:38.290
+Vamos a poner esto de la siguiente manera Matía la SSS que es la carpeta dentro de módulos y después
+
+01:38.360 --> 01:44.440
+doy otro Diagonal porque voy por el SSS nada más que la versión mini fincada porque no la voy a modificar
+
+01:44.440 --> 01:45.540
+para nada.
+
+01:45.830 --> 01:47.350
+Materiales punto min.
+
+01:47.360 --> 01:49.350
+Puntos de vista.
+
+01:49.590 --> 01:50.240
+Ok.
+
+01:50.490 --> 01:55.750
+Entonces qué quiere decir que todos los componentes descendientes de los Guin van a tener esta hoja
+
+01:55.750 --> 01:56.580
+de estilo.
+
+01:56.680 --> 01:59.820
+Entonces vamos a guardar y vamos a ver.
+
+02:01.470 --> 02:06.130
+Están que cambio el fondo de pantalla tiene un ligero cambio de color.
+
+02:06.370 --> 02:14.470
+Y por supuesto la fuente es otra que podemos utilizar cualquiera pero vamos la documentación de materiales
+
+02:14.770 --> 02:19.870
+y yo lo voy a poner botón y me va a mandar una pantalla en el cual van a estar todos los botones.
+
+02:19.870 --> 02:23.270
+Es aquí donde yo voy a elegir mi botón favorito.
+
+02:23.550 --> 02:27.030
+Y voy a Vamos a ver.
+
+02:28.300 --> 02:35.850
+Vamos a colocar de la siguiente manera Todo dentro de un cartas y que esto va a ir dentro de un carro
+
+02:36.350 --> 02:39.150
+sí que lo voy a poner de la siguiente manera.
+
+02:42.220 --> 02:43.180
+Esto es un Dib.
+
+02:45.620 --> 02:47.430
+Perfecto el Classmate.
+
+02:53.290 --> 02:54.700
+Salvamos.
+
+02:59.350 --> 03:00.270
+Listo.
+
+03:00.520 --> 03:03.130
+Ya estoy hasta dentro de un kart que ahorita no lo estamos viendo.
+
+03:03.150 --> 03:08.350
+Hoy se está viendo muy feo porque no tiene ninguna clase el botón pero lo vamos a corregir.
+
+03:08.350 --> 03:12.750
+Ok entonces vamos a la documentación de materiales.
+
+03:13.490 --> 03:15.130
+Vamos a abrirlo por acá.
+
+03:15.500 --> 03:19.880
+En otra pestaña porque quienes tenemos los botones y vamos a poner Kart.
+
+03:20.050 --> 03:24.280
+Así como una tarjeta funciona.
+
+03:24.700 --> 03:31.610
+Aquí lo podemos poner de la siguiente manera con la clase card y también podemos poner el CAR contén
+
+03:32.190 --> 03:39.020
+que eso es lo que vamos a hacer así que vamos a hacer un ligero cambio aquí vamos a meter el kart dentro
+
+03:39.020 --> 03:40.090
+del box.
+
+03:41.250 --> 03:43.530
+De la siguiente manera Cart.
+
+03:45.310 --> 03:52.300
+Dentro moir los botones pero dentro de los botones va a ir el CAR contén que es el que es la clase que
+
+03:52.300 --> 03:53.510
+viene aquí.
+
+03:53.910 --> 03:59.510
+Entonces ponemos otro Dib anidado hijo de kart iba a tener la clase.
+
+04:01.960 --> 04:02.720
+Contén.
+
+04:07.290 --> 04:14.200
+Salvamos esto de la siguiente manera entonces vamos a ver cómo se ve esto debe de cambiar un poquito
+
+04:14.200 --> 04:16.380
+más ya se ve un poquito en forma de kart.
+
+04:16.570 --> 04:19.290
+Ya se ve mejor así que bien.
+
+04:19.330 --> 04:23.450
+Ahora vamos a darle ahora sí un una clase a los botones.
+
+04:23.500 --> 04:27.770
+Es por eso que yo voy a elegir este que es.
+
+04:27.880 --> 04:32.190
+Efect webs light y el botón OK.
+
+04:34.240 --> 04:42.580
+Eso sí lo voy a poner como Classmate al botón funciona de la misma manera si yo se lo pusiera a un a
+
+04:42.580 --> 04:46.710
+un link o a éste estamos perfecto.
+
+04:46.750 --> 04:47.840
+Facebook.
+
+04:50.670 --> 04:57.420
+Hoy estamos ya se ve un poquito mejor pero verde no es un color que a mí me gusta mucho.
+
+04:57.430 --> 05:06.400
+Es por eso que Matía también tiene colores definidos entonces tiene su paleta de colores pero esta paleta
+
+05:06.400 --> 05:11.710
+de colores no son números en hexadecimal buenos sí pero nosotros lo ponemos como nombre.
+
+05:11.710 --> 05:17.290
+Es por eso que yo le voy a poner un color a Facebook y un color a Google.
+
+05:17.530 --> 05:21.110
+Así que a Facebook vamos a ponerle este separes cosas.
+
+05:21.130 --> 05:29.980
+No necesariamente tiene que ser exactamente igual que en tu que sería un 19 76 en hexadecimal.
+
+05:30.070 --> 05:33.140
+Así que eso se lo pongo al final así.
+
+05:33.520 --> 05:38.460
+Y esto hace que sea otra clase y me lo pinta de otro color.
+
+05:38.590 --> 05:46.810
+Ok entonces a Google por lo general es blanco entonces que no te extrañes y es muy blancoel El color
+
+05:46.810 --> 05:50.990
+asi que vamos a ponerle el GRI Gray leuten.
+
+05:54.340 --> 05:55.430
+Actualizamos.
+
+05:58.640 --> 06:05.330
+Facebook se ve ligeramente diferente no se ve exactamente igual porque no es el color en hexadecimal
+
+06:05.720 --> 06:08.020
+de Facebook pero se ve bien.
+
+06:08.460 --> 06:08.920
+Y Google.
+
+06:08.920 --> 06:16.670
+Bueno Google sale en color porque vamos a meternos en más cosas estilo estilizar la fuente de otro color.
+
+06:16.670 --> 06:21.440
+Así que no vamos a ponerle un color a este de Google.
+
+06:21.620 --> 06:26.530
+Vamos a meter un rojo así que vamos a buscar los rojos por acá.
+
+06:26.860 --> 06:33.410
+El leuten 1 no tan fuerte no tan chillón vamos a ponerlo aquí.
+
+06:34.980 --> 06:38.020
+Hoy estamos salvamos y después actualizamos.
+
+06:40.080 --> 06:43.630
+El que no ha tomado la clase y la que está.
+
+06:45.760 --> 06:47.750
+Creo que no lo copiamos bien.
+
+06:47.800 --> 06:52.640
+Creo que sí eso fue es Red leuten.
+
+06:53.440 --> 06:56.830
+Por eso nos está pintando el mismo actualmente.
+
+07:00.320 --> 07:00.920
+Ahí estamos.
+
+07:00.920 --> 07:06.290
+Ya tenemos los dos botones de nuestro nuestro Lovin de redes sociales Facebook Google.
+
+07:06.410 --> 07:07.770
+Vamos a agregar un icono.
+
+07:07.790 --> 07:13.580
+Claro que sí sí se puede para agregar un icono es exactamente igual como nos lo marca documentación
+
+07:13.850 --> 07:16.390
+que es de la siguiente manera Vamos a ver.
+
+07:17.340 --> 07:23.260
+Exactamente le vas a poner un hijo a se llama perdón al botón.
+
+07:23.370 --> 07:26.450
+Pero para esto nosotros tenemos que hacer otra integración.
+
+07:26.580 --> 07:32.670
+Así que aquí te lo dejo tu conveniencia si quieres poner una imagen o si quieres poner lo que sea es
+
+07:32.670 --> 07:35.300
+bienvenido pero yo voy a utilizar los iconos que tiene que IP.
+
+07:35.400 --> 07:38.070
+Es por eso que moviera y Icons.
+
+07:38.510 --> 07:42.090
+Y me dice que para utilizarlos tengo que poner este link.
+
+07:42.210 --> 07:43.250
+Ok para qué.
+
+07:43.250 --> 07:47.250
+Porque estos están en un repositorio de los de los EU.
+
+07:47.360 --> 07:48.810
+Hoy se materializan.
+
+07:48.840 --> 07:57.360
+Es por eso que yo me voy a ir a mi Public Index punto HTML y aquí abajo voy a poner el link lo voy a
+
+07:57.360 --> 07:58.250
+salvar.
+
+07:58.440 --> 08:05.570
+Y aquí es donde cuando se van a cargar entonces voy a buscar los iconos vamos a con controles de Facebook.
+
+08:14.890 --> 08:16.880
+Creo que ya no están cargados.
+
+08:16.880 --> 08:17.880
+Qué sorpresa.
+
+08:20.180 --> 08:27.270
+Qué vamos a declinar a hacer esto y vamos a usar la librería que se llama Fon.
+
+08:29.820 --> 08:34.880
+A veces ya vienen previamente cargados y esperamos que vengan previamente cargados en nuestro proyecto
+
+08:34.880 --> 08:36.440
+sino simplemente se agregaron.
+
+08:36.470 --> 08:42.120
+Así que bien vamos a fera hoy con teclado y vamos a buscar Facebook.
+
+08:42.790 --> 08:53.070
+Ok Facebook listo podemos utilizar cualquiera o usar la F sola que es un tardelli con la siguiente clase
+
+08:53.710 --> 09:02.490
+y lo voy a agregar a mi componente entonces botón ahora tiene un hijo OK y base de la siguiente manera.
+
+09:05.650 --> 09:06.790
+Este va a ser un clase.
+
+09:06.910 --> 09:12.110
+No es un clásico y vamos a buscar el otro que es el de Google.
+
+09:14.800 --> 09:16.110
+Google OK.
+
+09:16.300 --> 09:20.170
+Lo interesante es que están actualizando constantemente los iconos.
+
+09:20.200 --> 09:25.510
+Si no fuera al icono anterior de Google pero ya sabes que Google hace poco no tiene mucho tiempo y no
+
+09:25.510 --> 09:30.440
+tiene muchos años cambió su su logo un auge.
+
+09:32.860 --> 09:34.770
+Este también va a ser exactamente lo mismo.
+
+09:37.240 --> 09:40.830
+Vamos a salvar a esta clase.
+
+09:45.220 --> 09:46.260
+Actualizamos.
+
+09:49.080 --> 09:50.360
+Listo bien.
+
+09:50.550 --> 09:55.310
+Ahora es como lo puedes notar el icono no está apareciendo.
+
+09:55.440 --> 09:59.830
+Vamos a instalar la dependencia de Fonasa más que espero en el siguiente vídeo.

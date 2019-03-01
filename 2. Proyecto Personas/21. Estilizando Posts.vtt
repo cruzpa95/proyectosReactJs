@@ -1,0 +1,148 @@
+WEBVTT
+
+00:08.980 --> 00:09.770
+Bien.
+
+00:10.120 --> 00:17.800
+Ahora vamos a estilizar un poco estos post ya que están de una manera no tan agradable ya que aun así
+
+00:18.110 --> 00:27.310
+este medio herrar así que bien vamos a colocar este bacalao un color en blanco para cada serpost.
+
+00:27.700 --> 00:34.990
+Un pequeño un color blanco vamos a hacerlo así como en forma de listaba que se ven un poco es mejor
+
+00:35.020 --> 00:41.290
+que no se vean así y no vamos a perder tanto tiempo en el estilo así que vamos a hacer esto bien.
+
+00:41.450 --> 00:49.790
+Por eso el Pous es la clase que yo asigne Ayuso el post y que lo puedo implementar en índex puntos CSS
+
+00:49.870 --> 00:55.600
+así que yo voy a abrir mi Index SSDs y voy a poner la clase yusei.
+
+00:57.360 --> 00:59.840
+En el cual voy a poner un vaqueira en color.
+
+01:01.080 --> 01:08.700
+En blanco primero vamos a poner el display Flex para poder utilizar Flex y Melos alinee en la dirección
+
+01:08.700 --> 01:09.780
+de columna.
+
+01:09.840 --> 01:13.130
+Ok guardamos esto y vamos a ver cómo se va a ver.
+
+01:14.600 --> 01:23.870
+Ya se ve en blanco así que ahora lo que tenemos que realizar es que vamos a tener que colocar como donde
+
+01:24.070 --> 01:27.500
+estamos yo solicité el body tiene directo los mensajes.
+
+01:27.500 --> 01:38.240
+Puede que se vea raro cuando estemos estemos dando un margen se va a colocar un poco un poco mal así
+
+01:38.240 --> 01:41.150
+que vamos a ponerlo esto dentro de otro disip.
+
+01:43.840 --> 01:45.200
+Y que no nos afecte.
+
+01:45.560 --> 01:48.460
+OK y vámonos a Yuso el post.
+
+01:48.620 --> 01:55.310
+Aquí vamos a ver ahora tenemos que asignarle la fuente que hemos estado utilizando y lo podemos encender
+
+01:55.310 --> 01:56.410
+de muchas maneras.
+
+01:56.460 --> 02:02.720
+Es simplemente que como no me meten tanto en estilo es bueno recordar que yo soy posti en una h-1b y
+
+02:02.730 --> 02:08.950
+un H2 asi que los podemos utilizar en una sola línea que quiere decir es propiedad de Aplicando que
+
+02:09.080 --> 02:14.640
+a todos los hijos de yusei Post que sean H1 y H2 van a ser afectados por esa propiedad.
+
+02:14.660 --> 02:16.310
+O sea.
+
+02:19.370 --> 02:28.910
+Ahora vamos a poner el post H1 a copiar esta linea de aquí y le voy a poner Fon 6 y le voy a poner este
+
+02:28.910 --> 02:41.210
+va a ser de un E.M que para el H2 vamos a ponerle de 0.9 o 0.9 a estamos.
+
+02:42.860 --> 02:47.900
+Ahora tenemos un padi un margen muy grande que parece que no tiene sentido.
+
+02:47.900 --> 02:57.320
+Así que vamos a ponerle a H1 y H2 también un margin un margen de cero y vamos a ver cómo se va todo
+
+02:57.320 --> 02:58.080
+hacia arriba.
+
+02:58.370 --> 02:59.040
+Así que bien.
+
+02:59.330 --> 03:06.050
+Ahora cada yusei tenemos que darle un paddington un margen perdón conforme padre para que parezca una
+
+03:06.050 --> 03:09.410
+lista de tuits que no parezca simplemente que esto no está haciendo nada.
+
+03:09.650 --> 03:15.560
+Así que bien vamos a inspeccionar vamos a colocarnos sobre ellos el post y vamos a probar aquí un margen
+
+03:15.980 --> 03:21.050
+que vamos a ponerle 1 por ciento 1 por ciento 1 por ciento y 1 por ciento.
+
+03:21.080 --> 03:25.800
+Para empezar primero en top vamos a darle un 4.
+
+03:27.870 --> 03:30.930
+Este que es el que vamos a Lain 15.
+
+03:32.000 --> 03:39.610
+Este es el botón vamos a darle un 5 o un 2 nada más y a este otros 15 porque el left.
+
+03:40.760 --> 03:41.380
+Perfecto.
+
+03:42.860 --> 03:48.550
+Vamos a copiarnos esta línea y le vamos a pegar en el post.
+
+03:52.000 --> 03:59.500
+Guardamos ya y tenemos este un pequeño ejemplo verdad aunque le podríamos dar más.
+
+03:59.500 --> 04:01.430
+Realmente es de 30.
+
+04:03.330 --> 04:04.650
+30.
+
+04:08.950 --> 04:11.460
+Y ahí aparecerían todos los tuits en este caso.
+
+04:11.780 --> 04:13.740
+O qué es.
+
+04:13.890 --> 04:16.710
+Básicamente de eso se trataba el proyecto.
+
+04:16.710 --> 04:21.750
+No vamos a meternos tanto en estilos porque esto lo podríamos hacer en forma de Twitch este que se vea
+
+04:21.750 --> 04:28.440
+igual como Twitter o parecido y yo creo que eso no es lo esencial ya que no tenemos que estilizar tanto
+
+04:29.040 --> 04:31.410
+a estarlos así que bien.
+
+04:31.580 --> 04:37.920
+Pero te ha gustado este proyecto y lo que vemos en el próximo Pokken el próximo vamos a realizar login
+
+04:37.920 --> 04:40.620
+con redes sociales así que te espero.

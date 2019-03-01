@@ -1,0 +1,214 @@
+WEBVTT
+
+00:08.480 --> 00:14.510
+Bien en este video vamos a agregar lo que es un Spinner que por si no lo sabía.
+
+00:14.510 --> 00:23.840
+Bueno Spiner es básicamente esto es simplemente un Louder que es aquel que es utilizado antes para mostrarle
+
+00:23.840 --> 00:25.870
+al usuario que carga la información.
+
+00:26.020 --> 00:32.220
+Ok entonces Estos son algunos de los ejemplos que maneja esta librería Spinner.
+
+00:32.560 --> 00:38.300
+Así que podemos utilizar cualse así bien para utilizarlo es muy sencillo simplemente vámonos a nuestra
+
+00:38.300 --> 00:38.840
+terminal.
+
+00:38.840 --> 00:45.700
+Vamos a poder mpm Install Jeunesse Riad y pinos.
+
+00:47.010 --> 00:49.770
+Y esperamos a que instale ok.
+
+00:51.230 --> 00:54.440
+Nosotros tenemos que escoger uno de aquí.
+
+00:54.440 --> 00:57.640
+A mí me gusta realmente este circo.
+
+00:57.750 --> 01:01.470
+Louder lo voy a copiar y entonces me voy.
+
+01:01.480 --> 01:03.180
+Y una vez instalado.
+
+01:04.980 --> 01:07.410
+Esperamos que instale y nos vamos.
+
+01:07.410 --> 01:12.200
+A mi hijo que esto es donde va a estar principalmente por qué.
+
+01:12.220 --> 01:17.410
+Porque hay ocasiones en que la lentitud del internet es bastante.
+
+01:17.490 --> 01:24.810
+Entonces no hay manera de decirle al usuario Oye pues espérate tantito más que a un espino.
+
+01:25.020 --> 01:27.670
+Así que bien vamos a importarlo.
+
+01:27.900 --> 01:32.600
+Vamos a importar vamos a pagar entre llaves de.
+
+01:32.900 --> 01:41.060
+Todo el que este viernes de gorriak John Spina es que perfecto vamos a ver que no tengamos ningún error.
+
+01:41.980 --> 01:42.370
+No.
+
+01:42.370 --> 01:49.850
+Claro que no lo vamos a poner a este círculo oduber por acá por abajo solamente para ver si está funcionando.
+
+01:50.760 --> 01:52.220
+Qué bien.
+
+01:53.720 --> 02:02.240
+Según la documentación requiere de un color que tiene que ser pasado como propiedad o sea Streak así
+
+02:02.240 --> 02:09.480
+que vamos a poner en blanco y vamos a poner un loden loading igual a otro.
+
+02:09.560 --> 02:11.450
+Esto es para cuándo.
+
+02:12.430 --> 02:18.490
+Hoy ha sido cargada la información de la base de datos de la piai pues deje de verse así que guardamos
+
+02:18.490 --> 02:22.610
+si este tiene que estar apareciendo por default siempre por ahora.
+
+02:24.010 --> 02:27.200
+Aquí está bajo nuestro Spiner funcionando correctamente.
+
+02:27.400 --> 02:28.120
+Ahora sí.
+
+02:29.730 --> 02:33.460
+Vamos a sacarlo de aquí y vamos a hacer algo interesante.
+
+02:34.430 --> 02:35.670
+Vamos a hacer un IFF.
+
+02:36.140 --> 02:37.000
+Sí.
+
+02:38.500 --> 02:43.700
+Punto props punto y users punto.
+
+02:45.740 --> 02:46.840
+Es igual.
+
+02:49.140 --> 02:50.360
+Hasta art.
+
+02:50.600 --> 02:51.270
+Users.
+
+02:51.550 --> 02:52.840
+Qué estoy diciendo aquí.
+
+02:53.010 --> 02:58.860
+Si la acción que acaba de lanzar al reducir hacia el componente o hacia el sector y el componente está
+
+02:58.860 --> 03:03.800
+viendo que acaba de iniciar entonces cuando yo tengo que devolver.
+
+03:03.800 --> 03:06.820
+Es que no está vista.
+
+03:06.900 --> 03:12.260
+No todo esto de abajo sino el lodo así que vamos a dar un ratón.
+
+03:13.360 --> 03:15.260
+Vamos a ponerlo dentro de un Dib.
+
+03:15.280 --> 03:16.350
+Claro que sí.
+
+03:16.780 --> 03:18.040
+El circo dudó.
+
+03:19.250 --> 03:23.250
+Vamos a ponerlo como truc y vamos a poner un clasede que se va a llamar.
+
+03:24.230 --> 03:25.010
+Jo.
+
+03:26.340 --> 03:28.610
+John R.
+
+03:31.540 --> 03:34.670
+Así lo vamos a llamar a este componente.
+
+03:34.670 --> 03:37.610
+Guardamos y nos vamos a mi estilo.
+
+03:37.820 --> 03:46.860
+Se lo vamos a poner por acá para abajo y voy a poner el display Flex que el tamaño de la pantalla se
+
+03:46.880 --> 03:51.880
+dice a 100 vhb los hay a la altura es 100 por ciento.
+
+03:52.100 --> 04:00.050
+Vamos a decirle que también es Medline los elementos hacia el centro y melosas líneas del Centro de
+
+04:00.050 --> 04:00.940
+manera justificã.
+
+04:00.950 --> 04:03.630
+O sea sentar horizontal y vertical.
+
+04:03.830 --> 04:12.530
+Así que cuando esté cargando los componentes los usuarios me van a mostrar el odir no me va a mostrar
+
+04:13.490 --> 04:17.670
+la pantalla en blanco o en negro en este caso y vamos a ver como se ve esto.
+
+04:20.240 --> 04:24.930
+Está la transición muy muy leve pero ahí está ahora.
+
+04:25.110 --> 04:27.350
+Cómo es que probamos esto sin nuestro internet.
+
+04:27.360 --> 04:30.070
+En este caso tengo una conexión rápida.
+
+04:30.390 --> 04:37.770
+El inspector de Google es muy bueno yo le doy acá en Click derecho a inspeccionar y luego en Network
+
+04:38.140 --> 04:41.190
+y viene para probar diferentes tipos de red.
+
+04:41.220 --> 04:51.990
+A mí me gusta mucho probar con la red que es que aquí la 3G que es una maya una muy baja red debe tener
+
+04:51.990 --> 04:57.680
+velocidad y consumo de datos así que vamos a ver cómo actualiza.
+
+04:59.860 --> 05:00.810
+Hoy está más lento.
+
+05:00.930 --> 05:06.190
+Ahí es donde nos sirven nuestros lo nuestro Espinar y hablas y cargas rápidas porque no tenemos que
+
+05:06.190 --> 05:12.730
+cargar imágenes no tenemos que crear vídeos de Facebook entonces básicamente para eso sirve así que
+
+05:12.790 --> 05:14.690
+vamos a darlo por última vez.
+
+05:15.050 --> 05:19.240
+Así que espero y te ha gustado esta librería respingos.
+
+05:19.270 --> 05:20.670
+Puedes utilizar cualquiera.
+
+05:20.770 --> 05:24.610
+Además de mpm lo puedes instalar con Yarn si es que estás utilizando llarg.
+
+05:24.820 --> 05:30.140
+Así que nos vemos hasta la próxima porque vamos a crear el detalle del usuario.

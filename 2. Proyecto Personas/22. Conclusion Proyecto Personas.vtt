@@ -1,0 +1,118 @@
+WEBVTT
+
+00:08.370 --> 00:13.240
+Bien pues hemos terminado ya nuestro primer proyecto así que es excelente.
+
+00:13.260 --> 00:20.280
+Ahora tenemos en este video que ver una conclusión una breve reseña de lo que hemos visto en todo el
+
+00:20.280 --> 00:21.100
+curso.
+
+00:21.720 --> 00:30.660
+Básicamente en este proyecto lo que propusimos al principio fue este diseño en el cual cada uno de los
+
+00:30.710 --> 00:37.320
+ítems que tenía que iba a ser un post de este lado cuando le diera clic a cada uno de estos ítems a
+
+00:37.380 --> 00:41.990
+mandar a otra pantalla esta pantalla iba a venir una foto de perfil.
+
+00:42.340 --> 00:43.950
+Vaya simulada a un avatar.
+
+00:44.120 --> 00:50.290
+Y además los posts que vienen del AIPE que es un point que está en la nube que también te lo deja en
+
+00:50.300 --> 00:53.890
+la descripción otra cosa.
+
+00:53.970 --> 01:01.920
+Básicamente nosotros lo que hicimos fue crear y usar cada una de estas cosas que las nombramos y además
+
+01:01.920 --> 01:05.170
+los juegos descomponiendo en componentes.
+
+01:05.310 --> 01:07.110
+Todo esto era mi proyecto.
+
+01:07.350 --> 01:15.410
+La funcionabilidad o el flujo que tenía mi proyecto básicamente es el frontón que estaba hecho real
+
+01:15.450 --> 01:17.810
+obviamente por eso el curso de break.
+
+01:17.820 --> 01:25.920
+Además tenía una conexión con Redux y Redux era el encargado junto con aquellos La librería para nosotros
+
+01:26.220 --> 01:27.650
+hacer las peticiones.
+
+01:27.660 --> 01:34.530
+Existen muchas otras pero esa es la más reconocida la más usada tiene mucho de comunidad así que yo
+
+01:34.530 --> 01:37.080
+te la recomiendo al 100 por ciento.
+
+01:37.260 --> 01:42.630
+Y además esto iba a piai que es un ente que está en la nube.
+
+01:42.630 --> 01:45.980
+De hecho el inglés es de coyula yo las realicen.
+
+01:46.210 --> 01:53.150
+Y además me regresaba algo o sea una respuesta y Redux la manejaba y me la mandaba como información
+
+01:53.230 --> 01:53.970
+al frontón.
+
+01:54.150 --> 01:56.410
+Eso es como funcionaba mi proyecto.
+
+01:56.610 --> 01:58.200
+Y es aquí como lo tenemos.
+
+01:58.200 --> 02:01.120
+Básicamente voy a recargar.
+
+02:01.230 --> 02:09.360
+Teníamos un Spiner que se ve muy poquito porque por internet de alta velocidad y además veníamos estamos
+
+02:09.360 --> 02:11.080
+viendo los posts de cada uno.
+
+02:11.250 --> 02:12.410
+Si yo le doy clic.
+
+02:13.430 --> 02:22.100
+Juan José Ortiz me manda a la otra pantalla en el cual yo tengo mi avatar el nombre de la persona y
+
+02:22.100 --> 02:25.750
+además mis posts que tengo simulados.
+
+02:25.940 --> 02:35.600
+Todo esto mediante la ruta ya que pasó por parámetros de la ruta a cada una de estas pantallas para
+
+02:35.600 --> 02:37.780
+que haga la petición más que le pongo 2.
+
+02:39.590 --> 02:41.000
+Es otro otra persona.
+
+02:41.180 --> 02:42.430
+Si yo le pongo tres.
+
+02:43.630 --> 02:46.410
+Es otra persona y así sucesivamente.
+
+02:46.420 --> 02:50.340
+Entonces básicamente es que estamos consumiendo.
+
+02:50.340 --> 02:56.970
+Estamos cumpliendo con nuestro objetivo que fue al principio que fue realizar un juego con Justo unitel
+
+02:57.030 --> 02:58.860
+y además consumir una hippie.
+
+02:58.860 --> 03:02.750
+Así que te espero en el siguiente proyecto porque esto apenas comienza.

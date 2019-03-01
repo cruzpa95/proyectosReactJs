@@ -1,0 +1,127 @@
+WEBVTT
+
+00:08.480 --> 00:09.120
+Bien.
+
+00:10.030 --> 00:18.110
+Vamos a hacer un pequeño repaso o vaya una pequeña explicación al mundo de los componentes de alto orden.
+
+00:18.130 --> 00:19.740
+Por qué digo una pequeña.
+
+00:19.840 --> 00:28.090
+Porque los componentes de alto impacto High Order Components es una técnica avanzada de Herriak y este
+
+00:28.090 --> 00:31.160
+curso cubre solamente la parte intermedia.
+
+00:31.360 --> 00:38.140
+Pero vamos a ver un poquito nada más acerca de lo que es un componente de alto orden.
+
+00:38.170 --> 00:41.450
+Ahora te preguntarás o qué es avanzado.
+
+00:41.470 --> 00:48.610
+Porque lo estamos mostrando porque la librería de Google Maps funciona de esta manera con componentes
+
+00:48.610 --> 00:52.120
+de alto volumen así que vamos a ver un ejemplo muy muy rápido.
+
+00:52.360 --> 00:59.410
+Imagínate que tienes un componente llamado Sí igual la documentación que la dejo quienen.
+
+01:00.320 --> 01:08.030
+En los comentarios Imagínate que tienes este proyecto o este archivo comentó Liz.
+
+01:08.090 --> 01:19.150
+Básicamente es un componente de Herriak que hace es un datas ours y además tiene un componente ok.
+
+01:19.410 --> 01:20.400
+Esos son.
+
+01:20.780 --> 01:27.290
+Ahora imagínate que tienes otro componente que se llama blog post y este es muy similar tiene un componente
+
+01:27.290 --> 01:29.270
+hijo ahora.
+
+01:30.060 --> 01:31.080
+Funciona.
+
+01:31.130 --> 01:36.840
+Sí pero cuando llegas a técnicas avanzadas tú puedes optimizar esto.
+
+01:37.020 --> 01:37.920
+Cómo.
+
+01:37.950 --> 01:45.300
+Con un componente de autor que quiere decir resumenes tu componente que vasa o que puedes reutilizar
+
+01:45.300 --> 01:51.290
+mucho y además lo conectas con tu componente que ya creaste.
+
+01:51.420 --> 01:57.240
+Es decir al final de cuentas te va a quedar de la siguiente manera vamos a tener los dos componentes
+
+01:57.850 --> 02:03.150
+con Ben List White subscripcion que es básicamente el componente que ya hemos creado.
+
+02:03.150 --> 02:11.250
+Le pasamos nuestro data Souls que es lo que nos diferencia y además le ponemos o lo encerramos with
+
+02:11.400 --> 02:18.420
+subscripcion White subscripcion va a ser el nombre del componente de alto orden o qué.
+
+02:18.440 --> 02:19.900
+Entonces siguió encierro.
+
+02:20.230 --> 02:28.870
+Mi componente que acabo de ver arriba con Weeds subscripcion vamos a utilizar en comment list.
+
+02:29.210 --> 02:29.720
+Ok.
+
+02:29.860 --> 02:37.720
+Y vamos a pasarlo nuestro datas hours y abajo igual ves a es la única diferencia que había en esos componentes.
+
+02:38.060 --> 02:42.750
+Ok aparte de lo que regresaba asi que no te pierdas un poco en eso.
+
+02:43.080 --> 02:52.370
+Y además ese es el componente de alto honor que es una función que se llama White subscripcion.
+
+02:52.570 --> 02:59.610
+Ok qué recibe el componente y además el Select data que es que es tesoros que nosotros les hemos estado
+
+02:59.610 --> 03:02.090
+enviando y ve cómo se comporta.
+
+03:02.460 --> 03:08.790
+Básicamente funciona con lo que le pasa es como props que este es el datas o Ursa que vine aquí.
+
+03:09.860 --> 03:16.830
+Y aquí y el Grup Component que es básicamente el componente que le estás pasando.
+
+03:18.190 --> 03:24.790
+Con el White subscripcion que es como lo estás llamando entonces a mi componente blog post lo voy a
+
+03:25.210 --> 03:28.310
+encerrar o vaya o va a utilizar subscripcion.
+
+03:28.510 --> 03:32.380
+Eso es básicamente un Order componen a grandes rasgos.
+
+03:32.470 --> 03:39.530
+No me puedo meter más más adentro porque este proyecto basa en un nivel intermedio.
+
+03:39.820 --> 03:46.210
+Ok entonces cambiaríamos la dificultad de este proyecto pero te dejo la documentación y te dejo un ejemplo
+
+03:46.210 --> 03:51.070
+en español para que tu sigas aumentando tus conocimientos.
+
+03:51.070 --> 03:52.210
+Te veo en el siguiente vídeo.
+
+03:52.220 --> 03:57.080
+Porque vamos a implementar nuestro Order Component que es un mapa de.

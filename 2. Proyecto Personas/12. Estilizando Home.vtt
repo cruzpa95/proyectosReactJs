@@ -1,0 +1,277 @@
+WEBVTT
+
+00:08.110 --> 00:08.840
+Qué bien.
+
+00:08.850 --> 00:15.560
+Ahora en este vídeo vamos a poner esta información en cardin vamos a ponerle un fondo a nuestra pantalla
+
+00:15.560 --> 00:24.530
+así que bien rápidamente vamos a meternos a nuestro código y vamos a poner aquí un índex punto CCC que
+
+00:24.940 --> 00:29.430
+es para todas las vistas así que va a aplicar para todos para el body.
+
+00:29.790 --> 00:37.320
+Vamos a poner un background color que vaqueira un color a este lo vamos a poner por mientras un 29 21
+
+00:37.320 --> 00:43.670
+que es un negro y no lo va a aplicar obviamente porque tenemos que importar esta hoja de estilo.
+
+00:43.800 --> 00:46.000
+Así que vamos a importarlo también.
+
+00:46.020 --> 00:48.630
+Punto diagonal índex puntos.
+
+00:50.470 --> 00:51.460
+Listo.
+
+00:51.460 --> 01:01.770
+Ahora que ya tenemos este fondo ahora vamos a dar paso a accionar este componente y ahora tenemos a
+
+01:01.870 --> 01:07.960
+ponerles cliques que lo vamos a necesitar porque nos va a mandar a otra pantalla y estilizar un poco
+
+01:07.960 --> 01:12.240
+así que bien como el padre de hoy es John.
+
+01:12.610 --> 01:17.870
+Ya se está importando automáticamente el material EIS y el indicas que no es necesario volver a hacer
+
+01:17.870 --> 01:18.740
+los import.
+
+01:18.850 --> 01:24.260
+Así que yo le voy a poner a cada uno un naive como Kart.
+
+01:24.920 --> 01:29.050
+Y dentro tengo que tener un chip que material melódico me lo dice.
+
+01:29.050 --> 01:32.930
+Esto está en la documentación de material a punto CSS.
+
+01:34.760 --> 01:40.210
+Que el segundo tiene que tener un Clas un Classmate en este caso para sacar contento.
+
+01:42.890 --> 01:48.550
+Vamos y vamos de nuevo a ver y pilla cada uno de ellos son Kart.
+
+01:48.580 --> 01:54.540
+Sin embargo la información sigue estando muy grande así que vamos a poner este klass nematodo.
+
+01:55.690 --> 01:57.110
+Apple en un klass.
+
+01:57.420 --> 02:00.990
+Vamos a poner a buscar a item diagonal.
+
+02:01.590 --> 02:03.180
+Y así vamos a hacer lo mismo con post.
+
+02:03.180 --> 02:04.240
+Vamos a ponerle.
+
+02:10.400 --> 02:11.670
+Y Facebook.
+
+02:14.220 --> 02:21.030
+A mi me gustaría que este parche dividieran 2 en un leve box right box en el cual en el ebook que estamos
+
+02:21.030 --> 02:26.720
+utilizando es una imagen de avatar para simular que ahí está una foto.
+
+02:27.060 --> 02:36.850
+Entonces vamos a tener dos dips como hijos directo de Car contén y vamos a meter en uno la información.
+
+02:38.400 --> 02:43.830
+El lado derecho del usuario y del otro vamos a tener una imagen.
+
+02:44.190 --> 02:49.930
+Esta imagen va a ser por lo pronto vamos a tenerla vacía pero vamos a poner Unal para que aparezca algo
+
+02:49.950 --> 02:52.240
+como Profile.
+
+02:53.300 --> 02:57.390
+Al box izquierdo la mar.
+
+03:00.800 --> 03:02.280
+LEF box.
+
+03:03.200 --> 03:06.920
+Y al otro igual solamente que ricos y Sorayita.
+
+03:09.560 --> 03:11.370
+Right box.
+
+03:11.610 --> 03:13.490
+Ok vamos a ver como se ve esto.
+
+03:15.930 --> 03:25.360
+Todos absolutamente igual pero si yo me voy a mi índex puntos CSS y le pongo Kaur guión contén.
+
+03:26.740 --> 03:34.870
+Vamos a poner que sea el display Flex y esto lo hacemos importan ya que estamos escribiendo una propiedad
+
+03:34.930 --> 03:36.170
+de materiales.
+
+03:37.610 --> 03:41.510
+Esta me los pone el leff de este lado y right del otro lado.
+
+03:41.580 --> 03:49.400
+Ahora hay que darle un porcentaje de ancho a cada una de las cajas así que va a ser un ítem.
+
+03:51.060 --> 03:51.790
+Gox.
+
+03:53.860 --> 03:56.860
+Y uso ítem que es la clase A..
+
+03:58.370 --> 04:01.180
+Right box.
+
+04:02.770 --> 04:06.310
+Bubok va a tener un uit-t del 20 por ciento.
+
+04:06.370 --> 04:09.530
+Right box del 80 por ciento.
+
+04:09.550 --> 04:11.130
+Vamos a ver cómo se comporta esto.
+
+04:11.150 --> 04:13.220
+Estamos muy bien.
+
+04:13.270 --> 04:15.950
+El CAR es extremadamente grande.
+
+04:15.970 --> 04:17.430
+No quiero que sea así.
+
+04:17.620 --> 04:21.250
+Así que a cart también le voy a dar.
+
+04:22.150 --> 04:25.920
+Un Huid de 40 por ciento.
+
+04:25.920 --> 04:27.090
+Vamos a ver cómo se ve esto.
+
+04:29.320 --> 04:31.220
+Bien ahí estamos.
+
+04:31.280 --> 04:33.180
+O sea un poco mejor.
+
+04:33.240 --> 04:39.160
+Ahora todo este componente hay que centrar los porqué no me gusta cómo se ve solamente toda la información
+
+04:39.160 --> 04:40.590
+cargada hacia un lado.
+
+04:40.750 --> 04:45.330
+Así que bien ese es el componente Joh que es el que ya habíamos marcado.
+
+04:45.340 --> 04:47.690
+Así que vamos a poner la clase aquí.
+
+04:48.260 --> 04:49.020
+Punto.
+
+04:49.100 --> 04:56.410
+Y le vamos a poner con un uit-t de 100 por ciento vamos a poner un display Flex y vamos a alinear los
+
+04:56.410 --> 04:58.770
+elementos hacia el centro.
+
+04:58.780 --> 05:04.130
+Vamos a ver que esto que sucede bien este Flex Direction.
+
+05:04.830 --> 05:09.840
+Vamos a ponerlos en columnas porque esta hacía hacia los costados y no era lo que yo quería.
+
+05:10.020 --> 05:16.060
+Pero eso era lo que yo quería así que rápidamente usamos Flex para centrar muy bien.
+
+05:16.570 --> 05:21.020
+Eso ya ya tiene más sentido ya me dice un poco más.
+
+05:21.090 --> 05:22.910
+Así que decidió lo de clica cada uno.
+
+05:22.920 --> 05:26.150
+Pues obviamente me va a llevar al detalle de cada uno de los usuarios.
+
+05:26.160 --> 05:32.490
+Cabe destacar que esto viene de la base de datos que estamos qwest y estamos manipulando la información
+
+05:32.550 --> 05:37.460
+así que bien vamos a ponerle al kart también un cursor Painter.
+
+05:38.160 --> 05:45.390
+Para que parezca que si le pones arriba hacia atrás Jover le desclée y así lo indica al usuario oye
+
+05:45.690 --> 05:47.190
+esto se puede dar clic.
+
+05:47.250 --> 05:50.530
+Así que perfecto muy bien.
+
+05:50.730 --> 05:58.500
+Ahora al Nay el frente a todos estos hay que ponerles una fuente fuente de la misma que yo voy a buscar
+
+05:58.500 --> 06:02.380
+en Google por lo cual dudaran me voy a ayudar en Google fonz.
+
+06:02.520 --> 06:04.310
+Aquí es a tu gusto.
+
+06:04.380 --> 06:12.910
+Cabe destacar que no estamos en un curso de diseño de este totalmente pero vamos a escoger Montserrat.
+
+06:13.110 --> 06:18.610
+A mí me gusta mucho trabajar con esta fuente pero estos gustos así que voy a importar.
+
+06:18.610 --> 06:23.700
+Este como ya lo hemos visto en nuestro curso anterior si no lo habías visto.
+
+06:23.700 --> 06:35.400
+Pues bien simplemente las elecciones en import copp europeas eso te vienes a tu CSS y ahí haces tu import
+
+06:35.790 --> 06:40.420
+y ya puedes utilizar Monserrat y ahora te dice cómo lo utilices.
+
+06:40.500 --> 06:45.160
+Así que bien vamos a poner para ayudar a item.
+
+06:48.430 --> 06:49.170
+Item.
+
+06:52.110 --> 06:53.380
+Para ser.
+
+06:56.200 --> 06:56.850
+9.
+
+06:58.640 --> 07:00.080
+Y para usar el item.
+
+07:02.620 --> 07:09.340
+Facebook la misma letra que es la que acabo de hacer FON Family Monserrat y que es una combinación de
+
+07:09.340 --> 07:10.900
+Monserrat con serio.
+
+07:11.200 --> 07:12.750
+Así que vamos a ver como se ve esto.
+
+07:13.980 --> 07:15.290
+Ya cambia un poquito.
+
+07:15.420 --> 07:19.180
+Ya se ve mucho mejor así que vamos a continuar en el siguiente vídeo.
+
+07:19.260 --> 07:26.750
+Para terminar de estilizar un poquito y nos vamos a la siguiente pantalla que es el cerdito.

@@ -1,0 +1,106 @@
+WEBVTT
+
+00:08.540 --> 00:10.000
+Bien en este video.
+
+00:10.000 --> 00:13.230
+Ahora lo que vamos a realizar es algo muy sencillo es un video muy corto.
+
+00:13.330 --> 00:20.500
+Vamos a realizar nuestro espinho por lo cual yo te invito a que abras tu terminal y te instales la siguiente
+
+00:21.670 --> 00:26.000
+librería reagge es pinkett que se instala igual.
+
+00:26.200 --> 00:31.570
+Al menos para que lo guarden el yeison y se va a llamar biak John Pink.
+
+00:31.630 --> 00:37.900
+Lo que vamos a hacer básicamente es mostrarle al usuario cuando la página esté cargando o sea cuando
+
+00:37.900 --> 00:41.430
+esté haciendo el Fetch a nuestra y despótico.
+
+00:41.530 --> 00:42.010
+Por qué.
+
+00:42.010 --> 00:47.830
+Porque imagínate que tú haces como usuario quiere saber qué es lo que está pasando si no le ponen al
+
+00:47.830 --> 00:54.340
+usuario y la conectividad o la conexión es muy lenta pues se va a desesperar y vas a perder audiencia.
+
+00:54.340 --> 01:05.560
+Pero bueno ya una vez instalado vamos a importar import Spinner desde React Pink listo simplemente no
+
+01:05.560 --> 01:14.410
+importando nuestro espinho y así que eso va a ser muy sencillo si vamos a verla aquí con Songs que es
+
+01:14.410 --> 01:22.750
+igual al disputo props que es lo que viene dentro de mí de mi historia y voy a hacer una validación.
+
+01:22.750 --> 01:23.440
+Si Socks.
+
+01:23.440 --> 01:24.410
+Punto.
+
+01:25.760 --> 01:30.150
+Vamos a ver punto y punto.
+
+01:33.310 --> 01:36.760
+Esto es igual a ESFE Ching.
+
+01:37.730 --> 01:41.250
+Entonces vamos a regresar.
+
+01:42.910 --> 01:49.220
+Es thinner con el nombre de Opus Bonds.
+
+01:49.690 --> 01:56.460
+Igual te dejo la librería aquí en la descripción del video para que puedas consultar todos los Espinós
+
+01:56.480 --> 02:01.440
+Iván me gusta mucho utilizar el autobús bonnes de hecho lo vas a ver y listo.
+
+02:01.510 --> 02:07.270
+Entonces vamos a colocar Songs tap a esta.
+
+02:08.190 --> 02:08.790
+Listo.
+
+02:09.030 --> 02:10.030
+Vamos a actualizar.
+
+02:14.840 --> 02:18.400
+Así que cuando yo busco una canción monlau Fert.
+
+02:20.860 --> 02:26.030
+Es muy lento casi no no vas a poder ver la transición pero.
+
+02:26.910 --> 02:27.800
+Imagínate.
+
+02:30.370 --> 02:32.190
+Que siempre regresáramos El Espino.
+
+02:33.200 --> 02:34.290
+Se miraría así.
+
+02:34.310 --> 02:38.320
+Aquí está el espía y para validar que esté funcionando.
+
+02:39.980 --> 02:47.530
+Vamos a mandar un log dentro de la MUD a dar 10 días para que veas que sí está entrando rendirían nuestro.
+
+02:48.230 --> 02:49.070
+Imagen.
+
+02:54.020 --> 02:55.410
+A 10 días.
+
+02:55.890 --> 03:01.940
+Listo nos vemos en el siguiente video por qué vamos a realizar cuando le damos clic a cada uno de los
+
+03:01.970 --> 03:06.370
+ítems son temas nos va a llevar a la pantalla de reproductor de canciones.

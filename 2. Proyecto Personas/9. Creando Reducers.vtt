@@ -1,0 +1,253 @@
+WEBVTT
+
+00:09.140 --> 00:10.980
+Listo ya estamos de regreso.
+
+00:10.990 --> 00:18.460
+Ahora que ya estamos aquí en este apartado donde ya tenemos el componente conectado con las acciones.
+
+00:18.460 --> 00:22.470
+Ahora nos falta hacer el Dispatch de aquí hacia el reduce el pero no tenemos ningún.
+
+00:22.510 --> 00:24.340
+Así que vamos a crear un.
+
+00:24.820 --> 00:32.320
+Tenemos simplemente el archivo de índex donde combinamos reduce pero no tenemos nada por lo cual en
+
+00:32.310 --> 00:38.690
+la consola me dice que la tienda on la estor no tiene un Reedus herbales así que vamos a crearlo es
+
+00:38.740 --> 00:44.440
+un archivo que vamos a crear y hemos creado en nuestro curso anterior.
+
+00:44.620 --> 00:48.130
+Con Redux y le voy a llamar y user.
+
+00:50.000 --> 00:53.750
+Le podemos llamar De hecho yusei con mayúscula.
+
+00:56.980 --> 00:57.860
+Ok.
+
+00:58.340 --> 01:04.130
+Y hay que ames a Export cons ya que es una constante que vamos a exportar para que pueda ser utilizada
+
+01:04.130 --> 01:10.590
+en otros archivos y vamos a llamar exactamente como la acción que se llama Goeth.
+
+01:10.730 --> 01:12.660
+Ok esto va a ser igual.
+
+01:13.760 --> 01:21.750
+Es una función que recibe como argumento statt que por default está vacía y actio.
+
+01:23.590 --> 01:26.500
+Esto es una función.
+
+01:28.720 --> 01:31.490
+Y a su vez es esta función.
+
+01:32.970 --> 01:38.360
+Vamos a hacer un Suits con para poder diferenciar la acción.
+
+01:38.400 --> 01:46.080
+Entonces te preguntarás para qué un switch para que un CAIS etc. Vamos a hacerlo.
+
+01:47.500 --> 01:49.410
+Acción con CAIS.
+
+01:51.210 --> 01:52.040
+Cuándo.
+
+01:53.050 --> 01:54.880
+Empiece a obtener.
+
+01:55.630 --> 02:01.190
+Los usuarios o sea cuando la acción haya sido disparada después vamos a crear otra opción.
+
+02:01.240 --> 02:09.850
+Otra acción cuando se detenga o haya terminado de obtener los usuarios y otra en caso de que haya habido
+
+02:09.910 --> 02:17.590
+un error no es necesario explicar tanto esto gráficamente porque no es un curso propio de Redux pero
+
+02:17.590 --> 02:21.410
+ya lo expliqué en mi curso anterior así que vamos a poder estar.
+
+02:23.950 --> 02:31.530
+Yo también lo puedo hacer en otro Chivu y hacer el import como constante asi que esto es como tu gustes
+
+02:32.340 --> 02:33.650
+y a regresar.
+
+02:34.470 --> 02:42.420
+La acción completamente por ser solamente la acción punto data la acción punto taieb este y estos orita
+
+02:42.420 --> 02:45.520
+lo vamos a definir pero yo voy a regresar todo absolutamente.
+
+02:46.250 --> 02:53.430
+Otro caso para cuando sea conflit get users que me regreso.
+
+02:53.450 --> 02:54.500
+La acción también.
+
+02:57.630 --> 03:05.050
+En caso de que sea un error también error Greed youssou para decirle al usuario que algo salió mal.
+
+03:06.160 --> 03:12.650
+Porque hay que recordar que si no tienes internet pues va a marcar un error y simplemente no lo vas
+
+03:12.650 --> 03:14.540
+a saber manejar.
+
+03:15.960 --> 03:20.960
+Por default tenemos que regresar el valor del Estado.
+
+03:25.070 --> 03:26.000
+Y listo.
+
+03:26.060 --> 03:27.270
+Eso sería un error.
+
+03:27.800 --> 03:30.100
+Así que hay que importarlo.
+
+03:30.110 --> 03:31.650
+En mi archivo índex.
+
+03:33.350 --> 03:36.420
+Para poder utilizarlo en toda la historia.
+
+03:38.670 --> 03:40.000
+Así que vamos a importar.
+
+03:43.610 --> 03:50.540
+Users desde punto Diagonal porque es exactamente aquí de reducir.
+
+03:50.590 --> 03:52.290
+Voy a atraerme.
+
+03:52.460 --> 03:54.180
+Y obviamente lo voy a poner aquí.
+
+03:55.940 --> 04:02.590
+En convine produce hilos para poder utilizar varios reducirles y listo ya tenemos un reducir.
+
+04:04.000 --> 04:11.230
+Para poder comunicar cuando haya un nuevo cambio cuando se complete una transacción cuando haya error
+
+04:11.330 --> 04:12.150
+etc..
+
+04:13.280 --> 04:13.890
+Listo.
+
+04:13.940 --> 04:20.750
+En este caso la tenemos que llamar desde aquí por lo cual en este archivo de acción voy a crear otras
+
+04:20.750 --> 04:28.430
+funciones para yo hacer referencia cuando termine cuando empiece o si hay un error.
+
+04:28.700 --> 04:32.700
+Así que vamos a crearlo de la siguiente manera voy a crear una constante.
+
+04:33.600 --> 04:34.560
+Que se llame.
+
+04:35.780 --> 04:39.260
+Start up que youtubers con Kamel.
+
+04:40.830 --> 04:45.490
+Y esta es una función que me va a regresar.
+
+04:48.020 --> 04:53.180
+El tipo aquí lo voy a poner las mismas que en el reducir para que entre al switch.
+
+04:53.970 --> 04:57.440
+De este lado start ups.
+
+04:57.580 --> 05:00.570
+Ok qué más puedo regresar.
+
+05:00.600 --> 05:01.400
+Estar listo.
+
+05:01.470 --> 05:06.490
+Redi falso porque acabamos de iniciar y listo.
+
+05:06.570 --> 05:10.220
+Con esto es suficiente vamos a hacer lo mismo en otro lado.
+
+05:10.670 --> 05:11.660
+Pero ahora.
+
+05:13.410 --> 05:17.100
+Completed get users que a pasar.
+
+05:17.130 --> 05:22.010
+Es una Harrow función o sea una función que va a regresar.
+
+05:22.260 --> 05:28.280
+El tipo va a ser conflit Greg users yademás data.
+
+05:28.280 --> 05:29.780
+Yo le voy a pasar con data.
+
+05:29.820 --> 05:35.220
+Es lo mismo tener esto a tener esto así que no pasa absolutamente nada y está datas de la tengo que
+
+05:35.220 --> 05:38.160
+pasar por argumentó Cuando yo mandé a llamar.
+
+05:38.950 --> 05:40.220
+A este archivo.
+
+05:41.340 --> 05:47.990
+Entonces vamos a hacer otro que sea error.
+
+05:50.640 --> 05:58.290
+Este es para cuando haya un error así que recibo un error por argumento y me va a regresar.
+
+06:00.000 --> 06:02.460
+Del tipo una acción del tipo.
+
+06:02.460 --> 06:02.890
+Error.
+
+06:03.000 --> 06:03.720
+Users.
+
+06:05.760 --> 06:07.140
+Y el error.
+
+06:07.140 --> 06:12.990
+Para que pueda ser manipulado por el frontón por nuestros Randa en este caso.
+
+06:13.050 --> 06:17.970
+Así que bien vamos a hacer con estas acciones.
+
+06:18.000 --> 06:25.070
+El Dispatch el Dispatch es el disparador de eventos y que vamos a colocarlo Dispatch cuando entre aquí
+
+06:25.080 --> 06:31.560
+quiere decir que ya ha iniciado el proceso para obtener los usuarios así que vamos a mandar.
+
+06:31.790 --> 06:33.400
+Users.
+
+06:33.810 --> 06:39.310
+Y esto va a enviarle al reducir esta acción.
+
+06:39.940 --> 06:46.200
+Esto que está por aquí y en el reducido va a saber qué es estar grandiosos y lo va a comunicar al componente
+
+06:46.430 --> 06:47.170
+ok.
+
+06:47.610 --> 06:54.140
+En caso de que esto haya salido mal ahorita vamos a manejar con el error.
+
+06:54.360 --> 07:02.310
+De lo contrario con el cómplice y con la que así que vamos a proceder a hacer nuestro recuesto.

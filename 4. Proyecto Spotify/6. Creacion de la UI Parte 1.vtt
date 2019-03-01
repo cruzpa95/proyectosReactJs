@@ -1,0 +1,439 @@
+WEBVTT
+
+00:08.890 --> 00:15.400
+Nuestro siguiente paso para crear nuestra aplicación de Spotify es analizar lo que tenemos para poder
+
+00:15.400 --> 00:21.430
+hacerlo e implementarlo nuestra yuichi así que vamos a trabajar primero que nada con la pantalla de
+
+00:21.430 --> 00:21.980
+índex.
+
+00:22.000 --> 00:28.820
+Una vez que tengamos nuestro diseño o nuestro desarrollo del Front vamos a proceder a realizar la pantalla
+
+00:28.820 --> 00:29.660
+de Player.
+
+00:29.800 --> 00:36.910
+Pero bueno vamos en este primer paso tenemos que hacer el Index Sucar que es por aquí y además todo
+
+00:36.910 --> 00:40.590
+su contenido listo para cuando las canciones de Spotify.
+
+00:40.810 --> 00:42.830
+Así que yo voy a abrir la terminal.
+
+00:45.760 --> 00:52.280
+Y voy a abrir otra pestaña por acá y lo tengo en la carpeta Documents.
+
+00:56.570 --> 01:03.090
+Spotify Web Player ivey Instalar LPM Install mayuscula materiales.
+
+01:03.950 --> 01:14.090
+Yo sé lo que estoy haciendo aquí es simplemente instalar materiales la librería de CDs que nos ayuda
+
+01:14.090 --> 01:18.980
+a los diseños entonces lo repito aquí no nos vamos a tardar tanto en estilizar.
+
+01:19.040 --> 01:25.910
+Así que bien mientras esto se instala vámonos a nuestro código rápidamente.
+
+01:26.130 --> 01:34.770
+Bien aquí tengo mi Spotify Player y que ya debe estar por aquí instalado batiría la SSS.
+
+01:35.090 --> 01:41.660
+Así que lo voy a agregar a mi y a mi proyecto a mi archivo en este caso moviera views me hubiera índex
+
+01:41.660 --> 01:48.380
+que es el primer archivo en el que vamos a trabajar antes que que vayamos a play y que creamos la app
+
+01:48.380 --> 01:49.180
+de Spotify.
+
+01:49.280 --> 01:57.140
+Así que bien voy a importar materiales no vamos a importar de la siguiente manera materiales SC diagonal
+
+01:57.490 --> 02:03.360
+disait diagonal CCC diagonal material a punto Minipunto.
+
+02:03.560 --> 02:12.470
+Aquí estoy importando únicamente el CSS unificado de materiales está la versión normal la versión unificada
+
+02:12.890 --> 02:18.380
+así que yo te recomiendo usar la versión modificada a menos de que quisieras hacer algunas modificaciones
+
+02:18.410 --> 02:22.200
+pues usa la norma pero bueno en fin.
+
+02:22.340 --> 02:29.870
+Vamos a guardar esto y ya debemos tener materiales en nuestro proyecto o en este componente y todos
+
+02:30.110 --> 02:33.640
+sus hijos así que bien a este lo voy a crear una clase.
+
+02:33.670 --> 02:34.320
+Perdón.
+
+02:35.490 --> 02:39.220
+Y se va a llamar índex tal y como el componente Ok.
+
+02:39.320 --> 02:45.860
+Entonces dentro de este componente vamos a tener un componente Kart el cual va a ser indispensable para
+
+02:45.860 --> 02:52.050
+nosotros hacer todo el diseño tal y como lo propusimos en un principio.
+
+02:52.220 --> 02:55.200
+Así que bien vamos a poner otro.
+
+02:55.210 --> 02:57.280
+Vamos a borrar índex o qué.
+
+02:57.290 --> 03:02.040
+Voy a poner otro Dib y este va a tener como Claus Name.
+
+03:05.980 --> 03:14.230
+Además en materia de ley no dice que cada card debe tener varios hijos en este caso el Clas Nemes Card
+
+03:14.560 --> 03:19.570
+Contest estuvieren la documentación de materiales que también lo voy a dejar a quienes descripción del
+
+03:19.570 --> 03:20.120
+vídeo.
+
+03:20.230 --> 03:25.930
+Por si quieres profundizar más o quieres agregar algunas cosas adicionales a lo que yo estoy haciendo.
+
+03:26.290 --> 03:27.980
+Bien perfecto.
+
+03:28.210 --> 03:29.940
+Entonces después del CAR contén.
+
+03:29.940 --> 03:36.340
+Pues yo creo que a Sarita por el momento simplemente voy a poner una etiqueta que va a decir carta.
+
+03:37.230 --> 03:45.000
+Guardamos y además tenemos que importar nuestro índex puntos SSS así que lo importar exactamente como
+
+03:45.320 --> 03:49.970
+la hoja de estilo de materiales punto de agonal que índex puntos.
+
+03:50.160 --> 03:50.890
+Ok.
+
+03:51.060 --> 03:57.070
+Ya en nuestro índex puntos SC voy a colocar la clase índex.
+
+03:58.720 --> 04:07.090
+La clase índex es para nuestro componente principal el cual tenemos que nosotros agregarle una altura
+
+04:07.830 --> 04:10.280
+así que una altura de 100.
+
+04:10.470 --> 04:14.190
+Los hay que a la altura total de la pantalla.
+
+04:14.290 --> 04:17.390
+OK y vamos a ordenarlos en Columbia.
+
+04:17.830 --> 04:27.730
+Para eso tiene que estar en Flex así que bien más que nada lo que yo voy a hacer aquí es que mi kart
+
+04:27.940 --> 04:30.960
+ahorita lo voy a centrar asi que bien.
+
+04:31.060 --> 04:38.210
+Además de esto al justificar contenido al centro y alinear al centro.
+
+04:38.380 --> 04:45.580
+En pocas palabras Artemia alinear horizontal y verticalmente Complex para que nuestro contenido en este
+
+04:45.580 --> 04:47.660
+caso el cartel esté centrado.
+
+04:48.190 --> 04:50.660
+Guardamos y vamos a abrir el navegador.
+
+04:52.630 --> 05:00.640
+Y es que tenemos Kart como lo puedes ver estás centrado arriba y abajo de forma horizontal y vertical.
+
+05:00.820 --> 05:08.260
+Así que bien dentro de mi car contén nosotros tenemos que poner un elemento aquí arriba que va a ser
+
+05:08.260 --> 05:10.880
+el elemento de la búsqueda o es un input.
+
+05:11.140 --> 05:18.760
+Y además tenemos que colocar una lista la lista va a ser totalmente dinámica en la cual vamos adivinando
+
+05:18.940 --> 05:25.990
+paso a paso según las canciones que el reproductor nos arroje así que vámonos de nuevo al código.
+
+05:27.440 --> 05:31.640
+Vamos a crear aquí dentro de contén.
+
+05:31.730 --> 05:37.270
+Voy a eliminar este Kart y voy a poner este otro otro.
+
+05:37.670 --> 05:47.310
+Porque el otro Dib de abajo hacer la lista asi que este va a tener como clase índex guión.
+
+05:47.410 --> 05:48.140
+Box.
+
+05:49.570 --> 05:54.980
+Asi que es la cajita del ego y voy a agregar otro Dib.
+
+05:58.650 --> 06:02.580
+Y en este lo bajar pendiente porque donde va a ser el contenido dinámico.
+
+06:02.600 --> 06:04.130
+De hecho puedo poner un todo.
+
+06:12.650 --> 06:13.990
+Dentro de mí surge Vox.
+
+06:14.000 --> 06:18.240
+Lo que vamos a tener es un botón y un imput.
+
+06:18.470 --> 06:25.650
+Así que vamos a poner el input input Tayip un poco más grande la letra.
+
+06:30.750 --> 06:32.630
+DEXT.
+
+06:33.820 --> 06:34.680
+Tener un clásico.
+
+06:34.730 --> 06:43.010
+Por supuesto el clasede invasor Index sólo es Box como se llama el Papa imput es para darle el estilo.
+
+06:43.070 --> 06:45.960
+No es una clase de materiales.
+
+06:46.430 --> 06:49.530
+Vamos a bajar triplex acá.
+
+06:51.030 --> 06:53.880
+Estamos bien.
+
+06:53.970 --> 06:58.800
+Este va a tener un joder que va a ser canción.
+
+07:00.090 --> 07:02.110
+Por lo pronto con eso estamos bien.
+
+07:02.430 --> 07:08.850
+Lo que estoy haciendo aquí simplemente es un input en el cual el pleiss Wolder va a ser el gein el texto
+
+07:08.880 --> 07:10.380
+que nos dice qué hacer.
+
+07:10.440 --> 07:15.830
+O de que se trata la cajita así que voy a guardar y vamos a dar nuestros cambios.
+
+07:15.870 --> 07:24.360
+Aquí tenemos ya nuestro input para poner la canción así que ahora sigue el botón el botón es más que
+
+07:24.360 --> 07:33.270
+nada un link o a un tag a este lo voy a utilizar para utilizar las clases de materiales o Asíes como
+
+07:33.480 --> 07:34.400
+materiales.
+
+07:34.400 --> 07:35.700
+No no lo conozco.
+
+07:35.850 --> 07:38.140
+Así que bien este link tiene un clásico.
+
+07:38.160 --> 07:45.550
+Por supuesto esto esta clase que voy a poner ahorita es propia de material y CCS así que no te asustes
+
+07:45.550 --> 07:51.040
+si no la declaramos después las webs webs Efect.
+
+07:52.070 --> 08:00.530
+Waivers del nuevo botón porque son un botón y además del color no voy a pasar ríe.
+
+08:00.820 --> 08:07.320
+Es más que nada para que sea el diseño que viene ya esté predefinido en la documentación de materiales
+
+08:07.320 --> 08:10.460
+que igual que Link así que no te preocupes por eso.
+
+08:10.590 --> 08:16.890
+Pero no voy a perder tanto tiempo en hacer esto bien.
+
+08:17.190 --> 08:19.220
+Eso sería todo por el momento.
+
+08:19.470 --> 08:24.250
+Pero además va a tener un hijo que va a hacer.
+
+08:25.050 --> 08:27.020
+Tiene que ser un icono.
+
+08:27.150 --> 08:31.050
+Ahorita lo colocamos de fondo Azón vamos a ver si se está viendo.
+
+08:31.130 --> 08:38.010
+Ahí está la canción y aquí está el botón que claro no hace absolutamente nada.
+
+08:38.010 --> 08:45.030
+Así que bien a hacerse box vamos a darle la propiedad también de display Flex así que lo voy a colocar
+
+08:45.030 --> 08:45.770
+aquí abajo.
+
+08:47.080 --> 08:52.060
+Display Flex para indoloros Index sobrellevarlas Esplai Flex para qué.
+
+08:52.060 --> 08:59.270
+Para que los alinee en columna a todos los que están dentro de los bloques ahí está en forma de columna.
+
+08:59.650 --> 09:02.450
+Así que bien por el momento estamos bien.
+
+09:02.470 --> 09:09.130
+Hasta ahorita no hay ningún problema pero si tenemos un problema los inputs tienen que ser controlados
+
+09:09.160 --> 09:10.390
+por variables de estado.
+
+09:10.510 --> 09:18.740
+Es por eso que yo me voy a colocar dentro de mi imput un valium que va a hacer 10 puntos.
+
+09:19.060 --> 09:20.090
+Punto.
+
+09:20.130 --> 09:26.640
+Ok ok quiere decir que el valor de este input va a ser el valor de la variable de estado.
+
+09:26.640 --> 09:29.950
+EC Qué va a cambiar en Chains.
+
+09:31.700 --> 09:33.720
+Cada vez que el usuario.
+
+09:35.420 --> 09:38.860
+Tecleado así que esto va a ser disputase.
+
+09:44.410 --> 09:46.560
+Iba a ser Tear Song.
+
+09:46.940 --> 09:47.980
+Base igual.
+
+09:49.810 --> 09:53.000
+Even punto target punto.
+
+09:53.690 --> 09:54.730
+Donde.
+
+09:54.910 --> 09:57.360
+Es el evento que lo recibe.
+
+09:57.410 --> 10:01.920
+Aquí estamos pero además la canción no va.
+
+10:02.100 --> 10:08.120
+La variable Estado que no va a funcionar porque no la hemos declarado para lo cual tengo que declarar
+
+10:08.150 --> 10:09.230
+mi constructor.
+
+10:13.670 --> 10:14.910
+Vamos a hacer el súper.
+
+10:17.820 --> 10:19.850
+Vamos a declarar la variable de estado.
+
+10:22.370 --> 10:23.780
+Son como vacíos.
+
+10:24.020 --> 10:30.530
+Así que bien cuando el usuario esté cambiando va a estar cambiando la variable de estado que acá tiene
+
+10:30.530 --> 10:31.220
+su valor.
+
+10:31.400 --> 10:33.780
+Así que absolutamente no verían ningún cambio.
+
+10:33.800 --> 10:35.330
+Así se sigue escribiendo.
+
+10:35.330 --> 10:39.120
+Sin embargo ya la variable está controlada por un esteta.
+
+10:39.430 --> 10:45.590
+Así que se sigue el botón yo me huirá iPhone Azón.
+
+10:47.960 --> 10:55.350
+Que ya ya la hemos empleado en proyectos anteriores así que vamos a asistir también aquí si no recuerdo
+
+10:55.350 --> 11:02.530
+eso lo vamos a hacer obviamente así que vamos a buscar los iconos vamos a buscar un icono de buscar.
+
+11:06.860 --> 11:08.570
+El que quieras está bien.
+
+11:09.880 --> 11:11.280
+íbamos a copiar.
+
+11:12.550 --> 11:14.930
+El código que no lo hace copiar tan bien.
+
+11:16.920 --> 11:22.540
+La forma simbólica es decir qué bien vamos a pegarlo pero es un clásico.
+
+11:22.850 --> 11:30.220
+Y además aquí no vamos a utilizar la versión anterior de phone azul así que guardamos.
+
+11:31.220 --> 11:36.800
+Yo creo que no saber todavía hasta que coloquemos nuestro sede en Taiwan sí habrá un pequeño tweet para
+
+11:36.800 --> 11:38.200
+hacer esto.
+
+11:38.540 --> 11:39.520
+Fogonazo.
+
+11:41.140 --> 11:42.180
+Cdn.
+
+11:44.700 --> 11:53.150
+Y simplemente nos va a dar una liga la cual este se auto copia al portapapeles cuando le das Focus sobre
+
+11:53.150 --> 12:03.380
+este input OK y lo va a agregar en nuestro públic índex punto HTML abajo aquí vamos a colocar un link
+
+12:04.250 --> 12:08.100
+del tipo istria el chip y el esta y la chérrez va a ser.
+
+12:09.240 --> 12:16.500
+A la versión unificada de Phone ASO que estudian nos debería causar problemas y no debería estar funcionando.
+
+12:16.620 --> 12:21.060
+Ves igual en la descripción del video voy a dejar el link de cómo es esto.
+
+12:21.180 --> 12:25.720
+Simplemente estoy agregando una librería de iconos a nuestro proyecto de Spotify.
+
+12:26.710 --> 12:27.200
+Bien.
+
+12:27.300 --> 12:35.370
+Hoy tenemos ya el botón y el input así que espero el siguiente vídeo porque tenemos que crear cada uno
+
+12:35.370 --> 12:38.330
+de los componentes que nos faltan.
+
+12:38.400 --> 12:45.180
+En este caso sería el visuals Kart o que lo puedes llamar como son el nombre realmente mientras sea
+
+12:45.180 --> 12:48.730
+claro no tiene que ser como yo digo así que espero.

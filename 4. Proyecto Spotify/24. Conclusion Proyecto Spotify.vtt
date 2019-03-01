@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.420 --> 00:07.100
+Para finalizar nuestra serie de vídeos de este proyecto el cual es el tercero de este curso vamos a
+
+00:07.100 --> 00:14.910
+hacer un resumen rápido de lo que acabamos de realizar para que si tienes alguna duda igual puedes dejarme
+
+00:14.910 --> 00:20.400
+tu comentario igual en cada uno de los videos he estado dejando links en los cuales tu puedes ampliar
+
+00:20.400 --> 00:21.480
+tu conocimiento.
+
+00:21.750 --> 00:32.100
+Es decir aquí ves ciertas librerías ciertos métodos pero tal vez tú no quieres reproducir una canción.
+
+00:32.160 --> 00:40.050
+Tal vez tú quieres hacer otras cosas pero que bien encaminado en lo que hicimos aquí entonces me gusta
+
+00:40.050 --> 00:44.900
+mucho dejar información adicional para que la gente expanda su conocimiento.
+
+00:45.120 --> 00:53.190
+Así que bien índex es la pantalla que realizamos en la cual estaba compuesta de dos componentes principales
+
+00:53.640 --> 00:56.280
+el short box y el hard rock.
+
+00:56.370 --> 01:01.650
+En el Sors box lo que nosotros teníamos no era más que un input y un botón en este.
+
+01:01.650 --> 01:10.410
+Nosotros realizamos entradas o escribíamos canciones artistas que es básicamente cómo funciona el buscador
+
+01:10.410 --> 01:11.480
+de.
+
+01:11.910 --> 01:20.730
+Resucitar es básicamente Los resultados de cada una de las canciones que vienen de la búsqueda de Spotify.
+
+01:20.730 --> 01:28.050
+Del lado derecho tenemos la pantalla Player que básicamente es un componente dividido en dos uno del
+
+01:28.050 --> 01:34.470
+lado izquierdo en el cual ocupa el 50 por ciento del CART es el hijo el mayor y más no es más que la
+
+01:34.470 --> 01:42.220
+imagen de la canción o del álbum que tiene cada una de las canciones que hemos realizado nosotros.
+
+01:42.540 --> 01:48.920
+Imagínate que tú pones aquí el nombre de una canción de marún fair Coldplay etcétera que tú le das click
+
+01:48.930 --> 01:55.290
+te aparece el álbum de la canción o del sentir y además viene la información de la canción y además
+
+01:55.290 --> 01:58.650
+viene el reproductor HTML5 de audio ok.
+
+01:58.740 --> 02:04.510
+En pocas palabras todo esto que realizamos aquí está resumida en esta imagen.
+
+02:04.690 --> 02:07.790
+El frontón está obviamente desarrollado en React.
+
+02:07.860 --> 02:09.470
+De eso se trata el curso.
+
+02:09.750 --> 02:16.490
+Después tenemos Redux que con la ayuda de Redux hicimos cada uno de los rincones a la Hipias y de Spotify
+
+02:16.600 --> 02:17.800
+app ok.
+
+02:17.880 --> 02:25.800
+Cabe destacar que una pantalla que nosotros no pusimos aquí es la de Spotify keyloggers así que Spotify
+
+02:25.820 --> 02:34.980
+login viene dentro del front y nos da un toque ese toque no lo genera y es único y tiene cierta caducidad.
+
+02:35.100 --> 02:43.830
+Así que ahorita por el tiempo nosotros no realizamos un refresco pero igual te dejo la documentación
+
+02:43.830 --> 02:46.510
+en caso de que lo quisiera realizar.
+
+02:46.530 --> 02:53.820
+Esto es básicamente para que si quieres hacer ya un proyecto éste implementaron un proyecto que quieras
+
+02:53.820 --> 02:59.750
+hacer para alguna empresa alguna compañía pues tendríamos que realizar el refresquen.
+
+02:59.850 --> 03:04.780
+No tiene mucha ciencia no es muy difícil.
+
+03:05.050 --> 03:10.920
+Igual te voy a hacer un ejemplo y lo voy a colocar aquí abajo el frontend.
+
+03:11.010 --> 03:13.560
+Básicamente era eso.
+
+03:13.710 --> 03:22.500
+Spotify me regalaba un token si ese toque me ayudaba a cada uno de los ricos que Redux mediante acciones
+
+03:22.790 --> 03:23.370
+así.
+
+03:24.310 --> 03:30.490
+Después mediante la app de Spotify que son otras credenciales que también creamos.
+
+03:30.730 --> 03:38.140
+Llegamos a la CLADE Spotify o al lugar donde están almacenados cada uno o cada una de las canciones
+
+03:38.140 --> 03:39.340
+de Spotify.
+
+03:39.340 --> 03:45.760
+Cabe destacar que son muchas la librería de Spotify ha venido creciendo desde el 2013 para acá así que
+
+03:45.760 --> 03:46.750
+bien.
+
+03:47.410 --> 03:54.910
+Después Spotify me llega al Redux y este mes llegaba al componente en el cual venía la información de
+
+03:54.910 --> 04:00.900
+las canciones y después de eso yo podía pasar a escuchar cada una de las canciones.
+
+04:00.910 --> 04:09.280
+Esto es básicamente lo que nosotros realizamos en este curso así que cualquier duda comentario escribe
+
+04:09.400 --> 04:13.960
+mándame un mensaje personal aquí en la bandeja de entrada no pasa absolutamente nada.
+
+04:13.960 --> 04:15.420
+Voy a contestar a la brevedad.
+
+04:15.580 --> 04:18.040
+Así que nos vemos en el siguiente curso.
+
+04:23.640 --> 04:26.620
+Así que nos vemos en el siguiente proyecto.

@@ -1,0 +1,280 @@
+WEBVTT
+
+00:01.280 --> 00:07.970
+Una vez que nosotros hemos colocado nuestros marcadores ahora tenemos que hacerlos dinámicos que quiere
+
+00:07.970 --> 00:15.140
+decir que la pantalla se esté enfocando en cada uno de ellos a la vez y no simplemente que sigan una
+
+00:15.140 --> 00:15.790
+secuencia.
+
+00:15.800 --> 00:19.510
+Cómo funcionaría un reproductor así.
+
+00:19.670 --> 00:20.770
+Primero que nada.
+
+00:21.490 --> 00:29.200
+Ambos sabemos que tenemos marcadores en diferentes lados en diferentes países diferentes continentes
+
+00:29.620 --> 00:36.040
+así que es imposible para nosotros poder fijar un centro salvo que pongas todo el planeta lo cual no
+
+00:36.040 --> 00:38.490
+es del todo agradable.
+
+00:38.680 --> 00:46.300
+Así que bien la idea aquí es que se posicione sobre éste y lo cambie hacia el siguiente hacia el número
+
+00:46.300 --> 00:49.280
+2 y luego hacia el número 3.
+
+00:50.030 --> 00:53.630
+Y después hacia el número 4.
+
+00:53.910 --> 00:57.800
+Todo esto lo va a hacer cada cierto tiempo.
+
+00:57.810 --> 01:05.190
+A mí me gustaría que fuera cada 10 segundos por ejemplo pero para ejemplificar aquí lo haríamos con
+
+01:05.190 --> 01:06.770
+tres para ver que está funcionando.
+
+01:06.840 --> 01:09.230
+Y al final lo dejamos de diez segundos.
+
+01:09.360 --> 01:13.980
+Así que básicamente esto y al final daría la vuelta y seguiria ok.
+
+01:14.220 --> 01:20.850
+Esto es lo que vamos a hacer en este vídeo porque en los demás vídeos lo que vamos a realizar nosotros
+
+01:20.850 --> 01:30.550
+va a ser a poder darle play o a poner a Imagínate que es un símbolo de Play y el stop el NEX.
+
+01:32.420 --> 01:33.780
+Atrás sí.
+
+01:36.130 --> 01:39.770
+Básicamente eso es lo que tenemos que hacer en esta serie de vídeos.
+
+01:39.880 --> 01:46.090
+Para finalizar nuestro proyecto y por lo tanto terminar nuestro curso así que vamos a ver en nuestro
+
+01:46.090 --> 01:48.800
+mapa vital lo tenemos de la siguiente manera.
+
+01:48.850 --> 01:53.360
+Como podéis observar no tenemos absolutamente nada no tiene nada de funcionalidad del mapa.
+
+01:53.410 --> 01:56.620
+Sin embargo tiene un centro por ahí perdido en el universo.
+
+01:56.740 --> 02:05.230
+Pero cuando yo empiezo a hacer el mouth así que lo que está pasando es que esta via puedo ver todo el
+
+02:05.230 --> 02:10.210
+planeta y puedo ver los cinco marcadores que he colocado en los diferentes continentes.
+
+02:10.420 --> 02:15.530
+Bueno lo entodos simplemente en Europa y acá en América por qué.
+
+02:15.610 --> 02:16.590
+Perfecto.
+
+02:16.820 --> 02:25.540
+Ahora lo que vamos a realizar es que nos vamos a ir a nuestro código o porque aquí en el MAP y nosotros
+
+02:25.540 --> 02:32.800
+tenemos que colocar un timmer para que dicho timmer es el que se va a encargar de ir haciendo los movimientos.
+
+02:32.800 --> 02:36.930
+Es decir va a ir cambiando el estado actual.
+
+02:37.300 --> 02:42.680
+Así que bien vamos a colocar nuestro método de ciclo de vida componen Mount.
+
+02:45.110 --> 02:45.890
+Y este.
+
+02:46.080 --> 02:49.110
+Vamos a colocar.
+
+02:50.250 --> 02:56.520
+Vamos a declarar una variable de intervalo porque una variable porque la variable de intervalo lo vamos
+
+02:56.520 --> 03:02.520
+a meter en un Estado eso es recomendable que lo haga siempre vamos a hacerlo de una vez vamos a poner
+
+03:02.520 --> 03:12.230
+aquí intervalo lo voy a poner como string no pasa nada ya que cambia y se sestea su estado cambia al
+
+03:12.250 --> 03:13.620
+Interval ok.
+
+03:13.650 --> 03:14.430
+Por qué.
+
+03:14.610 --> 03:22.150
+Porque cuando no limpias tus intervalos normalmente suele tener conflictos con las pantallas.
+
+03:22.380 --> 03:28.350
+Igual si colocas más de un intervalo a la vez también tienes que tener una manera de manejarlos porque
+
+03:28.700 --> 03:29.910
+este se pierde.
+
+03:30.120 --> 03:31.470
+Así que bien voy a poner.
+
+03:31.500 --> 03:38.310
+Intervalo va a ser igual haced Interval que la función de JavaScript OK para cambiar cada cierto tiempo
+
+03:38.400 --> 03:45.870
+osea cada cierto tiempo que voy a ejecutar ejecutar la función disputo taymor cada 3 segundos o qué
+
+03:46.300 --> 03:47.290
+punto they're.
+
+03:47.310 --> 03:55.500
+Cabe destacar que no está definida por lo cual la voy a declarar aquí timbas y además en mi constructor
+
+03:55.500 --> 03:58.280
+tengo que poner disputo tayler va a ser igual.
+
+03:59.450 --> 04:01.830
+Hadiz punto timmer punto.
+
+04:02.290 --> 04:09.370
+Diz esto es con la finalidad de que el disfunciones dentro de mi método.
+
+04:09.540 --> 04:17.430
+Ok entonces en mi método timmer yo tengo que ir cambiando el estado de la posición y además tenemos
+
+04:17.430 --> 04:21.310
+que tener otras variables de estado las cuales vamos a revisar.
+
+04:21.420 --> 04:26.140
+Voy a eliminar Yo gran parte de lo que realicé aquí.
+
+04:26.460 --> 04:34.980
+Entonces qué es lo que vamos a necesitar o qué es lo que tenemos que cambiar para que cambie nuestro
+
+04:34.980 --> 04:37.700
+enfoque del mapa en cada posición.
+
+04:37.780 --> 04:45.870
+Pues uno la posición es una variable de estado y otra que es la latitud y longitud ya que para fijar
+
+04:45.870 --> 04:51.270
+un centro nosotros tenemos que pasarle la latitud y la longitud.
+
+04:51.390 --> 04:58.320
+Así que básicamente eso es lo que tenemos que agregar aquí agregar una variable actual posición esta
+
+04:58.410 --> 05:03.310
+la voy a empezar en cero porque por default una regla empieza en cero.
+
+05:03.390 --> 05:10.330
+Vamos a agregar corred ladd igual a cero y además Courant.
+
+05:11.490 --> 05:19.350
+Longitud igual hacer entonces la actual latitud y longitud van a comenzar en cero.
+
+05:19.610 --> 05:20.580
+Por qué.
+
+05:20.680 --> 05:28.130
+Es que por lo pronto ahorita vamos a cambiar esto ya que tenemos que ir optimizando nuestro.
+
+05:28.320 --> 05:31.100
+Pero vamos comenzando así que vamos a actualizar.
+
+05:35.450 --> 05:38.830
+Vamos a verificar y absolutamente no tenemos ningún error.
+
+05:39.050 --> 05:39.950
+Perfecto.
+
+05:40.220 --> 05:41.800
+Así que bien.
+
+05:41.840 --> 05:47.480
+Ahora como yo guardé una variable de estado para intervalo tenemos que guardarlo.
+
+05:47.600 --> 05:49.550
+Vamos a poner 10 puntos.
+
+05:49.550 --> 05:57.050
+Este es el que quiere decir que cuando el componente este haya renderizado entonces el intervalo no
+
+05:57.050 --> 05:58.380
+vas a guardar.
+
+05:59.510 --> 06:04.810
+Como el intervalo que tengo arriba o funcionaría de la misma manera que hiciera esto.
+
+06:08.730 --> 06:10.860
+Y así estaría funcionando perfecto.
+
+06:11.020 --> 06:15.440
+Hay otra función que tengo que hacer en otro método de ciclo de vida.
+
+06:15.670 --> 06:22.990
+Esto es básicamente para que cuando nuestro componente se desmonte se limpie el interval y no tengamos
+
+06:22.990 --> 06:28.930
+conflictos así que yo lo voy a hacer Component Wil un monto.
+
+06:30.220 --> 06:30.850
+Ok.
+
+06:31.100 --> 06:35.700
+Y aquí vamos a llamar a una función de JavaScript que es Clear Interval.
+
+06:36.190 --> 06:38.650
+Y le voy a pasar el intervalo.
+
+06:38.680 --> 06:40.170
+Punto.
+
+06:40.310 --> 06:40.920
+Punto.
+
+06:40.930 --> 06:41.610
+Interrogó.
+
+06:42.530 --> 06:43.900
+Listo entonces.
+
+06:43.930 --> 06:50.500
+Esto es lo que va a hacer va limpiar cada uno de los intervalos que yo tenga declarados en mi Component.
+
+06:50.560 --> 06:57.140
+Para cuando este componente se desmonte o se destruya actualizamos vamos a ver si no tenemos ningún
+
+06:57.140 --> 06:57.510
+error.
+
+06:57.510 --> 07:00.550
+No hasta el momento voy a abrir mi inspector.
+
+07:00.820 --> 07:02.850
+Vamos a anclarlo.
+
+07:03.020 --> 07:05.400
+Vamos a ver no tenemos ningún error.
+
+07:05.780 --> 07:07.180
+Todo está perfecto.
+
+07:08.760 --> 07:16.180
+Es que ahora sí que te espero en el siguiente video porque una vez aceptado nuestro cine nuestro intervalo
+
+07:16.450 --> 07:24.730
+tenemos que ir cambiando la posición de la latitud y la longitud del CEN y el centro para que esté cambiando
+
+07:24.730 --> 07:26.610
+así que no te despegues.

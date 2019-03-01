@@ -1,0 +1,136 @@
+WEBVTT
+
+00:08.620 --> 00:15.640
+Bien ahora en este vídeo lo que tenemos que hacer es conectar básicamente nuestro componente principal
+
+00:15.640 --> 00:20.820
+de índex de nuestro proyecto de Spotify y SDK.
+
+00:21.130 --> 00:28.380
+Vamos a conectarlo a Redux así que vamos a importar dos librerías muy importantes que es el aktion giros
+
+00:28.780 --> 00:29.790
+y el link.
+
+00:29.980 --> 00:34.140
+Así que ya lo hemos explicado en el proyecto anterior.
+
+00:34.150 --> 00:37.730
+Así que simplemente vamos a importar Connect.
+
+00:38.110 --> 00:44.900
+Este viene desde rimac Redux.
+
+00:44.900 --> 00:50.950
+Este componente es sencillo es el que permite la conexión entre reactivados.
+
+00:50.950 --> 00:56.290
+De hecho la socia más cruel de la librería vamos a importar el Action creeros
+
+00:58.600 --> 01:04.140
+creeros que viene directamente del ruedo.
+
+01:04.780 --> 01:06.590
+Vamos a salvarlo.
+
+01:07.780 --> 01:17.110
+En efecto y vámonos hasta el final de mi documento en el cual yo tengo que colocar lo que quiero pasar
+
+01:17.110 --> 01:25.240
+de Estado a propiedad y esas cosas así que vamos a poner una función que se va a llamar Maps y props
+
+01:27.760 --> 01:30.510
+bien como parámetro Lestat.
+
+01:31.050 --> 01:39.390
+Y además esto me va a regresar siempre algo en este caso usar rutas rutas.
+
+01:42.250 --> 01:44.570
+Pero lo vamos a definir aerith.
+
+01:45.710 --> 01:53.570
+Por lo pronto vamos a poner rutas que se esté a punto Routes que simplemente las rutas de mi radar está
+
+01:53.570 --> 01:58.880
+conectado a Redux así que esto realmente no me dice nada.
+
+01:58.880 --> 02:03.680
+Ahorita vamos a la función map Dispatch props.
+
+02:07.720 --> 02:14.160
+Recibe el Dispatch que es el encargado es el que nos ayuda a mandar la acción al lector.
+
+02:17.300 --> 02:20.020
+Vamos a regresar aquí el 20.
+
+02:20.270 --> 02:30.920
+Acxiom creeros que aquí es donde le vamos a mandar las funciones que nosotros queremos utilizar dentro
+
+02:31.280 --> 02:36.270
+de este componente que están del otro lado como el de Redux.
+
+02:36.380 --> 02:42.530
+Así que bien y aquí le tengo que pasar como argumento el Dispatch no me va a tronar si no se lo paso
+
+02:44.000 --> 02:52.720
+pero no me va a funcionar nada cuando yo quiera hacer una petición vamos a darles el exporto falda y
+
+02:52.720 --> 03:01.910
+vamos a hacer el Connecta Connect que vamos a conectar el MAP props mav Dispatch su props y luego el
+
+03:01.910 --> 03:03.230
+componente.
+
+03:07.870 --> 03:14.110
+Simplemente estamos conectando nuestro componente con ruedas así que vamos a ver si no tenemos ningún
+
+03:14.110 --> 03:14.900
+error.
+
+03:14.980 --> 03:17.660
+Eso fue donde nosotros descargamos la librería.
+
+03:17.830 --> 03:20.700
+Al parecer no tengo ningún error.
+
+03:20.830 --> 03:29.020
+Así que para probar que ya está funcionando esto que mi componente ya está conectado lector vámonos
+
+03:29.710 --> 03:37.660
+a mi render y antes de ritorno voy a mandar un log de disputo props como lo sabrás este componente no
+
+03:37.660 --> 03:38.950
+es hijo de nadie.
+
+03:39.250 --> 03:40.930
+Dentro de mi estructura.
+
+03:41.020 --> 03:44.230
+Pero es que sí.
+
+03:44.320 --> 03:52.330
+Si es hijo o si está escuchando a rueda y que debe tener algo para pasarle como propiedades.
+
+03:52.390 --> 03:53.420
+Vamos a actualizar.
+
+03:55.640 --> 03:57.190
+No tenemos error al parecer.
+
+03:59.020 --> 04:00.440
+Vamos a darle en consola.
+
+04:04.910 --> 04:10.240
+Ya me está pasando lo visto y relocation el match el Routes etc..
+
+04:10.730 --> 04:18.910
+Así que Rousseau indefinido ahorita lo vamos a ahorrar pero básicamente este sería eso badaude la conexión.
+
+04:19.040 --> 04:28.040
+Ya está la conexión ahora en el siguiente vídeo vamos a a realizar peticiones por que para poder utilizar
+
+04:28.160 --> 04:36.230
+este buscador de canción necesitas estar guiado por lo cual básicamente estaremos haciendo como primer
+
+04:36.230 --> 04:41.060
+paso un login en Spotify así que te espero.

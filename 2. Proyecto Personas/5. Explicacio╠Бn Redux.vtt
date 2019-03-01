@@ -1,0 +1,103 @@
+WEBVTT
+
+00:08.250 --> 00:15.620
+Bien ya estamos de regreso pero ahora tenemos un pequeño error nos dice que obtenga la función.
+
+00:15.630 --> 00:21.560
+Eso es porque al ser el importe de Crusat bisturí quiso y creando.
+
+00:22.930 --> 00:25.390
+Estoy mandando a llamar a su constructor.
+
+00:26.200 --> 00:32.010
+No es una constante si que bien vamos a quitar las llaves.
+
+00:34.950 --> 00:36.870
+Entonces ahí está.
+
+00:36.960 --> 00:41.830
+Perfecto entonces ya con eso corregimos ese pequeño error y ya está funcionando.
+
+00:41.830 --> 00:50.760
+Bueno cuando tú creas una aplicación concluye Reactable te aparece un poco bonito te dice Bueno acá.
+
+00:50.890 --> 00:57.200
+El logo del Real funcionando la fuente más bonita Bueno esto es porque yo eliminé la hoja de estilos
+
+00:57.230 --> 01:06.190
+decir que no te preocupes por eso ahorita bien ahora vamos a dar una pequeña sesión de lo que es Redux
+
+01:06.340 --> 01:08.640
+o más bien de cómo funciona su estructura.
+
+01:08.650 --> 01:09.040
+Por qué.
+
+01:09.040 --> 01:13.620
+Porque no vamos a meternos de lleno a Redux en sí.
+
+01:14.050 --> 01:18.630
+En este curso no se trata del Redux se trata de diferentes proyectos con React.
+
+01:18.640 --> 01:21.270
+Sin embargo estamos implementando Redux.
+
+01:21.310 --> 01:22.670
+Ok bien.
+
+01:22.990 --> 01:28.990
+Imagínate que tú tienes un componente de este lado que es la vista que es lo que nosotros vamos a crear
+
+01:29.350 --> 01:33.290
+que son John Locking lo que quieras.
+
+01:33.820 --> 01:41.920
+Esta visa para estar comunicada a la estor por medio de Redux ocupa más de un Dispatch.
+
+01:41.920 --> 01:48.430
+Este Dispatch es aquel que dispara la acción cuando dispara la acción.
+
+01:48.550 --> 01:56.500
+Esto va a reducir el recurso de reducir hacer lo propio llega al estor y la estor le manda la información
+
+01:57.250 --> 01:59.370
+al componente que está suscrito.
+
+01:59.410 --> 02:04.400
+Obviamente a recordar que en Redux es una sola.
+
+02:04.620 --> 02:06.790
+Ok entonces es así de simple.
+
+02:07.060 --> 02:09.240
+El componente requiere algo.
+
+02:09.460 --> 02:14.310
+Imagínate que tú quieres traer este en este caso todos los usuarios o personas.
+
+02:14.560 --> 02:22.120
+Haces el rico es hacer la petición desde la vista y esta acción va a disparar.
+
+02:22.160 --> 02:29.390
+Reducir el despachen dispara la acción perdón y después se va a reducir al reducir al lector.
+
+02:29.560 --> 02:33.830
+El autor envía la información nueva a la vista.
+
+02:34.090 --> 02:38.990
+Entonces la vista no hace absolutamente nada de recuesto.
+
+02:39.070 --> 02:44.280
+Simplemente hace las peticiones y lo demás Redux se encarga.
+
+02:44.650 --> 02:50.440
+Entonces quiere decir que si yo tengo varios componentes conectados a la gastador puedo acceder a sus
+
+02:50.440 --> 02:55.630
+valores porque la estor tiene los valores de toda la aplicación.
+
+02:55.630 --> 02:58.020
+Es una de las grandes ventajas que ofrece.
+
+02:58.300 --> 03:00.440
+Así que bien vamos a comenzar.

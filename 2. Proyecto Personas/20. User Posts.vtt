@@ -1,0 +1,337 @@
+WEBVTT
+
+00:08.560 --> 00:09.890
+Bien.
+
+00:09.940 --> 00:12.330
+Ahora vamos a crear nuestro serpost.
+
+00:12.340 --> 00:17.120
+Ya hemos creado el archivo dentro de órbita del body bueno más bien lo hemos creado.
+
+00:17.170 --> 00:24.520
+Sin embargo no hemos codeado absolutamente nada por lo cual vamos a tener que hacer un pequeño análisis.
+
+00:24.610 --> 00:30.300
+Recordar que teles una pantalla completa la cual está conectada a Redux.
+
+00:30.350 --> 00:36.490
+Ok entonces tenemos dos subcomponentes o dos componentes hijos que a la vez son hermanos y usais littell
+
+00:36.520 --> 00:38.120
+cover y solicites del body.
+
+00:38.230 --> 00:42.090
+Así que yo uso el post es hijo directo del Yuso órbita del bodys.
+
+00:42.250 --> 00:48.800
+Así que por lo cual necesitamos la información de los mensajes que viene de piauí como mensajes.
+
+00:48.890 --> 00:54.380
+Así que bien yo solicité el body tiene que pasar esa propiedad a su hijo por lo cual yussuf retail.
+
+00:54.430 --> 00:58.850
+En este caso tiene que pasarle la propiedad así que vamos a nuestro código.
+
+00:58.990 --> 01:00.910
+Esa es la pantalla de Yuso elite.
+
+01:01.150 --> 01:08.000
+Aquí acabo de mandar un log de props punto titel y vamos a ver qué es lo que está mandando.
+
+01:08.470 --> 01:14.500
+Así que le doy inspeccionar después en consola viene unav GEC y viene data.
+
+01:14.560 --> 01:20.980
+Viene también el tipo de acción en este caso y viene mesalles que viene con un arreglo de mensajes que
+
+01:20.980 --> 01:25.920
+son los post de este usuario así que vamos a ponerlo de la siguiente manera.
+
+01:27.400 --> 01:29.240
+Vamos a borrar este log.
+
+01:29.400 --> 01:34.890
+Es importante que no dejes tus logs ahí porque pues no no es bueno.
+
+01:35.110 --> 01:39.190
+Yo solicité el voto y vamos a pasarla como propiedad mesos.
+
+01:39.670 --> 01:41.350
+Qué le vamos a mandar.
+
+01:42.460 --> 01:43.310
+Lo siguiente.
+
+01:46.730 --> 01:55.530
+Me desechas sí pero lo vamos a aclarar aquí arriba que ya sabemos que viene de disputo prowse punto
+
+01:55.790 --> 01:57.790
+unitel punto.
+
+01:58.030 --> 02:03.880
+Así que bien yo solicité el Bodipo voy a guardar esto me huirá solicité el body y aquí es donde tenemos
+
+02:03.880 --> 02:08.320
+que poner el propio Hives es importantísimo para optã IPs.
+
+02:09.570 --> 02:11.870
+Y este viene del paquete.
+
+02:13.930 --> 02:17.420
+Tal vez es por separado si íbamos a poner a caballo.
+
+02:17.660 --> 02:25.890
+Yo solicité el bodhi punto propp EPES para decir hace referencia a que esos son los tab de este componente.
+
+02:26.180 --> 02:28.630
+Y vamos a poner fechas.
+
+02:29.180 --> 02:38.310
+Este es preceptivo que ese paquete de Herriak y después vienen el tipo de el Rey y el requerido que
+
+02:39.340 --> 02:45.500
+me comentaban me han comentado en mi curso anterior que por qué si os voy a ir como quiera funciona.
+
+02:45.550 --> 02:49.920
+Si pero te mando un warning un warning que no es nada bonito tenerlo en tu consola.
+
+02:50.080 --> 02:59.170
+Así que bien vamos a requerir los mensajes entonces Yuso edité el bodhi es el que va a renderizar los
+
+02:59.270 --> 03:03.790
+serpost por lo cual tenemos que importar mi componente import.
+
+03:03.820 --> 03:05.020
+Yo uso el post.
+
+03:05.200 --> 03:14.080
+Este viene de la misma carpeta okkhoy Saber a copiarlo.
+
+03:15.710 --> 03:20.520
+Porque el teclado se me cambio a esta youssou itei.
+
+03:20.670 --> 03:25.870
+Aquí estamos Perfect no es necesario ponerlo ya lo hemos mencionado muchas veces.
+
+03:25.870 --> 03:38.440
+Vamos a colocar el constructor vamos a por el constructor que vamos a hacer super y bien vamos a ser
+
+03:38.500 --> 03:43.780
+super y luego props que recibe como parámetro el constructor.
+
+03:43.780 --> 03:49.700
+Otra pregunta muy importante que me siguen es por qué usar el props dentro de tu constructor esto es
+
+03:49.710 --> 03:50.340
+sencillo.
+
+03:50.380 --> 03:55.240
+Cuando tu vas a utilizar las props dentro de tu constructor tienes que declararlos de lo contrario van
+
+03:55.240 --> 03:58.270
+a ser indefinidas y yo los voy a utilizar de la siguiente manera.
+
+03:58.290 --> 04:00.160
+Dices te va a ser igual.
+
+04:02.840 --> 04:12.500
+Vamos a poner mesalles que esto es igual al disputo pross punto desechas que bien y vamos a manejarlo
+
+04:12.500 --> 04:18.540
+como Estado por si cambia o alguna alguna otra cosa vamos a guardar o hacer que no tengamos ningún error.
+
+04:20.300 --> 04:24.100
+Dice que ellos solo posees definida pero nunca es utilizado.
+
+04:24.470 --> 04:28.760
+Bien esto no tiene ningún problema porque vamos a utilizar.
+
+04:28.960 --> 04:38.080
+Así que bien vamos a realizar dentro de mi método render lo siguiente Vamos a declarar una variable
+
+04:38.380 --> 04:41.840
+que se va a llamar meses esto va a ser igual.
+
+04:43.430 --> 04:46.780
+Hadiz puntos punto mesalles.
+
+04:47.560 --> 04:48.560
+Punto.
+
+04:48.650 --> 04:54.150
+MAP Map es una función para para hacer como si fuéramos un ciclo.
+
+04:54.180 --> 05:02.740
+Ok sí claro este arreglo vamos a poner punto MAP y vamos a poner corren Valium podemos hacer un mapa
+
+05:02.850 --> 05:09.320
+a hacer un foro de como tú uses y vamos a poner el arroz fonction.
+
+05:11.140 --> 05:20.920
+Estamos perfecto y vamos a poner un ratón que por cada elemento que haya o cada mensaje que haya Vamos
+
+05:20.920 --> 05:24.590
+a mostrar un post.
+
+05:25.680 --> 05:29.630
+Vamos a poner este por aquí.
+
+05:30.000 --> 05:39.240
+Creo que está el post bien cerramos y por lo pronto no tenemos definido y uso el post pero lo vamos
+
+05:39.240 --> 05:41.300
+a definir y listo.
+
+05:42.120 --> 05:43.900
+Perfecto vamos a guardar.
+
+05:43.950 --> 05:46.460
+Vamos a ver que no tengamos ningún error.
+
+05:46.470 --> 05:47.190
+Para nada.
+
+05:47.190 --> 05:48.550
+Muy bien.
+
+05:48.600 --> 05:56.250
+Ahora que vamos a nuestro yusei vamos a ver qué es lo que tiene un post por lo cual el método render
+
+05:56.310 --> 05:57.620
+de Yuso orbite el body.
+
+05:57.630 --> 06:03.760
+Voy a mandar un log de puntos Toit punto mesalles que es lo que viene de Crytek.
+
+06:03.950 --> 06:04.930
+Así que vamos.
+
+06:06.160 --> 06:16.430
+Viene dos un arreglo de toso de tamaño 2 o longitud 2 donde viene un heydi un mensaje y un título así
+
+06:16.450 --> 06:18.270
+que bien vamos a hacerlo.
+
+06:18.340 --> 06:25.870
+De eso nada más vamos a poner allí mensaje títulos como propiedad de Yuso el post así que vamos a importar
+
+06:26.200 --> 06:33.720
+de prop talves desde el paquete de pro es muy bien.
+
+06:34.570 --> 06:41.680
+Vamos a poner al final yo uso el post punto propp que ya lo hemos venido haciendo desde hace ya varios
+
+06:41.680 --> 06:42.590
+rato.
+
+06:42.700 --> 06:48.210
+Vamos a poner la heydi que es el paquete de Biak prop.
+
+06:48.250 --> 06:48.980
+Punto.
+
+06:49.000 --> 06:50.990
+Esto es un numero number.
+
+06:51.310 --> 06:59.880
+Ok vamos a ponerles a ver por lo pronto que viene tambien el titulo y el mensaje es del tipo estrujante
+
+07:00.440 --> 07:07.820
+Investors es tambien del tipo estrellen tag punto Esteri ok.
+
+07:07.930 --> 07:11.090
+El isoco Air es opcional ok.
+
+07:11.140 --> 07:16.590
+Asi que no es necesario marcarlo pero ya es decisión tuya.
+
+07:16.820 --> 07:21.000
+Qué bien entonces vamos a realizar aquí dentro.
+
+07:21.220 --> 07:25.270
+Vamos a guardar vamos a guardar y vamos a ver que no tengamos ningún error.
+
+07:26.880 --> 07:34.330
+Bien ahora en yusei vamos a poner y simple vamos a poner un H1 que tenga.
+
+07:35.720 --> 07:38.690
+El título y un H2.
+
+07:40.040 --> 07:41.030
+Que tenga.
+
+07:41.760 --> 07:43.500
+El mensaje.
+
+07:45.780 --> 07:53.290
+El mensaje es bueno no las tengo declaradas buenas tenemos que declarar aquí como constantes conceto.
+
+07:54.780 --> 08:00.450
+Título y mensajes que vienen de disputo props disputo.
+
+08:01.290 --> 08:04.470
+Estamos y vamos a ver que es lo que manda.
+
+08:04.500 --> 08:06.420
+No debe de mandar absolutamente nada.
+
+08:06.600 --> 08:07.530
+Por qué.
+
+08:07.540 --> 08:14.670
+Porque este todavía no ha sido llamado en el render del post pero si tenemos que mándale las propiedades
+
+08:14.920 --> 08:21.010
+así que vamos a mandar el kit que es muy importante vamos a mandarle un curro en balio punto Zaidi.
+
+08:22.540 --> 08:24.080
+Ok por qué.
+
+08:24.200 --> 08:30.510
+Esto es porque riaz como son dinámicos por cada aqui reconoce cada elemento.
+
+08:30.590 --> 08:35.980
+Ok entonces también pido un airi que también va a ser exactamente el mismo color en balio punto Dairy
+
+08:36.200 --> 08:36.900
+que mando.
+
+08:36.980 --> 08:38.530
+Vamos a ponerlo hacia abajo.
+
+08:38.690 --> 08:46.010
+Me gusta mucho colocarlos hacia abajo con un tap de despacio que entre donde empieza y aquí y bien ahora
+
+08:46.010 --> 08:55.790
+viene este que airi el titulo que es como invadio punto título que es como se llama en el Jayson que
+
+08:55.790 --> 09:02.220
+viene de la piauí y el mes que también viene de la Pía.
+
+09:04.960 --> 09:07.270
+Muy bien que vamos a ver.
+
+09:11.340 --> 09:17.630
+EDIT Bueno el adiviné con forma de Sink así que vamos a man vamos a colocarlo como el swing esto o lo
+
+09:17.630 --> 09:23.290
+pongo solo como ENI o sea puede ser un string puede ser un grupo de sólo nombro un objeto etcétera.
+
+09:23.300 --> 09:24.830
+No me importa.
+
+09:24.830 --> 09:31.460
+Así que bien si porque a veces se viene como entero estamos hablando de Mongo viene un estreno.
+
+09:31.640 --> 09:37.990
+Así que si vamos a colocarlos dentro y variable mesalles dentro de mi rentrée.
+
+09:41.300 --> 09:45.440
+Y bien ahí está ya todo marcado.
+
+09:45.470 --> 09:52.670
+Vaya todos los mensajes o tuits como quieras llamarle pero de una manera fea así que te espero en el
+
+09:52.670 --> 09:58.460
+siguiente vídeo para acomodar y estilizar estos tuits así que los vemos hasta la próxima.

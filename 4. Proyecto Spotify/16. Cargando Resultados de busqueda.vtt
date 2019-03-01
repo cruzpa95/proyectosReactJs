@@ -1,0 +1,382 @@
+WEBVTT
+
+00:08.350 --> 00:14.740
+Bien en este video lo que vamos a realizar ahora es mapear cada una de las canciones que ya has visto
+
+00:14.740 --> 00:16.260
+en tu consola del navegador.
+
+00:16.450 --> 00:21.340
+Básicamente lo que vamos a seguir haciendo es teniendo en nuestra pantalla Imagínate que esto es una
+
+00:21.340 --> 00:25.110
+pantalla rectangular no tengo tan buen pulso.
+
+00:25.440 --> 00:31.240
+Este es nuestro input y aquí está nuestro botón de búsqueda y aquí va a estar lo que vamos a trabajar
+
+00:31.300 --> 00:37.570
+en este video que básicamente va a ser nuestro kart en el cual vamos a cargar cada una de las cinco
+
+00:37.570 --> 00:38.200
+canciones.
+
+00:38.280 --> 00:38.640
+5.
+
+00:38.670 --> 00:41.210
+Por qué hemos definido un límite en nuestro cuerpo.
+
+00:41.330 --> 00:45.410
+Y porque este es lo que hemos platicado anteriormente.
+
+00:45.630 --> 00:53.080
+Básicamente va a ser lo mismo Bair mediante nuestro front a la nube de Spotify donde están almacenadas
+
+00:53.080 --> 01:00.620
+todas y cada una de las canciones y me la regresa y mediante Redux también me las manda a mi pantalla.
+
+01:00.820 --> 01:03.770
+Ok entonces básicamente va a ser eso sí.
+
+01:03.800 --> 01:08.620
+Y si queremos seguir haciendo la búsqueda de canciones va a seguir haciendo el mismo proceso y va a
+
+01:08.620 --> 01:09.300
+regresar.
+
+01:09.460 --> 01:12.530
+Ok entonces bien vamos a continuar.
+
+01:14.440 --> 01:15.730
+Voy a abrir mi código.
+
+01:18.860 --> 01:22.450
+Ahora lo que tenemos que realizar es un kart.
+
+01:22.550 --> 01:24.060
+Voy a ponerlo por aquí.
+
+01:27.800 --> 01:35.030
+Es listo va a tener clausure igual que el de arriba Cart y va a tener un hijo un descendiente que es
+
+01:35.030 --> 01:36.070
+car content.
+
+01:36.080 --> 01:44.250
+Eso es con la intención de de materiales no nos solicita que pongamos siempre un arconte.
+
+01:44.630 --> 01:46.990
+Así que vamos a actualizar y Ekiza.
+
+01:47.090 --> 01:49.820
+Aunque se ve feo porque no hay ninguna canción.
+
+01:49.910 --> 01:57.850
+Y si yo busco ponemon la oferta de Vámonos a lo chileno pues no va a aparecer absolutamente nada.
+
+01:58.280 --> 02:07.350
+Yo me voy a eliminar este de aquí pero no sin antes poner un punto get risottos.
+
+02:11.030 --> 02:16.800
+Básicamente vamos a llamar un método que si las canciones existen o la propiedad de Sony existe.
+
+02:16.970 --> 02:19.630
+Entonces no va a regresar las canciones mapeadas.
+
+02:20.880 --> 02:23.090
+Entonces voy a crear aquí.
+
+02:23.130 --> 02:24.220
+Jerry sols.
+
+02:26.390 --> 02:34.830
+Es que no reciben nada pero si lo tenemos que en nuestro constructor de declararlo Great Olds es igual
+
+02:34.830 --> 02:36.850
+a disputo Great results.
+
+02:38.120 --> 02:38.840
+Veulent.
+
+02:41.810 --> 02:48.600
+Esto es para que como ya lo hemos platicado mucho el dice exista dentro de mí de mi método que íbamos
+
+02:48.600 --> 02:49.400
+a regresar.
+
+02:50.480 --> 02:54.590
+Básicamente sí pero tenemos que hacer una validación.
+
+02:54.590 --> 03:01.080
+Cabe destacar que nuestro de aquí que acabo de eliminar teníamos que disputo puntos que es lo que viene
+
+03:01.390 --> 03:05.410
+de Redux así que voy a guardar una constante.
+
+03:06.580 --> 03:10.210
+Socks esto va a ser igual al disputo props.
+
+03:14.970 --> 03:23.370
+Bien vamos a poner ahora una validación si Shanks punto lenta.
+
+03:25.250 --> 03:32.950
+Osea si el tamaño del arreglo de porque en este caso las props de Sony es un arreglo es mayor a cero
+
+03:33.690 --> 03:40.670
+que quiere decir que entonces sí hay canciones y por lo tanto son 5 A menos que la búsqueda fuera rarísima
+
+03:40.670 --> 03:42.960
+ocasión eran dos o tres o cuatro.
+
+03:43.130 --> 03:47.200
+Así que bien si está definido entonces vamos a regresarlo.
+
+03:47.390 --> 03:51.760
+Así que esto yo me lo voy a copiar dentro de mí y listo.
+
+03:53.310 --> 03:59.580
+Y bien ahora pues esto básicamente no me va a imprimir nada o no me va a mostrar o renderizar nada en
+
+03:59.580 --> 04:06.780
+la pantalla porque no hay ninguna Canches mapeada así que vamos a poner aquí vamos a poner sólo punto
+
+04:06.780 --> 04:07.480
+mapp.
+
+04:09.760 --> 04:12.000
+Y esto va a ser corben badiou.
+
+04:16.110 --> 04:16.770
+Listo.
+
+04:17.550 --> 04:19.230
+Y aquí vamos a regresar.
+
+04:20.710 --> 04:28.080
+Por lo pronto hundí que no diga nada pero quiero el log del correo invadio de cada una de las canciones.
+
+04:28.090 --> 04:31.570
+Básicamente estamos mapeando como ya lo hemos hecho anteriormente.
+
+04:31.570 --> 04:38.090
+Cada uno de los temas del arreglo de Songs osea cada una de las canciones de voy a mandar lo que vienen
+
+04:38.110 --> 04:40.190
+cada una para que lo veas.
+
+04:41.190 --> 04:42.950
+Listo.
+
+04:43.270 --> 04:49.240
+En caso de que no te llegue a funcionar la piai es porque el token ya ha vencido y es por eso que yo
+
+04:49.240 --> 04:55.620
+te recomiendo limpiar la memoria y volverlo a hacer hasta que no hagamos un refresco.
+
+04:55.900 --> 04:57.520
+Vamos a poner de nuevo la oferta.
+
+05:02.710 --> 05:03.350
+Listo.
+
+05:03.400 --> 05:08.600
+Aunque me están mandando los 5 indefinidos vamos a ver que es lo que está pasando aquí.
+
+05:09.530 --> 05:13.660
+Son disputo props vamos a ver que lo hayamos puesto por akashi VISTA.
+
+05:14.430 --> 05:20.060
+Y vamos a mandar el lock aquí Lak disputo props puntos omx.
+
+05:20.600 --> 05:25.770
+Vamos a verificar que se esté bien abandonamos la Fert con esto suficiente.
+
+05:27.300 --> 05:34.390
+Me están mandando un arreglo de indefinidos así que esto está muy extraños y que vamos a revisar.
+
+05:38.660 --> 05:43.370
+Listo hemos actualizado y han salido ya los cinco.
+
+05:43.640 --> 05:51.100
+Hay temas de nuestro mav listo pero aún no sale un warning que dice que cada hijo en el arreglo va a
+
+05:51.100 --> 05:54.180
+tener un maniquí y también lo tenemos agrega.
+
+05:54.220 --> 06:02.160
+Así que es momento de usar el elemento que ya habíamos creado anteriormente de índex que es el sol.
+
+06:03.280 --> 06:04.070
+Listo.
+
+06:04.790 --> 06:05.720
+Dónde está aquí.
+
+06:05.730 --> 06:09.290
+Allá le importamos un tema entonces aquí arriba.
+
+06:10.100 --> 06:13.830
+Así que bien en carrito por ser un item.
+
+06:15.230 --> 06:16.390
+Son item.
+
+06:17.220 --> 06:24.870
+Primero recibe como propiedad del iki que en este caso yo lo voy a pasar el índex que es el valor de
+
+06:25.500 --> 06:28.520
+deleitarán por el contador bien.
+
+06:28.860 --> 06:34.200
+Vamos a ver qué propiedad nos está pidiendo nos pide el son airi el toque en paz que lo vamos a agregar
+
+06:34.200 --> 06:36.920
+un poco más adelante en la foto.
+
+06:36.960 --> 06:38.830
+El sondheim y el artista.
+
+06:39.120 --> 06:43.920
+Así que bien vamos a poner aquí el shock heydi.
+
+06:44.760 --> 06:46.090
+Va a ser cierto valor.
+
+06:47.750 --> 06:48.900
+En la foto.
+
+06:50.110 --> 06:51.050
+Otro valor.
+
+06:52.240 --> 06:53.190
+El álbum ne.
+
+06:54.380 --> 06:55.690
+Tiene otro valor.
+
+06:59.190 --> 07:02.420
+Son nahim por supuesto que es otro valor.
+
+07:02.660 --> 07:09.240
+El artista es otro valor y por último si queremos pasar la popularidad o no..
+
+07:09.460 --> 07:13.840
+No no creo que sea tan necesario mostrar la popularidad de esta canción.
+
+07:14.090 --> 07:18.180
+Así que vamos a ver cuáles son los elementos que tenemos que obtener.
+
+07:18.320 --> 07:22.050
+Queremos el goiri que es este.
+
+07:22.340 --> 07:27.980
+Ahí tenemos la foto que está dentro de álbum.
+
+07:28.360 --> 07:32.930
+Quizá después del álbum vamos a muchos.
+
+07:34.140 --> 07:37.550
+Quizá y agarramos la imagen cero.
+
+07:38.900 --> 07:46.070
+El disco básicamente es el álbum que sería vamos por este.
+
+07:47.080 --> 07:51.620
+Que es más fuerte el sondheim que es el Noi.
+
+07:53.020 --> 07:56.960
+Está aquí tu falta de querer una de las canciones más famosas de.
+
+07:57.140 --> 08:02.400
+O si no es que la más famosa el artista en el arreglo de artistas.
+
+08:04.320 --> 08:05.100
+Aquí está.
+
+08:05.130 --> 08:06.720
+Me mola.
+
+08:07.740 --> 08:09.600
+Así que vamos a pasar eso.
+
+08:09.660 --> 08:11.350
+Vamos a colocarlo aquí.
+
+08:11.590 --> 08:16.580
+Entonces quedamos que era el colmo embaló y punto bajo.
+
+08:17.780 --> 08:19.610
+El álbum fotos con invadio.
+
+08:19.910 --> 08:21.260
+Punto.
+
+08:21.530 --> 08:22.270
+álbum.
+
+08:23.310 --> 08:26.710
+Punto y punto.
+
+08:26.760 --> 08:33.540
+Borrel listo el álbum que es el cobro en Valium punto albúm punto.
+
+08:35.030 --> 08:35.880
+Listo.
+
+08:35.990 --> 08:40.850
+El arte el perdón es como invadir y punto.
+
+08:42.250 --> 08:47.640
+Y el último que ser Artis que es el invadio punto Artis.
+
+08:48.430 --> 08:51.210
+Que es en la posición cero como la habíamos visto.
+
+08:51.210 --> 08:52.740
+Punto.
+
+08:53.090 --> 09:01.060
+Así que bien vamos a eliminar el blog lo que nos va a regresar es que Casón hoy va a tener una canción
+
+09:01.060 --> 09:03.610
+con su foto y su descripción etcétera.
+
+09:03.730 --> 09:07.610
+Pero vamos a ver un pequeño detalle así que vamos a verlo enseguida.
+
+09:07.600 --> 09:09.520
+Voy a juzgar de no Mona Fert.
+
+09:12.920 --> 09:13.770
+Son Heidi.
+
+09:13.960 --> 09:15.750
+Creo que tenemos un pequeño error aquí.
+
+09:17.750 --> 09:20.660
+Vale y punto a punto.
+
+09:20.740 --> 09:24.160
+Así que vamos a colocar de Moon.
+
+09:27.220 --> 09:29.570
+Era sin el bajo se me había olvidado.
+
+09:29.760 --> 09:30.570
+Listo.
+
+09:30.570 --> 09:34.980
+Vas a ver todas las canciones que salen De-mon se las trae de la piel.
+
+09:35.140 --> 09:39.070
+Si tú me quisieran mi buen humor amarrarme etcetc.
+
+09:39.480 --> 09:45.490
+Pero esto lo estamos viendo 1 2 3 4 canciones entonces hay un error.
+
+09:45.620 --> 09:53.790
+Si hay un pequeño error y es el diseño el siguiente vídeo vamos a seguir con el diseño para poder seguir
+
+09:53.820 --> 09:54.860
+con nuestro curso.

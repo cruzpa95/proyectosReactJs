@@ -1,0 +1,301 @@
+WEBVTT
+
+00:08.290 --> 00:17.200
+Continuando con la segunda parte de la creación de nuestra ayuda para el y faisons sí que también lo
+
+00:17.200 --> 00:23.360
+tengo en mi portafolio para enseñarlo bien.
+
+00:23.530 --> 00:26.880
+Ahora lo que tenemos que hacer es la lista de resultados.
+
+00:26.890 --> 00:31.970
+La lista de las canciones de cuerdas que dejamos un pendiente vamos a abrir nuestro código.
+
+00:33.380 --> 00:36.020
+Aquí nos quedamos agregando las fuentes.
+
+00:36.020 --> 00:42.230
+Esto ya no va a ser necesario porque no estábamos haciendo HTML así que bien tenemos un dicho aquí abajo
+
+00:42.230 --> 00:44.000
+donde nosotros le pusimos un todo.
+
+00:44.000 --> 00:50.930
+Yo utilizo mucho todo cuanto estoy haciendo o estoy trabajando en componentes larguísimos.
+
+00:51.140 --> 00:58.700
+Lo ideal es que no estén tan largos verdad pero a veces es muy grande un sistema y estás viendo archivos
+
+00:58.760 --> 01:01.310
+que se supone deben de ser cortos de líneas.
+
+01:01.460 --> 01:03.920
+Entonces imagínate te pierdes entre los archivos.
+
+01:03.920 --> 01:05.820
+Utilizan mucho el tutú.
+
+01:06.050 --> 01:11.150
+En este bloque tenemos que hacer es asignarle una clase como primer paso.
+
+01:11.240 --> 01:20.720
+Como segundo paso tenemos que crear un componente hijo de índex para cada una de las canciones que vamos
+
+01:20.720 --> 01:28.910
+a listar así que abro y totalmente voy a pasar cada una de las propiedades que va a recibir cada una
+
+01:28.910 --> 01:34.190
+de las canciones porque es pot diffa y te manda siempre una.
+
+01:34.580 --> 01:36.920
+Un endpoint vaya con un resumen.
+
+01:36.940 --> 01:43.100
+Un beso Olds y N.S. vienen cada una de las canciones en un arreglo con sus respectivos campos así que
+
+01:43.100 --> 01:43.530
+bien.
+
+01:43.550 --> 01:46.810
+Primero que nada voy a agregarle aquí en clase.
+
+01:49.260 --> 01:59.810
+Y le voy a colocar índex guión resolvés guión carta que quiere decir que está dentro de este componente
+
+01:59.810 --> 02:09.890
+está dentro de mí índex y es un Elkar de resultados así que bien vamos a poner además otra clase que
+
+02:09.890 --> 02:11.560
+va a ser carne.
+
+02:14.420 --> 02:16.050
+Porque es otro kart.
+
+02:16.250 --> 02:18.160
+Así que te diré que si el fuera.
+
+02:18.290 --> 02:21.140
+No sería dentro de éste sería otro.
+
+02:21.200 --> 02:24.560
+Así que bien son dos casos distintos.
+
+02:24.620 --> 02:27.510
+No hay que hacer los karts tan largos aquí abajo.
+
+02:27.810 --> 02:33.280
+Perfecto por lo cual tiene otro Dip que es carne clausen Perdón.
+
+02:33.380 --> 02:37.470
+Ya estaba ahí este equivocándome Arconte.
+
+02:37.610 --> 02:45.950
+La estructura como te lo repito está dentro del material a SSS o a los links de cómo hacer diferentes
+
+02:45.950 --> 02:51.500
+tipos de cajas pero básicamente la estructura es que el padre sea cardique el hijo sea Arconte así que
+
+02:51.550 --> 02:54.150
+ve las clases adicionales.
+
+02:54.590 --> 02:56.310
+Así que bien.
+
+02:56.600 --> 03:05.470
+Ahora nosotros vamos a agregar un componente hijo dentro de mi índex y le voy a llamar New Band son.
+
+03:07.820 --> 03:09.780
+Item punto.
+
+03:11.750 --> 03:15.780
+Esta Batel vamos a hacer esto rápido importe Riad.
+
+03:18.990 --> 03:28.930
+Esto viene del paquete de Herriak vamos a hacer una clase que sea rezonga item y que extiende de componente.
+
+03:30.050 --> 03:34.620
+El render el método superimportante el bitton.
+
+03:36.050 --> 03:42.000
+Esta vez vamos a regresar un día simplemente para que esté regresando nada.
+
+03:43.000 --> 03:44.530
+Vamos a poner un item.
+
+03:45.800 --> 03:51.930
+Y además va a ser el Export export de Food Song.
+
+03:54.530 --> 03:55.490
+Perfecto.
+
+03:56.780 --> 03:57.730
+Es un.
+
+03:58.070 --> 04:09.510
+Ya está listo y lo vamos a importar dentro de mi archivo de índex vamos a importar import son eutm desde.
+
+04:10.340 --> 04:12.260
+Punto.
+
+04:12.290 --> 04:15.710
+Punto diagonal a estas son hatem.
+
+04:15.890 --> 04:21.870
+Cómo lo podrás notar en todos los proyectos que hemos creado siempre manejó un orden de los import.
+
+04:22.000 --> 04:27.950
+Esto es por ejemplo aquí siempre tengo las hojas de estilo todas juntas y separadas por un espacio de
+
+04:27.950 --> 04:36.180
+los componentes ya sea que tengas componentes parciales o sea dinámicos estáticos y librerías de utilidades
+
+04:36.200 --> 04:39.340
+pues van base para este bien.
+
+04:39.440 --> 04:46.550
+Entonces el sol hoy te lo vamos a utilizar para cada una de las canciones que vengan despotrique Así
+
+04:46.580 --> 04:54.020
+que ahora sí vamos a proceder a crear las propiedades que trae.
+
+04:54.100 --> 05:05.190
+Básicamente es un rico de despotrique así que estas me me sé básicamente de memoria.
+
+05:05.450 --> 05:10.210
+Vamos a importar el paquete de tips pro apps.
+
+05:10.330 --> 05:17.270
+Este viene de tips que ya sabes que en la versión anterior declarados dentro de tu componente Las optativos
+
+05:17.300 --> 05:23.820
+bueno ahora es necesario declararlas fuera porque así nos lo exigen las nuevas actualizaciones.
+
+05:23.850 --> 05:32.660
+Así que son eutm vamos a poner tips que me han preguntado mucho porque dicen si lo pongo por optes como
+
+05:32.660 --> 05:33.540
+quiera funciona.
+
+05:33.670 --> 05:45.860
+Si nadie te obliga a usar propp pero cuando tienes un componente Imagínate que tienes es que no se 50
+
+05:45.860 --> 05:51.620
+propiedades las que recibe y solamente las ves declaradas dentro del render y las que estás utilizando
+
+05:51.620 --> 05:54.730
+inutilizando y el programa tiene mucha lógica.
+
+05:54.940 --> 06:01.550
+Bueno tú no vas a saber qué propiedades recibe a menos que hagas un log de todo o disposto propio dentro
+
+06:01.550 --> 06:07.910
+de tu renta pero si tienes las EPS te vas directo y ves de qué tipo de dato es.
+
+06:08.000 --> 06:09.360
+Y además cómo se llama.
+
+06:09.530 --> 06:19.210
+Así que por eso nunca nunca dejes de usar prótesis así que vas a recibir varias cosas como te digo como
+
+06:19.810 --> 06:23.310
+Actualizado está expuesta piai.
+
+06:23.420 --> 06:27.050
+Primero recusaron son heydi.
+
+06:30.230 --> 06:36.950
+Este es el tipo vamos a ponerlo como Stream adoptables puntos.
+
+06:37.850 --> 06:39.960
+Además tiene un toque empate.
+
+06:41.300 --> 06:42.460
+También.
+
+06:45.660 --> 06:49.430
+Ahorita vamos a ver este arreglo tiene el álbum foto.
+
+06:50.890 --> 06:53.740
+Esta es la foto.
+
+06:54.710 --> 07:01.340
+Vamos a reflejar en la lista básicamente nosotros vamos a necesitar el nombre el lado el artista la
+
+07:01.340 --> 07:07.270
+foto así que bien nos falta el sonde lo más importante.
+
+07:07.340 --> 07:07.840
+Tips.
+
+07:07.850 --> 07:16.680
+Puntos ring que como te repito vamos a ver ahorita no lo estoy inventando el artista.
+
+07:19.870 --> 07:21.890
+Pero sabes punto.
+
+07:25.490 --> 07:26.480
+Ahí estamos.
+
+07:27.230 --> 07:30.900
+Por lo pronto con eso sería suficiente.
+
+07:31.220 --> 07:38.540
+Con esto vamos a hacer que cada uno de los ítems de las canciones tenga el álbum de la foto el nombre
+
+07:38.540 --> 07:42.310
+del artista y el nombre de la canción el son Heidi.
+
+07:42.560 --> 07:46.340
+No me sirve por el momento por el momento.
+
+07:46.640 --> 07:50.360
+Pero recuerda dónde están nuestros chivos.
+
+07:51.750 --> 07:52.960
+Punto.
+
+07:53.310 --> 08:00.340
+Recuerda que hoy lo necesitamos para cuando nosotros vayamos a la ruta Player que te lo pide por parametro
+
+08:00.340 --> 08:01.310
+por robo.
+
+08:01.350 --> 08:03.820
+Así que aquí está el show.
+
+08:04.770 --> 08:10.150
+Estábamos guardamos siempre hay que estar viendo la consola que creo que nos está mandando un error
+
+08:10.170 --> 08:11.490
+que es por default.
+
+08:11.770 --> 08:14.070
+Ok le puse Export export.
+
+08:18.230 --> 08:21.660
+El estadista el carda abajo que no tiene absolutamente nada.
+
+08:21.660 --> 08:24.870
+Se ve feo el pedazo blanco porque tiene una sombra.
+
+08:25.140 --> 08:33.700
+Así que bien hasta aquí le vamos a dejar con la segunda parte de la creación de los componentes de yoga.
+
+08:33.910 --> 08:40.650
+Si no hemos estado casi utilizando casi nada básicamente ha sido más este ordenamiento dentro de nuestro
+
+08:40.650 --> 08:45.910
+render así que en el siguiente vídeo vamos a crear nuestra aplicación en Spotify.
+
+08:46.080 --> 08:53.070
+Te sugiero que si no has creado una cuenta de Spotify ese es el momento porque no voy a hacer un video
+
+08:53.430 --> 08:59.430
+para poder hacer una cuenta en Spotify de una manera muy sencilla te puedo registrar con redes sociales
+
+08:59.640 --> 09:01.520
+o incluso con tu correo y contraseña.
+
+09:01.680 --> 09:08.280
+Así que después del siguiente video para poder echarle un vistazo a la API de Spotify.

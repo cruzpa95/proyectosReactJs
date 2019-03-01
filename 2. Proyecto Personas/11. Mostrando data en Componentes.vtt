@@ -1,0 +1,373 @@
+WEBVTT
+
+00:08.810 --> 00:15.410
+Bien ahora ya que tenemos la información de nuestra piauí en la Astor de Redux hay que ponerla en el
+
+00:15.410 --> 00:20.250
+front pero para eso me gustaría volver a ver el diseño para que vean lo que vamos a realizar.
+
+00:20.300 --> 00:27.440
+Vamos a tener que hacer en cada uno de los datos que vienen de acá cada año será Eten por lo cual vamos
+
+00:27.440 --> 00:33.510
+a necesitar crear un serait vámonos a nuestro código.
+
+00:33.670 --> 00:36.960
+Bien aquí está John.
+
+00:37.520 --> 00:39.110
+Vamos a crear otra carpeta.
+
+00:39.140 --> 00:48.220
+Es simplemente por orden no tanto porque vayamos a hacer tantos archivos no es un proyecto enorme entonces
+
+00:48.230 --> 00:50.190
+se va a llamar componentes.
+
+00:50.280 --> 00:52.170
+Estos no son vistos simplemente.
+
+00:52.190 --> 00:57.710
+Bueno al final todos son vistos es un componente pero no es una pantalla en sí un contenedor de una
+
+00:57.710 --> 00:58.860
+pantalla más bien.
+
+00:59.090 --> 01:02.180
+Así que yo lo voy a poner a Eten.
+
+01:03.490 --> 01:05.450
+Punto de Allez.
+
+01:07.010 --> 01:08.330
+Bien.
+
+01:08.480 --> 01:14.910
+Ahora que está visto hay que poner import.
+
+01:17.550 --> 01:20.190
+Componen desde.
+
+01:22.180 --> 01:23.090
+RIA.
+
+01:30.340 --> 01:32.690
+Desde componen.
+
+01:32.810 --> 01:39.950
+Ok vamos a poner nuestro método render que no puede faltar en ningún lugar y esto es un Dib un pequeño
+
+01:39.950 --> 01:44.080
+Dip y por.
+
+01:44.860 --> 01:49.720
+Lo hice un poco rápido ya que.
+
+01:50.690 --> 01:56.500
+Ya lo hemos practicado muchos y es simplemente crear un componente.
+
+01:56.620 --> 01:59.540
+Así que bien este lo vamos a importar.
+
+01:59.670 --> 02:03.220
+En Home vamos a importar yusei.
+
+02:05.210 --> 02:06.090
+Desde.
+
+02:09.510 --> 02:10.360
+Diagonal.
+
+02:11.890 --> 02:13.330
+Punto diagonal.
+
+02:13.740 --> 02:20.930
+Y vamos a Components y después vamos a ver si no tenemos ningún error.
+
+02:21.930 --> 02:23.550
+Todo está bien hasta el momento.
+
+02:23.730 --> 02:27.840
+Vamos a quitar este look de por aquí de props vamos a actualizar.
+
+02:27.840 --> 02:33.010
+Ahora sí vamos a quitar este por aquí.
+
+02:33.270 --> 02:40.860
+Vamos a importar ahora Matías Leys que fue la librería que estábamos mencionando al principio que íbamos
+
+02:40.860 --> 02:47.600
+a utilizar para el apoyo con CCS con los estilos para no perder mucho tiempo estilizan a importar.
+
+02:50.260 --> 02:51.950
+Material.
+
+02:54.700 --> 02:56.740
+Matía no lo tenemos instalado.
+
+02:57.100 --> 03:03.890
+Hay que instalarlo en DPM Install diagonal S para que uno guarde material.
+
+03:08.110 --> 03:19.060
+Instalamos librerías a excepción de material a punto es que es bien después de que está instalada vamos
+
+03:19.060 --> 03:20.240
+a avanzar un poquito.
+
+03:21.120 --> 03:24.180
+Vamos a poner nuestro constructor.
+
+03:26.420 --> 03:29.600
+Ya que puede que necesitemos algún Estado.
+
+03:29.620 --> 03:35.570
+Entonces por lo pronto este constructor está vacío y va a mandar una pequeña warning de que el constructores
+
+03:36.110 --> 03:39.130
+vaya que está ahí redundante que no lo necesitamos.
+
+03:39.460 --> 03:41.990
+Pero vamos a dejarlo bien.
+
+03:42.050 --> 03:46.290
+Hay que saber qué es lo que viene de la base de datos.
+
+03:46.380 --> 03:53.810
+Ahí viene nadie que viene como Naim y lasde así que el ítem tiene que tener estas propiedades así que
+
+03:54.110 --> 03:58.170
+vamos a poner import coopta apps para poner.
+
+03:59.730 --> 04:02.790
+Desde propaís.
+
+04:04.020 --> 04:10.530
+Y al final vamos a poner un solo ítem que es el nombre de mi componente punto con minúscula.
+
+04:10.650 --> 04:17.670
+Esto va a ser igual arnheim que es producto del paquete que ya traíamos puntos Stream requeridos la
+
+04:17.670 --> 04:19.210
+propiedad requerida.
+
+04:20.570 --> 04:28.750
+Las que es un prototipo también destripe del tipo string y que es requerida también ocupamos el airi
+
+04:29.300 --> 04:38.730
+que es que va a ser talves punto nombraré punto y viqueira y el Facebook.
+
+04:39.370 --> 04:41.820
+Vamos a ver cómo es.
+
+04:42.580 --> 04:47.910
+Y no es requerida la verdad con estas Ipse es suficiente.
+
+04:47.980 --> 04:55.350
+Para nosotros es de manejarlo así que bien materia y ley ya fue instalado y que vamos a importarlo.
+
+04:55.390 --> 05:00.180
+Vamos a importar material a ese diagonal.
+
+05:00.480 --> 05:05.050
+Vamos a la carpeta porque así estaremos importando todo.
+
+05:05.080 --> 05:13.870
+Realmente sólo queremos un archivo diagonal CCC de agonal matrícula punto minipunto CCC la diferencia
+
+05:14.020 --> 05:16.780
+de lo uno y lo otro es que no están unificados.
+
+05:17.050 --> 05:21.870
+Me gusta más además de que no vamos a hacer ninguna modificación.
+
+05:21.970 --> 05:26.350
+Para empezar vamos a ver nuestro navegador.
+
+05:26.380 --> 05:27.310
+Ya está todo bien.
+
+05:27.370 --> 05:35.020
+Vamos a poner un Classmate que se va a llamar me gusta llamar a los a los componentes que tienen el
+
+05:35.200 --> 05:36.000
+padre.
+
+05:36.040 --> 05:37.830
+Cómo se llama ese mismo componente.
+
+05:37.840 --> 05:39.190
+Es decir.
+
+05:41.880 --> 05:43.450
+Ahora.
+
+05:44.640 --> 05:49.730
+Vamos a cargar cada uno de los ítems de la siguiente manera.
+
+05:50.860 --> 05:57.400
+Pero hay que saber si está o no la información así que para eso hay que ser único.
+
+05:57.810 --> 05:59.920
+Vamos a poner Sí.
+
+06:01.190 --> 06:01.760
+Punto.
+
+06:01.760 --> 06:06.440
+Prox punto es que ese valor como lo tengo aquí.
+
+06:07.180 --> 06:08.180
+Punto data.
+
+06:08.200 --> 06:15.940
+O sea si existe esto es que la variable por acá por afuera es igual a una regla.
+
+06:17.540 --> 06:23.870
+Sí existe entonces vamos a hacer.
+
+06:24.320 --> 06:25.530
+Va a ser igual.
+
+06:28.100 --> 06:33.950
+Asunto Yusuke punto data punto mapp vamos a recorrerlo.
+
+06:33.960 --> 06:40.920
+Primer parámetro es un Colomba adios al valor actual ya que un ciclo con este mapa lo que hace la posición
+
+06:40.920 --> 06:43.330
+en la que está y el valor total del arreglo.
+
+06:43.860 --> 06:50.220
+Así que bien esto es lo que vamos a hacer y en cada uno vamos a regresar.
+
+06:53.190 --> 07:03.430
+El reguetón a mis amigos que me pide siempre y cuando vaya a hacer este tipo de de componentes dinámicos
+
+07:03.430 --> 07:09.100
+que le ponga un kit para que lo pueda reconocer ya sea que le ponga la que viene desde la hypear o le
+
+07:09.100 --> 07:09.810
+ponga blindex.
+
+07:09.820 --> 07:11.640
+No pasa absolutamente nada.
+
+07:11.920 --> 07:17.580
+Nos pide también una propiedad que namm que ya la definimos como embudo y punto neutro.
+
+07:18.700 --> 07:21.880
+Además me pide el aceite y este va a ser igual.
+
+07:22.020 --> 07:31.950
+Invadio punto Lamé que además me pide el Facebook que también lo traen estos chicos desde la piauí punto
+
+07:31.960 --> 07:32.800
+Facebook.
+
+07:32.850 --> 07:33.940
+Ahí estamos.
+
+07:34.210 --> 07:36.920
+Vamos a verificar que no tengamos ningún error.
+
+07:39.060 --> 07:39.820
+Nos falta leydi.
+
+07:39.840 --> 07:47.850
+Aquí nos está diciendo que el Yuso nos pide heydi y que es requerido ya que nosotros le pusimos así
+
+07:48.540 --> 07:55.840
+con embago y punto hiri OK y vamos a ver esto o no no tenemos ningún error hace acepción de lo que le
+
+07:55.840 --> 07:58.210
+decía el constructor que está innecesario.
+
+07:58.280 --> 08:00.490
+Por qué bien.
+
+08:00.630 --> 08:10.440
+Ahora si vamos a poner aquí youzee y users que la variable que declara arriba entonces cuando la data
+
+08:10.530 --> 08:12.470
+ya esté cargada.
+
+08:12.570 --> 08:14.800
+O sea que la ya no existe.
+
+08:15.120 --> 08:19.430
+Nosotros vamos a mostrarla así que vamos a ver.
+
+08:21.600 --> 08:23.780
+Listo este.
+
+08:23.890 --> 08:29.900
+Bien no bien.
+
+08:30.100 --> 08:31.030
+Ahora vas a ver.
+
+08:31.070 --> 08:36.460
+Bueno no hacemos absolutamente nada y no pinta nada y a lo mejor piensas que esto está mal vamos a inspeccionar
+
+08:36.460 --> 08:39.270
+para ver si esto está bien y ahorita te digo Por qué.
+
+08:39.370 --> 08:41.160
+Pues absolutamente no tenemos nada.
+
+08:41.370 --> 08:45.370
+Vamos a inspeccionar y aquí están todos los chips de todos los usuarios que decir que la información
+
+08:45.480 --> 08:50.070
+está ahí está correcta pero sin embargo no le estoy poniendo nada.
+
+08:50.080 --> 08:57.430
+Eso es porque en el tema no tengo absolutamente nada en mi render así que simplemente para mostrar vamos
+
+08:57.430 --> 09:04.210
+a poner aquí se declara una variable naive las naive.
+
+09:04.700 --> 09:07.880
+Hoy el heydi y el Facebook.
+
+09:09.400 --> 09:11.010
+Esto va a ser igual.
+
+09:11.020 --> 09:14.040
+Hadiz punto props bien.
+
+09:18.410 --> 09:23.580
+H3 como las neuronas H3 igual.
+
+09:24.670 --> 09:28.990
+Por su Facebook y con esto se va a ver en la pantalla.
+
+09:29.000 --> 09:32.120
+Porque ya lo estoy asignando algo al render del tema.
+
+09:32.600 --> 09:33.440
+Y listo.
+
+09:33.470 --> 09:42.600
+Esta viene de Juan José Ortiz su Facebook es simplemente estamos ejemplificando.
+
+09:42.650 --> 09:43.430
+Pero hay tantos.
+
+09:43.460 --> 09:45.690
+Está renderizado absolutamente.
+
+09:45.740 --> 09:47.510
+Los 10 usuarios.
+
+09:47.720 --> 09:51.530
+Así que bien para este vídeo.
+
+09:51.770 --> 09:57.040
+En el siguiente vídeo vamos a ponerlo en karts vamos a deslizar y listo.
+
+09:57.140 --> 10:03.500
+Terminaríamos con esta pantalla y después iríamos al detalle donde utilizaremos el router y pondríamos
+
+10:03.500 --> 10:06.300
+más estilos así que te espero en el siguiente vídeo.

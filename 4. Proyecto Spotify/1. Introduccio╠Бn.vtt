@@ -1,0 +1,121 @@
+WEBVTT
+
+00:08.720 --> 00:15.290
+Bien ahora vamos a comenzar con nuestro tercer proyecto de este curso el cual lleva como nombre Proyecto
+
+00:15.290 --> 00:19.590
+reproductor Spotify del cual vamos hablar poquito más adelante.
+
+00:19.610 --> 00:23.800
+Pero primero que nada tenemos que ver las librerías que vamos a utilizar.
+
+00:23.880 --> 00:24.980
+Es más que nada.
+
+00:24.980 --> 00:33.860
+Además de las librerías que ya conoces como biak reagrupó dum etcétera vienen estas seis librerías que
+
+00:33.860 --> 00:39.260
+ya lo hemos utilizado para realizar recuesto en Pains de una piai.
+
+00:39.620 --> 00:48.470
+Esto nos facilita demasiado ya que hace muchos procesos por ahí esta librería que no voy a profundizar
+
+00:48.470 --> 00:54.560
+ahorita y que no regales una promesa al cual con un DNI un caché en caso de un error en caso de que
+
+00:54.560 --> 00:56.130
+sean sexys helden.
+
+00:56.210 --> 01:03.230
+Pues bien nos da un respondés en materia de seis puntos SDC que es la misma librería que hemos estado
+
+01:03.230 --> 01:06.170
+utilizando para que nos ayude con los estilos.
+
+01:06.170 --> 01:13.280
+Como tercero tenemos acroarte que ya lo hemos utilizado y que vamos a volver a utilizar el Domi que
+
+01:13.280 --> 01:19.100
+yo creo o el esqueleto que yo creé para para el Proyecto pasado igual es una descripción.
+
+01:19.100 --> 01:21.400
+Dejo el link.
+
+01:21.860 --> 01:24.670
+Como cuarto Tenemos el faillace decca.
+
+01:24.920 --> 01:34.450
+La verdad este fallece de no nos engloba mucho porque podemos hablar de un SDK de JavaScript PHP no
+
+01:34.720 --> 01:39.560
+es etc. Aquí lo vamos a utilizar para JavaScript.
+
+01:39.690 --> 01:45.770
+Lo vamos a utilizar dentro del frontend y lo vamos a meter enria así que vamos a ocupar por supuesto
+
+01:45.990 --> 01:48.950
+ayuda de Redux para qué para hacerlo.
+
+01:49.190 --> 01:51.710
+Para las canciones etc..
+
+01:51.890 --> 02:00.110
+Y como último que es es más que nada una librería de vista que es reagge pinkett que es para cargar
+
+02:01.490 --> 02:02.920
+o para poner un Louder.
+
+02:03.020 --> 02:09.120
+Cuando un rico está haciendo o qué para decirle al usuario oye está cargando.
+
+02:09.250 --> 02:10.520
+Estos.
+
+02:11.000 --> 02:17.330
+Los vemos normalmente en todas las páginas así que no es nada fuera de lo común y me gusta mucho utilizar
+
+02:17.330 --> 02:19.010
+esa librería para mis sitios web.
+
+02:21.320 --> 02:23.020
+Lo importante de este vídeo.
+
+02:23.240 --> 02:24.810
+La descripción del proyecto.
+
+02:25.280 --> 02:33.650
+Vamos a tener que crear un sitio web de una sola pantalla como lo hemos estado viniendo haciendo en
+
+02:33.650 --> 02:40.910
+el cual vamos a poder buscar canciones que estén dentro de Spotify o dentro de la nube de Spotify.
+
+02:40.940 --> 02:48.040
+Dentro de su base de datos que vamos a usarlo a través del SDK que fue creado por la comunidad.
+
+02:48.050 --> 02:57.790
+Pero Spotify lo reconoce como oficial y que de hecho está en la documentación de su API así que bien
+
+02:58.650 --> 03:05.300
+después cuando tú buscas esa canción o bueno buscas una canción te va a desplegar resultados de esos
+
+03:05.300 --> 03:06.590
+resultados.
+
+03:06.590 --> 03:13.030
+Vamos a poder darle clic a cada uno y vamos a abrirlo en otra pantalla en la pantalla.
+
+03:13.040 --> 03:20.630
+Lo vamos a poder reproducir recordar que Spotify te da una prueba o un preview de 30 segundos de cada
+
+03:20.630 --> 03:21.240
+canción.
+
+03:21.350 --> 03:28.760
+Nunca te puede proveer toda la canción completa sino podríamos hacer otro reproductor y hacerle competencia
+
+03:28.820 --> 03:33.760
+a Spotify con consumismo medicina pues eso es no no verdad.
+
+03:33.950 --> 03:37.380
+Así que bien entonces vamos a comenzar.

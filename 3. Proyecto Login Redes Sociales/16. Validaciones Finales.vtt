@@ -1,0 +1,160 @@
+WEBVTT
+
+00:08.620 --> 00:09.270
+Ok.
+
+00:09.430 --> 00:18.190
+Ahora es momento de validar que sólo uno de estos dos lovins FUNCIONE que quiere decir que si yo inicio
+
+00:18.250 --> 00:20.970
+inicie sesión con Facebook como lo voy a hacer orita.
+
+00:22.980 --> 00:24.680
+No me dejen con Google.
+
+00:25.050 --> 00:26.140
+Qué quiere decir esto.
+
+00:26.220 --> 00:27.720
+Qué tenemos que hacer.
+
+00:27.840 --> 00:32.400
+Que si el usuario está logueado me mande directo a la pantalla de bloqueo.
+
+00:32.650 --> 00:37.420
+De lo contrario pues no. Así que vamos a realizar eso.
+
+00:37.710 --> 00:42.260
+Voy a irme a mi código y componen Wilma.
+
+00:42.420 --> 00:51.360
+Tenemos que realizar este método que es un método de ciclo de vida de Herriak el cual va a correr antes
+
+00:51.360 --> 00:55.740
+de que el render ocurra o antes de que el método render se ejecute.
+
+00:55.740 --> 01:01.020
+Vamos a preguntar si locales torax punto hoy.
+
+01:01.990 --> 01:04.950
+Esto es Facebook Data.
+
+01:05.200 --> 01:15.850
+Está definido o si Local Storage punto que hay en que Google Data qué es lo que estoy intentando decir
+
+01:16.450 --> 01:22.720
+que si una de las dos variables ya sea la de Facebook o ya sea la de Google está definida.
+
+01:22.930 --> 01:25.280
+Entonces me mandes a la pantalla de Home.
+
+01:25.480 --> 01:26.330
+Por qué.
+
+01:26.340 --> 01:29.560
+Porque no es necesario volver a pedirle al usuario que está logueado.
+
+01:29.620 --> 01:33.160
+Así que voy a hacer un set list .6.
+
+01:33.460 --> 01:38.590
+Cabe destacar que este no hay que declararlo dentro del Main porque es un método de ciclo de vida o
+
+01:38.590 --> 01:40.930
+método propio de Riet.
+
+01:40.990 --> 01:46.940
+Le voy a llamar El blog es igual a lo que ya está logueado.
+
+01:47.050 --> 01:53.380
+Entonces me barrerá accionar en este caso no me voy a redireccionar porque no hay nada en mi local Estaràs.
+
+01:53.440 --> 01:54.320
+Vamos a ver.
+
+01:55.650 --> 01:57.950
+Application está vacío.
+
+01:58.900 --> 01:59.780
+No hay nada.
+
+02:00.010 --> 02:04.160
+Al menos las variables de estado las variables que hemos definido nosotros.
+
+02:05.760 --> 02:07.580
+Ahí está Facebook Data.
+
+02:07.640 --> 02:13.910
+Y si cierro sesión a esta iniciamos de nuevo con Facebook y me voy a mi inicio me tiene que redireccionar
+
+02:13.910 --> 02:14.630
+a John.
+
+02:17.010 --> 02:22.090
+Me redirecciona porque ya está lo guía así que cumplimos en ese aspecto.
+
+02:22.380 --> 02:24.380
+Ahora hay otro error.
+
+02:24.420 --> 02:28.250
+Qué pasa si yo pongo Home.
+
+02:29.880 --> 02:34.910
+Me va a llevar pero no viene mi foto de perfil y nombre del usuario.
+
+02:35.010 --> 02:35.900
+Por qué.
+
+02:36.000 --> 02:44.760
+Porque esto es una validación que tenemos que hacer exactamente en el componente wilman de mi archivo
+
+02:45.120 --> 02:52.810
+así que vamos a realizar me voy a mi archivo y tengo que declarar en mi Component wilman que es especialmente
+
+02:52.810 --> 02:54.640
+Ekhi que ya está declarado.
+
+02:56.180 --> 02:57.070
+Dos cosas.
+
+02:57.170 --> 03:09.950
+Bueno una cosa si Facebook Data que la tengo declarada arriba si esta variable no está declarada y Google
+
+03:09.950 --> 03:13.000
+Data tampoco que decir que no hay nada.
+
+03:14.350 --> 03:25.320
+Guin no es exitoso no existen las variables entonces redireccionan me inicio como con esta línea.
+
+03:26.440 --> 03:31.840
+Esta línea me va a decir slokar es igual a Tru y aunque no estemos haciendo gadgets específicamente
+
+03:31.850 --> 03:33.060
+pero me va a llevar.
+
+03:35.010 --> 03:37.130
+Al inicio decir qué vamos a hacer.
+
+03:38.030 --> 03:40.220
+Ya me llevo de inicio.
+
+03:42.450 --> 03:48.150
+No me deja entrar si la variable no está definida en mi local técnicamente hablando.
+
+03:48.240 --> 03:55.590
+Para un usuario cualquiera pues no lo vas a decir que tu local no está definido simplemente que no vamos
+
+03:55.590 --> 03:56.770
+a iniciar con Google.
+
+03:58.240 --> 04:03.880
+Selecciono mi cuenta ahí estamos y si me quiero ir a Inicio a John.
+
+04:04.730 --> 04:05.750
+Me redirecciona.
+
+04:07.240 --> 04:15.730
+Salgo y avistamos así que espero y te ha gustado este proyecto así que vamos a un resumen en el próximo
+
+04:15.730 --> 04:18.600
+vídeo de todo lo que realizamos.

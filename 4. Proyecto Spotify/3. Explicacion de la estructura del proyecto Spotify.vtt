@@ -1,0 +1,136 @@
+WEBVTT
+
+00:08.380 --> 00:15.620
+Bien lo prometido es deuda así que Aquiles tengo la estructura básicamente de lo que nosotros estamos
+
+00:15.620 --> 00:16.640
+trabajando.
+
+00:16.730 --> 00:18.020
+Así que bien.
+
+00:18.020 --> 00:24.260
+Primero que nada hay que saber qué es lo que está hecho en rueda y que va a estar conectado con ruedas
+
+00:24.470 --> 00:32.390
+que reduce el que nos va a ayudar con medio por medio de acciones perdón hacerlos recueste HTTP a la
+
+00:32.390 --> 00:33.540
+web de Spotify.
+
+00:33.620 --> 00:40.760
+Así que bien este es un proceso simplemente vaya valga la redundancia sencillo pero tenemos que saber
+
+00:40.760 --> 00:46.160
+cómo funciona y qué es lo que estamos haciendo porque de lo contrario yo sólo te explicaría código y
+
+00:46.190 --> 00:50.320
+código y código y pues la verdad te va a servir.
+
+00:50.420 --> 00:56.930
+No digo que no vas a aprender bases aburridas vas a ser a un nivel intermedio de Herriak pero no vas
+
+00:56.930 --> 01:02.470
+a saber en la lógica de cómo está estructurado qué es lo que está pasando.
+
+01:02.480 --> 01:10.340
+Esto pasa cuando tú vas a Imagínate que estás haciendo un código de una empresa del cual eres nuevo
+
+01:10.670 --> 01:11.950
+y no conoces.
+
+01:11.990 --> 01:17.810
+Entonces tú tienes que pensar con los proyectos que has trabajado anteriormente.
+
+01:17.990 --> 01:20.600
+Cómo es que funciona Reedus.
+
+01:20.600 --> 01:21.830
+Cómo es que funciona esto.
+
+01:21.830 --> 01:27.760
+Cómo es que funciona el otro donde van los archivos y rápidamente te vas a acoplar al Código de la empresa.
+
+01:27.770 --> 01:33.770
+Claro que la empresa está haciendo un buen código porque puede que tengan una carpeta entonces estaríamos
+
+01:33.770 --> 01:34.720
+en serios problemas.
+
+01:34.890 --> 01:41.480
+Pero bueno la idea es que tú sepas estructurar sepas cómo es que funciona y vas a ver que todo va a
+
+01:41.480 --> 01:47.730
+ir de maravilla pero continuando Redux va a ser nuestro.
+
+01:47.970 --> 01:55.130
+El PER para poder hacer lo rico y no cargárselos Al porque lo podríamos eliminar esto y hacerlo directo
+
+01:55.130 --> 01:55.880
+desde el front.
+
+01:56.000 --> 01:58.290
+Pero esto no nos convendría para nada.
+
+01:58.310 --> 01:58.730
+Por qué.
+
+01:58.730 --> 02:01.100
+Porque a veces los ricos son muy pesados.
+
+02:01.100 --> 02:04.560
+Imagínate que nada más es un rico en todo el proyecto.
+
+02:04.940 --> 02:07.580
+Entonces ahí sí te conviene.
+
+02:07.580 --> 02:14.480
+Por supuesto que sí te conviene es hacerlo directo porque vas a mantener una estructura para solamente
+
+02:14.480 --> 02:15.010
+un jet.
+
+02:15.060 --> 02:23.030
+Pues bueno allá te lo dejo de tarea bien Redux va a ser recueste a través de la app de Spotify.
+
+02:23.120 --> 02:33.290
+Puse este componente aquí porque tenemos que crear como login con redes sociales una aplicación de Spotify
+
+02:33.470 --> 02:41.440
+dentro del sitio de desarrolladores para Spotify el cual nos va a dar credenciales para poder autenticarse.
+
+02:41.510 --> 02:49.720
+Así que Redux mandarme a Spotify sus credenciales si es Pot IFAI te dice son correctos entonces te manda
+
+02:49.730 --> 02:51.200
+a la Spotify Klout.
+
+02:51.320 --> 02:54.390
+El rico Este va para acá porque ya la autenticar OK.
+
+02:54.440 --> 02:56.340
+Con un toque en que te da de sesión.
+
+02:56.660 --> 03:02.690
+Entonces es cuando Dive Klout regresa un rico Redux rico.
+
+03:02.950 --> 03:08.730
+O la lista de canciones o la canción en general en donde ya viene un preview.
+
+03:09.110 --> 03:15.170
+Así que Redux ya tiene la información y la va a mandar a nuestro frontend en donde nosotros la vamos
+
+03:15.170 --> 03:17.110
+a manejar en la pantalla de play.
+
+03:17.340 --> 03:25.700
+Y es así como funciona el frontón a Redux que está dentro de mi Front reduce los rincones las peticiones
+
+03:25.700 --> 03:31.910
+a través de la autenticación de Spotify y después los servicios de Spotify o las canciones que están
+
+03:31.910 --> 03:32.920
+en la nube.
+
+03:33.040 --> 03:36.930
+Regresando reducción de yo las voy a manejar en mi proyecto.

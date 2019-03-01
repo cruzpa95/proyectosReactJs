@@ -1,0 +1,316 @@
+WEBVTT
+
+00:08.800 --> 00:09.810
+Bien.
+
+00:10.240 --> 00:17.170
+Para esta última serie de videos de este proyecto vamos a repasar un poco qué es lo que vamos a realizar
+
+00:17.440 --> 00:22.800
+cuando ya tengamos la información consumir tenemos el ser titel que es absolutamente toda la pantalla.
+
+00:22.960 --> 00:29.260
+Tenemos otro componente que es usar el cover en el cual va a ir una simple imagen de avatar ya que no
+
+00:29.260 --> 00:31.190
+estamos consumiendo imágenes.
+
+00:31.370 --> 00:37.300
+Ok yo solicité el body que es otro componente o lo podemos hacer en uno solo pero ya lo definimos así.
+
+00:37.330 --> 00:39.130
+Además el serpost.
+
+00:39.270 --> 00:45.440
+OK perfecto entonces vamos a crear que podamos usarlo de diferentes maneras.
+
+00:45.710 --> 00:57.370
+En BIOS podemos crear una carpeta y poner yussuf metrallas solicité etc. Pero en este caso como ya creamos
+
+00:57.370 --> 00:58.880
+la carpeta components.
+
+00:58.990 --> 01:04.540
+Ahí es donde nosotros vamos a poner todos esos archivos así que vamos a trabajar primeramente Sobre
+
+01:04.570 --> 01:06.790
+el primero que es el cobre.
+
+01:07.000 --> 01:09.570
+Así que vamos a proceder a crearlo.
+
+01:12.390 --> 01:14.720
+Dite cóver.
+
+01:16.820 --> 01:21.370
+Para eso tenemos que crear hacer el import de Riad.
+
+01:24.030 --> 01:25.000
+Component.
+
+01:26.950 --> 01:35.140
+Todo esto viene del paquete de Riau bien hay que ser la clase y exportarla por supuesto.
+
+01:36.910 --> 01:38.120
+Yo solicité el cobro.
+
+01:41.940 --> 01:43.810
+Qué extiende de componente.
+
+01:48.290 --> 01:49.250
+Component.
+
+01:51.430 --> 01:58.020
+El render que es un método importantísimo no funcionaría nada de esto vamos a encerrar todo en un chip.
+
+02:02.350 --> 02:11.590
+Perfecto y su respectivo Export solicite el cover para el que pueda ser utilizado en otro archivo y
+
+02:11.590 --> 02:15.400
+vamos a importarlo de una vez en nuestro cerdito.
+
+02:15.430 --> 02:24.670
+Así que vamos a importar el componente import user titel cover que viene de punto.
+
+02:24.670 --> 02:30.730
+Punto diagonal Components diagonal user vitelcom.
+
+02:30.940 --> 02:34.860
+No es necesario poner la extensión del archivo es porque ya me lo detecta.
+
+02:35.960 --> 02:43.230
+Paquet así que bien vamos a ver vamos a actualizar y arita simplemente me dice que no ha sido utilizado.
+
+02:43.230 --> 02:44.650
+Pero bueno esto es por qué.
+
+02:44.790 --> 02:50.080
+Pues obviamente no la hemos utilizado solamente la declaramos pero así que vamos a meterla de una vez.
+
+02:53.280 --> 02:54.370
+Edité el cover.
+
+02:58.320 --> 03:00.080
+Ahora si para quien no nos diga nada.
+
+03:02.240 --> 03:02.910
+Listo.
+
+03:03.730 --> 03:04.330
+Perfecto.
+
+03:04.420 --> 03:09.250
+Entonces ahora si tenemos que poner nuestro avatar por lo cual yo me voy a ir a Google y voy a poner
+
+03:09.670 --> 03:10.450
+avatar.
+
+03:12.810 --> 03:16.990
+PNG simplemente es una imagen la que tú gustes.
+
+03:17.750 --> 03:18.990
+Para poner por default.
+
+03:19.070 --> 03:20.940
+Así que vamos a poner esta.
+
+03:21.140 --> 03:26.600
+Yo le voy a dar clic derecho a la imagen una vez que ha sido cargada y vamos a copiar la dirección de
+
+03:26.600 --> 03:27.420
+la imagen.
+
+03:27.560 --> 03:37.250
+Ok me huiría mi código y en el A ver voy a crear un constructor para poner como variable de estado esta
+
+03:37.250 --> 03:37.890
+Borrel.
+
+03:49.300 --> 03:52.380
+A esta imagen le voy a llamar cóver.
+
+03:53.620 --> 03:58.390
+Vamos a aclarar lo que ya hemos estado haciendo el este lo voy a poner cóver va a ser igual.
+
+04:00.880 --> 04:04.170
+La imagen que estaba un poquito larga.
+
+04:06.050 --> 04:07.050
+La guardamos.
+
+04:07.820 --> 04:17.160
+Vamos a ponerle un Nima eso que es una clase en HTML yussuf del cover que vamos a poner mi tag de imagen.
+
+04:20.390 --> 04:21.260
+Perfecto.
+
+04:21.410 --> 04:22.300
+Ahí estamos.
+
+04:23.510 --> 04:24.080
+Guardamos.
+
+04:24.090 --> 04:30.970
+No no tiene nada por lo cual nos mandaron una excepción por ahí un error vamos a mandarlo como diez
+
+04:30.980 --> 04:31.850
+puntos.
+
+04:31.890 --> 04:33.330
+Punto.
+
+04:34.160 --> 04:36.400
+Ok vamos a ver qué pasa.
+
+04:36.450 --> 04:43.890
+Cuando yo le haya puesto un chip a mí sobre el cover y además una imagen dentro que la imagen ha sido
+
+04:43.890 --> 04:45.710
+cargada desde una horrible.
+
+04:45.750 --> 04:48.780
+De alguna parte del mundo en un servidor externo.
+
+04:51.230 --> 04:51.990
+Ahí estamos.
+
+04:52.040 --> 04:54.830
+Ya está la imagen cargada cargada en nuestro proyecto.
+
+04:54.860 --> 05:02.310
+Sin embargo es muy grande así que vamos a seleccionarlo aquí con el inspector vamos a darle un With
+
+05:02.600 --> 05:04.300
+Me gustaría 100 píxeles.
+
+05:06.650 --> 05:08.480
+Estamos y con eso es suficiente.
+
+05:08.630 --> 05:12.880
+Así que por lo tanto hay que ponerle un Clas a esta imagen.
+
+05:17.590 --> 05:23.520
+Y se va a llamar vitelcom el cómo el componente y después seguido de un guión.
+
+05:24.400 --> 05:27.440
+Imagen y mgi como le quieras llamar en este caso.
+
+05:30.320 --> 05:35.240
+Por lo cual tengo que proceder a crear una hoja de estilos dentro de componés.
+
+05:35.240 --> 05:37.620
+Le voy a llamar índex punto CSS.
+
+05:40.590 --> 05:46.860
+Una vez creada que no tiene absolutamente nada y que importarla en mi componente para que pueda leer
+
+05:46.920 --> 05:48.890
+las clases o los estilos.
+
+05:50.610 --> 05:56.640
+Import punto Diagonal porque aquí mismo Index puntos es perfecto.
+
+05:59.090 --> 06:06.530
+Esta clase me la voy a copiar por acá que es muy importante porque es la clase de un componente que
+
+06:06.650 --> 06:10.710
+quita el yo solicité el cover pero en imagen.
+
+06:13.760 --> 06:15.630
+Guión y m.g..
+
+06:18.870 --> 06:21.140
+Dijimos que un de 100 píxeles.
+
+06:21.150 --> 06:25.760
+Así que con eso es actualizo y se queda así bien.
+
+06:25.800 --> 06:33.030
+Por qué le puse una clase al componente al contenedor principal del componente y no estoy haciendo nada
+
+06:33.030 --> 06:33.790
+todavía.
+
+06:34.050 --> 06:37.470
+Eso es porque le voy a dar una cierta altura.
+
+06:38.100 --> 06:41.620
+Así que vamos a índex CSS y le voy a dar un ancho.
+
+06:41.850 --> 06:43.930
+Primeramente el ancho de 100 por ciento.
+
+06:44.220 --> 06:52.250
+Por supuesto solo hay que centrarlo un Wilde 100 por ciento que vamos a poner donde está.
+
+06:53.240 --> 06:54.830
+El porcentaje.
+
+06:57.220 --> 06:57.860
+Listo.
+
+06:59.050 --> 07:01.090
+Y un ancho el ancho.
+
+07:01.090 --> 07:04.080
+Yo siempre lo utilizo con VHC y lo has notado.
+
+07:04.290 --> 07:11.620
+Es el View que es utilizado para forzar a un componente a que tenga cierta altura porque a veces a dar
+
+07:11.660 --> 07:13.520
+a otra altura entonces lo voy a dar.
+
+07:13.530 --> 07:14.030
+30.
+
+07:14.040 --> 07:18.170
+VH que es el 30 por ciento de la pantalla de tu pantalla.
+
+07:19.550 --> 07:20.400
+Guardamos.
+
+07:21.430 --> 07:22.480
+Y vamos a ver qué pasa.
+
+07:23.740 --> 07:24.750
+Actualizamos.
+
+07:25.420 --> 07:26.060
+Muy bien.
+
+07:27.210 --> 07:28.680
+Aquí está ahora.
+
+07:28.720 --> 07:29.790
+Yo no necesito Sentra.
+
+07:29.800 --> 07:36.320
+Aunque bueno yo creo que un 40 y un 40 está bien pero hay que mostrar en Flex esto por qué.
+
+07:36.320 --> 07:41.000
+Porque hay que delinear al centro y justificar al centro.
+
+07:41.590 --> 07:46.080
+Para qué para que se centrado horizontal y verticalmente.
+
+07:46.240 --> 07:47.290
+Todo ese contenido.
+
+07:47.320 --> 07:50.450
+Yo solicité el cobre que está dentro la imagen.
+
+07:52.600 --> 07:59.650
+Si queremos crear un fondo solamente para marcarlo lo pondremos pero no creo que sea tan necesario o
+
+07:59.650 --> 08:03.370
+menos que tú quieras poner un vaqueira un color.
+
+08:03.490 --> 08:09.240
+Lo voy a poner un fff Solamente para que veas todo lo que está ocupando.
+
+08:09.500 --> 08:16.750
+Es decir que bien lo dejo a tu gusto y nos vemos en el próximo video para continuar con nuestro siguiente
+
+08:16.750 --> 08:17.520
+Component.

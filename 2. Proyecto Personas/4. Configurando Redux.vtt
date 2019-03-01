@@ -1,0 +1,337 @@
+WEBVTT
+
+00:08.400 --> 00:08.840
+Hola qué tal.
+
+00:08.840 --> 00:11.790
+Ya estamos de nuevo en nuestro proyecto personal.
+
+00:11.850 --> 00:15.800
+Vamos a ver nuestra terminal tenemos que instalar una librería adicional.
+
+00:18.400 --> 00:21.430
+Se va a llamar React rohrer Redux.
+
+00:21.430 --> 00:27.160
+Para qué lo vamos a utilizar esta librería es muy importante para conectar nuestro sur con Redux.
+
+00:27.160 --> 00:37.190
+Así que bien vamos a importar y a crear nuestra nuestra app con React rohrer y con Redux.
+
+00:37.360 --> 00:44.470
+Después en el siguiente vídeo vamos a explicar cómo es que funciona Redux para que si no has tenido
+
+00:44.470 --> 00:50.860
+ninguna experiencia con Pues un poquito te vas a quedar en blanco vas a quedar como que estoy haciendo.
+
+00:50.860 --> 00:51.460
+Lo entiendo.
+
+00:51.610 --> 00:57.590
+Así que bien vamos a empezar primero a importar todas nuestras librerías para hacer esto posible.
+
+00:57.790 --> 01:01.940
+Primero tenemos que importar el Create Store que es un componente.
+
+01:03.920 --> 01:06.740
+Junto con Apple.
+
+01:07.550 --> 01:09.030
+Estos vienen directos.
+
+01:09.960 --> 01:12.350
+Desde Reedus P.
+
+01:12.650 --> 01:18.270
+Qué me hacen estos dos cruells estores el que creadas por la mega estor que les había platicado el inicio
+
+01:18.330 --> 01:19.450
+y el Apple.
+
+01:19.830 --> 01:27.360
+Es utilizado para poner todos los vuelos posibles entre una acción y un reduce.
+
+01:27.370 --> 01:34.640
+O sea lo que está en la mitad de un dedo desde que se dispara una acción antes de que llegue al reducir
+
+01:35.090 --> 01:35.970
+en 2009.
+
+01:36.060 --> 01:45.420
+Son utilizados principalmente para lo que veo para este crayón reporteo incluso para para llamadas asíncronas.
+
+01:45.540 --> 01:50.370
+Entonces este es básicamente un middleware y ahí es donde va a ir el enrutado.
+
+01:50.490 --> 01:54.850
+Así que bueno vamos a importar a nuestro Provider.
+
+01:57.010 --> 01:59.940
+Provider este viene.
+
+02:02.350 --> 02:03.190
+Riyad.
+
+02:03.940 --> 02:10.350
+Redux que es el encargado principal para conectar Riek con Redux.
+
+02:11.510 --> 02:14.620
+Entonces tenemos que importar también Red.
+
+02:16.240 --> 02:18.320
+History dirás para qué es el registro.
+
+02:18.330 --> 02:25.050
+Es principalmente para nuestro todos nuestros stack del Front refiriéndose a las pantallas.
+
+02:25.400 --> 02:29.690
+Para nosotros tener un control de las rutas.
+
+02:29.770 --> 02:31.380
+Esto viene Registry.
+
+02:33.630 --> 02:38.120
+Y aquí viene una carpeta que se llama browser.
+
+02:38.310 --> 02:44.400
+Qué es lo tenemos que pasar por supuesto y más adelante a nuestro.
+
+02:45.390 --> 02:52.920
+Nuestro enrutador Así que ahora tenemos que poner nuestro middleware que es el enrutador.
+
+02:56.900 --> 02:59.350
+Como ya les platicaban lo que son rumor.
+
+02:59.380 --> 03:05.260
+Bueno pues ahora necesito traerme lo que esté en mi lugar que lo voy a aplicar a nuestro.
+
+03:05.260 --> 03:12.580
+Nuestra conexión con redes y este viene de rinat Robert Reedus que es el que les había comentado esta
+
+03:12.580 --> 03:15.140
+librería me sirve para conectar luego sonríe arredró.
+
+03:16.580 --> 03:22.230
+Ahora tenemos que importar Otro mito que te viene por separado en otra librería.
+
+03:23.850 --> 03:25.680
+Frank desde.
+
+03:28.040 --> 03:30.930
+Redux Reedus.
+
+03:33.230 --> 03:41.180
+Esto es principalmente otro mito utilizado por muchas personas mucha comunidad para realizar cosas asíncronas
+
+03:41.210 --> 03:47.140
+porque a veces quieres hacer un recuento de una API y te va a tronar así que es muy recomendable.
+
+03:47.330 --> 03:50.060
+Casi la mayoría de los desarrolladores lo hacen.
+
+03:50.470 --> 03:54.560
+Este utilizan tan aunqeu en nuestros shows.
+
+03:54.560 --> 04:00.470
+Vamos a crearnos una carpeta que se llama videos donde van a ir todas las vistas principales en este
+
+04:00.470 --> 04:03.660
+caso como ya los habíamos dividido en el dibujo anterior.
+
+04:04.690 --> 04:10.930
+También vamos a crear otro fólder pero dentro de BIOS dentro de softwares este se va a llamar.
+
+04:13.760 --> 04:18.470
+Que es donde va nuestro Reedus rolezinho así si no estás familiarizado con ruedas no te preocupes vamos
+
+04:18.470 --> 04:20.300
+a dar una explicación en el próximo.
+
+04:22.350 --> 04:26.990
+Bien vamos a crear un archivo índex punto y Allez.
+
+04:27.120 --> 04:32.820
+Si creas un archivo sencillez cuando tú lo importes no es necesario importar también el archivo arita
+
+04:32.840 --> 04:39.750
+lo vamos a demostrar simplemente importas la carpeta automáticamente redactar sabe a aquí dentro de
+
+04:39.750 --> 04:43.120
+esta carpeta hay un indexen donde no le importo por default.
+
+04:43.650 --> 04:44.840
+Aquí voy a importar.
+
+04:47.900 --> 04:53.640
+Prodigiosos ETT's para tener más de un reducir.
+
+04:54.090 --> 04:57.160
+Por ejemplo vamos a hacer unos cinco se.
+
+04:57.480 --> 05:04.830
+Para que veas como funciona esto y pasárselos a nuestro nuestra conexión con el frontend.
+
+05:05.220 --> 05:09.070
+Perfecto entonces esto viene de Redux por supuesto.
+
+05:11.530 --> 05:13.510
+También vamos a exportar.
+
+05:13.740 --> 05:14.860
+Es por default.
+
+05:16.030 --> 05:18.810
+Para poder utilizarlo con miles de usuarios.
+
+05:18.970 --> 05:28.570
+Así si dentro de la de las llaves va a ir cada uno de los reducirles producen 1 2 3 4 5 pero como no
+
+05:28.570 --> 05:31.510
+tenemos ningún orita lo vamos a dejar así.
+
+05:33.750 --> 05:37.610
+Vámonos de nuevo este por acá.
+
+05:38.680 --> 05:44.710
+Vamos a seguir con las configuraciones que ahora después de que importábamos el bisturí está listo.
+
+05:47.390 --> 05:55.340
+Tenemos que declararlo para pasárselo al frondas y que vamos a Circuits Registry va a ser igual a lo
+
+05:55.340 --> 06:00.210
+que hicimos con eso que simplemente lo llamamos a este gisèle.
+
+06:00.290 --> 06:06.830
+Ahora tenemos que hacer una constante que se llame mid del guarrilla lo llamo el Word la puedo llamar
+
+06:06.830 --> 06:08.800
+como te va a hacer un arreglo.
+
+06:09.640 --> 06:11.910
+Que viene con rohrer.
+
+06:14.950 --> 06:21.490
+Esta es una función que estoy trayendo de REACT Rover Brutus con la intensidad con la intención.
+
+06:22.570 --> 06:31.510
+De conectar el router con Reedus así que le voy a pasar Jesuli para que me conecte ese middleware y
+
+06:31.510 --> 06:34.140
+además le voy a pasar otro miedo.
+
+06:34.180 --> 06:38.440
+Este es un arreglo de dos módulos de Bank.
+
+06:39.880 --> 06:42.860
+Entonces yo le voy a pasar dos mitos.
+
+06:44.720 --> 06:45.910
+Qué va a hacer el router.
+
+06:46.170 --> 06:52.820
+Ok ok ahora tenemos que crear nuestra estor muestra que si no estás familiarizado lo repite una y otra
+
+06:52.820 --> 06:58.490
+vez lo vamos a explicar más adelante en el siguiente vídeo que es la megastore que tiene todos los valores
+
+06:58.970 --> 07:05.220
+que traemos que traemos de una base de datos o simplemente los valores del Front cons.
+
+07:07.220 --> 07:16.850
+Va a ser igual a krieges por que ya os traemos trajimos perdón de Redux y esto es una función le damos
+
+07:16.850 --> 07:21.300
+un espacio para que no se vea tan largo y lo vamos a pasar los Producers.
+
+07:22.440 --> 07:28.420
+Qué va a tener nuestro Stork y a la declaramos por acá.
+
+07:28.650 --> 07:29.940
+Nos falta declararla.
+
+07:29.940 --> 07:33.560
+Vamos a importar reducirles desde.
+
+07:35.080 --> 07:36.300
+Punto diagonal.
+
+07:36.420 --> 07:40.590
+Y aquí está la carpeta como les decía no es necesario importar el índex porque me lo traen por default
+
+07:41.180 --> 07:48.580
+va a traer esto que estamos pasando los rusos a nuestro estor y además vamos a ponerle a plin del Word
+
+07:48.930 --> 07:50.680
+los modelos barbat va a tener.
+
+07:50.780 --> 07:53.340
+Pues los que ya le puse en una regla.
+
+07:55.090 --> 08:02.380
+Se declara de la siguiente manera 3 puntos seguido con mi alma que son los míos y los reduce a los que
+
+08:02.380 --> 08:04.160
+va a tener nuestra historia.
+
+08:04.330 --> 08:05.690
+Ok perfecto.
+
+08:05.740 --> 08:14.080
+Ahora si viene viene lo interesante como vamos a hacer el rap de nuestro proyecto de REACT con el rabo
+
+08:14.180 --> 08:15.030
+y con.
+
+08:16.580 --> 08:17.300
+Asi que.
+
+08:17.550 --> 08:25.800
+Pues el Provider que es la conexión con Redux tiene que encerrar a mi proyecto asi que bien esto va
+
+08:26.250 --> 08:29.070
+de lleno por default vamos.
+
+08:30.300 --> 08:34.130
+Quitar este de por aquí lo ponemos por acá.
+
+08:35.050 --> 08:35.940
+Listo.
+
+08:36.370 --> 08:37.210
+Perfecto.
+
+08:37.510 --> 08:42.610
+El Provider es el encargado de la conexión entre React y Redux por lo tanto le tenemos que pasar por
+
+08:42.820 --> 08:46.960
+argumento que es la que creamos de crear la que acabamos de crear.
+
+08:46.990 --> 08:47.870
+Ahí estamos.
+
+08:48.860 --> 08:50.040
+Perfecto.
+
+08:50.380 --> 08:56.220
+Ahora vamos a correr en nuestro proyecto porque ya tenemos configurado.
+
+08:58.630 --> 09:05.070
+Elizo vamos a correr nuestro proyectos para LPM Start para que inicie todo lo que acabamos de hacer.
+
+09:05.080 --> 09:14.750
+Akamon será una conexión de RedHat con reagruparon y Redux así que es común mi dual Akiba.
+
+09:14.920 --> 09:19.550
+Entonces Redux sigue teniendo el control de toda la aplicación por debajo.
+
+09:19.600 --> 09:24.380
+Y después viene lo que es nuestro foron que está cargado en Apple.
+
+09:24.550 --> 09:29.500
+Así que bien vamos a comenzar vamos a esperar que inicie nuestro proyecto.
+
+09:31.220 --> 09:38.090
+Ya va a abrir nuestro proyecto en la dirección de locals joost 2.0 así que nos vamos a topar con algo
+
+09:38.180 --> 09:40.340
+muy interesante ahora.
